@@ -4,10 +4,25 @@ title: "Hello!"
 
 Welcome to my webpage! \^\_\^
 
-I’m Yee Ching, a Communications and New Media student at the National University of Singapore!
+I’m Yee Ching, a Communications and New Media student studying at the National University of Singapore!
 
 <img src="selfintropic2.png" width="500"/>
 
 As someone who loves to express myself in creative ways, be it in written or visual forms, I'm keen to explore a career in the communications and marketing industry.
 
 Beyond my career aspirations, in my free time, you’ll probably catch me doodling away on my iPad, playing with my terrapin, watching shows, or napping away...zzz.
+
+<style>
+.my-spacing {
+    margin-bottom: 80px;
+}
+</style>
+
+<div class="my-spacing"></div>
+
+
+## See more of my work on: 
+Instagram: *www.instagram.bobdles*
+
+Redbubble: *http://www.redbubble.com/people/bobturt*
+

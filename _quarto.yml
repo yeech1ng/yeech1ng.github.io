@@ -5,6 +5,7 @@ project:
 website:
   title: "Yee Ching's Website"
   back-to-top-navigation: true
+  reader-mode: true
   navbar:
     left:
       - href: index.qmd

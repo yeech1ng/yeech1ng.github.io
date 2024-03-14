@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Hello!",
     "section": "",
-    "text": "Welcome to my webpage! ^_^\nI’m Yee Ching, a Communications and New Media student at the National University of Singapore!\n\nAs someone who loves to express myself in creative ways, be it in written or visual forms, I’m keen to explore a career in the communications and marketing industry.\nBeyond my career aspirations, in my free time, you’ll probably catch me doodling away on my iPad, playing with my terrapin, watching shows, or napping away…zzz.\n\n\n\n Back to top"
+    "text": "Welcome to my webpage! ^_^\nI’m Yee Ching, a Communications and New Media student studying at the National University of Singapore!\nAs someone who loves to express myself in creative ways, be it in written or visual forms, I’m keen to explore a career in the communications and marketing industry.\nBeyond my career aspirations, in my free time, you’ll probably catch me doodling away on my iPad, playing with my terrapin, watching shows, or napping away…zzz."
   },
   {
     "objectID": "about.html",
@@ -68,5 +68,12 @@
     "title": "Week 8 Project Submission",
     "section": "2. Data Sources",
     "text": "2. Data Sources\nThese are the data sources that I have curated so far:\n\nK-Drama’s degree of popularity worldwide as of December 2022: https://www.statista.com/statistics/999239/south-korea-korean-drama-popularity-worldwide/\nAmerica 2019: https://www-statista-com.libproxy1.nus.edu.sg/statistics/1017862/south-korea-korean-drama-popularity-us/\nJapan 2019: https://www-statista-com.libproxy1.nus.edu.sg/statistics/1017819/south-korea-korean-drama-popularity-japan/\nThailand 2019: https://www-statista-com.libproxy1.nus.edu.sg/statistics/1017828/south-korea-korean-drama-popularity-thailand/\nChina 2019: https://www-statista-com.libproxy1.nus.edu.sg/statistics/1017829/south-korea-korean-drama-popularity-china/\nRussia 2019: https://www-statista-com.libproxy1.nus.edu.sg/statistics/1017888/south-korea-korean-drama-popularity-russia/\nTop 100 K-Dramas users have ranked on MyDramaList, featuring variables like Name, Year of Release, Aired Date, Aired On, Number of Episode, Network, Duration, Content Rating, Synopsis, Cast, Genre, Tags, Rank, Rating: https://www.kaggle.com/datasets/chanoncharuchinda/top-100-korean-drama-mydramalist\nInformation about dramas (Drama Name, Year, Synopsis, Genres, Tags, Director, Screen writer, Country ect) and user reviews (Ratings on the story, Acting cast, Music, Rewatch Value, Overall, Number of episodes watched etc) from Korea, Japan, and Thailand, which may be useful for comparison across countries: https://www.kaggle.com/datasets/chanoncharuchinda/thai-and-japanese-drama-vs-korean-drama-dominance?select=kor_user_reviews.csv\nTop 5000 Asian Dramas from Korea, Japan, China, Taiwan, and Thailand, featuring variables like Name, Episodes, Released Year, Language, Rating, Ranking: https://www.kaggle.com/datasets/lakshmiindukosuri/top-5000-dramas-1983-2023\nPopular over the top media services for accessing K-Dramas worldwide in 2022: https://www-statista-com.libproxy1.nus.edu.sg/statistics/999315/south-korea-ott-services-for-accessing-korean-dramas-worldwide/"
+  },
+  {
+    "objectID": "index.html#see-more-of-my-work-on",
+    "href": "index.html#see-more-of-my-work-on",
+    "title": "Hello!",
+    "section": "See more of my work on:",
+    "text": "See more of my work on:\nInstagram: www.instagram.bobdles\nRedbubble: http://www.redbubble.com/people/bobturt"
   }
 ]
