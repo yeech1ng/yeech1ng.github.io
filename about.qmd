@@ -16,6 +16,12 @@ Through a factors-type data-story, I will explain the popularity of K-Dramas by 
 
 1.  K-Drama’s degree of popularity worldwide as of December 2022: *https://www.statista.com/statistics/999239/south-korea-korean-drama-popularity-worldwide/*
 
+```{r, eval=TRUE, echo=FALSE}
+library(tidyverse)
+top100kdrama_mydramalist <- read_csv("top100_kdrama_aug_2023.csv")
+glimpse(top100kdrama_mydramalist)
+```
+
 1.1 America 2019: *https://www-statista-com.libproxy1.nus.edu.sg/statistics/1017862/south-korea-korean-drama-popularity-us/*
 
 1.2 Japan 2019: *https://www-statista-com.libproxy1.nus.edu.sg/statistics/1017819/south-korea-korean-drama-popularity-japan/*
