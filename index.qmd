@@ -2,10 +2,12 @@
 title: "Yee Ching's Website"
 ---
 
-This is a Quarto website.
+Hello, welcome to my webpage! \^\_\^
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+I’m Yee Ching, a Year 2 Communications and New Media student at NUS, who made the fantastic decision to take NM2207 Computational Media Literacy this semester!
 
-```{r}
-1 + 1
-```
+In my free time, you’ll probably catch me doodling away on my iPad, playing with my terrapin, watching shows, or napping away.
+
+For this project, I decided to focus on one of my hobbies – watching K-Dramas (I promise I’m not a koreaboo).
+
+As such, as an avid K-Drama watcher, I felt compelled to investigate the driving factors behind the immense popularity of K-Dramas, and find out: **What makes K-Drama popular?**

@@ -1,0 +1,22 @@
+---
+title: "Week 8 Project Submission"
+author: "Wong Yee Ching"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## 1. Finalised Topic
+
+```{r, eval=TRUE,echo=TRUE}
+
+```
+
+## 2. Data Sources Curated So Far
+```{r, eval=TRUE,echo=TRUE}
+
+```
+
