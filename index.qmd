@@ -1,13 +1,13 @@
 ---
-title: "Yee Ching's Website"
+title: "Hello!"
 ---
 
-Hello, welcome to my webpage! \^\_\^
+Welcome to my webpage! \^\_\^
 
-I’m Yee Ching, a Year 2 Communications and New Media student at NUS, who made the fantastic decision to take NM2207 Computational Media Literacy this semester!
+I’m Yee Ching, a Communications and New Media student at the National University of Singapore!
 
-In my free time, you’ll probably catch me doodling away on my iPad, playing with my terrapin, watching shows, or napping away.
+<img src="selfintropic2.png" width="500"/>
 
-For this project, I decided to focus on one of my hobbies – watching K-Dramas (I promise I’m not a koreaboo).
+As someone who loves to express myself in creative ways, be it in written or visual forms, I'm keen to explore a career in the communications and marketing industry.
 
-As such, as an avid K-Drama watcher, I felt compelled to investigate the driving factors behind the immense popularity of K-Dramas, and find out: **What makes K-Drama popular?**
+Beyond my career aspirations, in my free time, you’ll probably catch me doodling away on my iPad, playing with my terrapin, watching shows, or napping away...zzz.

@@ -3,13 +3,14 @@ project:
   output-dir: docs
 
 website:
-  title: "yeech1ng.github.io"
+  title: "Yee Ching's Website"
   back-to-top-navigation: true
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
+      - finalproject.qmd
 
 format:
   html:
