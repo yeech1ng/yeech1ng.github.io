@@ -38,3 +38,6 @@ These are the data sources that I have curated so far:
 9.  Top 5000 Asian Dramas from Korea, Japan, China, Taiwan, and Thailand, featuring variables like Name, Episodes, Released Year, Language, Rating, Ranking: <https://www.kaggle.com/datasets/lakshmiindukosuri/top-5000-dramas-1983-2023>
 
 10.  Popular over the top media services for accessing K-Dramas worldwide in 2022: <https://www-statista-com.libproxy1.nus.edu.sg/statistics/999315/south-korea-ott-services-for-accessing-korean-dramas-worldwide/>
+
+## Published Webpage Link
+https://yeech1ng.github.io/

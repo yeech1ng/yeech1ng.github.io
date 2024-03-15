@@ -34,8 +34,26 @@ glimpse(top100kdrama_mydramalist)
 
 2.  Top 100 K-Dramas users have ranked on MyDramaList, featuring variables like Name, Year of Release, Aired Date, Aired On, Number of Episode, Network, Duration, Content Rating, Synopsis, Cast, Genre, Tags, Rank, Rating: *https://www.kaggle.com/datasets/chanoncharuchinda/top-100-korean-drama-mydramalist*
 
+```{r, eval=TRUE, echo=FALSE}
+library(tidyverse)
+ <- read_csv(". ")
+glimpse()
+```
+
 3.  Information about dramas (Drama Name, Year, Synopsis, Genres, Tags, Director, Screen writer, Country ect) and user reviews (Ratings on the story, Acting cast, Music, Rewatch Value, Overall, Number of episodes watched etc) from Korea, Japan, and Thailand: *https://www.kaggle.com/datasets/chanoncharuchinda/thai-and-japanese-drama-vs-korean-drama-dominance?select=kor_user_reviews.csv*
 
+```{r, eval=TRUE, echo=FALSE}
+library(tidyverse)
+ <- read_csv(". ")
+glimpse()
+```
+
 4.  Top 5000 Asian Dramas from Korea, Japan, China, Taiwan, and Thailand, featuring variables like Name, Episodes, Released Year, Language, Rating, Ranking: *https://www.kaggle.com/datasets/lakshmiindukosuri/top-5000-dramas-1983-2023*
+
+```{r, eval=TRUE, echo=FALSE}
+library(tidyverse)
+ <- read_csv(". ")
+glimpse()
+```
 
 5.  Popular over the top media services for accessing K-Dramas worldwide in 2022: *https://www-statista-com.libproxy1.nus.edu.sg/statistics/999315/south-korea-ott-services-for-accessing-korean-dramas-worldwide/*
