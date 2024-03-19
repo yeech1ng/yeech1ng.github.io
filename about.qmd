@@ -78,3 +78,23 @@ glimpse(top5000dramas)
 ```
 
 5.  Popular over the top media services for accessing K-Dramas worldwide in 2022: *https://www-statista-com.libproxy1.nus.edu.sg/statistics/999315/south-korea-ott-services-for-accessing-korean-dramas-worldwide/*
+
+# Week 9:
+
+1. What is the question that you are going to answer? 
+
+What makes K-Dramas so popular globally? 
+
+2. Why is this an important question?
+
+Governments can understand how to use its entertainment industry to expand its soft power like South Korea, evident in how K-Dramas have become a global culture phenomenon with immense international viewership, according to Statista’s 2022 findings that 66% of respondents surveyed across 26 countries felt that K-Dramas were popular outside of dedicated fan circles.
+*https://www.statista.com/statistics/999239/south-korea-korean-drama-popularity-worldwide/*
+
+Policymakers can learn content and media strategies, and apply them to their own countries’ entertainment industry to achieve economic gains just like South Korea, where according to the Ministry of Science and ICT and the Korea Communications Commission, $561.3 million worth of Korean Television content was sold abroad in 2022, demonstrating K-Dramas’ capability of generating substantial financial gains for the South Korean economy.
+*https://www.koreaherald.com/view.php?ud=20231225000165*
+
+It prompts us to consider how we can use K-Dramas to widen outreach to support individuals with mental health issues given K-Dramas’ immense potential as a social marketing tool to educate communities on mental health and school bullying, according to the National Library of Medicine. 
+*https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7084599/* 
+
+
+
