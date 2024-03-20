@@ -1,0 +1,88 @@
+---
+title: "Week 9 Project Submission"
+author: "Wong Yee Ching"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+# 1. What is the question that you are going to answer? 
+
+What makes K-Dramas so popular globally? 
+
+
+# 2. Why is this an important question? 
+
+1) Governments can understand how to use its entertainment industry to expand its soft power like South Korea, evident in how K-Dramas have become a global culture phenomenon with immense international viewership, according to Statista’s 2022 findings that 66% of respondents surveyed across 26 countries felt that K-Dramas were popular outside of dedicated fan circles.
+https://www.statista.com/statistics/999239/south-korea-korean-drama-popularity-worldwide/ 
+
+2) Policymakers can learn content and media strategies, and apply them to their own countries’ entertainment industry to achieve economic gains just like South Korea, where according to the Ministry of Science and ICT and the Korea Communications Commission, $561.3 million worth of Korean Television content was sold abroad in 2022, demonstrating K-Dramas’ capability of generating substantial financial gains for the South Korean economy.
+https://www.koreaherald.com/view.php?ud=20231225000165 
+
+3) It prompts us to consider how we can use K-Dramas to widen outreach to support individuals with mental health issues given K-Dramas’ immense potential as a social marketing tool to educate communities on mental health and school bullying, according to the National Library of Medicine. 
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7084599/ 
+
+
+# 3. Which rows and columns of the dataset will be used to answer this question? 
+
+As there are bits of information I want to use across different datasets, I will be using several datasets to get a deeper understanding of K-Dramas, and a broader understanding of K-Dramas as compared to Thailand and Japanese Dramas.
+
+**Data Sources on K-Dramas only:**
+
+From this dataset: https://www.kaggle.com/datasets/chanoncharuchinda/top-100-korean-drama-mydramalist
+
+1. Rows: 2 to 101
+
+2. Columns: Name, Aired On, Number of Episode, Network, Duration, Cast, Genre, Tags, Rank, Rating
+
+From this dataset: kor_user_review 
+https://www.kaggle.com/datasets/chanoncharuchinda/thai-and-japanese-drama-vs-korean-drama-dominance?select=kor_user_reviews.csv 
+
+1. Rows: 2 to 16790
+
+2. Columns: title, story, acting_cast, music, rewatch_value, overall, text, ep_watched
+
+From this dataset: kor_kor_actors 
+https://www.kaggle.com/datasets/chanoncharuchinda/thai-and-japanese-drama-vs-korean-drama-dominance?select=kor_user_reviews.csv 
+
+1. Rows: 2 to 8752
+
+2. Columns: actor_name, drama_name
+
+From this dataset: kor_drama
+https://www.kaggle.com/datasets/chanoncharuchinda/thai-and-japanese-drama-vs-korean-drama-dominance?select=kor_user_reviews.csv 
+
+1. Rows: 2 to 1774
+
+2. Columns: drama_name, year, genres, tags, tot_eps, org_net, tot_user_score, tot_num_user, rank, popularity
+
+**Data Sources for Comparison across region:**
+
+From this dataset: top_5000_drama https://www.kaggle.com/datasets/lakshmiindukosuri/top-5000-dramas-1983-2023
+
+1. Rows: 2 to 5001
+
+2. Columns: Name, Language, Rating, Ranking, Episodes, Released Year
+
+3. Filter out dramas which are released before 2015 since I am looking at the range of 2015-2023
+
+From this dataset: tha_drama 
+https://www.kaggle.com/datasets/chanoncharuchinda/thai-and-japanese-drama-vs-korean-drama-dominance?select=kor_user_reviews.csv 
+
+1. Rows: 2 to 1532
+
+2. Columns: drama_name, year, genres, tags, tot_eps, org_net, tot_user_score, tot_num_user, rank, popularity
+
+From this dataset: jap_drama
+https://www.kaggle.com/datasets/chanoncharuchinda/thai-and-japanese-drama-vs-korean-drama-dominance?select=kor_user_reviews.csv 
+
+1. Rows: 2 to 2139
+
+2. Columns: drama_name, year, genres, tags, tot_eps, org_net, tot_user_score, total_num_user, rank, popularity
+
+## 4. Challenges and How I overcame them
+
+Given the many datasets I have, I was unsure if I should include certain datasets on Thai and Japanese dramas and their respective user reviews and actor information, as they are not directly related to the question. I eventually decided to only select information that would be useful for a more comprehensive analysis and comparison across different cultural contexts – basic information like the name, year the drama was released, genres, tags, total number of episodes, and other ranking and reviews from users.
+
+If I realise I require additional information for comparison in the future, I will include more information on user reviews on Thai and Japanese dramas. Similarly, if I realise the amount of data I have now is excessive and unnecessary to investigate the factors behind the popularity of K-Dramas globally, I will remove these datasets on Thai and Japanese Dramas
+
+

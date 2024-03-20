@@ -123,6 +123,8 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#question-i-am-going-to-answer" id="toc-question-i-am-going-to-answer" class="nav-link" data-scroll-target="#question-i-am-going-to-answer">1. Question I am going to answer:</a></li>
   <li><a href="#why-is-this-an-important-question" id="toc-why-is-this-an-important-question" class="nav-link" data-scroll-target="#why-is-this-an-important-question">2. Why is this an important question?</a></li>
+  <li><a href="#which-rows-and-columns-of-the-dataset-will-be-used-to-answer-this-question" id="toc-which-rows-and-columns-of-the-dataset-will-be-used-to-answer-this-question" class="nav-link" data-scroll-target="#which-rows-and-columns-of-the-dataset-will-be-used-to-answer-this-question">3. Which rows and columns of the dataset will be used to answer this question?</a></li>
+  <li><a href="#challenges-and-how-i-overcame-them" id="toc-challenges-and-how-i-overcame-them" class="nav-link" data-scroll-target="#challenges-and-how-i-overcame-them">4. Challenges and How I Overcame Them</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -477,6 +479,53 @@ $ Ranking         &lt;dbl&gt; 4666, 1166, 815, 1483, 7050, 4961, 6751, 8675, 302
 <li><p>Policymakers can learn content and media strategies, and apply them to their own countries’ entertainment industry to achieve economic gains just like South Korea, where according to the Ministry of Science and ICT and the Korea Communications Commission, $561.3 million worth of Korean Television content was sold abroad in 2022, demonstrating K-Dramas’ capability of generating substantial financial gains for the South Korean economy. <em>https://www.koreaherald.com/view.php?ud=20231225000165</em></p></li>
 <li><p>It prompts us to consider how we can use K-Dramas to widen outreach to support individuals with mental health issues given K-Dramas’ immense potential as a social marketing tool to educate communities on mental health and school bullying, according to the National Library of Medicine. <em>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7084599/</em></p></li>
 </ol>
+</section>
+<section id="which-rows-and-columns-of-the-dataset-will-be-used-to-answer-this-question" class="level2">
+<h2 class="anchored" data-anchor-id="which-rows-and-columns-of-the-dataset-will-be-used-to-answer-this-question">3. Which rows and columns of the dataset will be used to answer this question?</h2>
+<p>As there are bits of information I want to use across different datasets, I will be using several datasets to get a deeper understanding of K-Dramas, and a broader understanding of K-Dramas as compared to Thailand and Japanese Dramas.</p>
+<p><strong>Data Sources on K-Dramas only:</strong></p>
+<p>From this dataset: https://www.kaggle.com/datasets/chanoncharuchinda/top-100-korean-drama-mydramalist</p>
+<ol type="1">
+<li><p>Rows: 2 to 101</p></li>
+<li><p>Columns: Name, Aired On, Number of Episode, Network, Duration, Cast, Genre, Tags, Rank, Rating</p></li>
+</ol>
+<p>From this dataset: kor_user_review https://www.kaggle.com/datasets/chanoncharuchinda/thai-and-japanese-drama-vs-korean-drama-dominance?select=kor_user_reviews.csv</p>
+<ol type="1">
+<li><p>Rows: 2 to 16790</p></li>
+<li><p>Columns: title, story, acting_cast, music, rewatch_value, overall, text, ep_watched</p></li>
+</ol>
+<p>From this dataset: kor_kor_actors https://www.kaggle.com/datasets/chanoncharuchinda/thai-and-japanese-drama-vs-korean-drama-dominance?select=kor_user_reviews.csv</p>
+<ol type="1">
+<li><p>Rows: 2 to 8752</p></li>
+<li><p>Columns: actor_name, drama_name</p></li>
+</ol>
+<p>From this dataset: kor_drama https://www.kaggle.com/datasets/chanoncharuchinda/thai-and-japanese-drama-vs-korean-drama-dominance?select=kor_user_reviews.csv</p>
+<ol type="1">
+<li><p>Rows: 2 to 1774</p></li>
+<li><p>Columns: drama_name, year, genres, tags, tot_eps, org_net, tot_user_score, tot_num_user, rank, popularity</p></li>
+</ol>
+<p><strong>Data Sources for Comparison across region:</strong></p>
+<p>From this dataset: top_5000_drama https://www.kaggle.com/datasets/lakshmiindukosuri/top-5000-dramas-1983-2023</p>
+<ol type="1">
+<li><p>Rows: 2 to 5001</p></li>
+<li><p>Columns: Name, Language, Rating, Ranking, Episodes, Released Year</p></li>
+<li><p>Filter out dramas which are released before 2015 since I am looking at the range of 2015-2023</p></li>
+</ol>
+<p>From this dataset: tha_drama https://www.kaggle.com/datasets/chanoncharuchinda/thai-and-japanese-drama-vs-korean-drama-dominance?select=kor_user_reviews.csv</p>
+<ol type="1">
+<li><p>Rows: 2 to 1532</p></li>
+<li><p>Columns: drama_name, year, genres, tags, tot_eps, org_net, tot_user_score, tot_num_user, rank, popularity</p></li>
+</ol>
+<p>From this dataset: jap_drama https://www.kaggle.com/datasets/chanoncharuchinda/thai-and-japanese-drama-vs-korean-drama-dominance?select=kor_user_reviews.csv</p>
+<ol type="1">
+<li><p>Rows: 2 to 2139</p></li>
+<li><p>Columns: drama_name, year, genres, tags, tot_eps, org_net, tot_user_score, total_num_user, rank, popularity</p></li>
+</ol>
+</section>
+<section id="challenges-and-how-i-overcame-them" class="level2">
+<h2 class="anchored" data-anchor-id="challenges-and-how-i-overcame-them">4. Challenges and How I Overcame Them</h2>
+<p>Given the many datasets I have, I was unsure if I should include certain datasets on Thai and Japanese dramas and their respective user reviews and actor information, as they are not directly related to the question. I eventually decided to only select information that would be useful for a more comprehensive analysis and comparison across different cultural contexts – basic information like the name, year the drama was released, genres, tags, total number of episodes, and other ranking and reviews from users.</p>
+<p>If I realise I require additional information for comparison in the future, I will include more information on user reviews on Thai and Japanese dramas. Similarly, if I realise the amount of data I have now is excessive and unnecessary to investigate the factors behind the popularity of K-Dramas globally, I will remove these datasets on Thai and Japanese Dramas</p>
 
 
 </section>
