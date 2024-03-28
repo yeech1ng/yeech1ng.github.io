@@ -4,7 +4,7 @@ library(shiny)
 # Define UI
 ui <- fluidPage(
   # Add dropdown menu for OTT media services
-  selectInput("ott_service", "Select OTT Service:",
+  selectInput("ott_service", "Which platform do you use most commonly to watch K-Dramas?",
               choices = c("Netflix", "YouTube", "Amazon Prime", "Disney+", "YouTube Premium", "iQiyi")),
   
   # Add placeholder for displaying information

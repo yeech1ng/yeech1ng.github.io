@@ -3,3 +3,7 @@ title: "Final Project"
 ---
 
 # What makes K-Dramas so popular globally?
+
+```{=html}
+<iframe height="400" width="100%" frameborder="no" src="https://yeech1ng.shinyapps.io/sample_app/ "> </iframe>
+```
