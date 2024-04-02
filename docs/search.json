@@ -25,7 +25,7 @@
     "href": "finalproject.html",
     "title": "Final Project",
     "section": "",
-    "text": "What makes K-Dramas so popular globally?\n \n\n\n\n\n Back to top"
+    "text": "Loading required package: ggplot2\n\n\n\nAttaching package: 'plotly'\n\n\nThe following object is masked from 'package:ggplot2':\n\n    last_plot\n\n\nThe following object is masked from 'package:stats':\n\n    filter\n\n\nThe following object is masked from 'package:graphics':\n\n    layout\n\n\nWarning: 'layout' objects don't have these attributes: 'hoverinfo'\nValid attributes include:\n'_deprecated', 'activeshape', 'annotations', 'autosize', 'autotypenumbers', 'calendar', 'clickmode', 'coloraxis', 'colorscale', 'colorway', 'computed', 'datarevision', 'dragmode', 'editrevision', 'editType', 'font', 'geo', 'grid', 'height', 'hidesources', 'hoverdistance', 'hoverlabel', 'hovermode', 'images', 'legend', 'mapbox', 'margin', 'meta', 'metasrc', 'modebar', 'newshape', 'paper_bgcolor', 'plot_bgcolor', 'polar', 'scene', 'selectdirection', 'selectionrevision', 'separators', 'shapes', 'showlegend', 'sliders', 'smith', 'spikedistance', 'template', 'ternary', 'title', 'transition', 'uirevision', 'uniformtext', 'updatemenus', 'width', 'xaxis', 'yaxis', 'barmode', 'bargap', 'mapType'"
   },
   {
     "objectID": "about.html#finalised-topic",
@@ -152,5 +152,19 @@
     "title": "Week 9 Project Submission",
     "section": "4. Challenges and How I overcame them",
     "text": "4. Challenges and How I overcame them\nGiven the many datasets I have, I was unsure if I should include certain datasets on Thai and Japanese dramas and their respective user reviews and actor information, as they are not directly related to the question. I eventually decided to only select information that would be useful for a more comprehensive analysis and comparison across different cultural contexts – basic information like the name, year the drama was released, genres, tags, total number of episodes, and other ranking and reviews from users.\nIf I realise I require additional information for comparison in the future, I will include more information on user reviews on Thai and Japanese dramas. Similarly, if I realise the amount of data I have now is excessive and unnecessary to investigate the factors behind the popularity of K-Dramas globally, I will remove these datasets on Thai and Japanese Dramas."
+  },
+  {
+    "objectID": "finalproject.html#what-makes-k-dramas-so-popular-globally",
+    "href": "finalproject.html#what-makes-k-dramas-so-popular-globally",
+    "title": "Final Project",
+    "section": "",
+    "text": "#Introduction"
+  },
+  {
+    "objectID": "finalproject.html#introduction",
+    "href": "finalproject.html#introduction",
+    "title": "Final Project",
+    "section": "",
+    "text": "Loading required package: ggplot2\n\n\n\nAttaching package: 'plotly'\n\n\nThe following object is masked from 'package:ggplot2':\n\n    last_plot\n\n\nThe following object is masked from 'package:stats':\n\n    filter\n\n\nThe following object is masked from 'package:graphics':\n\n    layout\n\n\nWarning: 'layout' objects don't have these attributes: 'hoverinfo'\nValid attributes include:\n'_deprecated', 'activeshape', 'annotations', 'autosize', 'autotypenumbers', 'calendar', 'clickmode', 'coloraxis', 'colorscale', 'colorway', 'computed', 'datarevision', 'dragmode', 'editrevision', 'editType', 'font', 'geo', 'grid', 'height', 'hidesources', 'hoverdistance', 'hoverlabel', 'hovermode', 'images', 'legend', 'mapbox', 'margin', 'meta', 'metasrc', 'modebar', 'newshape', 'paper_bgcolor', 'plot_bgcolor', 'polar', 'scene', 'selectdirection', 'selectionrevision', 'separators', 'shapes', 'showlegend', 'sliders', 'smith', 'spikedistance', 'template', 'ternary', 'title', 'transition', 'uirevision', 'uniformtext', 'updatemenus', 'width', 'xaxis', 'yaxis', 'barmode', 'bargap', 'mapType'"
   }
 ]
