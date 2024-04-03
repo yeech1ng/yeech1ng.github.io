@@ -75,17 +75,57 @@ ggplotly(bp2)
 
 ```
 
-```{r, eval=FALSE, echo=FALSE}
-general_kdrama <- read.csv("datasets/kor_drama.csv")
-general_kdrama_2018to2023 <- general_kdrama %>% filter(year >= 2018 & year <= 2023)
+separator text placeholder
 
-ggplot(general_kdrama_2018to2023, aes(x = year, y = tot_user_score)) +
-  geom_point() +
-  labs(title = "K-Drama Ratings from 2018 to 2023 ", x = "Time", y = "Ratings") + theme_bw()
+```{r, eval=TRUE, echo=FALSE}
+
+
+general_kdrama <- read.csv("datasets/kor_drama.csv")
+general_tdrama <- read.csv("datasets/tha_drama.csv")
+general_jdrama <- read.csv("datasets/jap_drama.csv")
+
+# Convert year to numeric 
+suppressWarnings({
+general_kdrama$year <- as.numeric(as.character(general_kdrama$year))
+general_tdrama$year <- as.numeric(as.character(general_tdrama$year))
+general_jdrama$year <- as.numeric(as.character(general_jdrama$year))
+})
+
+# Filter data and calculate average rating per year
+kdrama_avg_rating <- general_kdrama %>%
+  filter(year >= 2018) %>%
+  group_by(year) %>%
+  summarize(avg_user_score = mean(tot_user_score, na.rm = TRUE), language = "Korean")
+
+tdrama_avg_rating <- general_tdrama %>%
+  filter(year >= 2018) %>%
+  group_by(year) %>%
+  summarize(avg_user_score = mean(tot_user_score, na.rm = TRUE), language = "Thai")
+
+jdrama_avg_rating <- general_jdrama %>%
+  filter(year >= 2018) %>%
+  group_by(year) %>%
+  summarize(avg_user_score = mean(tot_user_score, na.rm = TRUE), language = "Japanese")
+
+# Combine the dataframes
+combined_data <- bind_rows(kdrama_avg_rating, tdrama_avg_rating, jdrama_avg_rating)
+
+# Colours
+colors <- brewer.pal(3, "Set2")
+
+# Plot the line graph
+lg1 <- ggplot(combined_data, aes(x = year, y = avg_user_score, colour=language)) +
+  geom_line() +
+  labs(title = "User Scores from 2018 to 2023", x = "Year", y = "Average User Score") +
+  theme_bw() +  scale_color_brewer(palette = "Set2")
+
+ggplotly(lg1)
 
 ```
 
-test test test
+## 2. Genre
+
+separator text placeholder
 
 ```{=html}
 <iframe height="400" width="100%" frameborder="no" src="https://yeech1ng.shinyapps.io/sample_app/ "> </iframe>
