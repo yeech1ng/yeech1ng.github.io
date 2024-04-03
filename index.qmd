@@ -6,7 +6,7 @@ Welcome to my webpage! \^\_\^
 
 I’m Yee Ching, a Communications and New Media student studying at the National University of Singapore!
 
-<img src="selfintropic2.png" width="500"/>
+<img src="images/selfintropic2.png" width="500"/>
 
 As someone who loves to express myself in creative ways, be it in written or visual forms, I'm keen to explore a career in the communications and marketing industry.
 

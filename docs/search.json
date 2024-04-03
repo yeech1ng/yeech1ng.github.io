@@ -25,7 +25,7 @@
     "href": "finalproject.html",
     "title": "Final Project",
     "section": "",
-    "text": "Attaching package: 'plotly'\n\n\nThe following object is masked from 'package:ggplot2':\n\n    last_plot\n\n\nThe following object is masked from 'package:stats':\n\n    filter\n\n\nThe following object is masked from 'package:graphics':\n\n    layout\n\n\n\n\nWarning in read.table(file = file, header = header, sep = sep, quote = quote, :\nincomplete final line found by readTableHeader on\n'datasets/k-drama-popularity-worldwide-2022.csv'\n\n\n\n\n\n\ntest test test"
+    "text": "test test test"
   },
   {
     "objectID": "about.html#finalised-topic",
@@ -165,6 +165,6 @@
     "href": "finalproject.html#introduction",
     "title": "Final Project",
     "section": "",
-    "text": "Attaching package: 'plotly'\n\n\nThe following object is masked from 'package:ggplot2':\n\n    last_plot\n\n\nThe following object is masked from 'package:stats':\n\n    filter\n\n\nThe following object is masked from 'package:graphics':\n\n    layout\n\n\n\n\nWarning in read.table(file = file, header = header, sep = sep, quote = quote, :\nincomplete final line found by readTableHeader on\n'datasets/k-drama-popularity-worldwide-2022.csv'\n\n\n\n\n\n\ntest test test"
+    "text": "test test test"
   }
 ]

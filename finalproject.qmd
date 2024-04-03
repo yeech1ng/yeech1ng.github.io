@@ -4,18 +4,17 @@ title: "Final Project"
 
 # What makes K-Dramas so popular globally?
 
-<img src="diary1.png" width="300"/>
 
 ## Introduction
 
 ```{r, eval=TRUE, echo=FALSE}
-library(ggplot2)
-library(RColorBrewer)
-library(plotly)
-```
 
-
-```{r, eval=TRUE, echo=FALSE}
+suppressMessages({
+  suppressWarnings({
+    library(ggplot2)
+    library(RColorBrewer)
+    library(plotly, warn.conflicts = FALSE)
+    
 
 # Read the CSV file
 kdrama_pop_2022 <- read.csv("datasets/k-drama-popularity-worldwide-2022.csv", fill=TRUE)
@@ -35,6 +34,9 @@ bp1 <- ggplot(kdrama_pop_2022, aes(x = Popularity, y = Percentage, fill = Popula
   scale_fill_manual(values = colors)
 
 ggplotly(bp1)
+
+  })
+})
 ```
 
 ```{r, eval=FALSE, echo=FALSE}

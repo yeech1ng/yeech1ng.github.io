@@ -2,7 +2,7 @@
 title: "Project Diary"
 ---
 
-<img src="diary1.png" width="300"/>
+<img src="images/diary1.png" width="300"/>
 
 # Week 8:
 
@@ -30,7 +30,7 @@ Through a factors-type data-story, I will explain the popularity of K-Dramas by 
 
 ```{r, eval=TRUE, echo=FALSE}
 library(tidyverse)
-top100kdrama_mydramalist <- read_csv("top100_kdrama_aug_2023.csv")
+top100kdrama_mydramalist <- read_csv("datasets/top100_kdrama_aug_2023.csv")
 glimpse(top100kdrama_mydramalist)
 ```
 
@@ -39,33 +39,33 @@ glimpse(top100kdrama_mydramalist)
 ```{r, eval=TRUE, echo=FALSE}
 library(tidyverse)
 # korea drama datasets within package
-kordrama <- read_csv("kor_drama.csv")
+kordrama <- read_csv("datasets/kor_drama.csv")
 glimpse(kordrama)
 
-kordrama_reviews <- read_csv("kor_user_reviews.csv")
+kordrama_reviews <- read_csv("datasets/kor_user_reviews.csv")
 glimpse(kordrama_reviews)
 
-kordrama_actors <- read.csv("kor_kor_actors.csv")
+kordrama_actors <- read.csv("datasets/kor_kor_actors.csv")
 glimpse(kordrama_actors)
 
 # japanese drama datasets within package
-japdrama <- read_csv("jap_drama.csv")
+japdrama <- read_csv("datasets/jap_drama.csv")
 glimpse(japdrama)
 
-japdrama_reviews <- read.csv("jap_user_reviews.csv")
+japdrama_reviews <- read.csv("datasets/jap_user_reviews.csv")
 glimpse(japdrama_reviews)
 
-japdrama_actors <- read.csv("jap_user_reviews.csv")
+japdrama_actors <- read.csv("datasets/jap_user_reviews.csv")
 glimpse(japdrama_actors)
 
 #thailand drama datasets within package 
-thaidrama <- read_csv("tha_drama.csv")
+thaidrama <- read_csv("datasets/tha_drama.csv")
 glimpse(thaidrama)
 
-thaidrama_reviews <- read.csv("tha_drama.csv")
+thaidrama_reviews <- read.csv("datasets/tha_drama.csv")
 glimpse(thaidrama_reviews)
 
-thaidrama_actors <- read.csv("tha_tha_actors.csv")
+thaidrama_actors <- read.csv("datasets/tha_tha_actors.csv")
 glimpse(thaidrama_actors)
 ```
 
@@ -73,7 +73,7 @@ glimpse(thaidrama_actors)
 
 ```{r, eval=TRUE, echo=FALSE}
 library(tidyverse)
-top5000dramas <- read_csv("top_5000_dramas.csv")
+top5000dramas <- read_csv("datasets/top_5000_dramas.csv")
 glimpse(top5000dramas)
 ```
 
