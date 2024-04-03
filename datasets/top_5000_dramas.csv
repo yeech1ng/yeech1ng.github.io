@@ -1,4 +1,4 @@
-Name,Episodes,Released Year,Language,Rating,Ranking
+Name,Episodes,released_year,Language,Rating,Ranking
 Informa,10,2023,Japanese,7.6,4666
 Gen Z,40,2023,Chinese,8.2,1166
 The Princess Wei Young,54,2016,Chinese,8.3,815
@@ -23,21 +23,21 @@ The Rules of Love Season 2,12,2019,Chinese,7.6,5140
 "It's Okay, That's Love",16,2014,Korean,8.6,341
 School 2021,16,2021,Korean,7.9,2486
 I Know Your Secret,34,2019,Chinese,7.5,5320
-Black,18,2017,Korean,8.0,1974
+Black,18,2017,Korean,8,1974
 Lost in 1949,46,2018,Chinese,7.8,3084
 Borg Mom,22,2017,Korean,7.3,7179
-Legend of Hyang Dan,2,2007,Korean,7.0,8194
+Legend of Hyang Dan,2,2007,Korean,7,8194
 Dear Herbal Lord,24,2020,Chinese,7.7,3821
 Love Generation,11,1997,Japanese,7.6,4686
 Natsu no Koi wa Nijiiro ni Kagayaku,10,2010,Japanese,7.3,6777
 Falsify,32,2017,Korean,7.9,2428
 Kamen Rider W,49,2009,Japanese,8.5,527
-Kamen Rider Fourze,48,2011,Japanese,8.0,1989
-Draw the Line,40,2022,Chinese,8.0,2265
+Kamen Rider Fourze,48,2011,Japanese,8,1989
+Draw the Line,40,2022,Chinese,8,2265
 Suddenly This Summer,30,2018,Chinese,7.6,4903
 She Is the One,24,2021,Chinese,7.5,5261
 Golden Rainbow,41,2013,Korean,7.4,5968
-Secret Mother,32,2018,Korean,8.0,2337
+Secret Mother,32,2018,Korean,8,2337
 Revive,16,2016,Chinese,7.7,4279
 I Need Romance,16,2021,Thai,7.7,4287
 Yasashii Jikan,11,2005,Japanese,7.5,5205
@@ -84,30 +84,30 @@ Because of Meeting You,56,2017,Chinese,8.1,1589
 Convenience Store Fling,6,2021,Korean,7.6,5009
 Ms. Perfect,20,2017,Korean,7.4,6182
 Spark,10,2016,Japanese,7.5,5857
-Utsukushii Kare Season 2,4,2023,Japanese,8.0,2039
+Utsukushii Kare Season 2,4,2023,Japanese,8,2039
 The Lover,12,2015,Korean,7.5,5766
 The Queen of Office,16,2013,Korean,7.4,6320
 A Sleeping Forest,12,1998,Japanese,7.6,4501
 Mist of Love,14,2020,Thai,7.8,3499
-Life,16,2018,Korean,8.0,1976
+Life,16,2018,Korean,8,1976
 Hyakuman Kai Ieba Yokatta,10,2023,Japanese,7.7,3876
 XX,10,2020,Korean,8.2,1223
 Atami no Sousakan,8,2010,Japanese,7.5,5326
 Night Doctor,11,2021,Japanese,7.9,2815
-Let's Watch the Meteor Shower Again,36,2010,Chinese,7.0,8167
+Let's Watch the Meteor Shower Again,36,2010,Chinese,7,8167
 Pretty Man Season 2,26,2019,Chinese,7.5,5870
 Karei naru Spy,10,2009,Japanese,7.1,7915
 Khing Kor Rar Khar Kor Rang,34,2019,Thai,7.4,6160
 A Daughter Just Like You,120,2015,Korean,7.5,5678
 Never Say Goodbye,47,2021,Chinese,7.9,2676
 Kinkyori Renai: Season Zero,12,2014,Japanese,7.4,6417
-You Are My Spring,16,2021,Korean,8.0,1987
+You Are My Spring,16,2021,Korean,8,1987
 My Woofy Poofy Love,8,2018,Korean,7.7,4333
 Under the Skin,20,2022,Chinese,8.7,212
 Voice Season 4: Judgment Hour,14,2021,Korean,8.3,963
 When We Were Young,32,2017,Chinese,7.4,6066
 My Heart,24,2021,Chinese,7.7,4225
-Strawberry Night,11,2012,Japanese,8.0,2239
+Strawberry Night,11,2012,Japanese,8,2239
 Chinese Hero Zhao Zi Long,49,2016,Chinese,7.4,6618
 Code Blue Season 3,10,2017,Japanese,8.5,510
 What Happens to My Family?,53,2014,Korean,8.2,1243
@@ -121,18 +121,18 @@ Inu wo Kau to Iu Koto,9,2011,Japanese,7.3,6800
 Girl2K,10,2021,Thai,7.7,4164
 Please Love Me,24,2022,Chinese,7.2,7502
 Nibiiro no Hako no Naka de,6,2020,Japanese,6.8,8671
-Love Like the Galaxy: Part 1,27,2022,Chinese,9.0,50
+Love Like the Galaxy: Part 1,27,2022,Chinese,9,50
 The Eclipse,12,2022,Thai,8.3,1083
 An Ancient Love Song,14,2023,Chinese,8.2,1172
 Miss Monte-Cristo,100,2021,Korean,6.9,8562
 Rookie Cops,16,2022,Korean,8.3,970
 Can I Hug You Tonight?,12,2018,Japanese,6.8,8727
-The Empress of China,96,2014,Chinese,8.0,2088
+The Empress of China,96,2014,Chinese,8,2088
 "Aishite tatte, Himitsu wa Aru",10,2017,Japanese,7.8,3614
-Return of the Condor Heroes,41,2006,Chinese,8.0,2289
+Return of the Condor Heroes,41,2006,Chinese,8,2289
 The Love Lasts Two Minds,36,2020,Chinese,7.7,3763
 Shoutai,4,2022,Japanese,7.8,3107
-Akihabara@DEEP,11,2006,Japanese,7.0,8299
+Akihabara@DEEP,11,2006,Japanese,7,8299
 Emperor of the Sea,51,2004,Korean,7.7,3677
 Devil-in-Law,17,2023,Thai,7.4,6184
 Prodigy Healer,36,2019,Chinese,7.4,6613
@@ -142,7 +142,7 @@ Stand by Me,20,2023,Chinese,7.5,5305
 Yamato Nadeshiko Shichi Henge,10,2010,Japanese,7.7,3983
 Unusual Idol Love,24,2021,Chinese,7.6,5105
 Queenmaker,11,2023,Korean,8.2,1184
-Meet With Two Souls,20,2023,Chinese,7.0,8207
+Meet With Two Souls,20,2023,Chinese,7,8207
 School 2017,16,2017,Korean,8.2,1500
 Negotiator,43,2018,Chinese,7.4,6348
 Hotaru no Hikari,10,2007,Japanese,7.6,4462
@@ -151,8 +151,8 @@ Medical Top Team,20,2013,Korean,7.2,7775
 Wish Woosh Season 2,10,2019,Korean,7.5,5439
 No Matter What,120,2020,Korean,7.4,6584
 Keizoku,11,1999,Japanese,7.7,4009
-Fake Princess,27,2020,Chinese,8.0,2342
-Here's My Plan,4,2021,Korean,8.0,2107
+Fake Princess,27,2020,Chinese,8,2342
+Here's My Plan,4,2021,Korean,8,2107
 Heartbeat Love,5,2012,Taiwanese,7.5,5576
 "Uchi no Musume wa, Kareshi ga Dekinai!!",10,2021,Japanese,8.1,1811
 Fated to Love You,20,2014,Korean,8.1,1542
@@ -174,7 +174,7 @@ Heart of Loyalty,24,2021,Chinese,7.8,3162
 Happiness,12,2021,Korean,8.9,87
 Panda and Hedgehog,16,2012,Korean,7.1,7804
 Hoshi Kara Kita Anata,10,2022,Japanese,7.4,6524
-The Female Friend Among Guys,5,2020,Korean,7.0,8422
+The Female Friend Among Guys,5,2020,Korean,7,8422
 Here We Meet Again,32,2023,Chinese,8.3,978
 Delivery Man,12,2023,Korean,7.8,3072
 Love (ft. Marriage and Divorce) Season 3,16,2022,Korean,6.9,8586
@@ -201,14 +201,14 @@ Kikai Sentai Zenkaiger,49,2021,Japanese,7.8,3389
 Kenja no Ai,4,2016,Japanese,7.5,5653
 Melting Me Softly,16,2019,Korean,7.6,4563
 Your House Helper,32,2018,Korean,7.8,3202
-Ichikei no Karasu,11,2021,Japanese,8.0,2197
+Ichikei no Karasu,11,2021,Japanese,8,2197
 The Cupids Series: Kamathep Prab Marn,9,2017,Thai,7.4,6221
 Club Friday Season 5: Secret of a Heart That Doesn't Exist,4,2015,Thai,7.1,7812
 Buang Banjathorn,10,2017,Thai,7.7,4361
-Mysterious Love,16,2021,Chinese,8.0,1972
+Mysterious Love,16,2021,Chinese,8,1972
 Little Girl K,3,2011,Korean,7.6,4487
 Befriend,24,2018,Taiwanese,7.3,6910
-Anna: Extended Version,8,2022,Korean,8.0,2087
+Anna: Extended Version,8,2022,Korean,8,2087
 Cubic,16,2014,Thai,7.4,6258
 Gumiho: Tale of the Fox's Child,16,2010,Korean,7.5,5793
 Led Astray by Love,24,2022,Chinese,7.5,5318
@@ -234,7 +234,7 @@ Watashi no Oyome-kun,11,2023,Japanese,7.6,5058
 Sawan Biang,12,2008,Thai,7.4,6041
 Love You to Another Star,30,2021,Chinese,7.2,7623
 The One and Only,16,2021,Korean,7.9,2877
-Rattan,30,2021,Chinese,8.0,1982
+Rattan,30,2021,Chinese,8,1982
 Women of the Sun,20,2008,Korean,7.3,7096
 Kaito Royale,9,2011,Japanese,7.1,7844
 First Love It's You,24,2021,Chinese,7.2,7695
@@ -247,7 +247,7 @@ Hello My Girl,24,2022,Chinese,7.6,4539
 Dr. Gang,16,2006,Korean,7.4,6493
 Atom no Ko,9,2022,Japanese,7.7,3864
 A Time Called You,12,2023,Korean,8.2,1481
-Sparrow,61,2016,Chinese,8.0,2117
+Sparrow,61,2016,Chinese,8,2117
 Delicacies Destiny,16,2022,Chinese,7.7,4293
 The Weasel Grave,20,2017,Chinese,7.6,4807
 Mine,16,2021,Korean,8.3,1120
@@ -261,7 +261,7 @@ First Sword of Wudang,39,2021,Chinese,7.3,7165
 Love's Relativity,33,2014,Chinese,7.3,6864
 The Princess of Destiny,18,2023,Chinese,6.8,8724
 Forest,32,2020,Korean,7.8,3305
-About Youth,8,2022,Taiwanese,8.0,1984
+About Youth,8,2022,Taiwanese,8,1984
 Just One Bite: Pilot,2,2018,Korean,7.6,5045
 Money Heist: Korea - Joint Economic Area - Part 1,6,2022,Korean,8.3,987
 U-Prince: The Gentle Vet,4,2016,Thai,7.4,6185
@@ -279,19 +279,19 @@ See You Again,45,2019,Chinese,7.7,3694
 Meet by Window,36,2021,Chinese,7.2,7584
 Cat Boyfriend,8,2021,Chinese,7.1,7889
 Likit Haeng Jan,14,2019,Thai,8.1,1877
-Big,16,2012,Korean,7.0,8196
+Big,16,2012,Korean,7,8196
 Secret Garden,20,2010,Korean,8.2,1256
-Devil Sister,18,2022,Thai,7.0,8375
+Devil Sister,18,2022,Thai,7,8375
 ST Aka to Shiro no Sousa File,10,2014,Japanese,8.1,1915
 Fox in the Screen,22,2016,Chinese,7.3,6944
 Splendid Politics,50,2015,Korean,7.6,5046
 We Are Dating Now,16,2002,Korean,6.9,8564
 Love Area Part 1,6,2021,Thai,7.1,7860
-Hakuouki SSL: Sweet School Life,6,2015,Japanese,7.0,8382
+Hakuouki SSL: Sweet School Life,6,2015,Japanese,7,8382
 Detective Chinatown,12,2020,Chinese,7.8,2995
 Onzoshi Boys,18,2019,Japanese,7.6,4856
 My Handsome Roommate,20,2021,Chinese,7.4,6227
-I Don't Love You Yet,16,2019,Japanese,8.0,2322
+I Don't Love You Yet,16,2019,Japanese,8,2322
 Sexy Voice and Robo,11,2007,Japanese,7.3,6699
 Late Night Restaurant,20,2015,Korean,7.8,3363
 Morrasoom Sawat,16,2015,Thai,7.6,4769
@@ -301,19 +301,19 @@ Gintama: Mitsuba hen,3,2017,Japanese,7.6,4370
 Kekkon Dekinai ni wa Wake ga Aru,10,2021,Japanese,7.3,6978
 Final Cut,9,2018,Japanese,7.6,4746
 Kieta Hatsukoi,10,2021,Japanese,8.3,950
-Star's Echo,2,2004,Korean,7.0,8257
+Star's Echo,2,2004,Korean,7,8257
 "Ghost Host, Ghost House",8,2022,Thai,7.5,5488
 It's Beautiful Now,50,2022,Korean,7.9,2655
 Missing Noir M,10,2015,Korean,8.3,1062
-No Boundary Season 2,20,2021,Chinese,8.0,2047
+No Boundary Season 2,20,2021,Chinese,8,2047
 Doctor Cha,16,2023,Korean,8.1,1794
 Utsukushii Kare,6,2021,Japanese,7.8,3191
 Takara-kun to Amagi-kun,8,2022,Japanese,7.6,4575
 Tonbi,10,2013,Japanese,8.5,483
 A League of Nobleman,29,2023,Chinese,8.3,951
-En of Love: This Is Love Story,3,2020,Thai,7.0,8195
+En of Love: This Is Love Story,3,2020,Thai,7,8195
 Haru ga Kita,5,2018,Japanese,7.2,7619
-Hero,11,2001,Japanese,8.0,2193
+Hero,11,2001,Japanese,8,2193
 Save the Last Dance for Me,20,2004,Korean,7.7,3696
 Papadol!,10,2012,Japanese,7.2,7301
 Hotelier,9,2007,Japanese,6.9,8531
@@ -340,10 +340,10 @@ Ooku: The Inner Chamber,10,2012,Japanese,7.6,4680
 Summer Snow,11,2000,Japanese,7.7,4019
 Sweet Home,10,2020,Korean,8.7,229
 More Than Friends,16,2020,Korean,7.3,6893
-Wedding,18,2005,Korean,7.0,8137
-Mr. Durian,24,2022,Chinese,7.0,8286
+Wedding,18,2005,Korean,7,8137
+Mr. Durian,24,2022,Chinese,7,8286
 Chief of Staff Season 2,10,2019,Korean,8.2,1347
-Detective Sweet,10,2016,Chinese,7.0,8280
+Detective Sweet,10,2016,Chinese,7,8280
 Love Unexpected,24,2022,Chinese,7.1,7917
 Watashi wo Hanasanaide,10,2016,Japanese,7.8,3051
 Yellow Boots,108,2012,Korean,7.8,3290
@@ -360,7 +360,7 @@ Someone Like You,20,2015,Taiwanese,7.9,2389
 Confession,16,2019,Korean,8.3,905
 17.3 About a Sex,9,2020,Japanese,8.2,1293
 Oh! My Girl!!,9,2008,Japanese,7.1,8072
-Joseon Attorney: A Morality,16,2023,Korean,8.0,2332
+Joseon Attorney: A Morality,16,2023,Korean,8,2332
 Coffee & Vanilla,10,2019,Japanese,6.9,8626
 Poisoned Love,24,2020,Chinese,8.1,1894
 With You,24,2016,Chinese,7.9,2491
@@ -369,7 +369,7 @@ Can't Lose,18,2011,Korean,6.8,8773
 Jack o' Frost,6,2023,Japanese,7.7,3663
 The Way We Were,50,2018,Chinese,7.5,5822
 The King's Woman,48,2017,Chinese,7.8,3313
-Waru: Hataraku no ga Kakko Warui Nante Dare ga Itta?,10,2022,Japanese,8.0,2219
+Waru: Hataraku no ga Kakko Warui Nante Dare ga Itta?,10,2022,Japanese,8,2219
 Yankee-kun to Megane-chan,10,2010,Japanese,7.5,5851
 Atsu Hime,50,2008,Japanese,7.9,2747
 Chiisana Kyojin,10,2017,Japanese,7.6,4377
@@ -380,7 +380,7 @@ How to Hate You,6,2019,Korean,7.8,3183
 Want More 19,7,2018,Korean,7.6,4887
 Yokoso Wagaya e,10,2015,Japanese,7.8,3129
 Falling in Love With Cats,24,2020,Chinese,7.1,8019
-Miraculous Brothers,16,2023,Korean,8.0,2259
+Miraculous Brothers,16,2023,Korean,8,2259
 Xuan-Yuan Sword: Scar of Sky,36,2012,Chinese,7.7,4261
 Dr. Cutie,28,2020,Chinese,7.9,2759
 The Longest Promise,40,2023,Chinese,7.9,2701
@@ -396,7 +396,7 @@ Three Kingdoms,95,2010,Chinese,8.3,944
 Be My Cat,16,2021,Chinese,7.9,2777
 Bara no nai Hanaya,11,2008,Japanese,7.9,2505
 Adult Trainee,7,2021,Korean,7.8,3160
-Galileo,10,2007,Japanese,8.0,1994
+Galileo,10,2007,Japanese,8,1994
 We Are All Alone,36,2020,Chinese,7.9,2920
 Neko,6,2020,Japanese,7.6,4534
 Sensei ni Koishita Natsu,8,2016,Japanese,7.2,7661
@@ -406,7 +406,7 @@ Cheese in the Trap,16,2016,Korean,7.4,6215
 V no Arashi,15,1999,Japanese,7.3,6760
 Back to 1989,21,2016,Taiwanese,8.1,1751
 What's Your Blood Type?,7,2016,Korean,7.6,4723
-Fudanshi Bartender no Tashinami,2,2022,Japanese,7.0,8344
+Fudanshi Bartender no Tashinami,2,2022,Japanese,7,8344
 Devil Inspector,9,2017,Korean,7.2,7366
 Love You Seven Times,38,2023,Chinese,8.4,686
 FAKE MOTION: Takkyu no Osho,8,2020,Japanese,7.8,3135
@@ -416,7 +416,7 @@ Jai Rao,15,2008,Thai,7.4,6180
 Adventurous Romance,12,2019,Chinese,7.1,8020
 Easy Fortune Happy Life,17,2009,Taiwanese,7.3,7245
 30 Kin Sore wa 30-sai Miman Okotowari no Koi,8,2020,Japanese,7.3,6820
-Princess Silver,58,2019,Chinese,8.0,2060
+Princess Silver,58,2019,Chinese,8,2060
 My Ambulance,16,2019,Thai,7.6,4645
 Kissable Lips,8,2022,Korean,6.8,8709
 See You in My 19th Life,12,2023,Korean,8.5,583
@@ -426,7 +426,7 @@ High School Big Bang,15,2020,Chinese,7.7,3949
 Hana Yori Dango 2,11,2007,Japanese,8.2,1178
 Somebody,8,2022,Korean,6.9,8479
 Failing in Love,10,2019,Korean,7.5,5396
-Age of Legends,47,2018,Chinese,8.0,2227
+Age of Legends,47,2018,Chinese,8,2227
 Heirs,45,2017,Chinese,7.4,6537
 Dream,20,2009,Korean,6.8,8801
 Ugly Duckling Series: Don't,7,2015,Thai,7.8,3394
@@ -447,7 +447,7 @@ Jojo's World,15,2017,Taiwanese,7.4,6039
 Fall in Love,36,2021,Chinese,8.4,688
 Raeng Pradtanaha,15,2013,Thai,7.6,4499
 Khu Khaen Saen Rak,17,2021,Thai,7.8,3580
-Dear.M,12,2022,Korean,8.0,2028
+Dear.M,12,2022,Korean,8,2028
 Society Obsessed with Love,5,2018,Korean,7.5,5654
 Chinese Paladin,34,2005,Chinese,7.9,2638
 Behind Your Smile,19,2016,Taiwanese,7.8,3292
@@ -456,7 +456,7 @@ Bloodhounds,8,2023,Korean,8.6,282
 Lovely Swords Girl,24,2019,Chinese,7.6,5040
 Not Me,14,2021,Thai,8.5,452
 Times,12,2021,Korean,7.7,4098
-HiGH&LOW THE WORST EPISODE.0,6,2019,Japanese,8.0,2316
+HiGH&LOW THE WORST EPISODE.0,6,2019,Japanese,8,2316
 Summer's Desire,36,2018,Chinese,7.4,6124
 The Faded Light Years,40,2018,Chinese,7.3,6649
 The Miracle of Teddy Bear,16,2022,Thai,7.9,2821
@@ -491,7 +491,7 @@ Misty,16,2018,Korean,8.3,1097
 One More Time,8,2016,Korean,7.4,6209
 The Prince Who Turns into a Frog,20,2005,Taiwanese,7.6,4682
 The Mysterious Class,8,2021,Korean,8.4,741
-Dream High,16,2011,Korean,8.0,2199
+Dream High,16,2011,Korean,8,2199
 Hotaru no Hikari 2,11,2010,Japanese,7.5,5478
 Navillera,12,2021,Korean,8.9,68
 Vampire Prosecutor,12,2011,Korean,8.1,1527
@@ -506,7 +506,7 @@ Good Doctor,10,2018,Japanese,8.3,816
 Hunted,4,2022,Korean,7.5,5237
 Make It Right,12,2016,Thai,7.1,7878
 See You Again,18,2021,Chinese,7.6,4422
-Aftermath,5,2014,Korean,7.0,8383
+Aftermath,5,2014,Korean,7,8383
 Unrequited Love,24,2019,Chinese,7.9,2910
 Lovestruck in the City,17,2020,Korean,7.9,2774
 The Underclass,13,2020,Thai,7.6,4902
@@ -516,9 +516,9 @@ See You After Quarantine?,10,2021,Taiwanese,7.4,6017
 Wonderful Life,16,2005,Korean,7.5,5269
 Catch the Ghost,16,2019,Korean,8.1,1762
 Ms. Temper & Nam Jung Gi,16,2016,Korean,7.6,4552
-Dine With Love,16,2022,Chinese,8.0,2268
+Dine With Love,16,2022,Chinese,8,2268
 Taddao Bussaya,16,2010,Thai,7.4,6491
-Joseon Survival,16,2019,Korean,7.0,8420
+Joseon Survival,16,2019,Korean,7,8420
 Protect the Boss,18,2011,Korean,7.6,4544
 Second Chance,6,2021,Thai,7.3,7013
 I Have a Smart Doctor Wife,22,2023,Chinese,7.4,6128
@@ -528,20 +528,20 @@ Otomen,12,2009,Japanese,7.1,7830
 Dragon Zakura Season 2,10,2021,Japanese,8.1,1757
 The Sweet Girl,24,2020,Chinese,7.7,4103
 Soft Memory,20,2019,Chinese,6.9,8532
-Where Your Eyes Linger,8,2020,Korean,8.0,2324
+Where Your Eyes Linger,8,2020,Korean,8,2324
 Sweet Teeth,22,2021,Chinese,8.4,657
 Momo Salon,6,2014,Korean,6.9,8477
 Lost,16,2021,Korean,8.4,611
 The Evolution of Our Love,40,2018,Chinese,7.5,5715
 "I Summon You, Gold!",50,2013,Korean,7.1,7967
 See You Again,30,2022,Chinese,7.6,4973
-Our Dating Sim,8,2023,Korean,8.0,2210
+Our Dating Sim,8,2023,Korean,8,2210
 Lost Promise,26,2021,Chinese,7.3,7016
 Roy Leh Sanae Rai,18,2002,Thai,7.3,6681
 Naka nai to Kimeta Hi,8,2010,Japanese,7.2,7467
 Kinkyu Torishirabeshitsu,9,2014,Japanese,7.7,4124
 "Kare wa, Imouto no Koibito",12,2011,Japanese,7.2,7763
-Marriage Contract,16,2016,Korean,8.0,2064
+Marriage Contract,16,2016,Korean,8,2064
 Mother of Mine,108,2019,Korean,7.8,3642
 Ru Hua Ru Tu Season 2,21,2022,Chinese,7.5,5411
 Stay with Me,24,2023,Chinese,8.5,486
@@ -553,7 +553,7 @@ The Little Fairy,39,2006,Chinese,7.8,3223
 Tae Pang Korn,21,2017,Thai,7.8,3396
 The Moment the Heart Shines,13,2021,Korean,7.4,6341
 Chihayafuru: Tsunagu,5,2018,Japanese,7.8,3461
-Shut Up: Flower Boy Band,16,2012,Korean,8.0,2187
+Shut Up: Flower Boy Band,16,2012,Korean,8,2187
 To Dear Myself,48,2020,Chinese,7.2,7699
 Kokoro ga Pokitto ne,10,2015,Japanese,7.5,5882
 "Dragon Day, You're Dead Season 2",20,2018,Chinese,7.7,3685
@@ -562,7 +562,7 @@ Divorce Lawyers,46,2014,Chinese,7.8,3190
 Around 40,11,2008,Japanese,7.2,7513
 Love Is in the Air,24,2018,Chinese,7.4,5996
 Hakuba no Oujisama ~ Junai Tekireiki,13,2013,Japanese,7.1,7814
-The Glory Part 2,8,2023,Korean,9.0,48
+The Glory Part 2,8,2023,Korean,9,48
 Parallel Love,24,2020,Chinese,7.8,3208
 Home for Summer,128,2019,Korean,7.3,6675
 Kunlun Tomb,16,2022,Chinese,7.8,3388
@@ -579,7 +579,7 @@ Martial Universe Season 2,20,2018,Chinese,7.7,3668
 The Flowers Are Blooming,24,2021,Chinese,7.7,3894
 Queen Dugu,50,2019,Chinese,7.5,5556
 Show Window: The Queen's House,16,2021,Korean,7.6,4661
-Hwarang,20,2016,Korean,8.0,1998
+Hwarang,20,2016,Korean,8,1998
 L.U.C.A.: The Beginning,12,2021,Korean,7.3,6843
 HIStory2: Crossing the Line,8,2018,Taiwanese,8.1,1763
 Hi wa Mata Noboru,9,2011,Japanese,7.3,7170
@@ -629,12 +629,12 @@ Panyachon Kon Krua,12,2012,Thai,7.7,4189
 Ultraman Tiga,52,1996,Japanese,7.8,3091
 The X-Family,55,2007,Taiwanese,7.6,5033
 Introduction of the Princess,44,2011,Chinese,7.3,6680
-SOTUS S,13,2017,Thai,8.0,2364
+SOTUS S,13,2017,Thai,8,2364
 Queen of Housewives,20,2009,Korean,7.2,7276
 Switched,6,2018,Japanese,7.8,3118
 Chijo no Kiss,10,2021,Japanese,7.3,7120
 The Best Story,3,2021,Thai,7.7,4327
-Hanayome to Papa,12,2007,Japanese,7.0,8448
+Hanayome to Papa,12,2007,Japanese,7,8448
 "Love, Now",72,2012,Taiwanese,7.6,4713
 Make a Woman Cry,40,2015,Korean,7.6,4930
 Romance,16,2002,Korean,7.2,7408
@@ -648,7 +648,7 @@ Prison School,9,2015,Japanese,7.1,7883
 The King in Love,40,2017,Korean,7.8,3628
 Have a Crush on You,36,2023,Chinese,7.5,5322
 The Fox's Summer Season 2,23,2017,Chinese,7.9,2957
-Nuan Hun Qing Chong Qi,25,2021,Chinese,7.0,8157
+Nuan Hun Qing Chong Qi,25,2021,Chinese,7,8157
 You Complete Me,40,2020,Chinese,7.5,5222
 The Moon Brightens for You,36,2020,Chinese,8.1,1562
 Queen of the Ring,21,2017,Korean,7.9,2606
@@ -673,7 +673,7 @@ Khun Chai Ratchanon,11,2013,Thai,7.6,4568
 Mask,20,2015,Korean,8.1,1777
 Yuusha Yoshihiko to Akuryo no Kagi,11,2012,Japanese,7.8,3053
 Ode to Joy,42,2016,Chinese,8.3,1082
-Super Rookie,20,2005,Korean,7.0,8327
+Super Rookie,20,2005,Korean,7,8327
 Master of Study,16,2010,Korean,7.6,5157
 Glass Slippers,40,2002,Korean,7.5,5332
 The Myth,50,2010,Chinese,7.5,5273
@@ -703,7 +703,7 @@ The Whirlwind Girl Season 2,36,2016,Chinese,7.5,5924
 Heartbeat,16,2023,Korean,7.4,6021
 The Chaser,16,2012,Korean,7.7,3682
 Kleun Cheewit,15,2017,Thai,8.4,629
-Fall in Love in the Book,22,2022,Chinese,7.0,8146
+Fall in Love in the Book,22,2022,Chinese,7,8146
 Bright as the Moon,40,2021,Chinese,7.5,5672
 Divine Destiny,36,2023,Chinese,7.6,4558
 The Yearbook,8,2021,Thai,7.3,6961
@@ -739,11 +739,11 @@ One Spring Night,32,2019,Korean,8.3,959
 I Want to Live to the Finale,26,2021,Chinese,7.1,7836
 Kiwadoi Futari: K2: Ikebukurosho Keijika Kanzaki Kuroki,6,2020,Japanese,7.8,3630
 Rak Kan Panlawan,14,2017,Thai,7.6,5108
-Just an Encore,31,2019,Chinese,8.0,2309
+Just an Encore,31,2019,Chinese,8,2309
 Mikaiketsu no Onna: Keishichou Bunsho Sousakan,8,2018,Japanese,7.7,4290
 Kiken na Venus,10,2020,Japanese,7.7,4171
 Must You Go?,8,2021,Korean,7.5,5840
-The Untamed,50,2019,Chinese,9.0,44
+The Untamed,50,2019,Chinese,9,44
 The Little Wife of the General,24,2022,Chinese,7.6,4673
 Love Playlist Pilot,2,2017,Korean,7.5,5329
 Ano Toki Kiss Shite Okeba,8,2021,Japanese,7.7,4047
@@ -759,12 +759,12 @@ Kami no Shizuku,9,2009,Japanese,6.8,8781
 Yong Pal,18,2015,Korean,7.8,3439
 Yanxi Palace: Princess Adventures,6,2019,Chinese,7.5,5917
 We Are Peaceful Brothers,15,2017,Korean,7.9,2861
-Our Winter,14,2023,Thai,7.0,8162
+Our Winter,14,2023,Thai,7,8162
 Queen of Masks,16,2023,Korean,7.4,6591
 BG: Personal Bodyguard,9,2018,Japanese,7.8,3166
 Nice to Meet You,24,2021,Chinese,7.6,5123
 My Liberation Notes,16,2022,Korean,8.6,338
-The Wedding Scheme,16,2012,Korean,7.0,8230
+The Wedding Scheme,16,2012,Korean,7,8230
 Endless Love,15,2010,Taiwanese,7.3,7026
 Stay,4,2015,Thai,7.5,5405
 The Ordinary Glory,41,2020,Chinese,8.1,1820
@@ -794,16 +794,16 @@ Samee Chua Keun,18,2022,Thai,7.5,5202
 The Good Detective Season 2,16,2022,Korean,8.1,1671
 Arakawa under the Bridge,10,2011,Japanese,6.9,8551
 One the Woman,16,2021,Korean,8.1,1595
-Sweden Laundry,16,2014,Korean,7.0,8411
+Sweden Laundry,16,2014,Korean,7,8411
 After School: Lucky or Not,12,2013,Korean,7.5,5430
-The Love Proposal,15,2022,Thai,8.0,1960
+The Love Proposal,15,2022,Thai,8,1960
 Mukodono!,12,2001,Japanese,7.5,5353
 Bad Couple,16,2007,Korean,7.1,7852
 Love Mechanics: Director's Cut,3,2022,Thai,8.2,1277
 Familiar Wife,16,2018,Korean,8.1,1776
 The Eternal Love Season 2,30,2018,Chinese,8.2,1230
 Tengoku to Jigoku: Psychona Futari,10,2021,Japanese,8.3,899
-Twenty Your Life On,40,2020,Chinese,8.0,2155
+Twenty Your Life On,40,2020,Chinese,8,2155
 A Love So Beautiful,24,2020,Korean,7.8,3625
 Gloria,50,2010,Korean,7.4,6282
 Old Boy,45,2018,Chinese,7.8,3151
@@ -816,23 +816,23 @@ Faith,24,2012,Korean,8.1,1913
 Control - Hanzai Shinri Sousa,11,2011,Japanese,7.4,6129
 Ja Myung Go,39,2009,Korean,7.8,3048
 Otto no Kanojo,8,2013,Japanese,7.4,6235
-Dai Renai: Boku wo Wasureru Kimi to,10,2018,Japanese,8.0,2276
+Dai Renai: Boku wo Wasureru Kimi to,10,2018,Japanese,8,2276
 Happy & Love Forever,30,2010,Taiwanese,7.3,6646
 If Paris Downcast,48,2018,Chinese,7.2,7290
 Akira to Akira,9,2017,Japanese,7.8,3132
 Yasuko to Kenji,10,2008,Japanese,7.5,5413
 Fifteen Years to Wait for Migratory Birds,24,2016,Chinese,7.6,4728
 Reply 1997,16,2012,Korean,8.5,541
-Find Yourself,41,2020,Chinese,8.0,2173
+Find Yourself,41,2020,Chinese,8,2173
 Majisuka Gakuen 2,12,2011,Japanese,7.3,6858
 Good Luck!!,10,2003,Japanese,7.9,2473
 Y-Destiny,15,2021,Thai,7.1,8088
 Ugly Duckling Series: Boy's Paradise,9,2015,Thai,7.5,5218
 Becoming a Billionaire,20,2010,Korean,6.9,8539
-Yakou Kanransha,10,2013,Japanese,8.0,2179
+Yakou Kanransha,10,2013,Japanese,8,2179
 You Touched My Heart,18,2023,Thai,7.6,4883
 Revenge of Royal Princess,24,2022,Chinese,7.1,7945
-37.5°C no Namida,10,2015,Japanese,8.0,2269
+37.5°C no Namida,10,2015,Japanese,8,2269
 Back to the 2008,10,2021,Korean,7.5,5855
 Summer Rescue,10,2012,Japanese,7.3,7193
 Addicted,15,2016,Chinese,7.7,3825
@@ -855,7 +855,7 @@ Waking Love Up,40,2011,Chinese,7.6,4759
 Riders: Catch Tomorrow,12,2015,Korean,7.1,7952
 My Bromance,12,2016,Thai,7.1,7954
 One Fine Week Season 2,10,2020,Korean,7.8,3413
-Yong Jiu Grocery Store,10,2019,Taiwanese,8.0,2216
+Yong Jiu Grocery Store,10,2019,Taiwanese,8,2216
 Arifureta Kiseki,11,2009,Japanese,7.2,7390
 Memory Lost,12,2016,Chinese,8.1,1750
 The Most Beautiful Goodbye,4,2017,Korean,8.2,1514
@@ -867,7 +867,7 @@ Kounodori,10,2015,Japanese,8.3,930
 A Hundred Year's Inheritance,50,2013,Korean,7.2,7677
 Girl Next Room: Richy Rich,5,2020,Thai,7.9,2608
 My First Love Is  Secret Love,12,2021,Chinese,7.1,7984
-Bossam: Steal the Fate,20,2021,Korean,8.0,2082
+Bossam: Steal the Fate,20,2021,Korean,8,2082
 Risou no Musuko,10,2012,Japanese,7.6,5022
 Which Star Are You From?,16,2006,Korean,7.4,6286
 Dear My Friends,16,2016,Korean,8.7,197
@@ -897,7 +897,7 @@ U-Prince: The Badass Baker,4,2016,Thai,7.6,4917
 We Broke Up,10,2015,Korean,7.3,7058
 A Life Time Love,54,2017,Chinese,7.2,7274
 Tokyo Love Story,11,2020,Japanese,7.4,6504
-Death Note,11,2015,Japanese,8.0,2352
+Death Note,11,2015,Japanese,8,2352
 Nodame Cantabile,11,2006,Japanese,8.3,1137
 Watashi no Otto wa Reitouko ni Nemutte Iru,6,2021,Japanese,7.3,6735
 Stranger,16,2017,Korean,8.8,125
@@ -923,7 +923,7 @@ Koshonin,8,2008,Japanese,7.6,4811
 The Dreamlike Seal,130,2021,Chinese,7.8,3593
 It Started with a Kiss,20,2005,Taiwanese,8.1,1670
 Khaen Rak Salap Chata,16,2021,Thai,7.9,2386
-Heroes,38,2022,Chinese,8.0,2218
+Heroes,38,2022,Chinese,8,2218
 Satsui no Michinori,7,2020,Japanese,7.9,2727
 New Heart,23,2007,Korean,7.7,3851
 Yowakutemo Katemasu,11,2014,Japanese,7.5,5197
@@ -943,9 +943,9 @@ Mia Tuean,31,2014,Thai,6.8,8729
 The Producers,12,2015,Korean,7.5,5550
 Vagabond,16,2019,Korean,8.5,505
 "Wait, My Youth",24,2019,Chinese,8.2,1186
-Fairyland Lovers,35,2020,Chinese,8.0,2360
+Fairyland Lovers,35,2020,Chinese,8,2360
 Mitsu no Aji,11,2011,Japanese,7.1,8040
-Less Than Evil,32,2018,Korean,8.0,2295
+Less Than Evil,32,2018,Korean,8,2295
 Lah Ruk Sut Kob Fah,20,2014,Thai,7.7,3775
 The Sound of Your Heart: Reboot Season 2,10,2018,Korean,7.5,5210
 Midnight Museum,10,2023,Thai,8.2,1305
@@ -961,17 +961,17 @@ Choco Bank,6,2016,Korean,7.1,7931
 The Secret Message,18,2015,Korean,7.4,6448
 Hello My Shining Love,43,2022,Chinese,7.6,5041
 "Watashi, Teiji de Kaerimasu",10,2019,Japanese,7.8,3063
-"Take Care of Us, Captain",20,2012,Korean,7.0,8285
+"Take Care of Us, Captain",20,2012,Korean,7,8285
 Feast of the Gods,32,2012,Korean,7.4,6299
 Cunning Single Lady,16,2014,Korean,7.8,3119
 "Please Remember, Princess",12,2013,Korean,7.1,8121
 The Secret of  Love,30,2021,Chinese,7.7,4191
 Kaizoku Sentai Gokaiger,51,2011,Japanese,8.4,714
-Imitation,12,2021,Korean,8.0,2130
+Imitation,12,2021,Korean,8,2130
 The Life of the White Fox,24,2019,Chinese,7.8,3350
 My Only 12%,14,2022,Thai,8.1,1719
-Tonari no Kazoku wa Aoku Mieru,10,2018,Japanese,8.0,1952
-Memories of Love,30,2018,Chinese,7.0,8380
+Tonari no Kazoku wa Aoku Mieru,10,2018,Japanese,8,1952
+Memories of Love,30,2018,Chinese,7,8380
 Restart(ed),11,2022,Thai,7.1,7970
 Motokare Mania,9,2019,Japanese,7.2,7499
 Majurat See Nam Pueng,15,2013,Thai,7.5,5530
@@ -983,24 +983,24 @@ Accidentally in Love,30,2018,Chinese,7.9,2898
 All That We Loved,8,2023,Korean,7.7,4108
 Foolish Mom,20,2012,Korean,7.4,6381
 My Little Happiness,28,2021,Chinese,8.5,468
-You're Beautiful,16,2009,Korean,8.0,2059
+You're Beautiful,16,2009,Korean,8,2059
 My Fellow Citizens!,36,2019,Korean,7.6,5112
 The Most Beautiful You in the World,24,2021,Chinese,7.6,5146
 East of Eden,56,2008,Korean,7.7,3900
 Be My Favorite,12,2023,Thai,8.1,1800
 I Love You,3,2018,Thai,6.8,8767
 The Coolest World,40,2021,Chinese,7.5,5509
-Closer to You,24,2020,Chinese,8.0,2042
+Closer to You,24,2020,Chinese,8,2042
 The Mystic Nine,48,2016,Chinese,8.1,1793
 Are We Alright?,15,2021,Thai,7.8,3475
-Regatta,9,2006,Japanese,7.0,8197
+Regatta,9,2006,Japanese,7,8197
 Tomb of the Sea,52,2018,Chinese,8.3,1091
 Oshi no Oujisama,11,2021,Japanese,7.3,6840
 The Tasty Florida,8,2021,Korean,7.4,6455
 The Ingenious One,36,2023,Chinese,8.1,1605
 Wiwa Wah Woon,15,2010,Thai,7.2,7552
 Maid Escort,24,2021,Chinese,7.5,5297
-The Queen System,25,2022,Chinese,7.0,8241
+The Queen System,25,2022,Chinese,7,8241
 Chef wa Meitantei,9,2021,Japanese,7.7,3699
 Reset,10,2014,Korean,7.3,7115
 Gourmet in Tang Dynasty,27,2021,Chinese,7.4,6422
@@ -1023,7 +1023,7 @@ Unubore Deka,11,2010,Japanese,7.5,5426
 Accidentally Meow on You,24,2022,Chinese,7.3,6712
 Bad Prosecutor,12,2022,Korean,8.2,1342
 My Gear and Your Gown,12,2020,Thai,7.2,7773
-Island Part 2,6,2023,Korean,8.0,2270
+Island Part 2,6,2023,Korean,8,2270
 Royal Nirvana Special,12,2020,Chinese,8.1,1832
 Wonderful Mama,48,2013,Korean,7.3,6933
 Checkmate,24,2022,Chinese,7.7,3954
@@ -1037,11 +1037,11 @@ Lupin no Musume Season 2,9,2020,Japanese,7.7,4157
 Diamond Lover,68,2015,Chinese,7.3,6994
 Khun Chai Tharathorn,10,2013,Thai,7.4,6055
 Anata no Ban Desu,10,2019,Japanese,8.1,1904
-It's Okay to Be Sensitive Season 2,10,2019,Korean,8.0,2284
+It's Okay to Be Sensitive Season 2,10,2019,Korean,8,2284
 Proud of Love,20,2016,Chinese,7.3,6808
 Moon River,30,2015,Taiwanese,7.5,5805
 Love By Design,16,2016,Taiwanese,7.3,6814
-Ju-on: Noroi no Ie,6,2020,Japanese,7.0,8395
+Ju-on: Noroi no Ie,6,2020,Japanese,7,8395
 To Love,40,2020,Chinese,8.1,1676
 Nang Rai Sai Lab,13,2013,Thai,7.6,5013
 The Equator Man,20,2012,Korean,7.4,6269
@@ -1057,7 +1057,7 @@ Unexpected,23,2018,Chinese,7.7,4207
 Legend of Mi Yue,81,2015,Chinese,8.1,1744
 Bed Friend,10,2023,Thai,7.8,3354
 Takane no Hana,10,2018,Japanese,7.7,4074
-First Romance,24,2020,Chinese,8.0,2221
+First Romance,24,2020,Chinese,8,2221
 Keshigomu wo Kureta Joshi wo Suki ni Natta,10,2022,Japanese,7.8,3544
 Papa to Musume no Nanokakan,8,2022,Japanese,7.8,3398
 Q10,9,2010,Japanese,7.5,5566
@@ -1066,7 +1066,7 @@ Pandora: Beneath the Paradise,16,2023,Korean,7.5,5778
 Pure,3,2019,Japanese,7.5,5376
 Return,34,2018,Korean,7.8,3300
 Part-time Mello,12,2021,Korean,7.4,5991
-Shotenin Michiru no Minoue Banashi,10,2013,Japanese,7.0,8209
+Shotenin Michiru no Minoue Banashi,10,2013,Japanese,7,8209
 The Virus,10,2013,Korean,7.4,6005
 Moebius: The Veil,2,2021,Korean,7.9,2728
 The King’s Avatar,40,2019,Chinese,8.5,458
@@ -1081,7 +1081,7 @@ First Kiss,20,2018,Korean,7.2,7768
 Don't Hesitate,98,2009,Korean,7.1,8070
 Secret Seven,12,2017,Thai,7.7,4247
 Oh! My Dream Daddy Season 2,30,2020,Chinese,7.2,7733
-Yukan Club,10,2007,Japanese,7.0,8192
+Yukan Club,10,2007,Japanese,7,8192
 Gokusen 2,10,2005,Japanese,7.9,2440
 KO One Re-act,20,2013,Taiwanese,7.8,3420
 Room No. 9,16,2018,Korean,7.8,3408
@@ -1093,7 +1093,7 @@ Omameda Towako to Sannin no Motootto,10,2021,Japanese,8.2,1228
 Himitsu no Ai-chan,10,2021,Japanese,7.3,6682
 Zeni Geba,9,2009,Japanese,7.6,5005
 Love (ft. Marriage and Divorce) Season 2,16,2021,Korean,7.4,6456
-Crash Landing on You,16,2019,Korean,9.0,51
+Crash Landing on You,16,2019,Korean,9,51
 Tomorrow,16,2022,Korean,8.9,102
 The Rise of Phoenixes,70,2018,Chinese,8.4,710
 Moonshine and Valentine,25,2018,Chinese,7.8,3647
@@ -1108,14 +1108,14 @@ Okashi no Ie,10,2015,Japanese,7.7,4272
 Black President,11,2014,Japanese,7.6,5102
 Lobbyist,24,2007,Korean,7.2,7492
 "Senpai, Danjite Koidewa!",8,2022,Japanese,7.2,7597
-That Man Oh Soo,16,2018,Korean,7.0,8372
+That Man Oh Soo,16,2018,Korean,7,8372
 Gintama 2: Yonimo Kimyo na Gintama-chan,3,2018,Japanese,7.7,3666
 Rule the World,45,2017,Chinese,7.8,3243
-Kamen Rider Drive,48,2014,Japanese,8.0,1967
+Kamen Rider Drive,48,2014,Japanese,8,1967
 "The Great King, Sejong",86,2008,Korean,7.8,3324
 Young and Beautiful,42,2021,Chinese,7.1,7865
-Puzzle,10,2008,Japanese,7.0,8180
-1 Litre no Namida,11,2005,Japanese,9.0,40
+Puzzle,10,2008,Japanese,7,8180
+1 Litre no Namida,11,2005,Japanese,9,40
 Clean with Passion for Now,16,2018,Korean,7.7,4141
 Scent of Love,14,2022,Chinese,7.6,4603
 YG Future Strategy Office,8,2018,Korean,7.2,7692
@@ -1138,7 +1138,7 @@ Solomon's Perjury,12,2016,Korean,8.2,1344
 Best Wedding,16,2014,Korean,7.1,8059
 Kaseifu no Mita,11,2011,Japanese,7.9,2396
 Love Rain,20,2012,Korean,7.6,4587
-I Started Following Romance,10,2019,Korean,8.0,2273
+I Started Following Romance,10,2019,Korean,8,2273
 Woman,11,2013,Japanese,8.2,1414
 My Story for You,48,2018,Chinese,7.6,5145
 Kiss Me,20,2015,Thai,8.2,1340
@@ -1170,11 +1170,11 @@ Khun Samee Karmalor Tee Rak,14,2012,Thai,7.3,7041
 The Sweetest Secret,24,2021,Chinese,7.4,5942
 "Sore wa, Totsuzen, Arashi no you ni..",10,2004,Japanese,6.8,8703
 Dao Kiao Duen,11,2013,Thai,7.5,5932
-Vice Versa,12,2022,Thai,8.0,2330
+Vice Versa,12,2022,Thai,8,2330
 Well-Intended Love,20,2019,Chinese,7.5,5622
 The Sleuth of Ming Dynasty,48,2020,Chinese,8.5,528
 Honou no Tenkousei REBORN,8,2017,Japanese,7.4,6350
-Ikebukuro West Gate Park,11,2000,Japanese,8.0,2123
+Ikebukuro West Gate Park,11,2000,Japanese,8,2123
 Mr. Sunshine,24,2018,Korean,8.9,94
 Judge vs. Judge,32,2017,Korean,7.7,3856
 My Girlfriend,28,2019,Chinese,7.5,5268
@@ -1203,7 +1203,7 @@ Welcome to Wedding Hell,12,2022,Korean,7.1,8105
 Mirror: A Tale of Twin Cities,43,2022,Chinese,7.5,5562
 Fuujinshi,9,2022,Japanese,7.8,3572
 Invisible,10,2022,Japanese,7.6,5110
-Love Cells,15,2014,Korean,7.0,8138
+Love Cells,15,2014,Korean,7,8138
 Unicorn ni Notte,10,2022,Japanese,7.6,4641
 Kaitou Sentai Lupinranger VS Keisatsu Sentai Patranger,51,2018,Japanese,7.9,2698
 Two Souls in One,30,2021,Chinese,7.6,4467
@@ -1219,16 +1219,16 @@ Boukyaku no Sachiko,12,2018,Japanese,7.6,4765
 Roy Leh Sanae Rai,14,2015,Thai,7.2,7592
 "Dragon Day, You're Dead",20,2017,Chinese,7.7,4228
 "Work Later, Drink Now Season 2",12,2022,Korean,8.1,1563
-"Hello, Me!",16,2021,Korean,8.0,2335
+"Hello, Me!",16,2021,Korean,8,2335
 Dae Jang Geum Is Watching,16,2018,Korean,7.5,5253
 "Rich Man, Poor Woman",11,2012,Japanese,8.1,1698
-Fall for You,20,2022,Korean,8.0,2211
+Fall for You,20,2022,Korean,8,2211
 Love Under the Full Moon,24,2021,Chinese,7.9,2926
 "Cheer Up, Mr. Kim!",124,2012,Korean,7.3,7014
 Consummation,24,2020,Chinese,7.6,4468
 Ghost,20,2012,Korean,8.2,1176
-The Count of Monte-Cristo: Great Revenge,9,2018,Japanese,8.0,2143
-When I Fly Towards You,24,2023,Chinese,9.0,39
+The Count of Monte-Cristo: Great Revenge,9,2018,Japanese,8,2143
+When I Fly Towards You,24,2023,Chinese,9,39
 Ore no Ie no Hanashi,10,2021,Japanese,8.1,1594
 Romance with Blind Master,15,2023,Chinese,7.5,5634
 Aoi Honoo,11,2014,Japanese,7.7,4021
@@ -1240,13 +1240,13 @@ Soot Sanaeha,16,2009,Thai,7.8,3517
 Serenade of Peaceful Joy,69,2020,Chinese,7.7,3753
 Miss Captain,24,2022,Chinese,7.3,6928
 Haeundae Lovers,16,2012,Korean,7.1,8073
-Abarenbo Mama,10,2007,Japanese,7.0,8141
+Abarenbo Mama,10,2007,Japanese,7,8141
 Justice,32,2019,Korean,7.8,3474
 A Man in a Veil,105,2020,Korean,7.3,7228
 38 Task Force,16,2016,Korean,8.1,1705
 Because This Is My First Life,16,2017,Korean,8.4,604
 Beloved Enemy,15,2017,Chinese,7.2,7642
-Zenra Meshi,12,2023,Japanese,7.0,8168
+Zenra Meshi,12,2023,Japanese,7,8168
 If I Can Love You So,46,2019,Chinese,7.5,5925
 Border Town Prodigal,50,2016,Chinese,7.4,5938
 My Heroic Husband,36,2021,Chinese,8.2,1279
@@ -1263,7 +1263,7 @@ Wild Heroes,10,2015,Japanese,7.7,4338
 The Romance of Hua Rong Season 2,24,2022,Chinese,7.9,2960
 The Glory of Tang Dynasty,60,2017,Chinese,7.8,3020
 The Magical Women,20,2023,Chinese,7.7,4148
-Absolute Boyfriend,13,2012,Taiwanese,7.0,8351
+Absolute Boyfriend,13,2012,Taiwanese,7,8351
 "Master, Wait a Moment",26,2021,Chinese,7.7,4257
 Game Sanaeha,14,2018,Thai,8.1,1585
 Senior Secret Love: My Lil Boy 2,8,2016,Thai,7.2,7298
@@ -1294,7 +1294,7 @@ Otenki Onee-san,9,2013,Japanese,7.5,5809
 Smile,11,2009,Japanese,7.7,4170
 Sad Love Story,20,2005,Korean,7.9,2849
 Second Husband,150,2021,Korean,7.6,4777
-Futatsu no Spica,7,2009,Japanese,7.0,8366
+Futatsu no Spica,7,2009,Japanese,7,8366
 Okane no Kireme ga Koi no Hajimari,4,2020,Japanese,7.7,4049
 Master's Delicacies,6,2022,Korean,7.3,6892
 Swordsman,42,2013,Chinese,7.7,4358
@@ -1313,7 +1313,7 @@ Please Be Married,30,2021,Chinese,7.5,5744
 Immortal Samsara: Part 1,38,2022,Chinese,8.4,759
 Mr. Right,45,2018,Chinese,7.4,6147
 Hero,9,2012,Korean,7.3,6918
-Make My Heart Smile,24,2021,Chinese,8.0,2291
+Make My Heart Smile,24,2021,Chinese,8,2291
 Mr. Bodyguard,24,2015,Chinese,6.9,8561
 Momin's Room,7,2016,Korean,6.8,8783
 The Naked Director Season 2,8,2021,Japanese,7.6,5147
@@ -1332,7 +1332,7 @@ Fuma no Kojiro,13,2007,Japanese,6.9,8461
 The Crown Princess,12,2018,Thai,8.1,1635
 Soratobu Kouhoushitsu,11,2013,Japanese,8.1,1526
 Ancient Love Poetry,49,2021,Chinese,8.6,403
-Chapter of Green,12,2021,Thai,7.0,8245
+Chapter of Green,12,2021,Thai,7,8245
 High Kick! The Revenge of the Short Legged,123,2011,Korean,8.1,1799
 Payback: Money and Power,12,2023,Korean,7.7,3684
 Oi Handsome!,8,2022,Japanese,7.8,3012
@@ -1344,7 +1344,7 @@ DOCTORS Saikyou no Meii Season 3,9,2015,Japanese,7.8,3249
 Best Mistake Season 2,16,2020,Korean,7.7,4239
 Live Up to Your Name,16,2017,Korean,8.2,1219
 Assembly,20,2015,Korean,7.6,5044
-Saretagawa no Blue,8,2021,Japanese,7.0,8367
+Saretagawa no Blue,8,2021,Japanese,7,8367
 Love You My Arrogance,8,2020,Thai,7.4,6447
 Astrophile,18,2022,Thai,7.5,5408
 Once Upon a Time in Saengchori,20,2010,Korean,7.5,5922
@@ -1354,10 +1354,10 @@ Legend of Yunze,12,2021,Chinese,7.7,4221
 Witch's Romance,16,2014,Korean,7.9,2470
 Temptation of an Angel,21,2009,Korean,7.2,7514
 Reply 1994,21,2013,Korean,8.1,1837
-Sunshine Angel,22,2011,Taiwanese,7.0,8312
+Sunshine Angel,22,2011,Taiwanese,7,8312
 True Ending,10,2019,Korean,7.1,7866
 The Long Night,12,2020,Chinese,8.5,474
-Air City,16,2007,Korean,7.0,8223
+Air City,16,2007,Korean,7,8223
 Dear Little Mermaid,24,2022,Chinese,7.5,5195
 20th Century Boy and Girl,32,2017,Korean,7.8,3267
 Be Loved in House: I Do,12,2021,Taiwanese,7.8,3032
@@ -1380,11 +1380,11 @@ Boku no Satsui ga Koi wo Shita,10,2021,Japanese,7.4,6403
 Full House,20,2014,Thai,8.4,810
 Vacation,4,2006,Korean,7.2,7324
 Soul,10,2009,Korean,7.2,7463
-Kono Otoko wa Jinsei Saidai no Ayamachidesu,10,2020,Japanese,7.0,8328
+Kono Otoko wa Jinsei Saidai no Ayamachidesu,10,2020,Japanese,7,8328
 Dear My Room,12,2018,Korean,7.7,4031
 Please Love Me,24,2019,Chinese,7.6,4615
 Detective Husband I've Never Met,28,2022,Chinese,7.3,6854
-Hajimete Koi wo Shita Hi ni Yomu Hanashi,10,2019,Japanese,8.0,2119
+Hajimete Koi wo Shita Hi ni Yomu Hanashi,10,2019,Japanese,8,2119
 Are You Ready? Hey You Girl!,5,2018,Japanese,7.3,6999
 Happy 300 Days,15,2013,Taiwanese,7.6,4410
 Longing for You,14,2023,Korean,7.6,4550
@@ -1393,7 +1393,7 @@ IQ246: Kareinaru Jikenbo,10,2016,Japanese,7.5,5875
 "Persevere, Goo Hae Ra",12,2015,Korean,7.2,7268
 Make a Wish,24,2021,Chinese,8.2,1449
 Kakegurui Twin,8,2021,Japanese,7.9,2783
-Drama Go Go Go,28,2012,Chinese,7.0,8251
+Drama Go Go Go,28,2012,Chinese,7,8251
 Real:Time:Love Season 3,8,2020,Korean,7.6,4540
 The Rose,24,2003,Taiwanese,7.2,7675
 Ima kara Anata wo Kyouhaku Shimasu,9,2017,Japanese,7.6,5159
@@ -1415,12 +1415,12 @@ Love After School,8,2017,Korean,7.8,3062
 Destined,40,2023,Chinese,8.5,536
 The Last Princess,35,2023,Chinese,7.4,6533
 Growing Pain,40,2019,Chinese,8.1,1925
-Baby-faced Beauty,20,2011,Korean,7.0,8205
-Runaway - Aisuru Kimi no Tame ni,9,2011,Japanese,8.0,2136
+Baby-faced Beauty,20,2011,Korean,7,8205
+Runaway - Aisuru Kimi no Tame ni,9,2011,Japanese,8,2136
 Six Love Story,4,2018,Korean,7.6,4524
 Perfect and Casual,24,2020,Chinese,8.3,911
 0 Goshitsu no Kyaku,22,2009,Japanese,7.1,7918
-Risky,7,2021,Japanese,7.0,8290
+Risky,7,2021,Japanese,7,8290
 The Bad Kids,12,2020,Chinese,8.6,310
 Miss Lee,16,2019,Korean,7.3,7236
 Batsuichi ga Moteru nante Kiitemasen,6,2023,Japanese,7.1,8043
@@ -1429,9 +1429,9 @@ GOLD,11,2010,Japanese,7.4,6615
 Ex-Girlfriend Club,12,2015,Korean,7.6,5020
 Star and Sky: Sky in Your Heart,8,2022,Thai,7.6,4725
 Be Together,35,2021,Chinese,7.3,7144
-Water Boyy,14,2017,Thai,7.0,8447
+Water Boyy,14,2017,Thai,7,8447
 The Mermaid Prince: The Beginning,10,2020,Korean,7.8,3109
-Sutekina Sen Taxi,10,2014,Japanese,8.0,1963
+Sutekina Sen Taxi,10,2014,Japanese,8,1963
 Oum Ruk,14,2006,Thai,7.2,7565
 Under the Microscope,14,2023,Chinese,8.1,1642
 Smoking Gun - Ketteiteki Shoko,11,2014,Japanese,7.3,7067
@@ -1446,17 +1446,17 @@ Kamisama Mou Sukoshi Dake,12,1998,Japanese,7.9,2667
 Forever Love,29,2022,Chinese,7.3,7157
 The Palace: The Lock Heart Jade,39,2011,Chinese,7.7,3807
 Voice,16,2017,Korean,8.5,501
-Yuusha Yoshihiko to Maou no Shiro,12,2011,Japanese,8.0,2272
+Yuusha Yoshihiko to Maou no Shiro,12,2011,Japanese,8,2272
 Immortal Classic,20,2012,Korean,7.3,6897
 Fukou-kun wa Kiss Suru Shikanai!,8,2022,Japanese,7.7,3939
 That Love Comes,12,2010,Taiwanese,6.9,8451
 Tra Barb See Chompoo,24,2018,Thai,7.7,3903
-100-manen no Onna-tachi,12,2017,Japanese,8.0,2078
+100-manen no Onna-tachi,12,2017,Japanese,8,2078
 Dorokei,10,2018,Japanese,7.8,3087
 Tonhon Chonlatee,10,2020,Thai,6.9,8511
 Hanazakari no Kimitachi e,12,2007,Japanese,8.2,1246
 Falling for Do Jeon,6,2015,Korean,7.1,7976
-Reaching for the Stars,22,2005,Taiwanese,7.0,8156
+Reaching for the Stars,22,2005,Taiwanese,7,8156
 Hua Jai Rua Puang,20,2013,Thai,7.5,5370
 Operation: Special Warfare,35,2022,Chinese,8.1,1731
 The Great Ruler,48,2020,Chinese,7.7,3943
@@ -1470,7 +1470,7 @@ User Not Found,22,2021,Korean,7.8,3234
 Plerng Prang Tian,12,2019,Thai,7.5,5666
 Creating Destiny,31,2009,Korean,7.4,6546
 Girlfriend Project Day 1,4,2022,Korean,7.8,3180
-Twelve Men in a Year,16,2012,Korean,7.0,8176
+Twelve Men in a Year,16,2012,Korean,7,8176
 22 Flower Road,12,2019,Korean,7.6,4601
 Unrequited Love,38,2021,Chinese,7.6,5174
 Fall in Love with a Scientist,24,2021,Chinese,7.5,5856
@@ -1478,7 +1478,7 @@ The Curse of Saree,14,2022,Thai,7.8,3172
 Love Alarm,8,2019,Korean,7.3,7142
 Mysterious Personal Shopper,103,2018,Korean,7.2,7466
 One Night Morning,8,2022,Japanese,7.8,3366
-The Magicians of Love,22,2006,Taiwanese,7.0,8360
+The Magicians of Love,22,2006,Taiwanese,7,8360
 The Disappearing Child,12,2022,Chinese,7.9,2830
 Designated Love,15,2022,Chinese,7.3,6805
 13,4,2020,Japanese,7.4,6541
@@ -1486,9 +1486,9 @@ Anna,6,2022,Korean,7.9,2963
 Falling in Love with a Rival,8,2015,Chinese,6.9,8648
 Narco-Saints,6,2022,Korean,8.1,1854
 Lunch Queen,12,2002,Japanese,7.3,6795
-Love Forward,22,2012,Taiwanese,7.0,8392
+Love Forward,22,2012,Taiwanese,7,8392
 City Hunter,20,2011,Korean,8.3,908
-Joy of Life,46,2019,Chinese,9.0,42
+Joy of Life,46,2019,Chinese,9,42
 Like,24,2019,Korean,7.8,3607
 Wisher,12,2021,Chinese,7.1,7802
 No Going Back Romance,10,2020,Korean,7.3,7002
@@ -1497,7 +1497,7 @@ Night Light,20,2016,Korean,7.1,8001
 See You Tomorrow,12,2022,Chinese,8.1,1604
 Kamen Rider Kiva,48,2008,Japanese,7.6,4609
 Hi My Sweetheart,14,2009,Taiwanese,7.5,5290
-Real:Time:Love Season 2,8,2020,Korean,8.0,2301
+Real:Time:Love Season 2,8,2020,Korean,8,2301
 A Korean Odyssey,20,2017,Korean,8.2,1249
 Cloud Stairs,16,2006,Korean,7.1,7884
 Bokura no Yuuki,10,1997,Japanese,7.8,3334
@@ -1509,20 +1509,20 @@ The Lion's Secret,33,2021,Chinese,7.6,4939
 The Love You Give Me,28,2023,Chinese,8.5,558
 The Ghost Bride,6,2020,Taiwanese,7.7,4295
 Boys on the Run,9,2012,Japanese,7.1,7800
-Peng,10,2021,Korean,7.0,8151
+Peng,10,2021,Korean,7,8151
 All About My Mom,54,2015,Korean,7.9,2685
 Love at First Taste,26,2022,Chinese,7.2,7361
-"Good Life - Arigatou, Papa. Sayonara",11,2011,Japanese,8.0,1947
+"Good Life - Arigatou, Papa. Sayonara",11,2011,Japanese,8,1947
 M: Ai Subeki Hito ga Ite,7,2020,Japanese,6.9,8553
 Deka Wanko,10,2011,Japanese,7.4,6205
 Miss S,34,2020,Chinese,8.2,1320
-Because of You,14,2010,Taiwanese,7.0,8401
+Because of You,14,2010,Taiwanese,7,8401
 The Flame's Daughter,52,2018,Chinese,7.8,3335
 Kounodori Season 2,11,2017,Japanese,8.2,1252
 The Light in Your Eyes,12,2019,Korean,8.2,1515
 I Have a Lover,50,2015,Korean,7.7,3742
 Reborn Rich,16,2022,Korean,8.5,413
-Monkey and Dog Romance,10,2018,Korean,7.0,8430
+Monkey and Dog Romance,10,2018,Korean,7,8430
 The Knockout,39,2023,Chinese,8.1,1618
 Last Scandal,16,2008,Korean,7.4,6015
 Yang Di Wei Huan,30,2022,Chinese,7.5,5480
@@ -1550,7 +1550,7 @@ Be My Princess,30,2022,Chinese,7.8,3016
 Blossom in Heart,52,2019,Chinese,7.4,5941
 Ever Night,60,2018,Chinese,8.4,713
 Secret Door,24,2014,Korean,7.7,4040
-Kahogo no Kahoko,10,2017,Japanese,8.0,2014
+Kahogo no Kahoko,10,2017,Japanese,8,2014
 Love Actually,42,2017,Chinese,7.3,6769
 Lovers in Paris,20,2004,Korean,7.3,6692
 Take Five - Oretachi wa Ai wo Nusumeru ka,10,2013,Japanese,7.7,4107
@@ -1582,7 +1582,7 @@ Jungle Fish 2,8,2010,Korean,7.4,6289
 Mask Girl,7,2023,Korean,7.8,2998
 Let's Go to The Beach,14,2005,Korean,6.8,8759
 New Smiling Proud Wanderer,37,2018,Chinese,7.6,4919
-Our Times,36,2021,Chinese,8.0,2165
+Our Times,36,2021,Chinese,8,2165
 Lost You Forever,39,2023,Chinese,8.7,257
 The Best Moment To Quit Your Job,8,2017,Korean,7.6,4643
 Takane no Hana-san,12,2021,Japanese,7.2,7345
@@ -1601,18 +1601,18 @@ Liver or Die,40,2019,Korean,7.6,4894
 Ever Night Season 2,43,2020,Chinese,7.7,4110
 Be My Boyfriend,15,2021,Korean,7.9,2628
 3 Will Be Free,10,2019,Thai,7.9,2569
-She Is Nineteen,16,2004,Korean,7.0,8253
+She Is Nineteen,16,2004,Korean,7,8253
 Thirty-Nine,12,2022,Korean,8.2,1431
 Love in Flames of War,43,2022,Chinese,7.5,5192
-Jeon Woo Chi,24,2012,Korean,7.0,8187
+Jeon Woo Chi,24,2012,Korean,7,8187
 Nitiman,10,2021,Thai,7.2,7524
 To My Beautiful Woo Ri,3,2019,Korean,7.5,5613
 Massaya,17,2017,Thai,7.7,4123
-Romantic Princess,13,2007,Taiwanese,7.0,8281
+Romantic Princess,13,2007,Taiwanese,7,8281
 Star of Ocean,40,2021,Chinese,7.4,6324
 Please Be My Family,30,2023,Chinese,8.1,1632
 New Horizon,47,2021,Chinese,7.4,6580
-Gomenne Seishun!,10,2014,Japanese,8.0,2161
+Gomenne Seishun!,10,2014,Japanese,8,2161
 The Great Show,16,2019,Korean,7.8,3448
 Maou,11,2008,Japanese,8.3,1001
 Two Fathers,73,2013,Taiwanese,7.7,3925
@@ -1627,8 +1627,8 @@ Why You… Y Me?,10,2022,Thai,7.7,4302
 Tale of the Nine-Tailed 1938,12,2023,Korean,8.9,105
 Untouchable,9,2009,Japanese,7.4,6421
 Ngao Asoke,19,2016,Thai,7.7,3880
-"Seo Yeong, My Daughter",50,2012,Korean,8.0,2308
-The Princess and the Werewolf,30,2023,Chinese,8.0,2372
+"Seo Yeong, My Daughter",50,2012,Korean,8,2308
+The Princess and the Werewolf,30,2023,Chinese,8,2372
 Discovery of Romance,26,2022,Chinese,7.7,3665
 Big Bet,8,2022,Korean,7.5,5234
 The Colors of Our Time,4,2020,Korean,7.4,6112
@@ -1654,7 +1654,7 @@ Meteor Garden Season 2,31,2002,Taiwanese,7.1,7881
 Kekkon Aite wa Chusen de,8,2018,Japanese,7.7,4085
 Sweet Sweet,22,2021,Chinese,7.7,4183
 Soulmate,12,2006,Korean,7.5,5517
-Cruel Love,20,2007,Korean,7.0,8234
+Cruel Love,20,2007,Korean,7,8234
 Jugglers,16,2017,Korean,7.7,3863
 The Nokdu Flower,48,2019,Korean,8.3,976
 Bitter Blood,11,2014,Japanese,8.3,872
@@ -1665,7 +1665,7 @@ Mia 2018,28,2018,Thai,7.6,4690
 The Wind Blows From Longxi,24,2022,Chinese,8.1,1637
 Mr Honesty,31,2020,Chinese,7.9,2584
 A Pledge to God,48,2018,Korean,7.6,4699
-Tiger & Dragon,11,2005,Japanese,8.0,2166
+Tiger & Dragon,11,2005,Japanese,8,2166
 Samee,14,2013,Thai,7.6,4975
 Amanza,10,2020,Korean,8.4,761
 "Please, Summer",8,2020,Korean,7.3,6672
@@ -1673,7 +1673,7 @@ Lookism,38,2019,Chinese,7.7,3681
 Bloody Romance,36,2018,Chinese,7.9,2730
 Let Me Off the Earth,45,2020,Korean,7.6,5135
 Move to Heaven,10,2021,Korean,9.2,10
-Our Days,12,2022,Thai,7.0,8418
+Our Days,12,2022,Thai,7,8418
 The Cravings Season 2,10,2016,Korean,7.4,6527
 Seito Shokun!,10,2007,Japanese,7.1,8013
 Buried City to Shut All Lights,36,2018,Chinese,7.6,5028
@@ -1682,7 +1682,7 @@ The Listener,36,2019,Chinese,7.9,2814
 Kore wa Keihi de Ochimasen!,10,2019,Japanese,7.9,2824
 The Birth of The Drama King,24,2019,Chinese,7.7,3936
 The Perfect Match,22,2017,Taiwanese,7.8,3549
-Undercover,16,2021,Korean,8.0,2290
+Undercover,16,2021,Korean,8,2290
 Thirty But Seventeen,32,2018,Korean,8.5,559
 Ex-Wife Stop Season 2,24,2023,Chinese,7.2,7422
 Spy,16,2015,Korean,7.2,7443
@@ -1706,7 +1706,7 @@ Ngao Hua Jai,16,2010,Thai,7.2,7500
 My Roommate Is a Gumiho,16,2021,Korean,8.3,823
 The Fugitive: Plan B,20,2010,Korean,7.5,5874
 Kiina,9,2009,Japanese,7.4,6206
-Bambino!,11,2007,Japanese,7.0,8361
+Bambino!,11,2007,Japanese,7,8361
 Strangers from Hell,10,2019,Korean,8.7,268
 Growing Season,12,2020,Korean,8.1,1677
 Mr. X and I Season 2,6,2015,Chinese,7.1,7845
@@ -1716,25 +1716,25 @@ Tientsin Mystic,24,2017,Chinese,8.1,1710
 Long For You,20,2017,Chinese,7.2,7438
 Light on Me,16,2021,Korean,8.2,1270
 With Love,12,1998,Japanese,7.4,6499
-Love is The Best,33,2013,Chinese,7.0,8295
-Ohisama,156,2011,Japanese,8.0,2229
+Love is The Best,33,2013,Chinese,7,8295
+Ohisama,156,2011,Japanese,8,2229
 Yuru Camp△,12,2020,Japanese,7.8,3102
 Otto no Chinpo ga Hairanai,10,2019,Japanese,6.8,8799
 Jao Sao Jum Yorm,16,2018,Thai,7.9,2972
 "Loving, Never Forgetting",34,2014,Chinese,7.6,4405
 Ex-Wife Stop,25,2022,Chinese,7.2,7259
 Next Door Witch J,12,2021,Korean,7.2,7593
-The Universe’s Star,21,2017,Korean,8.0,2257
+The Universe’s Star,21,2017,Korean,8,2257
 Bangkok Love Stories: Charming Person,13,2017,Thai,7.4,6511
 Kyouso no Musume,7,2022,Japanese,7.4,6526
 Persona,4,2019,Korean,7.1,7794
 Hide and Seek,48,2018,Korean,7.5,5651
 The Man Who Can't Get Married,16,2009,Korean,7.2,7708
-Kinou Nani Tabeta?,12,2019,Japanese,8.0,1969
+Kinou Nani Tabeta?,12,2019,Japanese,8,1969
 Uncontrollably Fond,20,2016,Korean,8.1,1764
 Kamen Rider Zi-O,49,2018,Japanese,7.5,5474
-Seirei no Moribito Season 3,9,2017,Japanese,8.0,2090
-Go Ahead,46,2020,Chinese,9.0,59
+Seirei no Moribito Season 3,9,2017,Japanese,8,2090
+Go Ahead,46,2020,Chinese,9,59
 Hope - Kitai Zero no Shinnyu Shain,9,2016,Japanese,7.7,3980
 Powerful Opponents,16,2008,Korean,7.1,8064
 Duel,16,2017,Korean,8.4,735
@@ -1762,7 +1762,7 @@ Run for Young,16,2020,Chinese,7.9,2966
 Pandora no Kajitsu: Kagaku Hanzai Sousa File,10,2022,Japanese,7.7,4151
 Oh! My Emperor,21,2018,Chinese,7.8,3571
 Ai Naki Mori de Sakebe,7,2020,Japanese,7.1,7841
-Dear Probationary Girlfriend,24,2022,Chinese,7.0,8320
+Dear Probationary Girlfriend,24,2022,Chinese,7,8320
 You Are the Miracle,23,2019,Chinese,7.4,6163
 "Marry Me, My Queen",24,2023,Chinese,7.2,7368
 Rokuhodo Yotsuiro Biyori,10,2022,Japanese,8.1,1933
@@ -1784,10 +1784,10 @@ I Hear You,24,2019,Chinese,7.9,2796
 Hana Kimi Remake,11,2011,Japanese,7.2,7645
 As Long as You Love Me,46,2020,Chinese,7.2,7484
 The Heirs,20,2013,Korean,7.6,5054
-Sweet Enemy,124,2017,Korean,7.0,8242
+Sweet Enemy,124,2017,Korean,7,8242
 The Undateables,32,2018,Korean,7.5,5342
 Summer Strike,12,2022,Korean,8.3,836
-Yareta Kamo Iinkai,8,2018,Japanese,7.0,8296
+Yareta Kamo Iinkai,8,2018,Japanese,7,8296
 8.2 Byo no Hosoku,5,2022,Japanese,6.9,8495
 Kamen Rider Saber,48,2020,Japanese,7.1,7840
 Ab Ruk Online,15,2015,Thai,7.6,4626
@@ -1801,7 +1801,7 @@ I Love You So Much,16,2012,Taiwanese,7.1,8068
 99.9: Keiji Senmon Bengoshi Season 2,9,2018,Japanese,8.4,765
 All Out of Love,70,2018,Chinese,7.3,6842
 Awl,12,2015,Korean,7.8,3431
-Konna Mirai wa Kiitenai,10,2018,Japanese,7.0,8417
+Konna Mirai wa Kiitenai,10,2018,Japanese,7,8417
 Sweet Temptation,6,2015,Korean,7.2,7588
 Club Friday Season 8: True Love…or Confusion,4,2017,Thai,7.2,7285
 Go Go Squid!,41,2019,Chinese,8.5,561
@@ -1813,15 +1813,15 @@ Café Kilimanjaro,10,2020,Korean,7.3,7011
 Kiss Me Again,14,2018,Thai,7.2,7407
 One Fine Week,10,2019,Korean,7.9,2393
 Ressha Sentai ToQger,47,2014,Japanese,8.1,1858
-In Hand,11,2019,Japanese,8.0,2012
+In Hand,11,2019,Japanese,8,2012
 Hey Pro My Mountain Girl Second Season,12,2019,Chinese,7.5,5571
 Fate,40,2020,Chinese,7.5,5739
-Boku Dake ga 17-sai no Sekai de,8,2020,Japanese,8.0,2169
+Boku Dake ga 17-sai no Sekai de,8,2020,Japanese,8,2169
 Proposal Daisakusen,11,2007,Japanese,7.6,4830
 Don't Disturb My Study,24,2021,Chinese,8.3,875
 He Is Psychometric,16,2019,Korean,8.3,889
 Tatakau! Shoten Girl,9,2015,Japanese,7.2,7472
-Children of a Lesser God,16,2018,Korean,8.0,2086
+Children of a Lesser God,16,2018,Korean,8,2086
 U-Prince: The Badly Politics,4,2017,Thai,7.9,2674
 Bread and Soup and Cat Weather,4,2013,Japanese,7.8,3105
 Dr. Tang,36,2022,Chinese,7.9,2731
@@ -1835,10 +1835,10 @@ The Flaming Heart,24,2021,Chinese,7.5,5934
 IRIS,20,2009,Korean,7.9,2489
 Duty After School: Part 2,4,2023,Korean,7.1,7909
 To Fly With You,35,2021,Chinese,8.5,502
-Since I Met U,16,2022,Chinese,8.0,1990
+Since I Met U,16,2022,Chinese,8,1990
 Red Balloon,8,2017,Taiwanese,7.6,4897
 Ohitorisama,10,2009,Japanese,7.2,7700
-How to Be Thirty,15,2021,Korean,7.0,8358
+How to Be Thirty,15,2021,Korean,7,8358
 The Science of Falling in Love,24,2023,Chinese,7.8,3192
 Woman with a Suitcase,16,2016,Korean,7.5,5344
 Cheo Yong Season 2,10,2015,Korean,7.9,2573
@@ -1860,7 +1860,7 @@ Police University,16,2021,Korean,7.9,2635
 Lavender,15,2001,Taiwanese,7.4,6303
 Kiss × Kiss × Kiss ~ Melting Night ~,10,2022,Japanese,7.2,7319
 Our Gap Soon,61,2016,Korean,7.1,8135
-The Quiz Show 2,10,2009,Japanese,8.0,1959
+The Quiz Show 2,10,2009,Japanese,8,1959
 Aku no Hado,5,2019,Japanese,7.6,4382
 Call of the Country,16,2010,Korean,7.1,7896
 Numbers,12,2023,Korean,7.9,2968
@@ -1893,11 +1893,11 @@ Mistress,12,2018,Korean,8.1,1823
 Kazoku no Katachi,10,2016,Japanese,8.2,1371
 D.P. Season 2,6,2023,Korean,8.7,204
 Summer Again,24,2021,Chinese,8.3,1092
-Occupied Heart,16,2018,Thai,8.0,2202
+Occupied Heart,16,2018,Thai,8,2202
 "Bring It On, Ghost",16,2016,Korean,8.1,1534
 Time Between Dog and Wolf,16,2007,Korean,8.2,1464
 The Girl Who Sees Scents,16,2015,Korean,7.9,2819
-Ie Uru Onna,10,2016,Japanese,8.0,2228
+Ie Uru Onna,10,2016,Japanese,8,2228
 My Everlasting Bride,24,2023,Chinese,7.5,5610
 Entertainer,18,2016,Korean,7.7,4274
 Gunman In Joseon,22,2014,Korean,7.7,4199
@@ -1911,7 +1911,7 @@ Granting You a Dreamlike Life,40,2018,Chinese,7.7,4314
 Cheap Love,10,1999,Japanese,7.1,7939
 Punch,19,2014,Korean,8.1,1559
 Single Dad In Love,16,2008,Korean,6.8,8686
-Siren,9,2015,Japanese,8.0,2351
+Siren,9,2015,Japanese,8,2351
 The Ideal City,40,2021,Chinese,8.1,1592
 Summer's Desire,14,2010,Taiwanese,7.6,4556
 Be With Me,24,2015,Taiwanese,7.3,6639
@@ -1919,7 +1919,7 @@ Midas,21,2011,Korean,7.1,7936
 The Prince Who Turns into a Frog,26,2021,Thai,7.2,7387
 Touch Your Heart,16,2019,Korean,8.3,1106
 Youth,24,2018,Chinese,7.8,3124
-Anego,10,2005,Japanese,7.0,8164
+Anego,10,2005,Japanese,7,8164
 Love in Between,43,2020,Chinese,7.9,2733
 Gokusen 3,11,2008,Japanese,7.8,3194
 More than Blue: The Series,10,2021,Taiwanese,8.8,116
@@ -1931,10 +1931,10 @@ Suugaku Joshi Gakuen,12,2012,Japanese,6.9,8457
 Gentlemen of East 8th,40,2022,Chinese,7.8,3332
 Survival Wedding,10,2018,Japanese,7.4,5989
 Peach of Time,10,2021,Korean,7.4,6211
-Love Shuffle,10,2009,Japanese,8.0,1937
+Love Shuffle,10,2009,Japanese,8,1937
 Taiyo to Umi no Kyoshitsu,10,2008,Japanese,7.4,5971
 Grid,10,2022,Korean,7.5,5673
-Reborn,28,2020,Chinese,8.0,2370
+Reborn,28,2020,Chinese,8,2370
 Healer,20,2014,Korean,8.8,114
 From Survivor to Healer,40,2019,Chinese,7.6,4969
 Trial Marriage,24,2021,Chinese,7.4,6263
@@ -1973,20 +1973,20 @@ Baker Boys,12,2021,Thai,7.2,7313
 ToGetHer,13,2009,Taiwanese,7.1,7849
 Hello Debate Opponent Season 2,30,2021,Chinese,7.7,3772
 Sweet Combat,38,2018,Chinese,7.7,3916
-Anata no Koto wa Sore Hodo,10,2017,Japanese,7.0,8308
+Anata no Koto wa Sore Hodo,10,2017,Japanese,7,8308
 My Princess,16,2011,Korean,7.5,5615
 Crushes Reverse,8,2018,Korean,7.6,4474
 Strongest Deliveryman,16,2017,Korean,7.8,3078
 Koo Za Rot Zab,15,2017,Thai,7.4,6490
 Legend of Yunze Season 2,15,2022,Chinese,7.7,3766
-Vampire Flower,6,2014,Korean,7.0,8304
+Vampire Flower,6,2014,Korean,7,8304
 "Romance, Talking",8,2020,Korean,7.5,5806
 Dr. Frost,10,2014,Korean,7.6,4387
 My Chilling Roommate,10,2022,Korean,7.1,7962
 Rookies,11,2008,Japanese,7.9,2447
 Cheat My Boss,24,2019,Chinese,7.4,6152
 Talio Fukushu Daiko no Futari,7,2020,Japanese,7.7,4054
-Bad Romance,13,2016,Thai,7.0,8306
+Bad Romance,13,2016,Thai,7,8306
 My Father Is Strange,52,2017,Korean,8.5,414
 Haha ni Naru,10,2017,Japanese,7.9,2563
 Big Dragon,8,2022,Thai,7.3,6959
@@ -1994,7 +1994,7 @@ Good Manager,20,2017,Korean,8.6,390
 Hit the Spot,8,2022,Korean,8.3,887
 Chasing Ball,36,2019,Chinese,7.8,3207
 "Hello, My Youth",20,2021,Chinese,7.9,2683
-Hateful But Once Again,24,2009,Korean,7.0,8284
+Hateful But Once Again,24,2009,Korean,7,8284
 Login to You,3,2018,Korean,7.3,6697
 The Ambiguous Focus,6,2018,Chinese,7.2,7606
 Love That Makes You Cry,10,2016,Japanese,7.8,3635
@@ -2021,8 +2021,8 @@ Denei Shojo: Video Girl AI 2018,12,2018,Japanese,7.3,6661
 1 Pound no Fukuin,9,2008,Japanese,7.3,6752
 Theseus no Fune,10,2020,Japanese,7.8,3019
 Flames of Desire,50,2010,Korean,6.8,8700
-Higashino Keigo Samayou Yaiba,6,2021,Japanese,8.0,2074
-Why Did You Come to My House?,20,2008,Korean,7.0,8373
+Higashino Keigo Samayou Yaiba,6,2021,Japanese,8,2074
+Why Did You Come to My House?,20,2008,Korean,7,8373
 Novoland: The Castle in the Sky Season 2,34,2020,Chinese,7.8,3372
 GTO: Remake Season 2,11,2014,Japanese,7.9,2890
 Avengers Social Club,12,2017,Korean,8.5,416
@@ -2030,7 +2030,7 @@ Intense Love,24,2020,Chinese,8.2,1226
 Tang Dynasty Tour,36,2018,Chinese,7.7,3869
 Sh**ting Stars,16,2022,Korean,8.3,825
 The Best Ending,8,2019,Korean,7.7,3759
-Bad Romeo,17,2022,Thai,8.0,2025
+Bad Romeo,17,2022,Thai,8,2025
 "Nabi, My Stepdarling",22,2021,Thai,7.3,6783
 Nusumareta Kao: Miatari Sosahan,5,2019,Japanese,7.2,7427
 Long-Distance Relationship,34,2017,Chinese,7.2,7352
@@ -2038,7 +2038,7 @@ Le Coup de Foudre,35,2019,Chinese,8.5,526
 Love Beyond Frontier,13,2019,Thai,7.8,3558
 Strange Tales of Tang Dynasty,36,2022,Chinese,8.3,1033
 Nobunaga Concerto,11,2014,Japanese,8.3,939
-"Poong, the Joseon Psychiatrist Season 2",10,2023,Korean,8.0,2358
+"Poong, the Joseon Psychiatrist Season 2",10,2023,Korean,8,2358
 She and Her Perfect Husband,40,2022,Chinese,7.9,2523
 Re: Na mo Naki Sekai no End Roll: Half a Year Later,3,2021,Japanese,7.5,5496
 Lucifer,20,2007,Korean,7.9,2868
@@ -2063,7 +2063,7 @@ Painting Heart Expert,20,2017,Chinese,7.4,6605
 Princess Agents,67,2017,Chinese,8.2,1247
 Ubaat Rai Ubaat Ruk,16,2021,Thai,7.3,6767
 Secret Royal Inspector & Joy,16,2021,Korean,7.8,3112
-Remember You,16,2021,Thai,8.0,2084
+Remember You,16,2021,Thai,8,2084
 Ashes of Love,63,2018,Chinese,8.6,372
 My Sunshine,32,2015,Chinese,7.9,2702
 Lover or Stranger,29,2021,Chinese,7.5,5533
@@ -2119,7 +2119,7 @@ Majisuka Gakuen 3,12,2012,Japanese,7.1,8075
 Okaeri Mone,120,2021,Japanese,8.2,1434
 Lightning,31,2017,Chinese,7.8,3569
 Mengfei Comes Across,36,2018,Chinese,7.5,5685
-Only You,16,2005,Korean,7.0,8307
+Only You,16,2005,Korean,7,8307
 My Marvellous Fable,24,2023,Chinese,7.5,5847
 Hidden Identity,16,2015,Korean,7.7,4209
 Wanida,16,2010,Thai,7.7,4000
@@ -2144,7 +2144,7 @@ Godhand Teru,6,2009,Japanese,7.3,6976
 Surgeon Bong Dal Hee,18,2007,Korean,7.6,4685
 Kazokugari,10,2014,Japanese,7.7,3907
 Tree With Deep Roots,24,2011,Korean,8.3,1019
-The Eternal Love Season 3,30,2021,Chinese,8.0,1935
+The Eternal Love Season 3,30,2021,Chinese,8,1935
 Ye Cheng,16,2023,Chinese,7.5,5298
 Back From the Brink,40,2023,Chinese,8.5,481
 Battle for Happiness,16,2023,Korean,7.8,3024
@@ -2154,7 +2154,7 @@ Kingyo Tsuma,8,2022,Japanese,7.2,7721
 Rang Tawan,14,2016,Thai,7.6,5082
 Renai Neet,10,2012,Japanese,7.1,8109
 The Guilty Secret,12,2019,Korean,7.5,5618
-Infinite Power,6,2013,Korean,7.0,8166
+Infinite Power,6,2013,Korean,7,8166
 Todome no Parallel,10,2018,Japanese,7.9,2826
 Dear Mayang Street,37,2020,Chinese,7.7,3845
 Unforgettable Love,24,2021,Chinese,8.4,694
@@ -2164,7 +2164,7 @@ Tempest,10,2011,Japanese,7.3,6731
 "Pending Train: 8:23, Ashita Kimi to",10,2023,Japanese,7.7,3838
 May It Please the Court,12,2022,Korean,8.2,1164
 Between Friendship and Love,8,2016,Korean,7.4,6285
-Finding Soul,25,2016,Chinese,8.0,2363
+Finding Soul,25,2016,Chinese,8,2363
 I Don't Want to Be Friends With You,24,2020,Chinese,8.3,829
 Perfect Couple,45,2014,Chinese,7.6,4840
 Find Me in Your Memory,32,2020,Korean,8.2,1335
@@ -2173,7 +2173,7 @@ Resident - 5-nin no Kenshui,10,2012,Japanese,7.5,5412
 Golden Time,23,2012,Korean,7.4,6093
 I Am Legend,16,2010,Korean,7.1,8099
 Last,16,2015,Korean,7.9,2416
-Coma,5,2006,Korean,7.0,8193
+Coma,5,2006,Korean,7,8193
 One Page Love,6,2019,Japanese,7.2,7771
 I Order You,16,2015,Korean,7.3,7219
 Forever Love,28,2020,Chinese,8.5,408
@@ -2203,33 +2203,33 @@ Once We Get Married,24,2021,Chinese,8.2,1442
 Kizoku Tantei,11,2017,Japanese,7.6,4780
 Kurokouchi,10,2013,Japanese,7.6,4583
 Three Dads One Mom,16,2008,Korean,7.4,6157
-Day and Night,32,2017,Chinese,8.0,2034
+Day and Night,32,2017,Chinese,8,2034
 Let's Go Crazy on LIVE,20,2019,Taiwanese,7.6,4835
 Too Late to Say I Love You,36,2010,Chinese,7.6,4963
-Love Is Weird,21,2022,Chinese,7.0,8330
+Love Is Weird,21,2022,Chinese,7,8330
 Nobody Knows,16,2020,Korean,8.5,422
 Father's House,2,2009,Korean,7.5,5487
 Dragon Zakura,11,2005,Japanese,7.7,4119
-Tomorrow With You,16,2017,Korean,8.0,2188
+Tomorrow With You,16,2017,Korean,8,2188
 Love Unexpected,24,2021,Chinese,7.8,3492
 You Are the Best!,50,2013,Korean,7.4,6069
 My ID Is Gangnam Beauty,16,2018,Korean,7.9,2716
 Notification,8,2018,Thai,7.5,5337
 Su Yu,24,2020,Chinese,7.4,6574
 Followers,9,2020,Japanese,7.9,2724
-Marvelous Women,35,2021,Chinese,8.0,1939
+Marvelous Women,35,2021,Chinese,8,1939
 Somewhere Our Love Begins,12,2021,Thai,7.6,4490
 Drinking Solo,16,2016,Korean,7.6,4530
-Golden Blood,8,2021,Thai,7.0,8169
+Golden Blood,8,2021,Thai,7,8169
 Sanae Rak Nang Cin,12,2018,Thai,7.7,3658
 The Four Daughters of Luoyang,40,2022,Chinese,7.4,6278
 Karamazov no Kyodai,11,2013,Japanese,7.9,2591
 Bad Boys J,12,2013,Japanese,7.4,6220
 Sennyuu Tantei Tokage,10,2013,Japanese,7.6,5172
 Sell Your Haunted House,16,2021,Korean,8.4,786
-Rental Nan mo Shinai Hito,12,2020,Japanese,8.0,2305
+Rental Nan mo Shinai Hito,12,2020,Japanese,8,2305
 D.P.,6,2021,Korean,8.8,141
-Blacklist,12,2019,Thai,8.0,2072
+Blacklist,12,2019,Thai,8,2072
 Island,6,2022,Korean,8.1,1709
 The Witch Store,12,2019,Korean,7.3,6821
 Crisis: Kouan Kidou Sousatai Tokusou-han,10,2017,Japanese,8.1,1616
@@ -2242,7 +2242,7 @@ The King of Blaze,28,2018,Chinese,7.5,5593
 "Smile, Dong Hae",159,2010,Korean,7.5,5758
 "Go, Back Diary",4,2018,Korean,7.3,6750
 "Will Be Okay, Never Die",6,2019,Korean,7.4,6247
-"Smile, Again",16,2006,Korean,7.0,8321
+"Smile, Again",16,2006,Korean,7,8321
 The Empress,13,2011,Korean,6.8,8673
 Princess! You have Five Husbands!,39,2021,Chinese,7.3,7222
 Female CEO Love Me,12,2022,Chinese,7.4,6426
@@ -2250,8 +2250,8 @@ Jealousy Incarnate,24,2016,Korean,8.1,1787
 The Goddess of Revenge,16,2020,Korean,7.7,4187
 TROUBLEMAN,12,2010,Japanese,7.4,6397
 Ugly Duckling Series: Pity Girl,5,2015,Thai,6.9,8463
-Never Let Me Go,12,2022,Thai,8.0,2300
-Mother,16,2018,Korean,9.0,56
+Never Let Me Go,12,2022,Thai,8,2300
+Mother,16,2018,Korean,9,56
 Doubutsu Sentai Zyuohger,48,2016,Japanese,7.7,4311
 Yah Leum Chan,13,2014,Thai,7.1,7820
 Higashino Keigo Mysteries,11,2012,Japanese,7.4,6001
@@ -2260,11 +2260,11 @@ Hotel King,32,2014,Korean,7.7,4056
 Stupid Cupid,12,2015,Thai,7.2,7560
 Alchemist,12,2015,Korean,7.2,7446
 Dear Liar,27,2023,Chinese,7.3,6836
-I Am...,6,2017,Korean,7.0,8264
+I Am...,6,2017,Korean,7,8264
 Wenderella's Diary,24,2023,Chinese,7.4,6237
 New My Fair Princess,98,2011,Chinese,7.6,5136
-Miss Hammurabi,16,2018,Korean,8.0,2006
-Oh! My Dreamy Daddy,30,2020,Chinese,7.0,8250
+Miss Hammurabi,16,2018,Korean,8,2006
+Oh! My Dreamy Daddy,30,2020,Chinese,7,8250
 The Girl in Tassel Earring,48,2015,Chinese,7.1,7877
 The Banker,32,2019,Korean,7.6,4950
 Fall in Love With Him,24,2021,Chinese,7.4,6329
@@ -2285,12 +2285,12 @@ Fates & Furies,40,2018,Korean,7.4,6337
 "Hello, God",16,2006,Korean,7.2,7419
 Kyou wa Kaisha Yasumimasu,10,2014,Japanese,7.3,6650
 Catch Me Baby,12,2022,Thai,7.4,6521
-Barb Rak Ta Lay Fun,31,2017,Thai,7.0,8369
+Barb Rak Ta Lay Fun,31,2017,Thai,7,8369
 Leh Ratree,12,2004,Thai,7.2,7657
 Samurai High School,9,2009,Japanese,7.5,5881
 "Yeah, That's How It Is",54,2016,Korean,7.6,5049
 The Warp Effect,12,2022,Thai,8.4,793
-My Family,10,2022,Japanese,8.0,2190
+My Family,10,2022,Japanese,8,2190
 A Place in the Sun,102,2019,Korean,7.3,6696
 KinnPorsche,14,2022,Thai,8.1,1767
 Proong Nee Gor Ruk Ter,30,2009,Thai,7.4,6551
@@ -2302,8 +2302,8 @@ Dear Sister,10,2014,Japanese,8.2,1346
 Everything and Nothing,4,2019,Korean,7.7,4132
 Love a Lifetime,45,2020,Chinese,7.8,3294
 Hot Stove League,16,2019,Korean,8.7,261
-21 Days,4,2017,Thai,7.0,8220
-Color Rush Season 2,8,2022,Korean,7.0,8249
+21 Days,4,2017,Thai,7,8220
+Color Rush Season 2,8,2022,Korean,7,8249
 The Big Boss,18,2017,Chinese,7.8,3464
 As Gentle as You,18,2022,Chinese,7.1,7833
 Unknown Woman,102,2017,Korean,7.4,6428
@@ -2315,13 +2315,13 @@ Behind Every Star,12,2022,Korean,7.6,4841
 Born to Be Together,14,2022,Chinese,7.4,6566
 Rooftop Prince,20,2012,Korean,8.1,1522
 The Leaked,3,2020,Thai,7.8,3246
-Kiss Sixth Sense,12,2022,Korean,8.0,1991
+Kiss Sixth Sense,12,2022,Korean,8,1991
 Demon Girl,20,2016,Chinese,7.4,6379
 Moonshine,16,2021,Korean,7.7,3889
 The Wind Blows,16,2019,Korean,7.9,2897
 Bureau of Transformer,24,2019,Chinese,7.9,2708
 Waen Dok Mai,26,2017,Thai,7.8,3098
-Share House no Koibito,9,2013,Japanese,7.0,8174
+Share House no Koibito,9,2013,Japanese,7,8174
 Galileo Season 2,11,2013,Japanese,7.8,3349
 When You Love Yourself Season 2,10,2019,Korean,7.8,3227
 The World of the Married,16,2020,Korean,8.4,684
@@ -2330,12 +2330,12 @@ The Victims' Game,8,2020,Taiwanese,8.1,1686
 Bravo My Life,56,2017,Korean,7.4,5964
 Extracurricular,10,2020,Korean,8.4,690
 9 Seconds: Eternal Time,7,2015,Korean,7.5,5827
-Let's Meet Now,20,2022,Chinese,8.0,2077
-Third Country,3,2017,Chinese,7.0,8269
-Love Potion,24,2022,Chinese,7.0,8323
+Let's Meet Now,20,2022,Chinese,8,2077
+Third Country,3,2017,Chinese,7,8269
+Love Potion,24,2022,Chinese,7,8323
 Husband in Disguise,24,2022,Thai,7.2,7464
 Sweet and Cold,31,2023,Chinese,7.5,5471
-Hit the Top,32,2017,Korean,8.0,1966
+Hit the Top,32,2017,Korean,8,1966
 H.I.T,20,2007,Korean,7.5,5512
 Thirteen Years of Dust,24,2023,Chinese,7.9,2712
 Far Away Love,36,2016,Chinese,7.7,4298
@@ -2370,7 +2370,7 @@ God's Gift: 14 Days,16,2014,Korean,8.3,909
 Sumika Sumire,8,2016,Japanese,7.5,5679
 Dalgona,4,2020,Korean,7.1,7925
 I Want To Become A Hard Persimmon,22,2007,Taiwanese,7.5,5884
-Animals,8,2022,Japanese,8.0,2299
+Animals,8,2022,Japanese,8,2299
 King Maker: The Change of Destiny,21,2020,Korean,7.8,3291
 SPEC: Birth,10,2010,Japanese,8.3,958
 Plerng Boon,17,2017,Thai,7.4,6024
@@ -2390,7 +2390,7 @@ Boku wa Mari no Naka,8,2017,Japanese,7.2,7544
 Papa & Daddy Season 2,8,2022,Taiwanese,7.7,3809
 Love Under the Stars,26,2022,Chinese,7.3,6753
 Ninpuu Sentai Hurricaneger,51,2002,Japanese,7.7,4346
-Pied Piper,16,2016,Korean,8.0,2246
+Pied Piper,16,2016,Korean,8,2246
 Legally Romance,33,2022,Chinese,8.5,552
 Last One Standing,24,2019,Chinese,7.7,4253
 Just Between Lovers,16,2017,Korean,8.5,438
@@ -2404,17 +2404,17 @@ Crush,24,2021,Chinese,8.4,693
 Code Blue: Another Everyday,5,2018,Japanese,7.6,4679
 The Game: Towards Zero,32,2020,Korean,7.8,3315
 Jiu Liu Overlord,36,2020,Chinese,7.7,3827
-Wiman Sai,16,2005,Thai,7.0,8315
+Wiman Sai,16,2005,Thai,7,8315
 Scrap Teacher,9,2008,Japanese,7.2,7402
 Peanut Butter Sandwich,8,2020,Japanese,7.2,7753
 GARO: The One Who Shines in the Darkness,25,2013,Japanese,7.4,6071
 Legend of Yun Qian,15,2020,Chinese,7.4,6141
 Ms. Kim's Million Dollar Quest,16,2004,Korean,7.2,7445
-Laws of Attraction,8,2023,Thai,8.0,2183
+Laws of Attraction,8,2023,Thai,8,2183
 Itazura na Kiss: Love in Tokyo Season 2,16,2014,Japanese,8.1,1711
 Mr. Lipstick,14,2021,Thai,7.4,6404
 Trap,12,2020,Korean,7.3,7190
-Sanaeha Sunya Kaen,15,2014,Thai,7.0,8339
+Sanaeha Sunya Kaen,15,2014,Thai,7,8339
 Love as You Taste,10,2019,Korean,7.3,6631
 Psych-Hunter,36,2020,Chinese,8.1,1734
 Love & Life & Lie,41,2017,Chinese,7.1,8133
@@ -2422,7 +2422,7 @@ Our Skyy,5,2018,Thai,7.7,3979
 Kurosagi,11,2006,Japanese,7.7,3969
 Hyena,16,2020,Korean,8.2,1406
 Believe in Love,24,2022,Chinese,7.6,4871
-Comrades,20,2010,Korean,8.0,1986
+Comrades,20,2010,Korean,8,1986
 Hot Girl,42,2016,Chinese,7.7,4142
 Good Job,12,2022,Korean,7.9,2714
 Individual Circumstances,8,2023,Korean,7.1,8024
@@ -2450,17 +2450,17 @@ Ie Uru Onna no Gyakushu,10,2019,Japanese,7.7,4317
 The Fearless,13,2019,Taiwanese,7.7,3732
 Love Playlist Season 3,12,2018,Korean,8.1,1853
 Tokujo Kabachi!!,10,2010,Japanese,7.1,7887
-Gakko ja Oshierarenai!,10,2008,Japanese,7.0,8353
+Gakko ja Oshierarenai!,10,2008,Japanese,7,8353
 General and I,62,2017,Chinese,7.9,2409
 Freshman,12,2019,Korean,7.3,6968
-Thong EK: The Herbal Master,14,2019,Thai,8.0,2053
+Thong EK: The Herbal Master,14,2019,Thai,8,2053
 Brother Trap,9,2023,Japanese,7.2,7262
 Nanba MG5,10,2022,Japanese,8.4,721
 The Best of You in My Mind,24,2020,Chinese,8.1,1717
 Flowers in Fog,54,2013,Chinese,7.6,5073
 Shining Like You,24,2021,Chinese,7.2,7672
 Don Quixote,11,2011,Japanese,7.9,2671
-Argon,8,2017,Korean,8.0,2105
+Argon,8,2017,Korean,8,2105
 What Is Love,16,2012,Taiwanese,7.4,5992
 Fermentation Family,24,2011,Korean,7.6,4465
 Well Dominated Love,24,2020,Chinese,7.9,2959
@@ -2469,7 +2469,7 @@ My Girlfriend Is an Alien,28,2019,Chinese,8.3,943
 Temptation,20,2014,Korean,7.1,8085
 The Classic of Mountains and Seas,46,2016,Chinese,7.5,5521
 Almost Famous,24,2022,Chinese,7.5,5534
-Likit Kammathep,12,2007,Thai,7.0,8185
+Likit Kammathep,12,2007,Thai,7,8185
 Hua Jai Teuan,16,2014,Thai,7.1,7848
 Buang Ruk Gamathep,28,2009,Thai,7.4,5985
 Shitsuren Chocolatier,11,2014,Japanese,6.9,8653
@@ -2497,7 +2497,7 @@ In a Good Way,26,2013,Taiwanese,7.7,4067
 Q Series: Close Your Eyes Before It's Dark,7,2016,Taiwanese,7.5,5591
 Yuube wa Otanoshimi Deshita ne,6,2019,Japanese,7.6,5008
 Innocent Lies,17,2022,Thai,7.2,7557
-Love Is Science?,18,2021,Taiwanese,8.0,2356
+Love Is Science?,18,2021,Taiwanese,8,2356
 Dangerous Love,25,2022,Chinese,7.2,7654
 Hiyokko,156,2017,Japanese,8.1,1620
 Hana Kimi,15,2006,Taiwanese,7.4,6355
@@ -2516,7 +2516,7 @@ Loss:Time:Life,9,2015,Korean,7.1,8076
 You Are My Hero,40,2021,Chinese,8.6,311
 Novoland: Eagle Flag,56,2019,Chinese,7.9,2904
 "Ashita, Watashi wa Dareka no Kanojo",12,2022,Japanese,7.5,5242
-My Tooth Your Love,12,2022,Taiwanese,8.0,2184
+My Tooth Your Love,12,2022,Taiwanese,8,2184
 Inspector Koo,12,2021,Korean,8.2,1468
 Leverage,16,2019,Korean,8.3,1084
 Fight for My Way,16,2017,Korean,8.5,516
@@ -2534,10 +2534,10 @@ Today Office Tomorrow Romance,10,2020,Korean,7.1,7797
 Jumong,81,2006,Korean,8.3,847
 Kikazaranai Koi ni wa Riyuu ga Atte,7,2021,Japanese,7.5,5233
 Nagareboshi,10,2010,Japanese,7.9,2918
-Toumei na Yurikago,10,2018,Japanese,8.0,2304
+Toumei na Yurikago,10,2018,Japanese,8,2304
 The Girl Who Sees Smells,24,2023,Chinese,7.3,7138
 Socho Shihatsu no Sappukei,6,2022,Japanese,7.6,5104
-Light the Night,8,2021,Taiwanese,8.0,2024
+Light the Night,8,2021,Taiwanese,8,2024
 Aikurushii,11,2005,Japanese,7.6,4773
 Love Storm,21,2003,Taiwanese,6.8,8706
 3 Days,16,2014,Korean,7.7,4309
@@ -2549,7 +2549,7 @@ My Hero Series: Heart of the Motherland,8,2018,Thai,7.7,3935
 Love & Wish,9,2021,Korean,7.6,4616
 The Effect,3,2019,Thai,7.2,7490
 Celeb to Binbo Taro,11,2008,Japanese,6.8,8732
-Time of Memory,20,2021,Korean,7.0,8432
+Time of Memory,20,2021,Korean,7,8432
 The Journey,12,2017,Chinese,7.9,2452
 Strawberry Night Saga,11,2019,Japanese,7.4,5955
 Sai Tarn Hua Jai,11,2017,Thai,7.2,7688
@@ -2559,8 +2559,8 @@ Her Bucket List,10,2021,Korean,7.3,6973
 Wanru's Journey,24,2023,Chinese,7.4,6060
 Friends,4,2002,Japanese,7.3,6889
 Ameiro Paradox,8,2022,Japanese,7.5,5289
-Zhong Wu Yan,19,2010,Taiwanese,7.0,8265
-My Mister,16,2018,Korean,9.0,36
+Zhong Wu Yan,19,2010,Taiwanese,7,8265
+My Mister,16,2018,Korean,9,36
 Agency,16,2023,Korean,8.2,1338
 A Thousand Kisses,50,2011,Korean,6.8,8784
 Kindaichi Shonen no Jikenbo 5,10,2022,Japanese,7.9,2662
@@ -2572,7 +2572,7 @@ Ancient Detective,24,2020,Chinese,8.3,988
 Mirror of the Witch,20,2016,Korean,7.6,4495
 Kishibe Rohan wa Ugokanai Season 2,3,2021,Japanese,7.9,2720
 Shinya Shokudo 2,10,2011,Japanese,8.3,1090
-The Romance of Hua Rong,24,2019,Chinese,8.0,2349
+The Romance of Hua Rong,24,2019,Chinese,8,2349
 Chojin Sentai Jetman,51,1991,Japanese,7.9,2636
 Love Cheque Charge,74,2014,Taiwanese,7.3,6645
 Professional Single,24,2020,Chinese,8.1,1809
@@ -2598,7 +2598,7 @@ HIStory3: Trapped,20,2019,Taiwanese,8.4,747
 Sunny Again Tomorrow,121,2018,Korean,7.7,4224
 Plus Nine Boys,14,2014,Korean,7.8,3392
 Goodbye Dear Wife,20,2012,Korean,7.1,7905
-Handsome Stewardess,6,2019,Taiwanese,7.0,8228
+Handsome Stewardess,6,2019,Taiwanese,7,8228
 Rebel: Thief Who Stole the People,30,2017,Korean,8.5,451
 Secret Campus,24,2006,Korean,7.3,6818
 Lovely Writer,12,2021,Thai,8.1,1851
@@ -2625,7 +2625,7 @@ Fun Fueng,16,2014,Thai,7.5,5823
 Welcome 2 Life,32,2019,Korean,8.2,1211
 Silence,19,2006,Taiwanese,7.6,5067
 My Secret Bride,18,2019,Thai,8.3,1050
-How to Meet a Perfect Neighbor,20,2007,Korean,7.0,8218
+How to Meet a Perfect Neighbor,20,2007,Korean,7,8218
 Bad Papa,32,2018,Korean,7.7,4204
 Maiko-san Chi no Makanai-san,9,2023,Japanese,8.2,1175
 Hi Flower Season 2,17,2017,Chinese,7.6,5078
@@ -2669,7 +2669,7 @@ The Journey of Flower,58,2015,Chinese,8.1,1644
 Loving You,12,2002,Korean,6.9,8460
 Ruk Nee Jae Jad Hai,13,2014,Thai,7.3,6839
 I Give My First Love to You,7,2019,Japanese,7.6,4588
-Spring Turns to Spring,32,2019,Korean,8.0,2253
+Spring Turns to Spring,32,2019,Korean,8,2253
 My Kung Fu Girlfriend,24,2022,Chinese,7.3,6785
 Eulachacha Waikiki Season 2,16,2019,Korean,8.1,1633
 On the Verge of Insanity,16,2021,Korean,8.1,1682
@@ -2678,7 +2678,7 @@ Asa ga Kita,156,2015,Japanese,8.4,784
 Monchouchou Globalhouse,12,2019,Korean,7.2,7662
 Naughty Boy,5,2018,Korean,6.9,8569
 Flight to You,39,2022,Chinese,8.1,1545
-Keiji Yugami,10,2017,Japanese,8.0,2127
+Keiji Yugami,10,2017,Japanese,8,2127
 The Rational Life,35,2021,Chinese,8.2,1368
 Candle in the Tomb: The Lost Caverns,18,2020,Chinese,7.9,2579
 Divorce Lawyer in Love,18,2015,Korean,7.3,6804
@@ -2691,7 +2691,7 @@ Crossroad Bistro,30,2021,Chinese,7.8,2999
 The Law Cafe,16,2022,Korean,8.1,1878
 Legend of the Dragon Pearl: The Indistinguishable Road,90,2017,Chinese,7.7,4256
 The Fire Series: Fai Ruk Game Rorn,14,2016,Thai,7.6,5003
-GTO: Remake,11,2012,Japanese,8.0,2153
+GTO: Remake,11,2012,Japanese,8,2153
 Class of Lies,16,2019,Korean,8.3,892
 A Robot in the Orange Orchard,30,2022,Chinese,7.7,3669
 Sunao ni Narenakute,11,2010,Japanese,7.4,6349
@@ -2711,7 +2711,7 @@ Search,10,2020,Korean,8.2,1498
 The Advisors Alliance,42,2017,Chinese,8.2,1241
 N no Tame ni,10,2014,Japanese,8.4,806
 The Silent Sea,8,2021,Korean,8.1,1564
-Exactly What’s Going On?,10,2015,Korean,7.0,8445
+Exactly What’s Going On?,10,2015,Korean,7,8445
 Hwang Jin Yi,24,2006,Korean,7.9,2571
 Top Management,16,2018,Korean,7.6,4908
 U-Prince: The Extroverted Humanist,4,2017,Thai,7.4,5939
@@ -2720,7 +2720,7 @@ Krong Kam,19,2019,Thai,7.9,2984
 Who Rules the World,40,2022,Chinese,8.7,246
 Ultraman X,22,2015,Japanese,7.6,4828
 Hito wa Mita Me ga 100%,10,2017,Japanese,7.3,6727
-The Chang'an Youth,24,2020,Chinese,8.0,2371
+The Chang'an Youth,24,2020,Chinese,8,2371
 Young Lady and Gentleman,52,2021,Korean,7.2,7381
 Lesson in Love,12,2022,Taiwanese,7.8,3170
 Shiyakusho,10,2019,Japanese,7.7,3824
@@ -2747,7 +2747,7 @@ Daughters,24,2020,Thai,8.3,863
 Alchemy of Souls,20,2022,Korean,9.1,26
 Dance of the Phoenix,30,2020,Chinese,7.6,4573
 Spring Day,20,2005,Korean,7.2,7712
-Miss No Good,14,2008,Taiwanese,7.0,8399
+Miss No Good,14,2008,Taiwanese,7,8399
 Love of Replica,16,2023,Chinese,7.6,4397
 Manner of Death,14,2020,Thai,8.3,1125
 Toshi Densetsu no Onna 2,7,2013,Japanese,7.3,6746
@@ -2763,7 +2763,7 @@ Well-Intended Love Season 2,16,2020,Chinese,7.6,4853
 Cat's Bar,10,2019,Korean,7.8,3371
 Dating Class,16,2019,Korean,7.9,2931
 Noble Aspirations Season 2,18,2016,Chinese,7.9,2397
-Kimi Hannin Janai yo ne?,10,2008,Japanese,7.0,8222
+Kimi Hannin Janai yo ne?,10,2008,Japanese,7,8222
 Naeil's Cantabile,16,2014,Korean,7.5,5708
 Royal Doctor,22,2023,Thai,7.7,4113
 My Bossy Wife,28,2022,Chinese,7.6,5027
@@ -2776,7 +2776,7 @@ Mimi,4,2014,Korean,7.2,7486
 Princess of Lanling King,47,2016,Chinese,7.5,5900
 The Legend of the Blue Sea,20,2016,Korean,8.3,835
 U-Prince:  The Handsome Cowboy,8,2016,Thai,7.2,7616
-Delicious Gakuin,13,2007,Japanese,7.0,8354
+Delicious Gakuin,13,2007,Japanese,7,8354
 Decoy: Part 1,6,2023,Korean,7.9,2466
 My Heart Twinkle Twinkle,26,2015,Korean,7.1,7858
 "Tamra, the Island",16,2009,Korean,7.2,7533
@@ -2787,7 +2787,7 @@ Shinhannin Flag 2,10,2022,Japanese,7.6,4395
 The Legend of Zhuohua,40,2023,Chinese,8.3,1076
 The Next Stop W,24,2023,Chinese,7.2,7397
 Shinzanmono,10,2010,Japanese,7.8,3520
-Qing Luo,24,2021,Chinese,8.0,2109
+Qing Luo,24,2021,Chinese,8,2109
 Cheongdamdong Alice,16,2012,Korean,7.2,7734
 Shining Just for You,25,2022,Chinese,7.5,5248
 Kol Ruk Luang Jai,16,2011,Thai,7.4,6588
@@ -2797,20 +2797,20 @@ Nazo no Tenkousei,12,2014,Japanese,7.2,7457
 The Crossing Hero,28,2015,Taiwanese,7.3,6725
 Please Don't Date Him,10,2020,Korean,7.7,3828
 "Hyde, Jekyll, Me",20,2015,Korean,7.4,6196
-Seirei no Moribito Season 2,9,2017,Japanese,8.0,2177
+Seirei no Moribito Season 2,9,2017,Japanese,8,2177
 Poseidon,16,2011,Korean,6.8,8701
 Money's Warfare,20,2007,Korean,7.2,7697
 Love in the Moonlight,18,2016,Korean,8.2,1199
 Legal High 2,10,2013,Japanese,8.3,972
 Hearts of Nineteen,167,2006,Korean,7.5,5908
 Jao Sao Jamloei,17,2022,Thai,7.7,3797
-Love and Fortune,12,2018,Japanese,7.0,8179
-Would You Like a Cup of Coffee?,12,2021,Korean,8.0,2066
+Love and Fortune,12,2018,Japanese,7,8179
+Would You Like a Cup of Coffee?,12,2021,Korean,8,2066
 180 Degree Longitude Passes Through Us,8,2022,Thai,7.9,2697
 "Nee Sensei, Shiranai no?",6,2019,Japanese,7.4,6596
 The Long Ballad,49,2021,Chinese,8.7,231
 The Way We Were,16,2014,Taiwanese,7.7,3767
-Ryusei no Kizuna,10,2008,Japanese,8.0,2065
+Ryusei no Kizuna,10,2008,Japanese,8,2065
 LADY - Saigo no Hanzai Profile,10,2011,Japanese,7.4,6399
 Gokushufudo,10,2020,Japanese,8.2,1418
 Suzuki Sensei,10,2011,Japanese,7.6,4439
@@ -2841,7 +2841,7 @@ The Great Merchant,30,2010,Korean,7.5,5728
 Let's Shake It!,25,2017,Chinese,7.8,3511
 One Ordinary Day,8,2021,Korean,8.5,490
 Boku Dake ga Inai Machi,12,2017,Japanese,8.4,662
-Deja Vu,22,2013,Taiwanese,7.0,8291
+Deja Vu,22,2013,Taiwanese,7,8291
 My First First Love,8,2019,Korean,7.7,3842
 Grand Prince,20,2018,Korean,7.8,3356
 "The Starry Night, the Starry Sea Season 2",34,2017,Chinese,7.5,5453
@@ -2856,8 +2856,8 @@ The K2,16,2016,Korean,8.2,1490
 Torranee Ni Nee Krai Krong,17,2012,Thai,7.6,4456
 Angel's Revenge,103,2014,Korean,7.3,7183
 Kamen Rider Decade,31,2009,Japanese,7.3,6756
-Wok of Love,38,2018,Korean,8.0,2226
-Original Sin,24,2018,Chinese,8.0,2043
+Wok of Love,38,2018,Korean,8,2226
+Original Sin,24,2018,Chinese,8,2043
 Kimi to Sekai ga Owaru Hi ni,10,2021,Japanese,7.6,4870
 Tokyo Ghost Trip,13,2008,Japanese,7.1,8102
 Watashi ga Kemono ni Natta Yoru,4,2021,Japanese,7.2,7333
@@ -2868,7 +2868,7 @@ Kiseki no Hito,8,2016,Japanese,7.8,3035
 My Beautiful Bride,16,2015,Korean,7.9,2561
 BG: Personal Bodyguard Season 2,7,2020,Japanese,7.8,3574
 Wife's Revenge,24,2021,Chinese,6.8,8723
-Evil Minds,24,2015,Chinese,8.0,2240
+Evil Minds,24,2015,Chinese,8,2240
 dele,8,2018,Japanese,8.4,676
 Angry Mom,16,2015,Korean,8.3,1132
 Enigma,4,2023,Thai,8.6,401
@@ -2879,17 +2879,17 @@ TharnType,12,2019,Thai,7.7,4007
 Q Series: Life Plan A and B,6,2016,Taiwanese,7.6,4817
 The Dark Lord,48,2018,Chinese,7.9,2405
 My Mowgli Boy,50,2019,Chinese,7.4,6245
-Across the Ocean to See You,44,2017,Chinese,8.0,2241
+Across the Ocean to See You,44,2017,Chinese,8,2241
 Tree of Heaven,10,2006,Korean,7.5,5264
 Can You Deliver Time? 2002,8,2021,Korean,7.8,3316
 Nang Rai,15,2019,Thai,7.2,7250
 Shizuka-chan to Papa,8,2022,Japanese,8.1,1654
 Wonderful Fate,16,2021,Chinese,7.4,6389
-The Sleepless Princess,35,2020,Chinese,8.0,2115
+The Sleepless Princess,35,2020,Chinese,8,2115
 My Deepest Dream,30,2022,Chinese,7.9,2876
 Rookie Agent Rouge,45,2016,Chinese,8.1,1519
-The Backlight of Love,11,2015,Chinese,7.0,8332
-Unlock My Boss,12,2022,Korean,8.0,2178
+The Backlight of Love,11,2015,Chinese,7,8332
+Unlock My Boss,12,2022,Korean,8,2178
 Repeat,10,2018,Japanese,7.2,7554
 "Do You ""Truth or Dare"" with Me?",2,2019,Korean,7.3,6996
 Caught in the Heartbeat,40,2018,Chinese,7.7,4057
@@ -2904,7 +2904,7 @@ My Little Baby,16,2016,Korean,7.4,6233
 My Unfamiliar Family,16,2020,Korean,8.4,704
 P.S. I Hate You,18,2022,Thai,8.3,856
 "Itsuka, Nemuri ni Tsuku Hi",6,2019,Japanese,7.9,2503
-Aogeba Toutoshi,8,2016,Japanese,8.0,2142
+Aogeba Toutoshi,8,2016,Japanese,8,2142
 Finland Papa,6,2023,Korean,7.4,6502
 Tenchuu-Yami no Shiokinin,8,2014,Japanese,7.5,5313
 Kekkon Dekinai Otoko,12,2006,Japanese,8.1,1761
@@ -2916,7 +2916,7 @@ Rose In Da House,7,2022,Thai,7.7,3918
 Mon Jun Tra,11,2013,Thai,7.7,4291
 Colorful Love: Genderless Danshi ni Aisareteimasu,10,2021,Japanese,7.9,2813
 Season Love,50,2017,Chinese,7.3,6845
-HIStory3: Make Our Days Count,20,2019,Taiwanese,8.0,2207
+HIStory3: Make Our Days Count,20,2019,Taiwanese,8,2207
 Hiru Season 2,6,2022,Japanese,7.5,5804
 Eien no Kinou,8,2022,Japanese,8.1,1606
 Cuo Dian Yuan Yang,25,2012,Chinese,7.8,3001
@@ -2926,7 +2926,7 @@ Bangkok Love Stories: Objects of Affection,13,2019,Thai,7.3,6833
 Oasis,16,2023,Korean,7.7,4260
 Shikaotoko Aoniyoshi,10,2008,Japanese,7.2,7778
 Long Time No See,42,2018,Chinese,7.2,7418
-Sleepless Society: Insomnia,13,2019,Thai,8.0,2162
+Sleepless Society: Insomnia,13,2019,Thai,8,2162
 Boku to Star no 99 Nichi,10,2011,Japanese,7.3,7213
 The [email protected],24,2017,Korean,7.5,5454
 Unlucky Ploy,16,2020,Thai,7.6,4515
@@ -2940,7 +2940,7 @@ Young Blood,42,2019,Chinese,8.3,965
 Shuriken Sentai Ninninger,47,2015,Japanese,7.2,7629
 The Last Empress,52,2018,Korean,7.9,2391
 Legend of Concubine Zhen Huan,76,2012,Chinese,8.5,472
-"I'm Sorry, I Love You",16,2004,Korean,8.0,2180
+"I'm Sorry, I Love You",16,2004,Korean,8,2180
 Wulin Heroes,22,2023,Chinese,7.8,3169
 Guilty Akuma to Keiyakushita Onna,11,2010,Japanese,7.7,3708
 Saru Lock,13,2009,Japanese,7.2,7571
@@ -2950,7 +2950,7 @@ The Legend of Xiao Chuo,48,2020,Chinese,7.8,3510
 Reverse,10,2017,Japanese,7.8,3014
 Find Me if You Can,8,2021,Korean,7.7,3877
 Who Are You: School 2015,16,2015,Korean,8.2,1284
-Someday or One Day,13,2019,Taiwanese,9.0,47
+Someday or One Day,13,2019,Taiwanese,9,47
 Innocent Days,6,2018,Japanese,7.7,4120
 The Promise,102,2016,Korean,7.7,4245
 Phoenix,26,2004,Korean,7.3,7208
@@ -2960,7 +2960,7 @@ Innocent Love,10,2008,Japanese,7.2,7722
 I Hear Your Voice,18,2013,Korean,8.5,499
 Hachi-One Diver,11,2008,Japanese,6.9,8646
 Player,14,2018,Korean,8.3,868
-Bong Soon: A Cyborg in Love,12,2016,Korean,7.0,8398
+Bong Soon: A Cyborg in Love,12,2016,Korean,7,8398
 Seigi no Mikata,10,2008,Japanese,7.7,3683
 Majisuka Gakuen,12,2010,Japanese,7.3,6773
 Wonderful Time,40,2021,Chinese,7.2,7294
@@ -2972,8 +2972,8 @@ Samurai Sentai Shinkenger,49,2009,Japanese,8.3,1112
 The Legend of the Condor Heroes,50,2008,Chinese,8.1,1695
 Yokai Ningen Bem,10,2011,Japanese,7.5,5475
 Nightmare Teacher,12,2016,Korean,7.6,4946
-The Legend of Brown Sugar Chivalries,13,2008,Taiwanese,7.0,8406
-Jitenshaya-san no Takahashi-kun,8,2022,Japanese,8.0,2052
+The Legend of Brown Sugar Chivalries,13,2008,Taiwanese,7,8406
+Jitenshaya-san no Takahashi-kun,8,2022,Japanese,8,2052
 She Makes My Heart Flutter,5,2022,Korean,8.3,945
 Martial Universe,40,2018,Chinese,7.6,4483
 100 Days My Prince,16,2018,Korean,8.3,898
@@ -2984,19 +2984,19 @@ Tell Me What You Saw,16,2020,Korean,8.2,1295
 Project S: SPIKE,8,2017,Thai,8.1,1885
 Love to the End,104,2018,Korean,7.3,6690
 EXO Next Door,16,2015,Korean,7.7,4174
-Shinya Shokudo 3,10,2014,Japanese,8.0,1957
+Shinya Shokudo 3,10,2014,Japanese,8,1957
 Garo: Makai Senki,24,2011,Japanese,7.9,2778
 Memorist,16,2020,Korean,8.4,716
 Bad and Crazy,12,2021,Korean,8.5,440
 One and Only,24,2021,Chinese,8.7,241
-Mashin Sentai Kiramager,45,2020,Japanese,8.0,2280
+Mashin Sentai Kiramager,45,2020,Japanese,8,2280
 Chronicle of Life,37,2016,Chinese,7.5,5254
 Hotelier,20,2001,Korean,7.5,5432
 Bunlang Dok Mai,14,2017,Thai,7.6,4852
 Love Around,21,2013,Taiwanese,7.5,5545
 My Love By My Side,50,2011,Korean,7.3,6930
 Twilight,40,2023,Chinese,7.3,6887
-Black & White,24,2009,Taiwanese,8.0,2031
+Black & White,24,2009,Taiwanese,8,2031
 Dear Mom,84,2014,Taiwanese,7.7,3667
 My Neighbour Can't Sleep,24,2019,Chinese,7.6,4881
 Roop Thong,18,2018,Thai,6.8,8696
@@ -3011,7 +3011,7 @@ Wish To See You Again,16,2008,Taiwanese,7.2,7506
 They Kiss Again,20,2007,Taiwanese,8.3,1029
 Medical Examiner Dr. Qin: Silent Evidence,30,2021,Chinese,7.5,5221
 Summer Guys,10,2021,Korean,7.5,5854
-Again!,10,2014,Japanese,7.0,8403
+Again!,10,2014,Japanese,7,8403
 DCU,9,2022,Japanese,7.3,6678
 Taste of Love,24,2023,Chinese,7.4,6170
 Love Returns,120,2017,Korean,7.4,6207
@@ -3028,7 +3028,7 @@ Night Watchman's Journal,24,2014,Korean,7.2,7526
 I Have a Smart Doctor Wife Season 2,21,2023,Chinese,7.4,6301
 Revolutionary Love,16,2017,Korean,7.4,6234
 Desire Catcher,24,2023,Chinese,7.8,3430
-Show Me Love,9,2023,Thai,7.0,8246
+Show Me Love,9,2023,Thai,7,8246
 Customize Happiness,38,2016,Chinese,7.3,6780
 Nang Ai,15,2016,Thai,7.8,3115
 Dr. Romantic,20,2016,Korean,8.7,265
@@ -3070,12 +3070,12 @@ Crazy Love,100,2013,Korean,6.9,8572
 Lie to Me,16,2011,Korean,7.5,5741
 Princess Jieyou,45,2016,Chinese,7.5,5757
 Hormones Season 3,13,2015,Thai,7.8,3567
-Nickname Pine Leaf,3,2021,Korean,7.0,8381
+Nickname Pine Leaf,3,2021,Korean,7,8381
 Forward Forever,58,2020,Chinese,7.6,5002
 Himitsu no Kankei - Sensei wa Doukyonin,13,2011,Japanese,7.3,6865
 Himomen,7,2018,Japanese,7.1,7921
 The Spies Who Loved Me,16,2020,Korean,7.5,5719
-"Growling Tiger, Roaring Dragon",44,2017,Chinese,8.0,2139
+"Growling Tiger, Roaring Dragon",44,2017,Chinese,8,2139
 Beautiful Love: If You're Here,12,2010,Japanese,6.9,8604
 Ma Boy,3,2012,Korean,7.3,6915
 The Legend of Jin Yan,34,2020,Chinese,7.4,6063
@@ -3084,12 +3084,12 @@ Misaki Number One!!,10,2011,Japanese,7.3,6948
 Clocking Out,4,2016,Korean,7.2,7614
 Itoshi Kimi e,11,2004,Japanese,7.6,5150
 Novoland: The Castle in the Sky,28,2016,Chinese,7.7,3968
-3B no Koibito,10,2021,Japanese,7.0,8371
-Rivalry,20,2022,Thai,8.0,2168
+3B no Koibito,10,2021,Japanese,7,8371
+Rivalry,20,2022,Thai,8,2168
 My Fairy Doctor,34,2022,Chinese,7.6,4793
 Rascal Sons,50,2012,Korean,7.2,7608
 Pin to Kona,10,2013,Japanese,7.6,4976
-U-Prince: The Crazy Artist,4,2017,Thai,8.0,2261
+U-Prince: The Crazy Artist,4,2017,Thai,8,2261
 Best Lover,16,2016,Chinese,7.2,7718
 Code Blue Season 2,11,2010,Japanese,8.3,1024
 Extraordinary Attorney Woo,16,2022,Korean,8.9,61
@@ -3102,7 +3102,7 @@ The Three GentleBros,18,2022,Thai,7.8,3201
 Side Story of Fox Volant,40,2022,Chinese,8.3,860
 "Go Princess, Go!",35,2015,Chinese,7.7,4159
 Love in Black Hole,12,2021,Korean,7.1,7894
-18 vs. 29,16,2005,Korean,7.0,8412
+18 vs. 29,16,2005,Korean,7,8412
 xxxHolic,8,2013,Japanese,7.2,7644
 TOKYO AIRPORT - Tokyo Kuukou Kansei Hoanbu,10,2012,Japanese,7.5,5220
 "Work Later, Drink Now",12,2021,Korean,8.4,640
@@ -3175,7 +3175,7 @@ Birthcare Center,8,2020,Korean,8.4,766
 Summer Scent,20,2003,Korean,7.3,7204
 Dr. White,10,2022,Japanese,7.6,5093
 Royal Sister Returns,36,2017,Chinese,7.4,6597
-All is Well,102,2015,Korean,7.0,8247
+All is Well,102,2015,Korean,7,8247
 Kingdom,6,2019,Korean,8.8,148
 Sprout,12,2012,Japanese,6.9,8598
 KO One,21,2005,Taiwanese,7.4,6547
@@ -3262,7 +3262,7 @@ About Is Love,30,2018,Chinese,7.8,3113
 Tawipob,17,2011,Thai,7.8,3092
 L.O.R.D. Critical World,48,2019,Chinese,7.8,3081
 Never Give Up,16,2022,Korean,7.9,2408
-Koi to Dangan,9,2022,Japanese,7.0,8212
+Koi to Dangan,9,2022,Japanese,7,8212
 My Romance From Far Away,29,2022,Thai,7.8,3312
 Love to Hate You,10,2023,Korean,8.6,392
 Love Relationship,9,2015,Japanese,7.5,5889
@@ -3296,8 +3296,8 @@ Missing Persons,12,2020,Chinese,7.6,4999
 Detective L,24,2019,Chinese,8.3,1023
 Brothers,13,2021,Thai,6.9,8483
 Burning Jealousy,16,2019,Thai,7.2,7548
-Aftermath Season 2,6,2014,Korean,7.0,8240
-Chief of Staff,10,2019,Korean,8.0,2214
+Aftermath Season 2,6,2014,Korean,7,8240
+Chief of Staff,10,2019,Korean,8,2214
 Switch Girl!! Season 2,8,2012,Japanese,7.6,4872
 Goddess of Fire,32,2013,Korean,7.3,7104
 In Family We Trust,18,2018,Thai,8.5,431
@@ -3339,12 +3339,12 @@ Kurofuku Monogatari,8,2014,Japanese,7.2,7726
 Saikou no Jinsei no Owarikata - Ending Planner,10,2012,Japanese,7.5,5528
 Renascence,36,2020,Chinese,7.7,3744
 Raeng Ngao,20,2012,Thai,7.4,6570
-A Superior Day,8,2022,Korean,7.0,8402
+A Superior Day,8,2022,Korean,7,8402
 Guardian,40,2018,Chinese,8.5,539
 Devil Beside You,20,2005,Taiwanese,7.8,3477
 Love Letter,16,2003,Korean,7.1,7885
 Maids,20,2014,Korean,7.9,2895
-Oh! Youngsim,10,2023,Korean,7.0,8142
+Oh! Youngsim,10,2023,Korean,7,8142
 The Immortal Promise,21,2022,Chinese,7.5,5808
 Candle in the Tomb: The Wrath of Time,21,2019,Chinese,7.9,2749
 RESCUE,9,2009,Japanese,7.5,5724
@@ -3382,19 +3382,19 @@ The Journey 2,12,2017,Chinese,7.8,3213
 Beauties of the Emperor,32,2012,Chinese,7.3,6866
 Lub Luang Jai,11,2019,Thai,7.4,6334
 Love Like White Jade,32,2021,Chinese,7.7,3965
-Can We Get Married?,20,2012,Korean,7.0,8317
+Can We Get Married?,20,2012,Korean,7,8317
 Tokyo Joshi Zukan,11,2016,Japanese,7.9,2788
 May I Help You,16,2022,Korean,8.2,1332
 Dame na Watashi ni Koishite Kudasai,10,2016,Japanese,7.6,4486
-Old Fashion Cupcake,5,2022,Japanese,8.0,2070
-Kamen Rider Gaim,47,2013,Japanese,8.0,2101
+Old Fashion Cupcake,5,2022,Japanese,8,2070
+Kamen Rider Gaim,47,2013,Japanese,8,2101
 Skate Into Love,40,2020,Chinese,8.4,651
 The Great Seer,35,2012,Korean,7.2,7251
 Trap,7,2019,Korean,7.9,2928
 Arang and the Magistrate,20,2012,Korean,7.9,2597
 Mr. Fighting,45,2019,Chinese,7.8,3140
 Love Keeps Going,13,2011,Taiwanese,7.4,6326
-Legend of Fei,51,2020,Chinese,8.0,2018
+Legend of Fei,51,2020,Chinese,8,2018
 Imawa no Kuni no Alice,8,2020,Japanese,8.8,122
 Fah Fak Ruk,15,2020,Thai,7.5,5373
 My Honey,24,2022,Chinese,7.3,6952
@@ -3419,13 +3419,13 @@ Love Affairs in the Afternoon,16,2019,Korean,7.9,2502
 My Love From Another Star,16,2019,Thai,7.8,3532
 Sound of the Desert,35,2014,Chinese,8.2,1472
 Live On,8,2020,Korean,8.1,1538
-Byakuyako,11,2006,Japanese,8.0,2157
-She Would Never Know,16,2021,Korean,8.0,2176
+Byakuyako,11,2006,Japanese,8,2157
+She Would Never Know,16,2021,Korean,8,2176
 A Date With the Future,36,2023,Chinese,8.2,1163
 K.O.3an Guo,53,2009,Taiwanese,7.7,3818
 Girl Next Room: Security Love,6,2020,Thai,7.5,5470
 Evasive Inquiry Agency,16,2007,Korean,7.7,4062
-The Legendary Life of Queen Lau,36,2022,Chinese,8.0,1934
+The Legendary Life of Queen Lau,36,2022,Chinese,8,1934
 Love Scene Number,8,2021,Korean,7.5,5752
 Alice in Wonder City,15,2012,Taiwanese,7.2,7529
 "Dragon Day, You're Dead Season 3",36,2022,Chinese,7.5,5927
@@ -3433,7 +3433,7 @@ Zettai Reido,11,2010,Japanese,7.6,4767
 Matrimonial Chaos,32,2018,Korean,7.9,2946
 Dance of the Sky Empire,28,2020,Chinese,8.1,1707
 Omukae Desu,9,2016,Japanese,7.8,3309
-Lost Love in Times,56,2017,Chinese,8.0,2112
+Lost Love in Times,56,2017,Chinese,8,2112
 Vampire Idol,79,2011,Korean,7.3,6878
 Who Are You,18,2020,Thai,8.3,918
 Someday,16,2006,Korean,7.2,7595
@@ -3445,17 +3445,17 @@ Bloody Heart,16,2022,Korean,8.2,1421
 Taisetsu na Koto wa Subete Kimi ga Oshiete Kureta,10,2011,Japanese,7.2,7360
 The Legend of Hao Lan,62,2019,Chinese,7.8,3440
 Win The Future,40,2021,Chinese,7.4,6516
-Moment at Eighteen,16,2019,Korean,8.0,2056
+Moment at Eighteen,16,2019,Korean,8,2056
 Zero no Shinjitsu,8,2014,Japanese,7.5,5658
 In a Relationship,20,2022,Thai,6.8,8808
 Happy Home,51,2016,Korean,7.3,6860
 Cross,16,2018,Korean,7.9,2451
 Khun Mae Suam Roy,31,2018,Thai,8.1,1890
-Borrow Your Love,14,2013,Taiwanese,7.0,8175
+Borrow Your Love,14,2013,Taiwanese,7,8175
 "Unmei ni, Nita Koi",8,2016,Japanese,7.5,5417
 Happy Merry Ending,8,2023,Korean,7.2,7762
 Sapai Jao Sua,28,2021,Thai,7.6,4664
-Piple: AI to Kekkon Seikatsu Hajimemashita,8,2020,Japanese,7.0,8172
+Piple: AI to Kekkon Seikatsu Hajimemashita,8,2020,Japanese,7,8172
 Horse Doctor,50,2012,Korean,7.8,3042
 Please Don't Spoil Me Season 2,21,2022,Chinese,7.9,2734
 A Gentleman's Dignity,20,2012,Korean,8.2,1190
@@ -3468,7 +3468,7 @@ Mrs. Cop,18,2015,Korean,7.9,2521
 Shiritsu Bakaleya Koukou,12,2012,Japanese,7.3,7158
 The Killer Is Also Romantic,18,2022,Chinese,8.1,1549
 Royal Nirvana,60,2019,Chinese,8.1,1803
-Nagatan to Aoto: Ichika no Ryourijou,10,2023,Japanese,8.0,2096
+Nagatan to Aoto: Ichika no Ryourijou,10,2023,Japanese,8,2096
 The Romance of the Condor Heroes,54,2014,Chinese,7.9,2770
 Shuttle Love Millennium,28,2016,Chinese,7.5,5423
 Chimera,16,2021,Korean,8.1,1645
@@ -3483,7 +3483,7 @@ Koizora,6,2008,Japanese,7.9,2546
 Because of You,10,2020,Taiwanese,7.4,6283
 Stick to the Script!,40,2021,Chinese,7.4,6175
 War of Y,20,2022,Thai,6.8,8683
-"Hak Lai, My Lady",17,2023,Thai,8.0,2175
+"Hak Lai, My Lady",17,2023,Thai,8,2175
 Twisted Fate of Love,43,2020,Chinese,7.7,4052
 Bakuryuu Sentai Abaranger,50,2003,Japanese,7.8,3601
 What's Wrong with Secretary Kim,16,2018,Korean,8.5,478
@@ -3505,9 +3505,9 @@ Why Her?,16,2022,Korean,8.1,1624
 Short,4,2018,Korean,7.8,3613
 Pathapee Leh Ruk,7,2010,Thai,7.2,7266
 The Witch Store Reopens,10,2022,Korean,7.3,6871
-The Secret Life of My Secretary,32,2019,Korean,8.0,2103
+The Secret Life of My Secretary,32,2019,Korean,8,2103
 Romance Special Law,6,2017,Korean,7.1,7837
-Unchained Love,36,2022,Chinese,8.0,2321
+Unchained Love,36,2022,Chinese,8,2321
 Zekkyou,4,2019,Japanese,7.8,3483
 Say that You Love Me,32,2012,Chinese,7.2,7538
 Fall in Love With Me,20,2014,Taiwanese,7.4,6453
@@ -3517,9 +3517,9 @@ Bloody Monday,11,2008,Japanese,8.3,941
 The Confidence Man JP,10,2018,Japanese,8.4,625
 Time,32,2018,Korean,7.7,4105
 Alive,8,2019,Korean,7.5,5677
-The Eight,34,2020,Chinese,8.0,2311
+The Eight,34,2020,Chinese,8,2311
 "One Boat, One World",43,2021,Chinese,7.6,4909
-Smoking,12,2018,Japanese,8.0,2326
+Smoking,12,2018,Japanese,8,2326
 Demi Gods & Semi Devils,40,2003,Chinese,7.8,3500
 "Fly, Again",10,2021,Korean,7.4,6368
 Lhong Ngao Jun,16,2019,Thai,7.4,6445
@@ -3527,7 +3527,7 @@ Meitantei Conan,13,2011,Japanese,7.8,3507
 Itaewon Class,16,2020,Korean,8.5,555
 In Youth,38,2019,Chinese,7.6,4447
 FACE MAKER,13,2010,Japanese,7.1,7792
-Be With You,24,2020,Chinese,8.0,1983
+Be With You,24,2020,Chinese,8,1983
 Provoke,25,2023,Chinese,7.9,2732
 Minato Shouji Coin Laundry,12,2022,Japanese,7.6,4506
 My Pig Lady,27,2014,Chinese,7.4,6351
@@ -3543,10 +3543,10 @@ My Best Friend's Story,38,2020,Chinese,7.6,5056
 Marumo no Okite,11,2011,Japanese,7.9,2478
 Revenge of Others,12,2022,Korean,8.5,450
 Beyond Light Years,38,2018,Chinese,6.8,8763
-My Bromance,12,2018,Taiwanese,7.0,8221
+My Bromance,12,2018,Taiwanese,7,8221
 Perfect Wedding,44,2016,Chinese,7.6,5175
 Slam Dance,13,2017,Thai,6.9,8662
-Dear X Who Doesn't Love Me,10,2022,Korean,7.0,8364
+Dear X Who Doesn't Love Me,10,2022,Korean,7,8364
 Kagi no Kakatta Heya,11,2012,Japanese,8.1,1847
 Toshi no Sakon,8,2020,Japanese,7.4,6195
 Life on Mars,16,2018,Korean,8.7,181
@@ -3582,7 +3582,7 @@ The Origin of Eternity,23,2022,Chinese,7.8,3550
 Lucky With You,40,2021,Chinese,7.5,5189
 Hikaru no Go,36,2020,Chinese,8.8,108
 Antique,11,2001,Japanese,7.2,7741
-SOTUS,15,2016,Thai,8.0,2191
+SOTUS,15,2016,Thai,8,2191
 Time Slip Dr. Jin,22,2012,Korean,6.8,8715
 Be Your Own Light,40,2023,Chinese,7.7,4210
 Ashi Girl,12,2017,Japanese,7.9,2705
@@ -3591,14 +3591,14 @@ U-Prince: The Lovely Geologist,4,2016,Thai,7.8,3623
 The Pursuit of Happiness,13,2013,Taiwanese,7.5,5892
 "Que Sera, Sera",17,2007,Korean,7.3,7080
 Rahut Rissaya,17,2020,Thai,7.8,3138
-My Treasure,35,2021,Chinese,8.0,2081
+My Treasure,35,2021,Chinese,8,2081
 Timeless Love,24,2021,Chinese,7.5,5243
 Under the Power,55,2019,Chinese,8.4,685
 My Kung Fu Girlfriend Season 2,24,2022,Chinese,7.3,6857
 Be My Dream Family,120,2021,Korean,8.1,1864
 Truth or Dare,30,2021,Chinese,7.9,2841
 ROMES,9,2009,Japanese,7.2,7439
-Family's Honor,54,2008,Korean,8.0,2354
+Family's Honor,54,2008,Korean,8,2354
 Make a Wish,6,2023,Thai,7.3,6797
 Love & the Emperor,24,2020,Chinese,7.5,5643
 Jark Sadtroo Soo Hua Jai,19,2020,Thai,7.9,2684
@@ -3637,7 +3637,7 @@ Thank You,16,2007,Korean,8.2,1502
 49 Days With a Merman,14,2022,Taiwanese,7.8,3193
 So Funny Youth,24,2022,Chinese,7.7,4030
 Ojakgyo Brothers,58,2011,Korean,8.1,1891
-Ho Goo's Love,16,2015,Korean,8.0,2145
+Ho Goo's Love,16,2015,Korean,8,2145
 Heaven's Garden,30,2011,Korean,7.8,3491
 Moonlight Chicken,8,2023,Thai,8.4,807
 Pin Anong,22,2012,Thai,7.7,4106
@@ -3660,7 +3660,7 @@ Rikuoh,10,2017,Japanese,8.1,1576
 Hataraki Man,11,2007,Japanese,7.1,7803
 Medical Examiner Dr. Qin,20,2016,Chinese,8.4,689
 Why R U?,13,2020,Thai,7.7,3794
-Iryu Team Medical Dragon 2,11,2007,Japanese,8.0,2164
+Iryu Team Medical Dragon 2,11,2007,Japanese,8,2164
 Goodbye My Princess: Director's Cut,55,2019,Chinese,8.4,587
 Gourmet,24,2008,Korean,7.4,6023
 Mokomi: Kanojo Chotto Hendakedo,10,2021,Japanese,7.7,3885
@@ -3689,7 +3689,7 @@ Forever and Ever,30,2021,Chinese,8.4,607
 "Nakuna, Hara-chan",10,2013,Japanese,7.5,5404
 Uso no Senso,10,2017,Japanese,7.8,3088
 Majisuka Gakuen 4,10,2015,Japanese,7.4,6578
-The Legend,24,2007,Korean,8.0,1978
+The Legend,24,2007,Korean,8,1978
 Swing to the Sky,18,2020,Chinese,7.2,7530
 Enjiya,6,2021,Japanese,7.9,2742
 Ryu no Michi: Futatsu no Kao no Fukushusha,8,2020,Japanese,7.6,4943
@@ -3709,7 +3709,7 @@ Return of the Heiress,50,2013,Chinese,7.6,4907
 Kamen Teacher,12,2013,Japanese,7.5,5314
 Amachan,156,2013,Japanese,8.2,1150
 Rondo,11,2006,Japanese,7.4,6173
-Koi suru Hong Kong,4,2017,Japanese,7.0,8355
+Koi suru Hong Kong,4,2017,Japanese,7,8355
 I’m a Pet at Dali Temple,22,2018,Chinese,7.6,4959
 Our Love,36,2013,Chinese,7.4,5937
 Love in the Air,13,2022,Thai,8.1,1603
@@ -3719,9 +3719,9 @@ Potato Star 2013QR3,120,2013,Korean,7.5,5239
 Stay With Me,38,2016,Chinese,7.5,5753
 Code Blue,11,2008,Japanese,8.1,1876
 Kim Soo Ro,32,2010,Korean,7.7,3785
-Heart Surgeons,32,2018,Korean,8.0,2205
+Heart Surgeons,32,2018,Korean,8,2205
 The Gentlemen of Wolgyesu Tailor Shop,54,2016,Korean,7.9,2694
-You're Too Much,50,2017,Korean,7.0,8426
+You're Too Much,50,2017,Korean,7,8426
 Stand Up!!,11,2003,Japanese,7.3,7133
 The Quiz Show,12,2008,Japanese,7.6,5124
 My Dear Warrior,20,2019,Thai,7.1,7899
@@ -3732,9 +3732,9 @@ Memory Love,18,2017,Taiwanese,7.5,5477
 Memory of Encaustic Tile,34,2022,Chinese,8.1,1579
 Love Is Written in the Stars,24,2023,Chinese,7.6,4703
 A Love So Beautiful,23,2017,Chinese,8.3,934
-Perfect World,10,2019,Japanese,8.0,1958
+Perfect World,10,2019,Japanese,8,1958
 You Are My Heartbeat,20,2022,Thai,7.9,2542
-Your Honor,32,2018,Korean,8.0,1970
+Your Honor,32,2018,Korean,8,1970
 Gap Dong,20,2014,Korean,7.9,2640
 Shijukara,12,2022,Japanese,7.5,5287
 Love Mate,8,2023,Korean,7.5,5825
@@ -3745,18 +3745,18 @@ Hotel Trainees,24,2020,Chinese,7.8,3543
 Youtuber Class,4,2020,Korean,7.6,4880
 Behind Cut,8,2021,Korean,6.8,8692
 Dream High Season 2,16,2012,Korean,6.9,8657
-Single Princesses and Blind Dates,30,2010,Chinese,7.0,8260
+Single Princesses and Blind Dates,30,2010,Chinese,7,8260
 Blood,20,2015,Korean,7.3,6776
 Jinxed at First,16,2022,Korean,7.3,7063
 "Yes, Her Majesty",20,2023,Chinese,7.8,3444
 I Don't Want to Be Brothers With You,30,2022,Chinese,7.8,3233
 The Queen's Classroom,16,2013,Korean,7.9,2463
 Promise Cinderella,10,2021,Japanese,7.9,2802
-Take 1,7,2022,Korean,8.0,2345
+Take 1,7,2022,Korean,8,2345
 Lady & Liar,46,2015,Chinese,7.6,4518
 Everyone Wants To Meet You,36,2020,Chinese,7.6,4648
 Love in Time,24,2022,Chinese,8.2,1499
-Under the Queen's Umbrella,16,2022,Korean,9.0,46
+Under the Queen's Umbrella,16,2022,Korean,9,46
 Tokusatsu Gagaga,7,2019,Japanese,8.2,1386
 "Father, I’ll Take Care of You",50,2016,Korean,7.6,4829
 Dear Uranus,3,2021,Taiwanese,7.2,7615
@@ -3771,7 +3771,7 @@ The King of Romance,17,2016,Taiwanese,7.4,6189
 Long For You 2,24,2018,Chinese,7.5,5698
 For Married Doctress,24,2020,Chinese,7.5,5649
 The Witch's Diner,8,2021,Korean,8.1,1850
-Kamisama no Ekohiiki,8,2022,Japanese,8.0,2298
+Kamisama no Ekohiiki,8,2022,Japanese,8,2298
 Love Through a Millennium,24,2015,Chinese,7.6,4913
 Nirvana in Fire,54,2015,Chinese,9.1,18
 "To Love, To Heal",40,2018,Chinese,7.5,5263
@@ -3786,7 +3786,7 @@ If Voice Has Memory,32,2021,Chinese,7.7,4011
 Cinderella Chef,56,2018,Chinese,7.5,5657
 Xi Dian Yuan Yang,25,2013,Chinese,7.7,3654
 Life: Senjou no Bokura,4,2020,Japanese,8.1,1747
-Unique Lady Season 3,27,2020,Chinese,8.0,2215
+Unique Lady Season 3,27,2020,Chinese,8,2215
 Boy Hood,39,2017,Chinese,8.1,1531
 JIN,11,2009,Japanese,8.3,919
 Quartet,9,2011,Japanese,7.1,8004
@@ -3794,14 +3794,14 @@ Remember Me,14,2022,Thai,7.2,7474
 I Need Romance Season 3,16,2014,Korean,7.8,3149
 The Man of My Life,6,2020,Korean,7.3,6979
 The Legend of the Condor Heroes,42,2003,Chinese,7.7,4028
-Yandai Byway No.10,10,2016,Chinese,7.0,8170
+Yandai Byway No.10,10,2016,Chinese,7,8170
 My Strange Friend,12,2020,Chinese,7.1,7893
 HIStory1: Stay Away From Me,4,2017,Taiwanese,6.9,8470
 My Huckleberry Friends,30,2017,Chinese,8.1,1615
 Who Stole My Kiss,24,2022,Chinese,7.3,7174
 Knight of the Rose,23,2022,Chinese,7.7,3710
 Tokyo Bandwagon,10,2013,Japanese,7.7,3691
-My Fuxxxxx Romance,6,2020,Korean,7.0,8389
+My Fuxxxxx Romance,6,2020,Korean,7,8389
 Woman of 9.9 Billion,32,2019,Korean,7.5,5251
 Rinko-san wa Shite Mitai,8,2021,Japanese,7.9,2622
 A Beautiful Mind,14,2016,Korean,8.2,1317
@@ -3824,7 +3824,7 @@ Hikonin Sentai Akibaranger,13,2012,Japanese,7.8,3047
 Meet Me @ 1006,26,2018,Taiwanese,8.2,1364
 Chains of Heart,10,2023,Thai,6.8,8776
 Jikou Keisatsu,9,2006,Japanese,7.5,5572
-Being a Hero,32,2022,Chinese,8.0,2182
+Being a Hero,32,2022,Chinese,8,2182
 Unnatural,10,2018,Japanese,8.7,260
 Over the Rainbow,16,2006,Korean,6.9,8540
 Aozora no Tamago,9,2012,Japanese,7.7,4147
@@ -3851,7 +3851,7 @@ Blind,16,2022,Korean,8.5,470
 The Royal Gambler,24,2016,Korean,7.7,3674
 Remembering Lichuan,38,2016,Chinese,7.8,3380
 The Judgement,13,2018,Thai,7.6,4378
-YYY,6,2020,Thai,7.0,8229
+YYY,6,2020,Thai,7,8229
 Put Your Head on My Shoulder,24,2019,Chinese,8.4,660
 Knock Knock Loving You,13,2009,Taiwanese,6.9,8547
 The Fallen Leaf,21,2019,Thai,7.8,3049
@@ -3863,7 +3863,7 @@ Chef Hua,36,2020,Chinese,8.3,1141
 Kakenai!?: Kyakuhonka Yoshimaru Keisuke no Sujigaki no Nai Seikatsu,8,2021,Japanese,7.8,3606
 Mahou Sentai Magiranger,49,2005,Japanese,7.7,3661
 Kindaichi Shonen no Jikenbo N,9,2014,Japanese,8.1,1683
-Love Marriage,16,2008,Korean,7.0,8336
+Love Marriage,16,2008,Korean,7,8336
 Don't Mess With Ex-Girlfriend,20,2022,Chinese,7.7,3989
 Love Playlist Season 4,16,2019,Korean,8.3,1064
 Replay: The Moment When It Starts Again,10,2021,Korean,7.4,6231
@@ -3877,7 +3877,7 @@ Hormones,13,2013,Thai,7.7,4259
 Love Tractor,8,2023,Korean,7.9,2480
 Doubtful Victory,40,2017,Korean,7.5,5845
 The Cage of Love,34,2015,Chinese,7.3,7145
-My Unfortunate Boyfriend,16,2015,Korean,7.0,8216
+My Unfortunate Boyfriend,16,2015,Korean,7,8216
 Misaeng: Incomplete Life,20,2014,Korean,8.7,276
 "Hello, the Sharpshooter",40,2022,Chinese,7.8,3297
 Koi ga Heta demo Ikitemasu,12,2017,Japanese,7.4,6592
@@ -3903,19 +3903,19 @@ The Disguiser,48,2015,Chinese,8.2,1358
 The Penthouse Season 3: War in Life,14,2021,Korean,8.1,1893
 Lost in the Kunlun Mountains,36,2022,Chinese,7.6,4875
 Out of the Dream,30,2021,Chinese,7.9,2679
-Love Better Than Immortality,40,2019,Chinese,8.0,2089
-Dinner Mate,32,2020,Korean,8.0,2323
+Love Better Than Immortality,40,2019,Chinese,8,2089
+Dinner Mate,32,2020,Korean,8,2323
 Devil Inspector Season 2,18,2018,Korean,7.5,5869
 Wu Xin: The Monster Killer,20,2015,Chinese,7.9,2376
 2 Moons,12,2017,Thai,7.4,6607
 "Your Highness, the Class Monitor",36,2019,Chinese,7.7,4351
 Time to Fall in Love,24,2022,Chinese,7.8,3545
-Mysterious Lotus Casebook,40,2023,Chinese,9.0,43
+Mysterious Lotus Casebook,40,2023,Chinese,9,43
 Thousand Years for You,36,2022,Chinese,7.8,3479
 Bachelor's Vegetable Store,24,2011,Korean,6.9,8452
 If in Love Like Them,4,2007,Korean,7.2,7295
 I Am GHOST,24,2009,Japanese,7.4,5997
-She Was Pretty,16,2015,Korean,8.0,1965
+She Was Pretty,16,2015,Korean,8,1965
 Dal Ja's Spring,22,2007,Korean,7.6,4464
 Iryu Team Medical Dragon,11,2006,Japanese,8.1,1602
 A Tale of Two Sisters,135,2013,Korean,6.8,8775
@@ -3941,8 +3941,8 @@ Five Missions,15,2018,Taiwanese,7.6,4984
 Doctor X Season 2,9,2013,Japanese,8.3,1139
 Light the Night Season 2,8,2021,Taiwanese,8.1,1722
 Nee Ruk Nai Krong Fai,18,2019,Thai,7.9,2492
-The Centimeter of Love,46,2020,Chinese,8.0,2046
-City of Streamer,40,2022,Chinese,8.0,2315
+The Centimeter of Love,46,2020,Chinese,8,2046
+City of Streamer,40,2022,Chinese,8,2315
 Lighter & Princess,36,2022,Chinese,8.7,249
 JIN 2,11,2011,Japanese,8.4,777
 Rebirth of Shopping Addict,44,2020,Chinese,7.7,4205
@@ -3950,7 +3950,7 @@ HIStory4: Close to You,20,2021,Taiwanese,7.6,4599
 Bossy Husband Who Loved Me,24,2022,Chinese,7.6,4454
 Triangle,26,2014,Korean,7.6,4621
 The Blue Whisper: Part 2,20,2022,Chinese,8.5,563
-Roy Lae Sanae Luang,18,2013,Thai,7.0,8171
+Roy Lae Sanae Luang,18,2013,Thai,7,8171
 Doctor John,32,2019,Korean,8.5,517
 Wanted,16,2016,Korean,7.7,4277
 Life Is Beautiful,63,2010,Korean,7.8,3077
@@ -3963,7 +3963,7 @@ My Wonderful Roommate,8,2020,Korean,7.2,7551
 Last Friends,11,2008,Japanese,7.9,2417
 My Classmate from Far Far Away,24,2018,Chinese,7.7,4211
 The Hymn of Death,6,2018,Korean,8.3,961
-Prison Playbook,16,2017,Korean,9.0,52
+Prison Playbook,16,2017,Korean,9,52
 Gloomy Salad Days,20,2010,Taiwanese,7.2,7286
 Beginners!,10,2012,Japanese,7.4,6006
 The Blue Whisper: Part 1,22,2022,Chinese,8.4,736
@@ -3985,7 +3985,7 @@ Skip a Beat,20,2023,Chinese,7.3,6965
 Signal,16,2016,Korean,8.9,75
 My Dearest,10,2023,Korean,8.7,184
 Sword of Legends Season 2,48,2018,Chinese,7.6,4559
-Time Spiral,8,2014,Japanese,7.0,8346
+Time Spiral,8,2014,Japanese,7,8346
 Time and Him Are Just Right,25,2022,Chinese,8.5,537
 Mr. Swimmer,46,2018,Chinese,7.4,5960
 Missing: The Other Side Season 2,14,2022,Korean,8.8,152
@@ -3994,11 +3994,11 @@ Paint with Love,12,2021,Thai,7.3,6796
 Natsuzora,156,2019,Japanese,8.1,1518
 Because It's the First Time,8,2015,Korean,7.6,5116
 People You May Know,10,2017,Korean,7.3,6985
-Nueng Dao Fah Diew,17,2018,Thai,8.0,2045
+Nueng Dao Fah Diew,17,2018,Thai,8,2045
 Luoyang,39,2021,Chinese,8.2,1365
 Iryu Team Medical Dragon 3,10,2010,Japanese,7.9,2477
-Tokyo Vice,8,2022,Japanese,8.0,2189
-"Poong, the Joseon Psychiatrist",12,2022,Korean,8.0,2361
+Tokyo Vice,8,2022,Japanese,8,2189
+"Poong, the Joseon Psychiatrist",12,2022,Korean,8,2361
 Shinigami no Ballad,12,2007,Japanese,7.2,7540
 The Promise of Chang’an,56,2020,Chinese,7.6,4413
 Fak Fah Kiri Dao,16,2020,Thai,7.3,7043
@@ -4013,7 +4013,7 @@ Garasu no Ie,9,2013,Japanese,7.3,7187
 Cain and Abel,10,2016,Japanese,7.4,6051
 Real:Time:Love Season 4,8,2020,Korean,7.7,4188
 High Class,16,2021,Korean,7.6,4489
-Shadow Detective Season 2,8,2023,Korean,8.0,2287
+Shadow Detective Season 2,8,2023,Korean,8,2287
 Warm Time With You,31,2022,Chinese,7.3,6936
 Raise de wa Chanto Shimasu Season 2,8,2021,Japanese,7.6,4836
 Hey Pro My Mountain Girl,12,2019,Chinese,7.5,5526
@@ -4021,7 +4021,7 @@ Mon Rak Asoon,27,2016,Thai,7.2,7735
 Make It Right 2,14,2017,Thai,7.3,6625
 Between Friendship and Love Season 2,12,2017,Korean,7.4,6442
 My Husband in Law,15,2020,Thai,7.8,3181
-anone,10,2018,Japanese,8.0,2366
+anone,10,2018,Japanese,8,2366
 The Heavenly Sword and Dragon Sabre,40,2002,Taiwanese,7.8,3015
 Suits,16,2018,Korean,8.1,1693
 Kiss Scene in Yeonnamdong,12,2019,Korean,7.9,2528
@@ -4034,7 +4034,7 @@ My Uncanny Destiny,24,2023,Chinese,8.2,1233
 Fireworks of My Heart,40,2023,Chinese,8.2,1376
 Imaginary Cat,8,2015,Korean,7.4,6485
 Dao Kiang Duen,14,2014,Thai,7.5,5647
-Saba Doru,12,2012,Japanese,7.0,8340
+Saba Doru,12,2012,Japanese,7,8340
 Araburu Kisetsu no Otomedomo yo,8,2020,Japanese,7.4,6609
 11 Nin mo Iru!,9,2011,Japanese,7.6,4481
 Views of Love: Grey Rainbow,4,2016,Thai,7.6,4869
@@ -4054,11 +4054,11 @@ You Are My Exclusive Surprise,14,2023,Chinese,7.4,6612
 Channel wa Sonomama!,5,2019,Japanese,7.6,4715
 Legend of Nine Tails Fox,37,2016,Chinese,7.5,5507
 Beethoven Virus,18,2008,Korean,7.2,7765
-Tomorrow Boy,5,2016,Korean,7.0,8305
+Tomorrow Boy,5,2016,Korean,7,8305
 Time Teaches Me to Love,24,2018,Chinese,7.6,4990
 W,16,2016,Korean,8.5,488
 The Devil Judge,16,2021,Korean,8.7,177
-Ra Raerng Fai,14,2017,Thai,8.0,2255
+Ra Raerng Fai,14,2017,Thai,8,2255
 Janus no Kagami,8,2019,Japanese,7.3,6987
 Flower of Evil,16,2020,Korean,9.1,21
 Heavenly Sword and Dragon Slaying Sabre,50,2019,Chinese,8.2,1367
@@ -4069,7 +4069,7 @@ Doctor Stranger,20,2014,Korean,7.9,2823
 The Girl in Blue,32,2010,Chinese,7.4,5987
 Love the Way You Are,30,2022,Chinese,7.9,2901
 Zhang Gong Zhu Zai Shang,27,2022,Chinese,7.8,3590
-Be Arrogant,10,2014,Korean,7.0,8204
+Be Arrogant,10,2014,Korean,7,8204
 I Have Not Done My Best Yet,12,2022,Korean,7.7,3998
 Broke Rookie Star,10,2022,Korean,7.3,6715
 Gay OK Bangkok,5,2016,Thai,7.3,6670
@@ -4079,28 +4079,28 @@ Here Is My Exclusive Indulge Season 2,37,2022,Chinese,7.7,3872
 Kageri Yuku Natsu,5,2015,Japanese,7.7,3875
 Graceful Family,16,2019,Korean,8.3,1011
 Sweet Spy,20,2005,Korean,7.2,7613
-The Little Nyonya,45,2020,Chinese,8.0,2204
+The Little Nyonya,45,2020,Chinese,8,2204
 Zannen na Otto,10,2015,Japanese,7.4,6290
 The Seawave,24,2020,Thai,7.1,8077
 Wonderful Days,50,2014,Korean,7.5,5838
 D-Day,20,2015,Korean,8.2,1171
-You Are So Sweet,24,2020,Chinese,8.0,2242
+You Are So Sweet,24,2020,Chinese,8,2242
 Ocean Likes Me,8,2022,Korean,6.8,8777
 Barb Ayuttitham,14,2021,Thai,7.5,5212
 Mirror Twins,8,2019,Japanese,7.4,6232
 Lupin no Musume,11,2019,Japanese,7.8,3416
 Shinya Shokudo - Tokyo Stories Season 2,10,2019,Japanese,8.1,1621
 Love Starts from Marriage Season 2,24,2023,Chinese,7.1,7882
-K-POP - The Ultimate Audition,14,2012,Korean,7.0,8407
+K-POP - The Ultimate Audition,14,2012,Korean,7,8407
 Star-Crossed Lovers,24,2022,Chinese,7.2,7605
 Love of Summer Night,24,2020,Chinese,7.6,4932
 Get Karl! Oh Soo Jung,16,2007,Korean,6.8,8779
 Tensou Sentai Goseiger,50,2010,Japanese,7.5,5682
-Night of Love With You,24,2022,Chinese,8.0,1940
+Night of Love With You,24,2022,Chinese,8,1940
 Lucky Seven,10,2012,Japanese,7.6,5070
 Kon La Kop Fah,13,2016,Thai,7.5,5783
 "It's Okay, Daddy's Girl",17,2010,Korean,7.4,6548
-Apple in Your Eye,13,2014,Taiwanese,7.0,8188
+Apple in Your Eye,13,2014,Taiwanese,7,8188
 Curtain Call,16,2022,Korean,7.7,4022
 Falling Into Your Smile,31,2021,Chinese,8.6,302
 Lawless Lawyer,16,2018,Korean,8.3,1108
@@ -4108,21 +4108,21 @@ Osozaki no Himawari,10,2012,Japanese,7.9,2404
 Trace: Kasouken no Otoko,11,2019,Japanese,7.9,2555
 The Good Wife,16,2016,Korean,8.1,1883
 Ototo no Otto,3,2018,Japanese,8.1,1713
-A Romance of the Little Forest,35,2022,Chinese,8.0,1992
+A Romance of the Little Forest,35,2022,Chinese,8,1992
 My Lover Is a Mystery,12,2021,Chinese,7.3,6894
 Lucky's First Love,24,2019,Chinese,8.1,1583
 Follow Saretara Owari,16,2019,Japanese,7.5,5558
 Yubikoi: Kimi ni Okuru Message,12,2013,Japanese,7.5,5799
 Gokusen,12,2002,Japanese,8.2,1432
 A Thousand Goodnights,20,2019,Taiwanese,7.9,2863
-Memories of the Alhambra,16,2018,Korean,8.0,2138
+Memories of the Alhambra,16,2018,Korean,8,2138
 The Queen of Attack Season 2,18,2021,Chinese,7.6,4822
 Roy Marn,15,2011,Thai,7.3,7118
 Magerarenai Onna,10,2010,Japanese,7.4,6165
 Unemployed Romance,10,2013,Korean,6.8,8713
 Game of Outlaws,19,2021,Thai,7.8,3481
 Answer - Keishichou Kenshou Sousakan,9,2012,Japanese,7.5,5725
-Anata no Ban Desu - Counterattack,10,2019,Japanese,8.0,2158
+Anata no Ban Desu - Counterattack,10,2019,Japanese,8,2158
 Twelve Legends,32,2021,Chinese,7.6,4647
 Xuan-Yuan Sword: Han Cloud,58,2017,Chinese,7.5,5384
 Afraid Of,3,2019,Korean,7.5,5553
@@ -4135,7 +4135,7 @@ Biscuit Teacher and Star Candy,16,2005,Korean,7.4,6412
 Kazoku Boshu Shimasu,9,2021,Japanese,7.9,2524
 Demon Girl Season 2,20,2016,Chinese,7.4,6614
 Kom Faek,14,2018,Thai,7.8,3540
-Dokgo Rewind,20,2018,Korean,8.0,2174
+Dokgo Rewind,20,2018,Korean,8,2174
 Hapimari: Happy Marriage!?,12,2016,Japanese,7.3,6970
 Umareru.,10,2011,Japanese,7.5,5702
 Let's Eat,16,2013,Korean,7.9,2653
@@ -4153,7 +4153,7 @@ Flowers for My Life,16,2007,Korean,7.6,4493
 Flat,8,2017,Korean,7.7,4271
 Zettai Reido Season 3,10,2018,Japanese,7.7,3678
 Let's Only Walk The Flower Road,8,2017,Korean,7.4,6145
-Attic Cat,16,2003,Korean,7.0,8446
+Attic Cat,16,2003,Korean,7,8446
 Age of Rebellion,15,2018,Taiwanese,7.9,2681
 Hakozume: Tatakau! Koban Joshi,9,2021,Japanese,8.1,1587
 Nine Kilometers of Love,24,2019,Chinese,7.3,7191
@@ -4163,7 +4163,7 @@ Innocent,4,2021,Taiwanese,7.4,6587
 Meet Yourself,40,2023,Chinese,8.9,85
 Our Skyy 2,16,2023,Thai,7.7,3733
 Monthly Magazine Home,16,2021,Korean,7.7,4337
-Rental no Koi,10,2017,Japanese,7.0,8227
+Rental no Koi,10,2017,Japanese,7,8227
 Only Side by Side with You,40,2018,Chinese,7.6,4531
 Gold Mask,100,2022,Korean,7.3,7082
 The Wonder Woman,18,2020,Taiwanese,7.7,4032
@@ -4176,12 +4176,12 @@ Delicious Romance,20,2021,Chinese,8.3,955
 Can Love Become Money,20,2012,Korean,7.3,7006
 Scarlet Heart Season 2,39,2014,Chinese,6.9,8635
 "Oniichan, Gacha",12,2015,Japanese,7.5,5761
-Love Actually,34,2012,Chinese,7.0,8235
+Love Actually,34,2012,Chinese,7,8235
 Our House,9,2016,Japanese,7.6,5153
 The Story of Xing Fu,40,2022,Chinese,7.8,3136
 Fuyu no Sakura,9,2011,Japanese,7.3,6937
 Love Is Fate,42,2019,Chinese,7.2,7417
-Loveholic,16,2005,Korean,7.0,8342
+Loveholic,16,2005,Korean,7,8342
 Ballad of Seo Dong,55,2005,Korean,7.6,4434
 Pan Ruk Pan Rai,15,2013,Thai,7.2,7386
 The Endless Love,32,2017,Chinese,7.5,5697
@@ -4201,7 +4201,7 @@ Kularb Rai Glai Ruk,11,2011,Thai,7.3,6947
 Doctor Lawyer,16,2022,Korean,7.9,2465
 Ase to Sekken,9,2022,Japanese,7.4,6137
 Doctor X Season 7,10,2021,Japanese,7.9,2539
-Mermaid Sauna,8,2018,Taiwanese,7.0,8144
+Mermaid Sauna,8,2018,Taiwanese,7,8144
 It's Okay to Not Be Okay,16,2020,Korean,8.9,62
 Sachiiro no One Room,10,2018,Japanese,7.6,4751
 Rumor,8,2019,Korean,7.3,6941
@@ -4209,7 +4209,7 @@ Please Classmate,24,2021,Chinese,8.1,1667
 My Best Ex-Boyfriend,42,2015,Chinese,7.5,5712
 Club Sapan Fine Season 2,8,2022,Thai,7.2,7364
 Secret of Three Kingdoms,54,2018,Chinese,8.2,1497
-Twenty Again,16,2015,Korean,8.0,2005
+Twenty Again,16,2015,Korean,8,2005
 Endless Love,37,2014,Korean,7.2,7691
 "I""s",13,2018,Japanese,7.5,5330
 Five Fingers,30,2012,Korean,7.4,6139
@@ -4239,7 +4239,7 @@ Pinocchio,20,2014,Korean,8.4,752
 Call It What You Want,6,2021,Thai,7.1,7819
 "Freeter, Ie o Kau.",10,2010,Japanese,7.8,3411
 Love Me Like I Do,18,2023,Chinese,7.7,4235
-Crush on You,7,2023,Thai,7.0,8173
+Crush on You,7,2023,Thai,7,8173
 The Night of the Comet,16,2019,Chinese,7.6,5091
 The Cravings,6,2013,Korean,7.2,7748
 Arthdal Chronicles Part 3: The Prelude to All Legends,6,2019,Korean,8.7,201
@@ -4250,7 +4250,7 @@ Danger of Her,14,2020,Chinese,7.6,4492
 Maison de Police,10,2019,Japanese,7.6,4510
 Uchuu Sentai Kyuranger,48,2017,Japanese,7.7,4353
 Bartender,8,2011,Japanese,7.1,8130
-The Boy Next Door,15,2017,Korean,8.0,2359
+The Boy Next Door,15,2017,Korean,8,2359
 Destiny Seeker,10,2023,Thai,7.6,4911
 Beauty of Resilience,36,2023,Chinese,7.4,5979
 Mad Dog,16,2017,Korean,8.4,762
@@ -4261,7 +4261,7 @@ Lonely Enough to Love,10,2020,Korean,7.2,7291
 Kamen Rider Amazons Season 2,13,2017,Japanese,7.4,6390
 My Eternal Star,22,2023,Chinese,7.4,6016
 The Road: The Tragedy of One,12,2021,Korean,7.3,6825
-Love on a Rooftop,101,2015,Korean,7.0,8435
+Love on a Rooftop,101,2015,Korean,7,8435
 Guardian of the Sea,10,2017,Thai,7.6,4720
 Young Sherlock,40,2014,Chinese,7.7,4305
 Better Man,60,2016,Taiwanese,7.7,3679
@@ -4271,20 +4271,20 @@ Octogenarian and the 90s,43,2021,Chinese,8.1,1928
 You're My Sky,12,2022,Thai,7.5,5597
 The King of Pigs,12,2022,Korean,8.7,230
 My Bargain Queen,40,2021,Chinese,7.6,4639
-Suki na Hito ga Iru Koto,10,2016,Japanese,8.0,2091
+Suki na Hito ga Iru Koto,10,2016,Japanese,8,2091
 Flower Boy Ramen Shop,16,2011,Korean,7.4,6619
 Love Behind the Melody,24,2022,Chinese,7.7,3962
 My Love from the Star,21,2013,Korean,8.5,445
 My Sassy Psychic,13,2022,Thai,7.8,3460
 Step by Step,12,2023,Thai,7.2,7409
-Good Old Days,12,2022,Thai,8.0,2275
+Good Old Days,12,2022,Thai,8,2275
 Love Class,6,2022,Korean,7.2,7561
 Stock Struck,12,2022,Korean,7.7,4088
-Die Now,20,2017,Chinese,8.0,2122
+Die Now,20,2017,Chinese,8,2122
 Enchanté,10,2022,Thai,7.2,7255
 Mr. Bad,24,2022,Chinese,8.1,1748
 Who Is the Murderer,16,2021,Chinese,7.7,4060
-Karei naru Ichizoku,10,2007,Japanese,8.0,1997
+Karei naru Ichizoku,10,2007,Japanese,8,1997
 The Twin Flower Legend,60,2020,Chinese,7.3,6806
 Long Vacation,11,1996,Japanese,8.2,1507
 When It's At Night,17,2008,Korean,7.3,6784
@@ -4301,7 +4301,7 @@ A Good Day for the Wind to Blow,173,2010,Korean,7.2,7354
 With You,20,2020,Chinese,8.3,1003
 Brush Up Life,10,2023,Japanese,8.5,498
 Strong Woman Do Bong Soon,16,2017,Korean,8.7,238
-Miracle That We Met,18,2018,Korean,8.0,2097
+Miracle That We Met,18,2018,Korean,8,2097
 Luead Mungkorn: Krating,10,2015,Thai,7.6,4921
 Couple or Trouble,16,2006,Korean,7.5,5796
 Hanasaki Mai ga Damattenai,10,2014,Japanese,7.6,4528
@@ -4313,9 +4313,9 @@ Unruly Qiao,38,2011,Chinese,7.3,7205
 Your Sensibility My Destiny,24,2021,Chinese,7.8,3506
 Reset Life,5,2019,Chinese,8.1,1665
 Red Balloon,20,2022,Korean,7.4,6383
-Tokusou Sentai Dekaranger,50,2004,Japanese,8.0,2116
+Tokusou Sentai Dekaranger,50,2004,Japanese,8,2116
 Poisonous Passion,15,2022,Thai,7.5,5282
-Boss & Me,34,2014,Chinese,8.0,1985
+Boss & Me,34,2014,Chinese,8,1985
 Liar Game 2,9,2009,Japanese,8.4,597
 #Remolove: Futsuu no Koi wa Jado,10,2020,Japanese,7.9,2989
 Memory,16,2016,Korean,8.3,1005
@@ -4326,12 +4326,12 @@ City Hall,20,2009,Korean,7.9,2859
 Marry Me,35,2020,Chinese,7.7,4232
 Hayako Sensei,9,2016,Japanese,7.4,6133
 F4 Thailand: Boys Over Flowers,16,2021,Thai,8.4,600
-Hero Season 2,11,2014,Japanese,8.0,2095
+Hero Season 2,11,2014,Japanese,8,2095
 Raise de wa Chanto Shimasu Season 3,12,2022,Japanese,7.4,5977
 Nihon Chinbotsu: Kibo no Hito,10,2021,Japanese,7.9,2610
 Fantastic,16,2016,Korean,7.6,4813
 Hello Mr. Gu,30,2021,Chinese,7.8,3604
-Symphony's Romance,40,2020,Chinese,8.0,2279
+Symphony's Romance,40,2020,Chinese,8,2279
 Gudetama: An Eggcellent Adventure,10,2022,Japanese,7.9,2791
 Love at First Hate,13,2018,Thai,7.7,3719
 Suna no Tou - Shiri Sugita Rinjin,10,2016,Japanese,7.8,3341
@@ -4377,7 +4377,7 @@ Cinderella and the Four Knights,16,2016,Korean,7.8,3463
 Go Go Squid 2: Dt. Appledog's Time,38,2021,Chinese,8.1,1860
 Eternal Love Rain,24,2020,Chinese,7.6,4366
 The Guardians,32,2017,Korean,8.3,1059
-Shadow Beauty,13,2021,Korean,8.0,2041
+Shadow Beauty,13,2021,Korean,8,2041
 BACK STREET GIRLS - Gokudoruzu,6,2019,Japanese,7.4,6298
 Kotaro wa Hitorigurashi,10,2021,Japanese,8.3,991
 Shinhannin Flag,10,2021,Japanese,7.7,3891
@@ -4397,17 +4397,17 @@ Ms. Cupid in Love,24,2022,Chinese,7.8,3409
 Storm Eye,40,2021,Chinese,7.8,3391
 Rose Mansion,12,2022,Korean,7.7,4117
 Hiru,6,2022,Japanese,7.4,6194
-Her Legend,20,2013,Korean,7.0,8224
+Her Legend,20,2013,Korean,7,8224
 Love O'Clock,24,2021,Chinese,7.6,5107
 Twelve Nights,12,2018,Korean,7.3,6623
 Secret Garden,20,2019,Thai,7.5,5601
 My Girl,24,2020,Chinese,7.9,2430
 Beauty From Heart,45,2021,Chinese,7.5,5787
-Youkai Sharehouse,8,2020,Japanese,8.0,2334
+Youkai Sharehouse,8,2020,Japanese,8,2334
 On the Way to the Airport,16,2016,Korean,7.7,3867
 The Day of Becoming You,26,2021,Chinese,8.5,492
-A Female Student Arrives at the Imperial College,30,2021,Chinese,8.0,2357
-Royal Family,18,2011,Korean,7.0,8390
+A Female Student Arrives at the Imperial College,30,2021,Chinese,8,2357
+Royal Family,18,2011,Korean,7,8390
 Watashitachi no Kyokasho,12,2007,Japanese,7.4,6143
 Song Sanaeha,18,2021,Thai,7.2,7353
 Seventeen,8,2017,Korean,7.8,3615
@@ -4422,7 +4422,7 @@ Sassy Beauty,24,2022,Chinese,7.6,4795
 Beautiful Days,24,2001,Korean,7.6,5155
 The Cupids Series: Sorn Ruk Kammathep,7,2017,Thai,7.8,3055
 Lost Days,10,2014,Japanese,6.8,8782
-Double Love,24,2022,Chinese,8.0,2277
+Double Love,24,2022,Chinese,8,2277
 Destined to Meet You,20,2022,Chinese,7.9,2458
 Love Is Sweet,36,2020,Chinese,8.5,551
 Kodoku no Gourmet,12,2012,Japanese,7.9,2872
@@ -4432,9 +4432,9 @@ Himitsu Chouhouin Erika,13,2011,Japanese,7.4,6083
 Hello Again!,16,2019,Taiwanese,7.7,3701
 That Fool,16,2009,Korean,7.6,4719
 Return the World to You,58,2019,Chinese,7.5,5459
-Save Me Season 2,16,2019,Korean,8.0,2113
+Save Me Season 2,16,2019,Korean,8,2113
 The Forbidden Flower,24,2023,Chinese,8.3,866
-V.I.P,32,2019,Korean,8.0,2341
+V.I.P,32,2019,Korean,8,2341
 The Lost Tomb 2,40,2019,Chinese,8.3,1129
 Childhood Sweethearts Pianist,28,2019,Chinese,7.3,7012
 Nijiiro Karute,9,2021,Japanese,8.3,879
@@ -4467,12 +4467,12 @@ Love Kome no Okite: Kojirase Joshi to Toshishita Danshi,12,2021,Japanese,7.5,537
 Who Are You,16,2013,Korean,7.6,4459
 "Link: Eat, Love, Kill",16,2022,Korean,8.1,1742
 Secret Investigation Record,12,2010,Korean,7.5,5281
-The Tuxedo,8,2022,Thai,7.0,8365
+The Tuxedo,8,2022,Thai,7,8365
 The Best Partner,42,2019,Chinese,7.6,4548
 The Cupids Series: Loob Korn Kammathep,7,2017,Thai,7.7,4033
 Story of Yanxi Palace,70,2018,Chinese,8.8,158
-Ace Troops,40,2021,Chinese,8.0,2293
-So I Married an Anti-Fan,16,2021,Korean,8.0,2314
+Ace Troops,40,2021,Chinese,8,2293
+So I Married an Anti-Fan,16,2021,Korean,8,2314
 The Debut,13,2021,Thai,7.8,3044
 Just Spoil You,20,2023,Chinese,7.2,7730
 Phantom School,8,2022,Korean,7.2,7498
@@ -4498,11 +4498,11 @@ Obsessed with Heart,11,2018,Chinese,7.6,4542
 TharnType Season 2: 7 Years of Love,12,2020,Thai,7.6,4747
 Anata ga Shitekurenakute mo,11,2023,Japanese,7.2,7758
 The King of the Desert,6,2022,Korean,7.3,7135
-Kishibe Rohan wa Ugokanai,3,2020,Japanese,8.0,2021
+Kishibe Rohan wa Ugokanai,3,2020,Japanese,8,2021
 Unintentional Love Story,10,2023,Korean,7.8,3329
 Konin Todoke ni Han wo Oshita dake desu ga,10,2021,Japanese,7.5,5247
 You Are Desire,30,2023,Chinese,7.9,2833
-Scent of a Woman,16,2011,Korean,8.0,1988
+Scent of a Woman,16,2011,Korean,8,1988
 Watashi ga Renai Dekinai Riyuu,10,2011,Japanese,7.5,5324
 Radiant Office,16,2017,Korean,7.5,5462
 "The King's Daughter, Soo Baek Hyang",108,2013,Korean,8.2,1352
@@ -4514,27 +4514,27 @@ Youth Unprescribed,24,2020,Chinese,7.6,5019
 Junkyouju Takatsuki Akira no Suisatsu,8,2021,Japanese,8.2,1328
 Secret Love Affair,16,2014,Korean,7.7,3762
 Golden Pouch,122,2016,Korean,7.6,4764
-Court Lady,55,2021,Chinese,8.0,2310
-Kotaki Kyodai to Shikuhakku,12,2020,Japanese,8.0,2038
+Court Lady,55,2021,Chinese,8,2310
+Kotaki Kyodai to Shikuhakku,12,2020,Japanese,8,2038
 Moonlight,36,2021,Chinese,8.3,878
 My Fair Lady,16,2009,Korean,7.2,7703
 Gakeppuchi Hotel,10,2018,Japanese,7.5,5619
 Nine Tailed Fox,16,2004,Korean,6.9,8589
 Legend of Lin Ye,34,2023,Chinese,7.6,4597
 Schemes of a Beauty,40,2010,Chinese,7.8,3276
-Please Feel at Ease Mr. Ling,24,2021,Chinese,8.0,2192
+Please Feel at Ease Mr. Ling,24,2021,Chinese,8,2192
 Pretty Guardian of the City,26,2022,Chinese,7.4,6590
 Blackout,8,2021,Thai,7.9,2762
 Love with Flaws,32,2019,Korean,7.7,4013
 IN-SEOUL,15,2019,Korean,7.6,4584
 Iron Ladies,13,2018,Taiwanese,7.7,4153
 Fiancee,20,2013,Chinese,7.2,7335
-The Golden Spoon,16,2022,Korean,8.0,2001
+The Golden Spoon,16,2022,Korean,8,2001
 "Please Come Back, Mister",16,2016,Korean,7.9,2454
 Mama,24,2014,Korean,8.2,1419
 Til Death Do Us Part,7,2019,Taiwanese,7.1,7995
 Her Private Life,16,2019,Korean,8.4,800
-Twenty-Twenty,20,2020,Korean,8.0,2238
+Twenty-Twenty,20,2020,Korean,8,2238
 Ultraman Orb,25,2016,Japanese,7.9,2899
 Confess Your Love,24,2023,Chinese,7.7,4313
 My Dearest,24,2023,Chinese,7.4,6582
@@ -4543,12 +4543,12 @@ Love In Han Yuan,46,2018,Chinese,7.6,4484
 My Dear Boy,20,2017,Taiwanese,7.6,4754
 Glass Mask,122,2012,Korean,7.1,8117
 Master Devil Do Not Kiss Me Season 2,23,2017,Chinese,7.5,5427
-Chinese Paladin Season 3,37,2009,Chinese,8.0,2367
+Chinese Paladin Season 3,37,2009,Chinese,8,2367
 Fai Lang Fai,14,2015,Thai,7.5,5522
 Koe Koi,12,2016,Japanese,7.3,6673
 Queen of Reversals,31,2010,Korean,7.4,6586
 Strawberry on the Shortcake,10,2001,Japanese,7.2,7515
-Before We Get Married,13,2019,Taiwanese,8.0,1953
+Before We Get Married,13,2019,Taiwanese,8,1953
 Monstar,12,2013,Korean,7.2,7252
 Dirty Laundry,6,2023,Thai,7.7,4249
 All the Liquors,8,2023,Korean,7.2,7594
@@ -4557,7 +4557,7 @@ My Girl,20,2018,Thai,7.5,5419
 She Is Beautiful,40,2018,Chinese,7.6,5047
 The Crush,12,2020,Chinese,7.2,7436
 Boy for Rent,12,2019,Thai,7.5,5483
-Please Find Her,14,2017,Korean,7.0,8359
+Please Find Her,14,2017,Korean,7,8359
 Kuro  no Onna Kyoushi,10,2012,Japanese,7.3,6798
 My Wife’s Having an Affair This Week,12,2016,Korean,7.8,3060
 The Moment Since,5,2020,Thai,7.2,7639
@@ -4570,10 +4570,10 @@ The Devil Punisher,20,2020,Taiwanese,7.4,6091
 Nakark Kaew,23,2018,Thai,7.8,3182
 Sakurako-san no Ashimoto ni wa Shitai ga Umatteiru,10,2017,Japanese,7.8,3277
 Algernon ni Hanataba wo,10,2015,Japanese,8.1,1830
-Lovely Horribly,32,2018,Korean,7.0,8199
+Lovely Horribly,32,2018,Korean,7,8199
 Sao Chai Hi-Tech,22,2010,Thai,7.4,6315
 The Virtuous Queen of Han,47,2014,Chinese,7.6,4424
-Double,10,2022,Japanese,8.0,2135
+Double,10,2022,Japanese,8,2135
 Career,10,2016,Japanese,7.6,4785
 Rookie Historian Goo Hae Ryung,40,2019,Korean,8.2,1209
 "3 Nen A Gumi: Ima kara Mina-san wa, Hitojichi Desu",10,2019,Japanese,8.6,290
@@ -4588,14 +4588,14 @@ Kor Kerd Mai Klai Klai Ter,13,2020,Thai,7.6,4863
 Sengyou Shufu Tantei ~Watashi wa Shadow,9,2011,Japanese,7.4,6155
 Yumi's Cells Season 2,14,2022,Korean,8.3,849
 Just One Bite Season 2,10,2019,Korean,7.9,2510
-Kuzu no Honkai,12,2017,Japanese,7.0,8337
+Kuzu no Honkai,12,2017,Japanese,7,8337
 Taxi Driver Season 2,16,2023,Korean,8.9,92
 Love Story of Court Enemies,25,2020,Chinese,7.6,4992
 Pachinko,8,2022,Korean,8.4,696
 I Cannot Hug You,16,2017,Chinese,7.5,5609
 Good Doctor,20,2013,Korean,8.3,881
 Campus Ace,24,2022,Chinese,7.3,6662
-Teddy Go!,4,2015,Japanese,7.0,8263
+Teddy Go!,4,2015,Japanese,7,8263
 Joseon Exorcist,2,2021,Korean,7.9,2670
 Bakayarou no Kiss,5,2022,Japanese,6.9,8632
 My Bubble Tea,13,2020,Thai,7.5,5335
@@ -4610,14 +4610,14 @@ Room of King,9,2008,Japanese,6.9,8601
 All About My Romance,16,2013,Korean,7.6,5126
 The Four,48,2015,Chinese,7.8,3457
 More and More Loves You Season 2,30,2021,Chinese,6.9,8554
-Gochisosan,150,2013,Japanese,8.0,2160
-Dr. Romantic Season 3,16,2023,Korean,9.0,49
-The Autumn Ballad,34,2022,Chinese,8.0,2068
+Gochisosan,150,2013,Japanese,8,2160
+Dr. Romantic Season 3,16,2023,Korean,9,49
+The Autumn Ballad,34,2022,Chinese,8,2068
 To.Two,8,2021,Korean,7.6,4409
 A Business Proposal,12,2022,Korean,8.7,244
 Crime Puzzle,10,2021,Korean,7.6,4974
 Something in the Rain,16,2018,Korean,7.9,2382
-Ganbatte Ikimasshoi,10,2005,Japanese,7.0,8424
+Ganbatte Ikimasshoi,10,2005,Japanese,7,8424
 Love at 7-11,8,2019,Thai,6.8,8672
 Mahou no Rinobe,10,2022,Japanese,7.7,3944
 99.9: Keiji Senmon Bengoshi,10,2016,Japanese,8.3,983
@@ -4640,7 +4640,7 @@ Hanako to Anne,156,2014,Japanese,8.1,1815
 The Romance of Tiger and Rose,24,2020,Chinese,8.6,367
 SHARK,12,2014,Japanese,7.3,6664
 Thai Cave Rescue,6,2022,Thai,8.7,192
-The Man in the Mask,16,2015,Korean,7.0,8442
+The Man in the Mask,16,2015,Korean,7,8442
 Zenkai Girl,11,2011,Japanese,7.6,4834
 Kamen Rider Build,49,2017,Japanese,8.3,942
 Abyss,16,2019,Korean,7.8,3040
@@ -4672,12 +4672,12 @@ Remember 15,12,2022,Thai,7.3,7036
 The Prince of Tennis,42,2019,Chinese,8.5,484
 Toshi Densetsu no Onna,9,2012,Japanese,7.2,7435
 Tokyo Dokushin Danshi,8,2019,Japanese,7.6,4445
-Miss Sherlock,8,2018,Japanese,8.0,2092
+Miss Sherlock,8,2018,Japanese,8,2092
 Part-Time Idol,5,2017,Korean,7.4,6370
 Shine or Go Crazy,24,2015,Korean,7.7,4111
 You Make Me Dance,8,2021,Korean,7.8,3272
 Murphy's Law of Love,19,2015,Taiwanese,7.7,4330
-Dakara Watashi wa Oshimashita,8,2019,Japanese,8.0,2151
+Dakara Watashi wa Oshimashita,8,2019,Japanese,8,2151
 My Poseidon,34,2019,Chinese,7.6,4815
 Adamas,16,2022,Korean,7.7,4267
 My Runway,6,2016,Korean,7.2,7694
@@ -4686,13 +4686,13 @@ My Romantic Some Recipe,6,2016,Korean,7.6,4672
 A Tale of Thousand Stars,10,2021,Thai,8.5,444
 Afterlife of Love and Revenge,24,2022,Chinese,7.2,7607
 Secret Crush on You,14,2022,Thai,7.3,6626
-The Slave Hunters,24,2010,Korean,8.0,2069
+The Slave Hunters,24,2010,Korean,8,2069
 My Sassy Deskmate Season 2,12,2020,Chinese,7.4,6305
 The World That They Live In,16,2008,Korean,7.3,6853
 Koi wa Ameagari no You ni: Pocket no Naka no Negaigoto,4,2018,Japanese,7.4,6239
 High Society,16,2015,Korean,7.3,7198
 Seal of Love,24,2022,Chinese,7.7,3746
-Sherlock: The Untold Stories,11,2019,Japanese,8.0,2209
+Sherlock: The Untold Stories,11,2019,Japanese,8,2209
 Senior Secret Love: My Lil Boy,6,2016,Thai,7.3,6963
 The First Responders Season 2,12,2023,Korean,8.3,1103
 Doctor X Season 4,11,2016,Japanese,8.2,1290
@@ -4719,7 +4719,7 @@ Unstoppable High Kick,167,2006,Korean,8.2,1439
 The Uncanny Counter Season 2: Counter Punch,12,2023,Korean,8.4,621
 Bijo to Danshi,20,2015,Japanese,7.5,5418
 2 Moons 2,12,2019,Thai,7.6,5120
-Tokyo Friends,5,2005,Japanese,7.0,8165
+Tokyo Friends,5,2005,Japanese,7,8165
 Tsubasa no Oreta Tenshitachi,4,2006,Japanese,7.3,7030
 Shinai naru Boku e Satsui wo Komete,9,2022,Japanese,7.8,3188
 Unattackable Women,18,2021,Chinese,7.4,5962
@@ -4735,7 +4735,7 @@ Moon Embracing the Sun,20,2012,Korean,8.4,681
 Real School,40,2011,Korean,7.3,7211
 Pumpkin Time,10,2021,Korean,7.6,4508
 Fated to Love You,30,2023,Chinese,7.4,6465
-TRICK 3,10,2003,Japanese,8.0,2196
+TRICK 3,10,2003,Japanese,8,2196
 Kamen Rider Amazons,13,2016,Japanese,7.9,2818
 Sketch,16,2018,Korean,7.7,3800
 My Queen,24,2021,Chinese,7.6,4571
@@ -4750,16 +4750,16 @@ Mary Stayed Out All Night,16,2010,Korean,7.1,7930
 New Life Begins,40,2022,Chinese,8.7,256
 Legend of Awakening,48,2020,Chinese,7.7,3899
 Mutsu: Mieru Me,10,2015,Japanese,7.5,5644
-Kamen Rider Kuuga,49,2000,Japanese,8.0,1981
+Kamen Rider Kuuga,49,2000,Japanese,8,1981
 The Love by Hypnotic,36,2019,Chinese,7.9,2422
 Tokyo Seimenjo,6,2021,Japanese,7.5,5560
 Love Script,24,2020,Chinese,7.8,3009
-Do Dream,5,2018,Korean,7.0,8437
+Do Dream,5,2018,Korean,7,8437
 So Wayree,15,2020,Thai,7.6,4735
 The New Employee,7,2022,Korean,7.4,6481
-Sapuri,11,2006,Japanese,7.0,8416
-Love Poison 2,8,2021,Thai,7.0,8225
-Danger Zone Season 2: The Silver Lining,12,2021,Taiwanese,8.0,2022
+Sapuri,11,2006,Japanese,7,8416
+Love Poison 2,8,2021,Thai,7,8225
+Danger Zone Season 2: The Silver Lining,12,2021,Taiwanese,8,2022
 35sai no Shoujo,10,2020,Japanese,7.8,3449
 Falling in Love,12,2021,Chinese,7.4,6589
 "It's Not That I Can't Marry, But I Don't Want To",10,2016,Japanese,7.4,6246
@@ -4782,7 +4782,7 @@ Doctor X Season 3,11,2014,Japanese,8.3,981
 Oh My Ghost,16,2015,Korean,8.3,1000
 Priest,16,2018,Korean,7.9,2494
 Love in Spring,16,2022,Korean,7.1,7957
-Leh Nangfah,28,2014,Thai,8.0,1943
+Leh Nangfah,28,2014,Thai,8,1943
 Aim High,20,2014,Taiwanese,7.4,6266
 "Ore no Sukato, Doko Itta?",10,2019,Japanese,8.3,1044
 Our Relationship Ended Before It Began,4,2022,Korean,7.6,4589
@@ -4798,17 +4798,17 @@ Secret Boutique,32,2019,Korean,7.5,5916
 Nice to Meet You,53,2019,Chinese,7.8,3454
 The Rebel Princess,68,2021,Chinese,8.4,673
 Soumatou Kabushikigaisha,10,2012,Japanese,7.3,7093
-My Prince's First Love,20,2022,Chinese,7.0,8190
+My Prince's First Love,20,2022,Chinese,7,8190
 Yaksha,12,2010,Korean,7.3,7189
-Mr. Queen,20,2020,Korean,9.0,54
+Mr. Queen,20,2020,Korean,9,54
 "What's Up, Fox?",16,2006,Korean,7.3,6920
-The Wolf,49,2020,Chinese,8.0,1979
-The Kingdom of the Winds,36,2008,Korean,8.0,2126
+The Wolf,49,2020,Chinese,8,1979
+The Kingdom of the Winds,36,2008,Korean,8,2126
 Coffee Prince,17,2007,Korean,8.3,1121
 Thara Himalai,9,2010,Thai,7.7,4323
 Cross Fire,36,2020,Chinese,8.6,353
 "I Am Sorry, I Love You",13,2015,Taiwanese,7.5,5585
-Dramaworld,10,2016,Korean,7.0,8184
+Dramaworld,10,2016,Korean,7,8184
 Ghost Runner,8,2020,Thai,6.8,8785
 Every Moment that I Think of You,2,2021,Chinese,7.1,8051
 "Nezumi, Edo wo Hashiru",9,2014,Japanese,7.3,7078
@@ -4816,7 +4816,7 @@ Final Life,12,2017,Japanese,6.9,8549
 Vivid Romance,21,2017,Korean,7.3,6647
 Ninkyo Helper,11,2009,Japanese,7.7,3928
 The World of Fantasy,36,2021,Chinese,7.9,2488
-Oh No! Here Comes Trouble,12,2023,Taiwanese,9.0,53
+Oh No! Here Comes Trouble,12,2023,Taiwanese,9,53
 Suparburoot Jorm Jon: Duang Jai Kabot,15,2019,Thai,7.6,5113
 Inspiring Generation,24,2014,Korean,7.2,7676
 Totto TV,7,2016,Japanese,7.8,3365
@@ -4831,7 +4831,7 @@ Unexpected Heroes,10,2017,Korean,7.1,7947
 La Pluie,12,2023,Thai,7.4,6011
 Insect Detective,24,2020,Chinese,8.1,1843
 Revolutionary Sisters,50,2021,Korean,7.4,6253
-Once Upon a Small Town,12,2022,Korean,8.0,2338
+Once Upon a Small Town,12,2022,Korean,8,2338
 Warm Meet You,24,2022,Chinese,7.5,5367
 Rugal,16,2020,Korean,7.5,5607
 The Other Half of Me and You,32,2021,Chinese,7.5,5648
@@ -4863,16 +4863,16 @@ Engine,11,2005,Japanese,7.8,3065
 Joshi-teki Seikatsu,4,2018,Japanese,7.5,5226
 Conspiracy in the Court,8,2007,Korean,7.4,6193
 Neechan no Koibito,9,2020,Japanese,8.2,1479
-Revenge,20,2023,Chinese,7.0,8210
+Revenge,20,2023,Chinese,7,8210
 Born Again,32,2020,Korean,7.2,7302
-Ousama ni Sasagu Kusuriyubi,10,2023,Japanese,8.0,2051
+Ousama ni Sasagu Kusuriyubi,10,2023,Japanese,8,2051
 Ngao Jai,15,2015,Thai,7.5,5605
 Dating in the Kitchen,24,2020,Chinese,8.1,1805
 Gank Your Heart,35,2019,Chinese,8.2,1195
 To Be With You,65,2019,Chinese,7.8,3473
 Ordinary but Special,6,2020,Korean,7.4,6454
 She Knows Everything,4,2020,Korean,7.2,7458
-Where the Lost Ones Go,24,2017,Chinese,8.0,2249
+Where the Lost Ones Go,24,2017,Chinese,8,2249
 Man in the Kitchen,50,2017,Korean,7.2,7471
 Sunny Happiness,25,2011,Taiwanese,7.4,6229
 Oyabaka Seishun Hakusho,7,2020,Japanese,7.8,3583
@@ -4888,21 +4888,21 @@ Love Is Phantom,10,2021,Japanese,7.3,6693
 Love and Secret,102,2014,Korean,7.2,7511
 I Wanna Hear Your Song,32,2019,Korean,7.5,5720
 Virgin Road,11,1997,Japanese,7.7,3946
-Bokura wa Koi ga Hetasugiru,7,2020,Japanese,7.0,8258
+Bokura wa Koi ga Hetasugiru,7,2020,Japanese,7,8258
 The Journey Across the Night,26,2020,Chinese,8.1,1524
 The Thousandth Man,8,2012,Korean,6.9,8530
 Ouroboros,10,2015,Japanese,8.5,496
 Choice Husband,30,2023,Chinese,7.1,8053
 Toki wo Kakeru Shoujo,5,2016,Japanese,7.5,5515
 Itoshii Uso: Yasashii Yami,8,2022,Japanese,7.3,6782
-Brain Works,16,2023,Korean,8.0,2347
+Brain Works,16,2023,Korean,8,2347
 The Promise,10,2023,Thai,7.3,6653
 Love Forever After,30,2022,Thai,7.6,4772
 Dreaming Back to the Qing Dynasty,40,2019,Chinese,7.9,2506
 Prom Mai Dai Likit,27,2018,Thai,7.4,6169
 Glamorous Temptation,50,2015,Korean,7.2,7686
 Ending Again,12,2020,Korean,7.8,3433
-Avalanche,10,2021,Japanese,8.0,2149
+Avalanche,10,2021,Japanese,8,2149
 Valid Love,20,2014,Korean,7.2,7760
 Rak Rae,14,2015,Thai,6.8,8764
 Golden Empire,24,2013,Korean,7.4,6197
@@ -4929,7 +4929,7 @@ Alibi Kuzushi Uketamawarimasu,7,2020,Japanese,7.5,5722
 Tunnel,16,2019,Thai,7.9,2490
 Danger Zone: The Dark Night,12,2021,Taiwanese,8.2,1433
 Hamaru Otoko ni Keritai Onna,10,2023,Japanese,7.4,6126
-Love Like the Galaxy: Part 2,29,2022,Chinese,9.0,41
+Love Like the Galaxy: Part 2,29,2022,Chinese,9,41
 Saikou no Rikon,11,2013,Japanese,7.9,2556
 The King of Blaze 2,33,2018,Chinese,7.4,6164
 Blade Man,18,2014,Korean,6.9,8560
@@ -4942,19 +4942,19 @@ Sometoon 2020,10,2020,Korean,7.4,6208
 Witch's Love,12,2018,Korean,7.5,5458
 Koi Desu: Yankee-kun to Hakujou Garu,10,2021,Japanese,8.3,877
 Gachi Baka!,10,2006,Japanese,6.8,8716
-My Husband Got a Family,58,2012,Korean,8.0,2294
+My Husband Got a Family,58,2012,Korean,8,2294
 Sword Snow Stride,38,2021,Chinese,8.7,178
 Giant,60,2010,Korean,8.2,1192
 Ace wo Nerae!,9,2004,Japanese,7.1,7911
 Witch Yoo Hee,16,2007,Korean,6.9,8645
-A-Teen Season 2,20,2019,Korean,8.0,2245
+A-Teen Season 2,20,2019,Korean,8,2245
 A Gift to the People You Hate,10,2019,Thai,8.1,1870
 Wong Wien Hua Jai,16,2009,Thai,7.2,7710
 Kono Koi Atatamemasu ka,10,2020,Japanese,7.8,3470
 Bokura no Micro na Shuumatsu,8,2023,Japanese,7.6,4936
 Feel Good to Die,32,2018,Korean,7.7,4268
 18 Again,16,2020,Korean,8.7,240
-Junkyouju Takatsuki Akira no Suisatsu Season 2,8,2021,Japanese,8.0,2049
+Junkyouju Takatsuki Akira no Suisatsu Season 2,8,2021,Japanese,8,2049
 Dali and the Cocky Prince,16,2021,Korean,8.4,591
 Good Morning Call,17,2016,Japanese,7.4,6398
 Defying the Storm,40,2022,Chinese,6.9,8573
@@ -4968,18 +4968,18 @@ God's Quiz Season 4,12,2014,Korean,8.1,1740
 Voice in the Rain,16,2020,Thai,7.6,5062
 Girl Next Room: Midnight Fantasy,4,2020,Thai,7.5,5660
 Can We Love?,20,2014,Korean,7.3,6816
-Kamen Rider Ex-Aid,45,2016,Japanese,8.0,2004
+Kamen Rider Ex-Aid,45,2016,Japanese,8,2004
 Midsummer Is Full of Love,24,2020,Chinese,7.6,4923
 Love Playlist Season 2,12,2017,Korean,8.1,1749
 Prissana,16,2000,Thai,7.7,3781
-Love Playlist,8,2017,Korean,8.0,2282
+Love Playlist,8,2017,Korean,8,2282
 Heard It Through the Grapevine,30,2015,Korean,7.6,4809
 Hi Venus,24,2022,Chinese,8.4,675
 Mikeneko Holmes no Suiri,11,2012,Japanese,7.2,7331
 Boku no Yabai Tsuma,9,2016,Japanese,8.1,1733
 River Flows to You,52,2019,Chinese,7.4,6074
 Nagi no Oitoma,10,2019,Japanese,8.3,1013
-No Boundary,32,2021,Chinese,8.0,2223
+No Boundary,32,2021,Chinese,8,2223
 To Be Continued,12,2015,Korean,7.4,5954
 Oshin,297,1983,Japanese,8.2,1255
 Black Cinderella,8,2021,Japanese,7.8,3518

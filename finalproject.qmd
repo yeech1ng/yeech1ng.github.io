@@ -1,11 +1,10 @@
 ---
-title: "Final Project"
+title: "Final Project: What makes K-Dramas so popular globally?"
 ---
 
-# What makes K-Dramas so popular globally?
+![watching dramas](images/finalproj_1){width="900"}
 
-
-## Introduction
+# Introduction
 
 ```{r, eval=TRUE, echo=FALSE}
 
@@ -39,12 +38,54 @@ ggplotly(bp1)
 })
 ```
 
-```{r, eval=FALSE, echo=FALSE}
-kdrama <- read.csv("kor_drama.csv")
+# Comparison with Japanese and Thai Dramas
+
+## 1. Ratings
+
+```{r, eval=TRUE, echo=FALSE}
+suppressMessages({
+  suppressWarnings({
+    library(ggplot2)
+    library(RColorBrewer)
+    library(tidyverse)
+  
+top_5000dramas <- read.csv("datasets/top_5000_dramas.csv")
+
+top_5000dramas_filtered <- top_5000dramas %>%
+  filter(released_year >= 2018 & grepl("Japanese|Thai|Korean", Language))
+
+colors <- brewer.pal(3, "Set2") 
+
+# Calculate average ratings for each language
+avg_ratings <- top_5000dramas_filtered %>%
+  group_by(Language) %>%
+  summarize(avg_rating = mean(Rating, na.rm = TRUE))
+
+# Create a bar plot
+bp2 <- ggplot(avg_ratings, aes(x = Language, y = avg_rating, fill = Language)) +
+  geom_bar(stat = "identity") +
+  labs(title = "Average Ratings of Thai, Japanese, and Korean Dramas from 2018 to 2023",
+       x = "Language", y = "Average Rating") +
+  theme_bw() + scale_fill_manual(values = colors)
+
+ggplotly(bp2)
+
+  })
+})
 
 ```
 
-test test test 
+```{r, eval=FALSE, echo=FALSE}
+general_kdrama <- read.csv("datasets/kor_drama.csv")
+general_kdrama_2018to2023 <- general_kdrama %>% filter(year >= 2018 & year <= 2023)
+
+ggplot(general_kdrama_2018to2023, aes(x = year, y = tot_user_score)) +
+  geom_point() +
+  labs(title = "K-Drama Ratings from 2018 to 2023 ", x = "Time", y = "Ratings") + theme_bw()
+
+```
+
+test test test
 
 ```{=html}
 <iframe height="400" width="100%" frameborder="no" src="https://yeech1ng.shinyapps.io/sample_app/ "> </iframe>
