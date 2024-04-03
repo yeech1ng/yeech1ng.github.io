@@ -23,7 +23,7 @@ popularity_order <- c("Very popular", "Moderately popular", "Slightly popular", 
 kdrama_pop_2022$Popularity <- factor(kdrama_pop_2022$Popularity, levels = popularity_order)
 
 # Create a vector of colors for the bars
-colors <- brewer.pal(4, "Set2") 
+colors <- brewer.pal(4, "Set3") 
 
 # Create the bar plot with specified colors and custom order
 bp1 <- ggplot(kdrama_pop_2022, aes(x = Popularity, y = Percentage, fill = Popularity)) +
