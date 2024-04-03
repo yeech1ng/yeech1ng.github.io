@@ -9,24 +9,32 @@ title: "Final Project"
 ## Introduction
 
 ```{r, eval=TRUE, echo=FALSE}
-kdrama_pop_2022 <- read.csv("k-drama-popularity-worldwide-2022.csv")
-
-kdrama_pop_2022 <- data.frame(
-  Category = c("Moderately popular", "Moderately popular", "Minority of enthusiasts", "Not many people consume it"),
-  Percentage = c(36.10, 30, 22.70, 11.20)
-)
-
+library(ggplot2)
+library(RColorBrewer)
 library(plotly)
+```
 
-kdrama_2022pop_piechart <- plot_ly(data = kdrama_pop_2022, labels = ~Category, values = ~Percentage, type = "pie")
 
-kdrama_2022pop_piechart <- kdrama_2022pop_piechart %>% layout(title = "Popularity of K-dramas Worldwide in 2022")
+```{r, eval=TRUE, echo=FALSE}
 
-kdrama_2022pop_piechart <- kdrama_2022pop_piechart %>% layout(paper_bgcolor = "white")
+# Read the CSV file
+kdrama_pop_2022 <- read.csv("datasets/k-drama-popularity-worldwide-2022.csv", fill=TRUE)
 
-kdrama_2022pop_piechart <- kdrama_2022pop_piechart %>% layout(hoverinfo = "label+percent")
+# Define custom order for the levels of the "Popularity" variable
+popularity_order <- c("Very popular", "Moderately popular", "Slightly popular", "Not popular")
+kdrama_pop_2022$Popularity <- factor(kdrama_pop_2022$Popularity, levels = popularity_order)
 
-show(kdrama_2022pop_piechart)
+# Create a vector of colors for the bars
+colors <- brewer.pal(4, "Set2") 
+
+# Create the bar plot with specified colors and custom order
+bp1 <- ggplot(kdrama_pop_2022, aes(x = Popularity, y = Percentage, fill = Popularity)) +
+  geom_bar(stat = "identity") +
+  labs(title = "K-Drama Popularity Worldwide in 2022", x = "Popularity", y = "Percentage", caption = "Source: Statista") +
+  theme_bw() +
+  scale_fill_manual(values = colors)
+
+ggplotly(bp1)
 ```
 
 ```{r, eval=FALSE, echo=FALSE}
@@ -34,7 +42,7 @@ kdrama <- read.csv("kor_drama.csv")
 
 ```
 
-
+test test test 
 
 ```{=html}
 <iframe height="400" width="100%" frameborder="no" src="https://yeech1ng.shinyapps.io/sample_app/ "> </iframe>
