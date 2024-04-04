@@ -125,7 +125,45 @@ ggplotly(lg1)
 
 ## 2. Genre
 
+```{r letter-a, echo=FALSE}
+
+```
+```{r, eval=TRUE, echo=FALSE}
+suppressMessages({
+  suppressWarnings({
+
+library(wordcloud2)
+library(tidyverse)
+library(tm)
+
+kdrama_tags <- general_kdrama %>% filter(year >= 2018) %>% select(tags) 
+
+kdocs <- Corpus(VectorSource(kdrama_tags))
+
+kdocs <- kdocs %>% 
+  tm_map(removeNumbers) %>%
+  tm_map(removePunctuation) %>%
+  tm_map(stripWhitespace) 
+
+kdocs <- tm_map(kdocs, content_transformer(tolower))
+kdocs <- tm_map(kdocs, removeWords, stopwords("english"))
+
+kdtm <- TermDocumentMatrix(kdocs)
+kmatrix <- as.matrix(kdtm)
+kwords <- sort(rowSums(kmatrix), decreasing=TRUE)
+ktags_df <- data.frame(word=names(kwords), freq=kwords)
+
+wordcloud2(slice_max(ktags_df, order_by= freq, n=10000), size=1.2, color='random-dark', shape='circle')
+
+ })
+})
+```
+
+
+
+
 separator text placeholder
+
 
 ```{=html}
 <iframe height="400" width="100%" frameborder="no" src="https://yeech1ng.shinyapps.io/sample_app/ "> </iframe>
