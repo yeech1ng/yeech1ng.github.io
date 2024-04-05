@@ -1,8 +1,21 @@
 ---
-title: "Final Project: What makes K-Dramas so popular globally?"
+title: "Final Project"
 ---
 
-![watching dramas](images/finalproj_1){width="900"}
+Have you ever wondered why almost everyone around you watches, or at least knows the names of some K-Dramas? If so...
+
+Hello and welcome to my data story! :)
+
+![me watching dramas instead of working](images/finalproj_1){width="900"}
+
+As an avid K-Drama watcher, I thought it would be interesting to investigate: **"What makes K-Dramas so popular globally?"**, and showcase the driving factors for my final project.
+
+I used several data sets from Statista and Kaggle, namely data on the top 5000 dramas which includes information on the name, episodes, released year, language (selected only Korean, Thai, and Japanese), rating, and ranking. 
+
+Others included specific data on the name, year, genres, tags, episode number, the platform it was aired on, user score, and rank for Korean, Thai, and Japanese Dramas. I also used data on the user reviews for each language's dramas, which included ratings on the story, acting cast, music, rewatch value, and the overall ranking. This was so I could have a better basis for comparison.
+
+![lets goo](images/ipadfinal){width="600"}
+
 
 # Introduction
 
@@ -123,11 +136,13 @@ ggplotly(lg1)
 
 ```
 
-## 2. Genre
+## 2. Genre & Tags
 
 ```{r letter-a, echo=FALSE}
 
 ```
+
+K-Drama
 ```{r, eval=TRUE, echo=FALSE}
 suppressMessages({
   suppressWarnings({
@@ -159,7 +174,33 @@ wordcloud2(slice_max(ktags_df, order_by= freq, n=10000), size=1.2, color='random
 })
 ```
 
+T-Drama
+```{r, eval=TRUE, echo=FALSE}
 
+library(wordcloud2)
+library(tidyverse)
+library(tm)
+
+tdrama_tags <- general_tdrama %>% filter(year >= 2018) %>% select(tags) 
+
+tdocs <- Corpus(VectorSource(tdrama_tags))
+
+tdocs <- tdocs %>% 
+  tm_map(removeNumbers) %>%
+  tm_map(removePunctuation) %>%
+  tm_map(stripWhitespace) 
+
+tdocs <- tm_map(tdocs, content_transformer(tolower))
+tdocs <- tm_map(tdocs, removeWords, stopwords("english"))
+
+tdtm <- TermDocumentMatrix(kdocs)
+tmatrix <- as.matrix(tdtm)
+twords <- sort(rowSums(tmatrix), decreasing=TRUE)
+ttags_df <- data.frame(word=names(twords), freq=twords)
+
+wordcloud2(slice_max(ttags_df, order_by= freq, n=1000), size=1.0, color='random-dark', shape='circle')
+
+```
 
 
 separator text placeholder

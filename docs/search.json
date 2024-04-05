@@ -23,9 +23,9 @@
   {
     "objectID": "finalproject.html",
     "href": "finalproject.html",
-    "title": "Final Project: What makes K-Dramas so popular globally?",
+    "title": "Final Project",
     "section": "",
-    "text": "watching dramas"
+    "text": "Have you ever wondered why almost everyone around you watches, or at least knows the names of some K-Dramas? If so…\nHello and welcome to my data story! :)\nAs an avid K-Drama watcher, I thought it would be interesting to investigate: “What makes K-Dramas so popular globally?”, and showcase the driving factors for my final project.\nI used several data sets from Statista and Kaggle, namely data on the top 5000 dramas which includes information on the name, episodes, released year, language (selected only Korean, Thai, and Japanese), rating, and ranking.\nOthers included specific data on the name, year, genres, tags, episode number, the platform it was aired on, user score, and rank for Korean, Thai, and Japanese Dramas. I also used data on the user reviews for each language’s dramas, which included ratings on the story, acting cast, music, rewatch value, and the overall ranking. This was so I could have a better basis for comparison."
   },
   {
     "objectID": "about.html#finalised-topic",
@@ -177,7 +177,7 @@
   {
     "objectID": "finalproject.html#ratings",
     "href": "finalproject.html#ratings",
-    "title": "Final Project: What makes K-Dramas so popular globally?",
+    "title": "Final Project",
     "section": "1. Ratings",
     "text": "1. Ratings\n\n\n\n\n\n\nseparator text placeholder"
   },
@@ -186,6 +186,13 @@
     "href": "finalproject.html#genre",
     "title": "Final Project: What makes K-Dramas so popular globally?",
     "section": "2. Genre",
-    "text": "2. Genre\n\n\n\n\n\n\nseparator text placeholder"
+    "text": "2. Genre\nK-Drama\n\n\n\n\n\n\nseparator text placeholder"
+  },
+  {
+    "objectID": "finalproject.html#genre-tags",
+    "href": "finalproject.html#genre-tags",
+    "title": "Final Project",
+    "section": "2. Genre & Tags",
+    "text": "2. Genre & Tags\nK-Drama\n\n\n\n\n\n\nT-Drama\n\n\nWarning in tm_map.SimpleCorpus(., removeNumbers): transformation drops\ndocuments\n\n\nWarning in tm_map.SimpleCorpus(., removePunctuation): transformation drops\ndocuments\n\n\nWarning in tm_map.SimpleCorpus(., stripWhitespace): transformation drops\ndocuments\n\n\nWarning in tm_map.SimpleCorpus(tdocs, content_transformer(tolower)):\ntransformation drops documents\n\n\nWarning in tm_map.SimpleCorpus(tdocs, removeWords, stopwords(\"english\")):\ntransformation drops documents\n\n\n\n\n\n\nseparator text placeholder"
   }
 ]
