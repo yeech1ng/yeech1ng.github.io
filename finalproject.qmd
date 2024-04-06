@@ -323,6 +323,22 @@ separator
 
 ```{r, eval=TRUE, echo=FALSE}
 
+library(dplyr)
+
+average_episodes <- top_5000dramas_filtered %>%
+  group_by(released_year, Language) %>%
+  summarise(Avg_Episodes = mean(Episodes))
+
+# Print the table
+print(average_episodes)
+
+```
+
+
+separator
+
+```{r, eval=TRUE, echo=FALSE}
+
 suppressMessages({
   suppressWarnings({
 

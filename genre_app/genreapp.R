@@ -1,53 +1,38 @@
 library(shiny)
-library(wordcloud2)
-library(tidyverse)
-library(tm)
+library(rsconnect)
 
-# Define UI
+# UI for the webpage
 ui <- fluidPage(
-  titlePanel("Drama Word Clouds"),
+  titlePanel("Quiz Time! ^_^"),
   sidebarLayout(
     sidebarPanel(
-      selectInput("language", "Select Language:",
-                  choices = c("Korean", "Thai", "Japanese"))
+      # Question with increased font size
+      tags$h2("What is the most popular genre among K-Dramas?", style = "font-size: 20px;"),
+      # Adding GIF
+      tags$img(src = "squid-game.gif", height = "150px", width = "300px"), # Change "path_to_gif.gif" to the actual path of your GIF
+      radioButtons("q1", "Select your answer:",
+                   choices = list("A. Horror", "B. Romance", "C. Youth", "D. Drama")),
+      actionButton("submit", "Submit")
     ),
     mainPanel(
-      wordcloud2Output("wordcloud")
+      # Feedback
+      textOutput("feedback")
     )
   )
 )
 
-# Define server logic
+# Server logic
 server <- function(input, output) {
-  
-  # Load data and preprocess based on selected language
-  drama_data <- reactive({
-    switch(input$language,
-           "Korean" = general_kdrama %>% filter(year >= 2018),
-           "Thai" = general_tdrama %>% filter(year >= 2018),
-           "Japanese" = general_jdrama %>% filter(year >= 2018))
-  })
-  
-  # Generate word cloud based on selected language
-  output$wordcloud <- renderWordcloud2({
-    tags <- drama_data() %>% select(tags) 
-    
-    docs <- Corpus(VectorSource(tags))
-    docs <- docs %>% 
-      tm_map(removeNumbers) %>%
-      tm_map(removePunctuation) %>%
-      tm_map(stripWhitespace) 
-    docs <- tm_map(docs, content_transformer(tolower))
-    docs <- tm_map(docs, removeWords, stopwords("english"))
-    
-    dtm <- TermDocumentMatrix(docs)
-    matrix <- as.matrix(dtm)
-    words <- sort(rowSums(matrix), decreasing=TRUE)
-    tags_df <- data.frame(word = names(words), freq = words)
-    
-    wordcloud2(slice_max(tags_df, order_by = freq, n = 100), size = 1.2, color = 'random-dark', shape = 'circle')
+  observeEvent(input$submit, {
+    # Evaluate user's answer
+    if (input$q1 == "B. Romance") {
+      output$feedback <- renderText("You're correct! From 2018 to 2023, 788 K-Dramas were labelled as Romance dramas.")
+    } else {
+      output$feedback <- renderText("Try again!")
+    }
   })
 }
 
-# Define Shiny app
+# Run the Shiny app
 shinyApp(ui = ui, server = server)
+
