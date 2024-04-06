@@ -1,4 +1,3 @@
-# Load necessary library
 library(shiny)
 
 # Define UI

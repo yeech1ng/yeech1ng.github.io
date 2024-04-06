@@ -215,7 +215,7 @@ suppressMessages({
 
     # Select only the top 10 genres
     top_genres <- c("Drama", "Romance", "Comedy", "Thriller", "Mystery", 
-                    "Melodrama", "Action", "Youth", "Life", "Supernatural")
+                    "Melodrama", "Action", "Youth", "Life,", "Supernatural")
     merged_data_genres <- merged_data_genres %>% filter(genres %in% top_genres)
 
     # Define color palette
@@ -277,6 +277,50 @@ wordcloud2(slice_max(ktags_df, order_by= freq, n=10000), size=1.2, color='random
 
 ```{r, eval=TRUE, echo=FALSE}
 
+library(tidyverse)
+library(plotly)
+library(RColorBrewer)
+
+# Convert ep_duration and tot_eps columns to integers
+general_kdrama_FILTERED <- general_kdrama_FILTERED %>% 
+  mutate(ep_duration = as.integer(ep_duration),
+         tot_eps = as.integer(tot_eps))
+
+general_tdrama_FILTERED <- general_tdrama_FILTERED %>% 
+  mutate(ep_duration = as.integer(ep_duration),
+         tot_eps = as.integer(tot_eps))
+
+general_jdrama_FILTERED <- general_jdrama_FILTERED %>% 
+  mutate(ep_duration = as.integer(ep_duration),
+         tot_eps = as.integer(tot_eps))
+
+# Merge data
+merged_data_produced <- bind_rows(
+  general_kdrama_FILTERED %>% mutate(language = "Korean"),
+  general_tdrama_FILTERED %>% mutate(language = "Thai"),
+  general_jdrama_FILTERED %>% mutate(language = "Japanese"))
+
+# Define color palette
+palette <- brewer.pal(n = 3, name = "Set2")
+
+# Plotting with Plotly
+plot_ly(merged_data_produced, x = ~year, color = ~language) %>%
+  add_histogram() %>%
+  layout(title = "Yearly Production of Korean, Thai, and Japanese Dramas",
+         xaxis = list(title = "Year"),
+         yaxis = list(title = "Total Number of Dramas Produced"),
+         legend = list(title = "Language"),
+         barmode = "stack",
+         colorway = palette)
+
+
+
+
+```
+
+
+```{r, eval=TRUE, echo=FALSE}
+
 suppressMessages({
   suppressWarnings({
 
@@ -306,7 +350,24 @@ ggplotly(rating_vs_eps_plot)
 
 ```
 
-SEPARATOR TEXT
+<style>
+hr {
+  border: none;
+  height: 2px; /* Adjust the height as needed */
+  background-color: #ccc; /* Adjust the color as needed */
+  margin: 10px 0; /* Adjust the margin as needed */
+}
+</style>
+
+---
+
+<!-- Content -->
+
+Across all 3 languages, there is a common trend of **dramas with less episodes receiving a higher rating**, though this is most evident in K-Dramas.
+
+However, within a shorter episode count from 0 to 25, K-Dramas still lead and **surpass Thai and Japanese dramas** with a consistently higher rating. In fact, the highest rating drama (9.2) in the entire graph is a K-Drama!
+
+This is possibly due to...
 
 ## 4. Channels & Outreach
 
