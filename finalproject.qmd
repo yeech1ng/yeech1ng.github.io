@@ -27,7 +27,8 @@ With an increasing influx of shows in the market, this has created a fast-paced 
 
 However, amidst this competitive landscape, Korean dramas, or K-Dramas, have managed to carve out a unique niche and capture the attention of audiences globally. 
 
-In a 2023 survey conducted across 26 countries, **majority of respondents (41%)** stated that K-Dramas are **very popular** in their countries, and and only a **small minority (11.2%)** reported that it is **not popular**.
+In a 2023 survey conducted across 26 countries, **majority of respondents (88.8%)** stated that K-Dramas are **popular** in their countries, and only a small minority (11.2%) reported that it is not.
+
 
 ```{r, eval=TRUE, echo=FALSE}
 
@@ -78,7 +79,7 @@ Evidently, K-Dramas enjoy high popularity from audiences from all around the wor
 
 In fact, this is part of the larger cultural phenomenon known as **“Hallyu”, or the Korean Wave**, which refers to the global craze for South Korean pop culture and other cultural elements, which includes entertainment like K-Dramas and K-Pop. 
 
-![source: Pixabay](images/hallyu_palace.jpg){width="600"}
+![source: Pixabay](images/hallyu_palace.jpg){width="500"}
 
 This begs the question: How does Korea do this? In particular, how did K-Dramas **garner so much popularity and continuously stay on top of the game**? What can other region’s entertainment industry learn from South Korea? 
 
