@@ -79,7 +79,7 @@ Evidently, K-Dramas enjoy high popularity from audiences from all around the wor
 
 In fact, this is part of the larger cultural phenomenon known as **“Hallyu”, or the Korean Wave**, which refers to the global craze for South Korean pop culture and other cultural elements, which includes entertainment like K-Dramas and K-Pop. 
 
-![source: Pixabay](images/hallyu_palace.jpg){width="500"}
+![source: Pixabay](images/hallyu_palace.jpg){width="600"}
 
 This begs the question: How does Korea do this? In particular, how did K-Dramas **garner so much popularity and continuously stay on top of the game**? What can other region’s entertainment industry learn from South Korea? 
 
@@ -242,34 +242,6 @@ wordcloud2(slice_max(ktags_df, order_by= freq, n=10000), size=1.2, color='random
 })
 ```
 
-T-Drama
-```{r, eval=TRUE, echo=FALSE}
-
-library(wordcloud2)
-library(tidyverse)
-library(tm)
-
-tdrama_tags <- general_tdrama %>% filter(year >= 2018) %>% select(tags) 
-
-tdocs <- Corpus(VectorSource(tdrama_tags))
-
-tdocs <- tdocs %>% 
-  tm_map(removeNumbers) %>%
-  tm_map(removePunctuation) %>%
-  tm_map(stripWhitespace) 
-
-tdocs <- tm_map(tdocs, content_transformer(tolower))
-tdocs <- tm_map(tdocs, removeWords, stopwords("english"))
-
-tdtm <- TermDocumentMatrix(kdocs)
-tmatrix <- as.matrix(tdtm)
-twords <- sort(rowSums(tmatrix), decreasing=TRUE)
-ttags_df <- data.frame(word=names(twords), freq=twords)
-
-wordcloud2(slice_max(ttags_df, order_by= freq, n=1000), size=1.0, color='random-dark', shape='circle')
-
-```
-
 
 ## 3. Production Volume & Episodes
 
@@ -306,6 +278,71 @@ ggplotly(rating_vs_eps_plot)
 
 SEPARATOR TEXT
 
+## 4. Channels & Outreach
+
+Let's try a fun activity! Find out how common the channel you use to watch K-Dramas is among global audiences here!
+
 ```{=html}
 <iframe height="400" width="100%" frameborder="no" src="https://yeech1ng.shinyapps.io/sample_app/ "> </iframe>
 ```
+
+```{r, eval=TRUE, echo=FALSE}
+suppressMessages({
+  suppressWarnings({
+
+library(tidyverse)
+library(ggplot2)
+library(plotly)
+library(RColorBrewer)
+
+general_kdrama_FILTERED <- general_kdrama %>% filter(year >= 2018)
+general_tdrama_FILTERED <- general_tdrama %>% filter(year >= 2018)
+general_jdrama_FILTERED <- general_jdrama %>% filter(year >= 2018)
+
+# Split channels into separate rows for each dataset
+general_kdrama_channelsplit <- general_kdrama_FILTERED %>% 
+  select(year, org_net) %>% 
+  separate_rows(org_net, sep = " ")
+
+general_tdrama_channelsplit <- general_tdrama_FILTERED %>% 
+  select(year, org_net) %>% 
+  separate_rows(org_net, sep = " ")
+
+general_jdrama_channelsplit <- general_jdrama_FILTERED %>% 
+  select(year, org_net) %>% 
+  separate_rows(org_net, sep = " ")
+
+# Merge the datasets
+merged_data_channels <- bind_rows(
+  general_kdrama_channelsplit %>% mutate(language = "Korean"),
+  general_tdrama_channelsplit %>% mutate(language = "Thai"),
+  general_jdrama_channelsplit %>% mutate(language = "Japanese")
+)
+
+# Filter for selected channels
+selected_channels <- c("Disney+", "Amazon", "Netflix", "Hulu")
+filtered_data_channels <- merged_data_channels %>%
+  filter(org_net %in% selected_channels)
+
+# Define color palette
+palette <- brewer.pal(n = 4, name = "Set2")
+
+# Plot grouped bar chart using Plotly
+channel_bg <- ggplot(filtered_data_channels, aes(x = org_net, fill = language)) +
+  geom_bar(position = "dodge") +
+  labs(title = "Number of Dramas distributed on Global Channels",
+       x = "Channel",
+       y = "Number of Dramas",
+       fill = "Language") +
+  scale_fill_manual(values = palette) +  # Set color palette
+  theme_bw()
+
+# Convert ggplot object to Plotly
+ggplotly(channel_bg)
+
+ })
+})
+
+```
+
+

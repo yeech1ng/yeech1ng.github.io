@@ -193,7 +193,7 @@
     "href": "finalproject.html#genre-tags",
     "title": "Final Project",
     "section": "2. Genre & Tags",
-    "text": "2. Genre & Tags\nK-Drama\n\n\n\n\n\n\nT-Drama\n\n\nWarning in tm_map.SimpleCorpus(., removeNumbers): transformation drops\ndocuments\n\n\nWarning in tm_map.SimpleCorpus(., removePunctuation): transformation drops\ndocuments\n\n\nWarning in tm_map.SimpleCorpus(., stripWhitespace): transformation drops\ndocuments\n\n\nWarning in tm_map.SimpleCorpus(tdocs, content_transformer(tolower)):\ntransformation drops documents\n\n\nWarning in tm_map.SimpleCorpus(tdocs, removeWords, stopwords(\"english\")):\ntransformation drops documents"
+    "text": "2. Genre & Tags\nK-Drama"
   },
   {
     "objectID": "finalproject.html#production-volume-episodes",
@@ -201,5 +201,26 @@
     "title": "Final Project",
     "section": "3. Production Volume & Episodes",
     "text": "3. Production Volume & Episodes\n\n\n\n\n\n\nSEPARATOR TEXT"
+  },
+  {
+    "objectID": "finalproject.html#platform",
+    "href": "finalproject.html#platform",
+    "title": "Final Project",
+    "section": "4. Platform",
+    "text": "4. Platform"
+  },
+  {
+    "objectID": "finalproject.html#channels",
+    "href": "finalproject.html#channels",
+    "title": "Final Project",
+    "section": "4. Channels",
+    "text": "4. Channels\n\n\nWarning: Removed 97 rows containing non-finite values (`stat_boxplot()`)."
+  },
+  {
+    "objectID": "finalproject.html#channels-outreach",
+    "href": "finalproject.html#channels-outreach",
+    "title": "Final Project",
+    "section": "4. Channels & Outreach",
+    "text": "4. Channels & Outreach\nLet’s try a fun activity! Find out how common the channel you use to watch K-Dramas is among global audiences here!"
   }
 ]
