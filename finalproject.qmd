@@ -6,15 +6,15 @@ Have you ever wondered why almost everyone around you watches, or at least knows
 
 Hello and welcome to my data story! :)
 
-![me watching dramas instead of working](images/finalproj_1){width="900"}
+![source: me](images/finalproj_1){width="900"}
 
 As an avid K-Drama watcher, I thought it would be interesting to investigate: **"What makes K-Dramas so popular globally?"**, and showcase the driving factors for my final project.
 
-I used several data sets from Statista and Kaggle, namely data on the top 5000 dramas which includes information on the name, episodes, released year, language (selected only Korean, Thai, and Japanese), rating, and ranking. 
+I used several data sets from Kaggle, namely data on the top 5000 dramas which includes information on the name, episodes, released year, language (selected only Korean, Thai, and Japanese), rating, and ranking. 
 
 Others included specific data on the name, year, genres, tags, episode number, the platform it was aired on, user score, and rank for Korean, Thai, and Japanese Dramas. I also used data on the user reviews for each language's dramas, which included ratings on the story, acting cast, music, rewatch value, and the overall ranking. This was so I could have a better basis for comparison.
 
-![lets goo](images/ipadfinal){width="600"}
+![source: me](images/ipadfinal){width="600"}
 
 
 # Introduction
@@ -27,7 +27,7 @@ With an increasing influx of shows in the market, this has created a fast-paced 
 
 However, amidst this competitive landscape, Korean dramas, or K-Dramas, have managed to carve out a unique niche and capture the attention of audiences globally. 
 
-In a 2023 survey conducted across 26 countries, **majority of respondents (41%)** stated that K-Dramas were **very popular** in their countries, and and only a **small minority (11.2%)** reported that it is **not popular**.
+In a 2023 survey conducted across 26 countries, **majority of respondents (41%)** stated that K-Dramas are **very popular** in their countries, and and only a **small minority (11.2%)** reported that it is **not popular**.
 
 ```{r, eval=TRUE, echo=FALSE}
 
@@ -78,15 +78,15 @@ Evidently, K-Dramas enjoy high popularity from audiences from all around the wor
 
 In fact, this is part of the larger cultural phenomenon known as **“Hallyu”, or the Korean Wave**, which refers to the global craze for South Korean pop culture and other cultural elements, which includes entertainment like K-Dramas and K-Pop. 
 
-This begs the question: How does Korea do this? In particular, how did K-Dramas **garner so much popularity and continuously stay on top of the market**? What can other region’s entertainment industry learn from South Korea? 
+![source: Pixabay](images/hallyu_palace.jpg){width="600"}
+
+This begs the question: How does Korea do this? In particular, how did K-Dramas **garner so much popularity and continuously stay on top of the game**? What can other region’s entertainment industry learn from South Korea? 
 
 Let's find out!
 
 # Comparison with Japanese and Thai Dramas
 
-Let us first start with comparing some data between Korean, Japanese, and Thai data for some insights on their differneces and similarities in terms of the dramas they produce. 
-
-
+Let us first start with comparing some data between Korean, Japanese, and Thai dramas for some insights on their differences and similarities in terms of the dramas they produce. 
 
 ## 1. Ratings
 
