@@ -179,36 +179,66 @@ ggplotly(lg1)
 ```
 
 
-```{r, eval=FALSE,echo=FALSE}
 
-library(tidyverse)
-library(ggplot2)
+```{r, eval=TRUE, echo=FALSE}
+suppressMessages({
+  suppressWarnings({
+    library(tidyverse)
+    library(ggplot2)
+    library(plotly)
+    library(RColorBrewer)
 
-# Filter and select relevant columns from each dataset
-general_kdrama_genre_filtered <- general_kdrama %>%
-  filter(year >= 2018) %>%
-  select(year, genres)
+    # Filter datasets
+    general_kdrama_FILTERED <- general_kdrama %>% filter(year >= 2018)
+    general_tdrama_FILTERED <- general_tdrama %>% filter(year >= 2018)
+    general_jdrama_FILTERED <- general_jdrama %>% filter(year >= 2018)
 
-# Remove punctuation from the 'genres' column
-general_kdrama_genre_filtered$genres <- gsub("[[:punct:]]", "", general_kdrama_genre_filtered$genres)
+    # Split genres into separate rows for each dataset
+    general_kdrama_genresplit <- general_kdrama_FILTERED %>% 
+      select(year, genres) %>% 
+      separate_rows(genres, sep = ",\\s*")
 
-# Group by year and genre, and calculate the count of each genre
-genre_counts <- general_kdrama_genre_filtered %>%
-  group_by(year, genres) %>%
-  summarise(count = n()) %>%
-  ungroup()
+    general_tdrama_genresplit <- general_tdrama_FILTERED %>% 
+      select(year, genres) %>% 
+      separate_rows(genres, sep = ",\\s*")
 
-# Plot the stacked bar chart with count of genres on the y-axis
-ggplot(genre_counts, aes(x = year, y = count, fill = genres)) +
-  geom_bar(stat = "identity") +
-  labs(title = "Genre Distribution of Korean Dramas from 2018 Onwards",
-       x = "Year",
-       y = "Count of Genres",
-       fill = "Genre") +
-  theme_bw() +
-  theme(legend.position = "bottom")
+    general_jdrama_genresplit <- general_jdrama_FILTERED %>% 
+      select(year, genres) %>% 
+      separate_rows(genres, sep = ",\\s*")
+
+    # Merge the datasets
+    merged_data_genres <- bind_rows(
+      general_kdrama_genresplit %>% mutate(language = "Korean"),
+      general_tdrama_genresplit %>% mutate(language = "Thai"),
+      general_jdrama_genresplit %>% mutate(language = "Japanese")
+    )
+
+    # Select only the top 10 genres
+    top_genres <- c("Drama", "Romance", "Comedy", "Thriller", "Mystery", 
+                    "Melodrama", "Action", "Youth", "Life", "Supernatural")
+    merged_data_genres <- merged_data_genres %>% filter(genres %in% top_genres)
+
+    # Define color palette
+    palette <- brewer.pal(n = 4, name = "Set2")
+
+    # Plot grouped bar chart using Plotly
+    genre_bg <- ggplot(merged_data_genres, aes(x = genres, fill = language)) +
+      geom_bar(stat = "count", position = "dodge") +
+      labs(title = "Top 10 Genre Distribution",
+           x = "Genre",
+           y = "Number of Dramas",
+           fill = "Language") +
+      scale_fill_manual(values = palette) +  
+      theme_bw()
+
+    # Convert ggplot object to Plotly
+    ggplotly(genre_bg)
+  })
+})
+
 
 ```
+
 
 K-Drama
 ```{r, eval=TRUE, echo=FALSE}
