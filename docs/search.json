@@ -193,6 +193,13 @@
     "href": "finalproject.html#genre-tags",
     "title": "Final Project",
     "section": "2. Genre & Tags",
-    "text": "2. Genre & Tags\nK-Drama\n\n\n\n\n\n\nT-Drama\n\n\nWarning in tm_map.SimpleCorpus(., removeNumbers): transformation drops\ndocuments\n\n\nWarning in tm_map.SimpleCorpus(., removePunctuation): transformation drops\ndocuments\n\n\nWarning in tm_map.SimpleCorpus(., stripWhitespace): transformation drops\ndocuments\n\n\nWarning in tm_map.SimpleCorpus(tdocs, content_transformer(tolower)):\ntransformation drops documents\n\n\nWarning in tm_map.SimpleCorpus(tdocs, removeWords, stopwords(\"english\")):\ntransformation drops documents\n\n\n\n\n\n\nseparator text placeholder"
+    "text": "2. Genre & Tags\nK-Drama\n\n\n\n\n\n\nT-Drama\n\n\nWarning in tm_map.SimpleCorpus(., removeNumbers): transformation drops\ndocuments\n\n\nWarning in tm_map.SimpleCorpus(., removePunctuation): transformation drops\ndocuments\n\n\nWarning in tm_map.SimpleCorpus(., stripWhitespace): transformation drops\ndocuments\n\n\nWarning in tm_map.SimpleCorpus(tdocs, content_transformer(tolower)):\ntransformation drops documents\n\n\nWarning in tm_map.SimpleCorpus(tdocs, removeWords, stopwords(\"english\")):\ntransformation drops documents"
+  },
+  {
+    "objectID": "finalproject.html#production-volume-episodes",
+    "href": "finalproject.html#production-volume-episodes",
+    "title": "Final Project",
+    "section": "3. Production Volume & Episodes",
+    "text": "3. Production Volume & Episodes\n\n\n\n\n\n\nSEPARATOR TEXT"
   }
 ]

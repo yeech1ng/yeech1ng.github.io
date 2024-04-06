@@ -178,18 +178,37 @@ ggplotly(lg1)
 
 ```
 
+
 ```{r, eval=FALSE,echo=FALSE}
-merged_data <- bind_rows(
-  mutate(general_kdrama, Language = "Korean"),
-  mutate(general_tdrama, Language = "Thai"),
-  mutate(general_jdrama, Language = "Japanese")
-)
 
-general_kdrama %>%
-  filter(year >= 2018)
+library(tidyverse)
+library(ggplot2)
+
+# Filter and select relevant columns from each dataset
+general_kdrama_genre_filtered <- general_kdrama %>%
+  filter(year >= 2018) %>%
+  select(year, genres)
+
+# Remove punctuation from the 'genres' column
+general_kdrama_genre_filtered$genres <- gsub("[[:punct:]]", "", general_kdrama_genre_filtered$genres)
+
+# Group by year and genre, and calculate the count of each genre
+genre_counts <- general_kdrama_genre_filtered %>%
+  group_by(year, genres) %>%
+  summarise(count = n()) %>%
+  ungroup()
+
+# Plot the stacked bar chart with count of genres on the y-axis
+ggplot(genre_counts, aes(x = year, y = count, fill = genres)) +
+  geom_bar(stat = "identity") +
+  labs(title = "Genre Distribution of Korean Dramas from 2018 Onwards",
+       x = "Year",
+       y = "Count of Genres",
+       fill = "Genre") +
+  theme_bw() +
+  theme(legend.position = "bottom")
+
 ```
-
-
 
 K-Drama
 ```{r, eval=TRUE, echo=FALSE}
@@ -252,8 +271,40 @@ wordcloud2(slice_max(ttags_df, order_by= freq, n=1000), size=1.0, color='random-
 ```
 
 
-separator text placeholder
+## 3. Production Volume & Episodes
 
+```{r, eval=TRUE, echo=FALSE}
+
+suppressMessages({
+  suppressWarnings({
+
+library(ggplot2)
+library(plotly)
+library(RColorBrewer)
+
+# Select relevant columns and filter data
+rating_vs_eps <- top_5000dramas_filtered %>%
+  select(Episodes, Rating, Language)
+
+# Plotting
+rating_vs_eps_plot <- ggplot(rating_vs_eps, aes(x = Episodes, y = Rating, color = Language)) + 
+  geom_point() +
+  labs(title = "Correlation between Ratings and Episode Count",
+       x = "Episode Count",
+       y = "Rating",
+       color = "Language") +
+  scale_color_brewer(palette = "Set2") +  
+  theme_bw()
+
+# Convert to Plotly for interactivity
+ggplotly(rating_vs_eps_plot)
+
+ })
+})
+
+```
+
+SEPARATOR TEXT
 
 ```{=html}
 <iframe height="400" width="100%" frameborder="no" src="https://yeech1ng.shinyapps.io/sample_app/ "> </iframe>
