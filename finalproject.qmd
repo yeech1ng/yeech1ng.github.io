@@ -277,9 +277,10 @@ wordcloud2(slice_max(ktags_df, order_by= freq, n=10000), size=1.2, color='random
 
 ```{r, eval=TRUE, echo=FALSE}
 
+
 library(tidyverse)
-library(plotly)
 library(RColorBrewer)
+library(plotly)
 
 # Convert ep_duration and tot_eps columns to integers
 general_kdrama_FILTERED <- general_kdrama_FILTERED %>% 
@@ -303,21 +304,22 @@ merged_data_produced <- bind_rows(
 # Define color palette
 palette <- brewer.pal(n = 3, name = "Set2")
 
-# Plotting with Plotly
-plot_ly(merged_data_produced, x = ~year, color = ~language) %>%
-  add_histogram() %>%
+suppressMessages({
+  suppressWarnings({
+# Plotting with plotly
+plot_ly(merged_data_produced, x = ~year, y = ~tot_eps, color = ~language, type = 'bar') %>%
   layout(title = "Yearly Production of Korean, Thai, and Japanese Dramas",
          xaxis = list(title = "Year"),
          yaxis = list(title = "Total Number of Dramas Produced"),
-         legend = list(title = "Language"),
-         barmode = "stack",
-         colorway = palette)
-
-
-
+         barmode = 'stack',
+         colorway = palette,
+         bargap = 0.1)
+ })
+})
 
 ```
 
+separator 
 
 ```{r, eval=TRUE, echo=FALSE}
 
