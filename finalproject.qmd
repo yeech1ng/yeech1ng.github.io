@@ -14,6 +14,23 @@ I used several data sets from Kaggle, namely data on the top 5000 dramas which i
 
 Others included specific data on the name, year, genres, tags, episode number, the platform it was aired on, user score, and rank for Korean, Thai, and Japanese Dramas. I also used data on the user reviews for each language's dramas, which included ratings on the story, acting cast, music, rewatch value, and the overall ranking. This was so I could have a better basis for comparison.
 
+```{=html}
+<button onclick="toggleAudio()">Play Music</button>
+<audio id="music" src="OST/Starlight_OST.mp3"></audio>
+
+<script>
+function toggleAudio() {
+  var audio = document.getElementById("music");
+  if (audio.paused) {
+    audio.play();
+  } else {
+    audio.pause();
+  }
+}
+</script>
+```
+
+
 ![source: me](images/ipadfinal){width="600"}
 
 # Introduction
