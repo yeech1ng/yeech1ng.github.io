@@ -218,7 +218,7 @@ In the pre-COVID years, K-Dramas maintained a **competitive edge** over Thai and
 
 Yet in a turn of events, in the post-COVID years, the average user scores of K-Dramas abruptly picked up in 2021 and **rose exponentially to a record high of 7.81 in 2023**, maintaining an increasing upward trend from 2021 to 2023. Meanwhile, the average user scores for both Thai and Japanese dramas **generally dipped to the 7.4 and 7.5 points region** respectively by 2023, demonstrating a falling trend.
 
-This could  be attributed to the release of the Korean survival series drama, **Squid Game**, in 17 September 2021, which exploded on the international scene. In fact, Squid Game was crowned as Netflix's most-watched non-English series, with a staggering amount of 2,205,200,000 hours viewed as of March 31, 2024 (Netflix, n.d.), and one of the most popular K-Dramas internationally as of December 2022 (Statista, 2023a).
+This could  be attributed to the release of the Korean survival series drama, **Squid Game**, on 17 September 2021, which exploded on the international scene. In fact, Squid Game was crowned as Netflix's most-watched non-English series, with a staggering amount of 2,205,200,000 hours viewed as of March 31, 2024 (Netflix, n.d.), and one of the most popular K-Dramas internationally as of December 2022 (Statista, 2023a).
 
 ![Squid Game | source: Netflix](images/squidgame.png){width="550"}
 
@@ -226,17 +226,19 @@ It is likely that Squid Game's widespread popularity catapulted K-Dramas into th
 
 ## 2. Streaming Services Like Netflix Are Crucial for Outreach
 
-Speaking of Netflix, the channels in which dramas are aired on play a crucial role in determining the amount of viewership they receive, and the outreach they have to global audiences. 
+Speaking of Netflix, the channels in which dramas are aired on play a crucial role in determining the amount of viewership dramas receive, and the outreach they have to global audiences. 
 
-In particular, global channels, mainly streaming services like Netflix, Amazon Prime, Disney+, and Hulu...
+In particular, global channels, mainly streaming services like Netflix, Amazon Prime, Disney+, and Hulu (Statista, 2024), give audiences convenient access to international content, easily introducing new titles and dramas to them. 
 
-Before we continue, let's try a fun activity! Find out how common the channel you use to watch K-Dramas is among global audiences here!
+Find out how common the channel you use to watch K-Dramas is among global audiences here!
 
 ```{=html}
 <iframe height="t00" width="100%" frameborder="no" src="https://yeech1ng.shinyapps.io/sample_app/ "> </iframe>
 ```
 
-It's likely that...
+Among the global streaming services-giant, Netflix is a clear winner in terms of the market share, garnering the most users who reply on their service to access dramas.
+
+This suggests that dramas which are either **produced, distributed, or aired by Netflix** is likely able to tap into a **greater audience pool**, have **greater outreach**, and enjoy **bolstered viewership**.
 
 ```{r, eval=TRUE, echo=FALSE}
 suppressMessages({
@@ -296,6 +298,25 @@ ggplotly(channel_bg)
 })
 
 ```
+
+```{=html}
+<style>
+hr {
+  border: none;
+  height: 2px; /* Adjust the height as needed */
+  background-color: #ccc; /* Adjust the color as needed */
+  margin: 10px 0; /* Adjust the margin as needed */
+}
+</style>
+```
+
+------------------------------------------------------------------------
+
+<!-- Content -->
+
+From the graph, 2 main trends are obvious.
+
+Firstly, comparing with Thai and Japanese dramas, there is  
 
 
 ## 3. Content & Genre
@@ -527,3 +548,5 @@ This is possibly due to...
 *Statista. (2023a, July 15). South Korea: Leading South Korean dramas abroad 2022. Statista. https://www.statista.com/statistics/1266541/south-korea-leading-south-korean-dramas-abroad/*
 
 *Statista. (2023b, December 22). South Korea: Export value of k-dramas by type of broadcast 2020. Statista; Statista Research Department. https://www.statista.com/statistics/1274248/south-korea-export-value-of-kdramas-by-type-of-broadcast/*
+
+*Statista. (2024, February 13). Global streaming services traffic volume 2020. Statista; Laura Ceci. https://www.statista.com/statistics/187011/svod-video-platforms-traffic/*
