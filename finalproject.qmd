@@ -75,7 +75,7 @@ hr {
 
 <!-- Content -->
 
-Evidently, K-Dramas enjoy high popularity from audiences from all around the world beyond Korea, highlighting the **widespread interest** in K-Dramas on a global scale. This has generated significant financial gains for South Korea’s economy, with K-Drama exports increasing by **over 72%** in recent years (Statista, 2023).
+Evidently, K-Dramas enjoy high popularity from audiences from all around the world beyond Korea, highlighting the **widespread interest** in K-Dramas on a global scale. This has generated significant financial gains for South Korea’s economy, with K-Drama exports increasing by **over 72%** in recent years (Statista, 2023b).
 
 In fact, this is part of the larger cultural phenomenon known as **“Hallyu”, or the Korean Wave**, which refers to the global craze for South Korean pop culture and other cultural elements, which includes entertainment like K-Dramas and K-Pop.
 
@@ -224,16 +224,17 @@ This could  be attributed to the release of the Korean survival series drama, **
 
 It is likely that Squid Game's widespread popularity catapulted K-Dramas into the global spotlight, attracting new international audiences and interest. This recognition of Squid Game also likely prompted increased investment into Korean content from producers and streaming platforms in light of the rising viewership and interest from audiences from all over the world, solidifying its dominance in the market and entertainment industry.
 
-## 2. Channels & Outreach
+## 2. Streaming Services Like Netflix Are Crucial for Outreach
 
 Speaking of Netflix, the channels in which dramas are aired on play a crucial role in determining the amount of viewership they receive, and the outreach they have to global audiences. 
 
-Let's try a fun activity! Find out how common the channel you use to watch K-Dramas is among global audiences here!
+Before we continue, let's try a fun activity! Find out how common the channel you use to watch K-Dramas is among global audiences here!
 
 ```{=html}
 <iframe height="t00" width="100%" frameborder="no" src="https://yeech1ng.shinyapps.io/sample_app/ "> </iframe>
 ```
-separator
+
+It's likely that...
 
 ```{r, eval=TRUE, echo=FALSE}
 suppressMessages({
@@ -513,6 +514,14 @@ However, within a shorter episode count from 0 to 25, K-Dramas still lead and **
 
 This is possibly due to...
 
-## Deep Diving into K-Dramas
-
 ## Insights and Recommendations
+
+## References
+
+*Escandon, R. (2020, March 12). The film industry made a record-breaking $100 billion last year. Forbes. https://www.forbes.com/sites/rosaescandon/2020/03/12/the-film-industry-made-a-record-breaking-100-billion-last-year/?sh=5b3657bb34cd*
+
+*Netflix. (n.d.). Netflix top 10 - global. Www.netflix.com. https://www.netflix.com/tudum/top10/most-popular/tv-non-english*
+
+*Statista. (2023a, July 15). South Korea: Leading South Korean dramas abroad 2022. Statista. https://www.statista.com/statistics/1266541/south-korea-leading-south-korean-dramas-abroad/*
+
+*Statista. (2023b, December 22). South Korea: Export value of k-dramas by type of broadcast 2020. Statista; Statista Research Department. https://www.statista.com/statistics/1274248/south-korea-export-value-of-kdramas-by-type-of-broadcast/*
