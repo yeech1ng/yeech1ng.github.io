@@ -89,7 +89,11 @@ Let's find out!
 
 Let us first start with comparing some data between Korean, Japanese, and Thai dramas for some insights on their differences and similarities in terms of the dramas they produce.
 
-## 1. Ratings
+## 1. K-Dramas Generally Have The Highest Ratings
+
+Ratings are an essential metric in evaluating the success and popularity of dramas, providing valuable insight into audience reception and their preferences. 
+
+Generally, the higher or more positive ratings a drama receives, be it quantitatively or qualitatively, the greater its appeal and impact on viewers. 
 
 ```{r, eval=TRUE, echo=FALSE}
 suppressMessages({
@@ -124,7 +128,28 @@ ggplotly(bp2)
 
 ```
 
-separator text placeholder
+```{=html}
+<style>
+hr {
+  border: none;
+  height: 2px; /* Adjust the height as needed */
+  background-color: #ccc; /* Adjust the color as needed */
+  margin: 10px 0; /* Adjust the margin as needed */
+}
+</style>
+```
+
+------------------------------------------------------------------------
+
+<!-- Content -->
+
+Comparing the average ratings of Japanese, Thai, and Korean dramas from 2018 to 2023, it seems that it is a close fight between all 3 languages. Each are doing relatively well in the market with high ratings in the 7 points region (out of 10). 
+
+However, K-Dramas ultimately emerge as the **frontrunner with an average rating of 7.86**, with Japanese dramas following closely behind with an average rating of 7.69, and lastly, Thai dramas with a nonetheless commendable average rating of 7.59. 
+
+This shows that while each language’s dramas have their own unique charm that garner them a significant fan base and presence, K-Dramas stand out, **appealing to and resonating with the audiences the most**. 
+
+This is further reinforced when analysing ratings across time, 
 
 ```{r, eval=TRUE, echo=FALSE}
 
@@ -172,7 +197,26 @@ ggplotly(lg1)
 
 ```
 
-## 2. Genre & Tags
+```{=html}
+<style>
+hr {
+  border: none;
+  height: 2px; /* Adjust the height as needed */
+  background-color: #ccc; /* Adjust the color as needed */
+  margin: 10px 0; /* Adjust the margin as needed */
+}
+</style>
+```
+
+------------------------------------------------------------------------
+
+<!-- Content -->
+
+
+
+Now that we have proven Korean's status as one of the most dominant forces in the global entertainment industry, let's focus more on the factors...
+
+## 2. Content & Genre
 
 Before we go into the genres of the different dramas, make your guess on what the most popular genre among K-Dramas is!
 
@@ -459,3 +503,5 @@ ggplotly(channel_bg)
 ```
 
 ## Deep Diving into K-Dramas
+
+## Insights and Recommendations
