@@ -218,15 +218,84 @@ In the pre-COVID years, K-Dramas maintained a **competitive edge** over Thai and
 
 Yet in a turn of events, in the post-COVID years, the average user scores of K-Dramas abruptly picked up in 2021 and **rose exponentially to a record high of 7.81 in 2023**, maintaining an increasing upward trend from 2021 to 2023. Meanwhile, the average user scores for both Thai and Japanese dramas **generally dipped to the 7.4 and 7.5 points region** respectively by 2023, demonstrating a falling trend.
 
-This could  be attributed to the release of the Korean survival series drama, **Squid Game**, in 17 September 2021, which exploded on the international scene. In fact, Squid Game was crowned as Netflix's most-watched non-English series, with a staggering amount of 2,205,200,000 hours viewed as of March 31, 2024 (Netflix, n.d.), and one of the Most popular South-Korean dramas internationally as of December 2022 (Statista, 2023a).
+This could  be attributed to the release of the Korean survival series drama, **Squid Game**, in 17 September 2021, which exploded on the international scene. In fact, Squid Game was crowned as Netflix's most-watched non-English series, with a staggering amount of 2,205,200,000 hours viewed as of March 31, 2024 (Netflix, n.d.), and one of the most popular K-Dramas internationally as of December 2022 (Statista, 2023a).
 
 ![Squid Game | source: Netflix](images/squidgame.png){width="550"}
 
-It is likely that Squid Game's widespread popularity catapulted K-Dramas into the global spotlight, attracting new international audiences and interest. This recognition of Squid Game also likely prompted increased investment in Korean content from producers and streaming platforms in light of the rising viewership and interest from audiences from all over the world, solidifying its dominance in the market. 
+It is likely that Squid Game's widespread popularity catapulted K-Dramas into the global spotlight, attracting new international audiences and interest. This recognition of Squid Game also likely prompted increased investment into Korean content from producers and streaming platforms in light of the rising viewership and interest from audiences from all over the world, solidifying its dominance in the market and entertainment industry.
 
-Now that we have proven Korean's status as one of the most dominant forces in the global entertainment industry, let's focus more on the factors...
+## 2. Channels & Outreach
 
-## 2. Content & Genre
+Speaking of Netflix, the channels in which dramas are aired on play a crucial role in determining the amount of viewership they receive, and the outreach they have to global audiences. 
+
+Let's try a fun activity! Find out how common the channel you use to watch K-Dramas is among global audiences here!
+
+```{=html}
+<iframe height="t00" width="100%" frameborder="no" src="https://yeech1ng.shinyapps.io/sample_app/ "> </iframe>
+```
+separator
+
+```{r, eval=TRUE, echo=FALSE}
+suppressMessages({
+  suppressWarnings({
+
+library(tidyverse)
+library(ggplot2)
+library(plotly)
+library(RColorBrewer)
+
+general_kdrama_FILTERED <- general_kdrama %>% filter(year >= 2018)
+general_tdrama_FILTERED <- general_tdrama %>% filter(year >= 2018)
+general_jdrama_FILTERED <- general_jdrama %>% filter(year >= 2018)
+
+# Split channels into separate rows for each dataset
+general_kdrama_channelsplit <- general_kdrama_FILTERED %>% 
+  select(year, org_net) %>% 
+  separate_rows(org_net, sep = " ")
+
+general_tdrama_channelsplit <- general_tdrama_FILTERED %>% 
+  select(year, org_net) %>% 
+  separate_rows(org_net, sep = " ")
+
+general_jdrama_channelsplit <- general_jdrama_FILTERED %>% 
+  select(year, org_net) %>% 
+  separate_rows(org_net, sep = " ")
+
+# Merge the datasets
+merged_data_channels <- bind_rows(
+  general_kdrama_channelsplit %>% mutate(language = "Korean"),
+  general_tdrama_channelsplit %>% mutate(language = "Thai"),
+  general_jdrama_channelsplit %>% mutate(language = "Japanese")
+)
+
+# Filter for selected channels
+selected_channels <- c("Disney+", "Amazon", "Netflix", "Hulu")
+filtered_data_channels <- merged_data_channels %>%
+  filter(org_net %in% selected_channels)
+
+# Define color palette
+palette <- brewer.pal(n = 4, name = "Set2")
+
+# Plot grouped bar chart using Plotly
+channel_bg <- ggplot(filtered_data_channels, aes(x = org_net, fill = language)) +
+  geom_bar(position = "dodge") +
+  labs(title = "Number of Dramas distributed on Global Channels",
+       x = "Channel",
+       y = "Number of Dramas",
+       fill = "Language") +
+  scale_fill_manual(values = palette) +  # Set color palette
+  theme_bw()
+
+# Convert ggplot object to Plotly
+ggplotly(channel_bg)
+
+ })
+})
+
+```
+
+
+## 3. Content & Genre
 
 Before we go into the genres of the different dramas, make your guess on what the most popular genre among K-Dramas is!
 
@@ -329,7 +398,7 @@ wordcloud2(slice_max(ktags_df, order_by= freq, n=10000), size=1.2, color='random
 })
 ```
 
-## 3. Production Volume & Episodes
+## 4. Production Volume & Episodes
 
 ```{r, eval=TRUE, echo=FALSE}
 
@@ -443,74 +512,6 @@ Across all 3 languages, there is a common trend of **dramas with less episodes r
 However, within a shorter episode count from 0 to 25, K-Dramas still lead and **surpass Thai and Japanese dramas** with a consistently higher rating. In fact, the highest rating drama (9.2) in the entire graph is a K-Drama!
 
 This is possibly due to...
-
-## 4. Channels & Outreach
-
-Let's try a fun activity! Find out how common the channel you use to watch K-Dramas is among global audiences here!
-
-```{=html}
-<iframe height="t00" width="100%" frameborder="no" src="https://yeech1ng.shinyapps.io/sample_app/ "> </iframe>
-```
-separator
-
-```{r, eval=TRUE, echo=FALSE}
-suppressMessages({
-  suppressWarnings({
-
-library(tidyverse)
-library(ggplot2)
-library(plotly)
-library(RColorBrewer)
-
-general_kdrama_FILTERED <- general_kdrama %>% filter(year >= 2018)
-general_tdrama_FILTERED <- general_tdrama %>% filter(year >= 2018)
-general_jdrama_FILTERED <- general_jdrama %>% filter(year >= 2018)
-
-# Split channels into separate rows for each dataset
-general_kdrama_channelsplit <- general_kdrama_FILTERED %>% 
-  select(year, org_net) %>% 
-  separate_rows(org_net, sep = " ")
-
-general_tdrama_channelsplit <- general_tdrama_FILTERED %>% 
-  select(year, org_net) %>% 
-  separate_rows(org_net, sep = " ")
-
-general_jdrama_channelsplit <- general_jdrama_FILTERED %>% 
-  select(year, org_net) %>% 
-  separate_rows(org_net, sep = " ")
-
-# Merge the datasets
-merged_data_channels <- bind_rows(
-  general_kdrama_channelsplit %>% mutate(language = "Korean"),
-  general_tdrama_channelsplit %>% mutate(language = "Thai"),
-  general_jdrama_channelsplit %>% mutate(language = "Japanese")
-)
-
-# Filter for selected channels
-selected_channels <- c("Disney+", "Amazon", "Netflix", "Hulu")
-filtered_data_channels <- merged_data_channels %>%
-  filter(org_net %in% selected_channels)
-
-# Define color palette
-palette <- brewer.pal(n = 4, name = "Set2")
-
-# Plot grouped bar chart using Plotly
-channel_bg <- ggplot(filtered_data_channels, aes(x = org_net, fill = language)) +
-  geom_bar(position = "dodge") +
-  labs(title = "Number of Dramas distributed on Global Channels",
-       x = "Channel",
-       y = "Number of Dramas",
-       fill = "Language") +
-  scale_fill_manual(values = palette) +  # Set color palette
-  theme_bw()
-
-# Convert ggplot object to Plotly
-ggplotly(channel_bg)
-
- })
-})
-
-```
 
 ## Deep Diving into K-Dramas
 
