@@ -236,7 +236,7 @@ Find out how common the channel you use to watch K-Dramas is among global audien
 <iframe height="t00" width="100%" frameborder="no" src="https://yeech1ng.shinyapps.io/sample_app/ "> </iframe>
 ```
 
-Among the global streaming services-giant, Netflix is a clear winner in terms of the market share, garnering the most users who reply on their service to access dramas.
+Among the global streaming services-giant, Netflix is a clear winner in terms of the market share, garnering the most users who rely on their service to access dramas.
 
 This suggests that dramas which are either **produced, distributed, or aired by Netflix** is likely able to tap into a **greater audience pool**, have **greater outreach**, and enjoy **bolstered viewership**.
 
