@@ -174,15 +174,15 @@ ggplotly(lg1)
 
 ## 2. Genre & Tags
 
-Before we go into the genres of the different dramas, make your guess on what the most popular genre among K-Dramas is! 
+Before we go into the genres of the different dramas, make your guess on what the most popular genre among K-Dramas is!
 
 Simply click on the button of the option you think is right.
 
 ```{=html}
-<iframe height="400" width="100%" frameborder="no" src="https://yeech1ng.shinyapps.io/genre_app/"> </iframe>
+<iframe height="600" width="100%" frameborder="no" src="https://yeech1ng.shinyapps.io/genre_app/"> </iframe>
 ```
-
 separator
+
 ```{r, eval=TRUE, echo=FALSE}
 suppressMessages({
   suppressWarnings({
@@ -395,10 +395,10 @@ This is possibly due to...
 Let's try a fun activity! Find out how common the channel you use to watch K-Dramas is among global audiences here!
 
 ```{=html}
-<iframe height="400" width="100%" frameborder="no" src="https://yeech1ng.shinyapps.io/sample_app/ "> </iframe>
+<iframe height="t00" width="100%" frameborder="no" src="https://yeech1ng.shinyapps.io/sample_app/ "> </iframe>
 ```
-
 separator
+
 ```{r, eval=TRUE, echo=FALSE}
 suppressMessages({
   suppressWarnings({
