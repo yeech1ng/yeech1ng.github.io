@@ -10,25 +10,23 @@ Hello and welcome to my data story! :)
 
 As an avid K-Drama watcher, I thought it would be interesting to investigate: **"What makes K-Dramas so popular globally?"**, and showcase the driving factors for my final project.
 
-I used several data sets from Kaggle, namely data on the top 5000 dramas which includes information on the name, episodes, released year, language (selected only Korean, Thai, and Japanese), rating, and ranking. 
+I used several data sets from Kaggle, namely data on the top 5000 dramas which includes information on the name, episodes, released year, language (selected only Korean, Thai, and Japanese), rating, and ranking.
 
 Others included specific data on the name, year, genres, tags, episode number, the platform it was aired on, user score, and rank for Korean, Thai, and Japanese Dramas. I also used data on the user reviews for each language's dramas, which included ratings on the story, acting cast, music, rewatch value, and the overall ranking. This was so I could have a better basis for comparison.
 
 ![source: me](images/ipadfinal){width="600"}
 
-
 # Introduction
 
-In recent years, the film and television industries have seen exponential growth, with the global entertainment market topping USD$100 billion for the first time ever in 2019 (Escandon, 2020). Moreover, given the onset of globalisation and the rise of streaming services like Netflix and Disney+, viewers have greater access to shows that are produced and distributed worldwide. 
+In recent years, the film and television industries have seen exponential growth, with the global entertainment market topping USD\$100 billion for the first time ever in 2019 (Escandon, 2020). Moreover, given the onset of globalisation and the rise of streaming services like Netflix and Disney+, viewers have greater access to shows that are produced and distributed worldwide.
 
-With an increasing influx of shows in the market, this has created a fast-paced and competitive climate that makes it difficult for producers and creators to stand out. 
+With an increasing influx of shows in the market, this has created a fast-paced and competitive climate that makes it difficult for producers and creators to stand out.
 
 # Hallyu & The Dominance of K-Dramas
 
-However, amidst this competitive landscape, Korean dramas, or K-Dramas, have managed to carve out a unique niche and capture the attention of audiences globally. 
+However, amidst this competitive landscape, Korean dramas, or K-Dramas, have managed to carve out a unique niche and capture the attention of audiences globally.
 
 In a 2023 survey conducted across 26 countries, **majority of respondents (88.8%)** stated that K-Dramas are **popular** in their countries, and only a small minority (11.2%) reported that it is not.
-
 
 ```{r, eval=TRUE, echo=FALSE}
 
@@ -61,7 +59,8 @@ ggplotly(bp1)
   })
 })
 ```
- 
+
+```{=html}
 <style>
 hr {
   border: none;
@@ -70,24 +69,25 @@ hr {
   margin: 10px 0; /* Adjust the margin as needed */
 }
 </style>
+```
 
----
+------------------------------------------------------------------------
 
 <!-- Content -->
 
-Evidently, K-Dramas enjoy high popularity from audiences from all around the world beyond Korea, highlighting the **widespread interest** in K-Dramas on a global scale. This has generated significant financial gains for South Korea’s economy, with K-Drama exports increasing by **over 72%** in recent years (Statista, 2023). 
+Evidently, K-Dramas enjoy high popularity from audiences from all around the world beyond Korea, highlighting the **widespread interest** in K-Dramas on a global scale. This has generated significant financial gains for South Korea’s economy, with K-Drama exports increasing by **over 72%** in recent years (Statista, 2023).
 
-In fact, this is part of the larger cultural phenomenon known as **“Hallyu”, or the Korean Wave**, which refers to the global craze for South Korean pop culture and other cultural elements, which includes entertainment like K-Dramas and K-Pop. 
+In fact, this is part of the larger cultural phenomenon known as **“Hallyu”, or the Korean Wave**, which refers to the global craze for South Korean pop culture and other cultural elements, which includes entertainment like K-Dramas and K-Pop.
 
 ![source: Pixabay](images/hallyu_palace.jpg){width="600"}
 
-This begs the question: How does Korea do this? In particular, how did K-Dramas **garner so much popularity and continuously stay on top of the game**? What can other region’s entertainment industry learn from South Korea? 
+This begs the question: How does Korea do this? In particular, how did K-Dramas **garner so much popularity and continuously stay on top of the game**? What can other region’s entertainment industry learn from South Korea?
 
 Let's find out!
 
 # Comparison with Japanese and Thai Dramas
 
-Let us first start with comparing some data between Korean, Japanese, and Thai dramas for some insights on their differences and similarities in terms of the dramas they produce. 
+Let us first start with comparing some data between Korean, Japanese, and Thai dramas for some insights on their differences and similarities in terms of the dramas they produce.
 
 ## 1. Ratings
 
@@ -174,12 +174,15 @@ ggplotly(lg1)
 
 ## 2. Genre & Tags
 
-```{r letter-a, echo=FALSE}
+Before we go into the genres of the different dramas, make your guess on what the most popular genre among K-Dramas is! 
 
+Simply click on the button of the option you think is right.
+
+```{=html}
+<iframe height="400" width="100%" frameborder="no" src="https://yeech1ng.shinyapps.io/genre_app/"> </iframe>
 ```
 
-
-
+separator
 ```{r, eval=TRUE, echo=FALSE}
 suppressMessages({
   suppressWarnings({
@@ -239,8 +242,8 @@ suppressMessages({
 
 ```
 
-
 K-Drama
+
 ```{r, eval=TRUE, echo=FALSE}
 suppressMessages({
   suppressWarnings({
@@ -271,7 +274,6 @@ wordcloud2(slice_max(ktags_df, order_by= freq, n=10000), size=1.2, color='random
  })
 })
 ```
-
 
 ## 3. Production Volume & Episodes
 
@@ -319,7 +321,7 @@ plot_ly(merged_data_produced, x = ~year, y = ~tot_eps, color = ~language, type =
 
 ```
 
-separator 
+separator
 
 ```{r, eval=TRUE, echo=FALSE}
 
@@ -333,7 +335,6 @@ average_episodes <- top_5000dramas_filtered %>%
 print(average_episodes)
 
 ```
-
 
 separator
 
@@ -368,6 +369,7 @@ ggplotly(rating_vs_eps_plot)
 
 ```
 
+```{=html}
 <style>
 hr {
   border: none;
@@ -376,8 +378,9 @@ hr {
   margin: 10px 0; /* Adjust the margin as needed */
 }
 </style>
+```
 
----
+------------------------------------------------------------------------
 
 <!-- Content -->
 
@@ -395,6 +398,7 @@ Let's try a fun activity! Find out how common the channel you use to watch K-Dra
 <iframe height="400" width="100%" frameborder="no" src="https://yeech1ng.shinyapps.io/sample_app/ "> </iframe>
 ```
 
+separator
 ```{r, eval=TRUE, echo=FALSE}
 suppressMessages({
   suppressWarnings({
@@ -454,4 +458,4 @@ ggplotly(channel_bg)
 
 ```
 
-
+## Deep Diving into K-Dramas

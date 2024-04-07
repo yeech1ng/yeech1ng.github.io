@@ -1,0 +1,12 @@
+name: genre_app
+title: genre_app
+username: yeech1ng
+account: yeech1ng
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 11688076
+bundleId: 8463318
+url: https://yeech1ng.shinyapps.io/genre_app/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
