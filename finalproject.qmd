@@ -151,6 +151,8 @@ This shows that while each language’s dramas have their own unique charm that 
 
 This is further reinforced when analysing how ratings have progressed across time for each language's drama, particularly in the form of concrete scores that users give. 
 
+Looking at this, let's split the time period of 2018 to 2023 to 3 smaller periods - pre-COVID years (2018 to 2019), COVID years (2020 to 2021), and post-COVID years (2022 to 2023).
+
 ```{r, eval=TRUE, echo=FALSE}
 
 
@@ -212,9 +214,15 @@ hr {
 
 <!-- Content -->
 
-Looking at this, let's split the time period of 2018 to 2023 to 3 smaller periods - pre-COVID years (2018 to 2019), COVID years (2020 to 2021), and post-COVID years (2022 to 2023).
+In the pre-COVID years, K-Dramas maintained a **competitive edge** over Thai and Japanese dramas with higher user scores around **7.6**. However, during the COVID years, K-Dramas experienced a **significant dip to the 7.5 points region** - the lowest it has ever been, as compared to Japanese dramas which rose steadily.
 
-In the pre-COVID years, 
+Yet in a turn of events, in the post-COVID years, the average user scores of K-Dramas abruptly picked up in 2021 and **rose exponentially to a record high of 7.81 in 2023**, maintaining an increasing upward trend from 2021 to 2023. Meanwhile, the average user scores for both Thai and Japanese dramas **generally dipped to the 7.4 and 7.5 points region** respectively by 2023, demonstrating a falling trend.
+
+This could  be attributed to the release of the Korean survival series drama, **Squid Game**, in 17 September 2021, which exploded on the international scene. In fact, Squid Game was crowned as Netflix's most-watched non-English series, with a staggering amount of 2,205,200,000 hours viewed as of March 31, 2024 (Netflix, n.d.), and one of the Most popular South-Korean dramas internationally as of December 2022 (Statista, 2023a).
+
+![Squid Game | source: Netflix](images/squidgame.png){width="550"}
+
+It is likely that Squid Game's widespread popularity catapulted K-Dramas into the global spotlight, attracting new international audiences and interest. This recognition of Squid Game also likely prompted increased investment in Korean content from producers and streaming platforms in light of the rising viewership and interest from audiences from all over the world, solidifying its dominance in the market. 
 
 Now that we have proven Korean's status as one of the most dominant forces in the global entertainment industry, let's focus more on the factors...
 
