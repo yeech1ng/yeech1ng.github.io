@@ -270,6 +270,6 @@
     "href": "finalproject.html#music",
     "title": "Final Project",
     "section": "Music",
-    "text": "Music\nseparator\nseparator\nseparator"
+    "text": "Music\n\n\nWarning in scan(file = file, what = what, sep = sep, quote = quote, dec = dec,\n: embedded nul(s) found in input\n\n\n\n\n\n\n[1] 0.7956138\n\n\n`geom_smooth()` using method = 'gam' and formula = 'y ~ s(x, bs = \"cs\")'\n\n\n\n\n\nseparator"
   }
 ]

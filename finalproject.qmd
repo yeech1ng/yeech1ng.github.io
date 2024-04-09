@@ -465,8 +465,6 @@ plot_ly(average_ratings, x = ~language, y = ~avg_rating_story, type = 'bar',
 ```
 
 
-
-
 ## 4. Production Volume & Episodes
 
 ```{r, eval=TRUE, echo=FALSE}
@@ -583,7 +581,7 @@ This is possibly due to...
 
 ## Music
 
-```{r,eval=FALSE, echo=FALSE}
+```{r,eval=TRUE, echo=FALSE}
 
 # Load required packages
 library(dplyr)
@@ -611,7 +609,10 @@ scatter_plot <- plot_ly(all_reviews, x = ~acting_cast, y = ~overall, color = ~la
 
 # Show the interactive plot
 scatter_plot
-
+cor(all_reviews$acting_cast, all_reviews$overall)
+ggplot(all_reviews, aes(x = acting_cast, y = overall)) +
+  geom_jitter() +
+  geom_smooth()
 ```
 
 separator
@@ -647,68 +648,10 @@ scatter_plot
 ```
 
 
-separator
-
-```{r, eval=FALSE, echo=FALSE}
-
-library(plotly)
-library(RColorBrewer)
-
-# Read the CSV file
-kreviews <- read.csv("datasets/kor_user_reviews.csv")
-
-# Define color palette
-palette <- brewer.pal(n = 3, name = "Set2") 
-
-# Create the plotly scatter plot
-plot_ly(kreviews, 
-        x = ~acting_cast, y = ~overall,
-        type = 'scatter', mode = 'markers',
-        color = ~overall,
-        colors = palette,
-        marker = list(size = 8)) %>%
-  layout(title = "Relationship between Music Ratings and Overall Ratings",
-         xaxis = list(title = "Acting Cast"),
-         yaxis = list(title = "Overall Ratings"))
-
-```
 
 
 
 
-
-
-separator
-```{r, eval=FALSE, echo=FALSE}
-# Load necessary libraries
-library(tidyverse)
-library(reshape2)
-
-# Sample data (replace this with your actual dataset)
-set.seed(123)
-kdrama_reviews <- data.frame(
-  title = paste0("K-drama", 1:100),
-  story = runif(100, min = 1, max = 10),
-  acting_cast = runif(100, min = 1, max = 10),
-  music = runif(100, min = 1, max = 10),
-  rewatch_value = runif(100, min = 1, max = 10),
-  overall = runif(100, min = 1, max = 10)
-)
-
-# Compute correlation matrix
-correlation_matrix <- cor(select(kdrama_reviews, -title))
-
-# Plot heatmap using ggplot2
-ggplot(data = melt(correlation_matrix), aes(Var2, Var1, fill = value)) +
-  geom_tile() +
-  scale_fill_gradient2(low = "blue", high = "red", mid = "white", 
-                       midpoint = 0, limit = c(-1,1), space = "Lab",
-                       name="Correlation") +
-  theme_bw () +
-  theme(axis.text.x = element_text(angle = 45, vjust = 1, size = 10, hjust = 1)) +
-  coord_fixed()
-
-```
 
 
 # Insights and Recommendations
