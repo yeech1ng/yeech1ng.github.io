@@ -316,7 +316,9 @@ hr {
 
 From the graph, 2 main trends are obvious.
 
-Firstly, comparing with Thai and Japanese dramas, there is 
+In terms of quantity, K-Dramas have the highest number of dramas distributed on global channels as compared to Thai and Japanese dramas. This can suggest that K-Dramas have 
+
+In terms of quality, K-Dramas 
 
 
 ## 3. Content & Genre
@@ -422,6 +424,49 @@ wordcloud2(slice_max(ktags_df, order_by= freq, n=10000), size=1.2, color='random
 })
 ```
 
+Storytelling is crucial.
+```{r, eval=TRUE, echo=FALSE}
+suppressMessages({
+  suppressWarnings({
+
+# Load required libraries
+library(dplyr)
+library(plotly)
+library(RColorBrewer)
+
+# Read datasets
+kreviews <- read.csv("datasets/kor_user_reviews.csv")
+treviews <- read.csv("datasets/tha_user_reviews.csv")
+jreviews <- read.csv("datasets/jap_user_reviews.csv")
+
+# Calculate average ratings for each language category
+average_ratings <- rbind(
+  kreviews %>% summarise(avg_rating_story = mean(story)),
+  treviews %>% summarise(avg_rating_story = mean(story)),
+  jreviews %>% summarise(avg_rating_story = mean(story))
+)
+
+# Add language column
+average_ratings$language <- c("Korean", "Thai", "Japanese")
+
+# Define color palette using colorbrewer
+palette <- brewer.pal(n = 3, name = "Set2")
+
+# Create interactive plot with plotly
+plot_ly(average_ratings, x = ~language, y = ~avg_rating_story, type = 'bar', 
+        marker = list(color = palette)) %>%
+  layout(title = "Average User Ratings on Drama's Story",
+         xaxis = list(title = "Language"),
+         yaxis = list(title = "Average Rating on Story"),
+         showlegend = FALSE)
+ })
+})
+
+```
+
+
+
+
 ## 4. Production Volume & Episodes
 
 ```{r, eval=TRUE, echo=FALSE}
@@ -513,7 +558,6 @@ ggplotly(rating_vs_eps_plot)
 
  })
 })
-
 ```
 
 ```{=html}
@@ -537,9 +581,139 @@ However, within a shorter episode count from 0 to 25, K-Dramas still lead and **
 
 This is possibly due to...
 
-## Insights and Recommendations
+## Music
 
-## References
+```{r,eval=FALSE, echo=FALSE}
+
+# Load required packages
+library(dplyr)
+library(plotly)
+
+# Read data from CSV files
+kreviews <- read.csv("datasets/kor_user_reviews.csv")
+treviews <- read.csv("datasets/tha_user_reviews.csv")
+jreviews <- read.csv("datasets/jap_user_reviews.csv")
+
+# Add language column to each dataset
+kreviews$language <- "Korean"
+treviews$language <- "Thai"
+jreviews$language <- "Japanese"
+
+# Combine data into a single data frame
+all_reviews <- bind_rows(kreviews, treviews, jreviews)
+
+# Plot scatter plot using Plotly
+scatter_plot <- plot_ly(all_reviews, x = ~acting_cast, y = ~overall, color = ~language, colors = brewer.pal(3, "Set2")) %>%
+  add_markers() %>%
+  layout(title = "Correlation between Acting Cast Ratings and Overall Ratings",
+         xaxis = list(title = "Acting Cast Ratings"),
+         yaxis = list(title = "Overall Ratings"))
+
+# Show the interactive plot
+scatter_plot
+
+```
+
+separator
+```{r,eval=FALSE, echo=FALSE}
+
+# Load required packages
+library(dplyr)
+library(plotly)
+
+# Read data from CSV files
+kreviews <- read.csv("datasets/kor_user_reviews.csv")
+treviews <- read.csv("datasets/tha_user_reviews.csv")
+jreviews <- read.csv("datasets/jap_user_reviews.csv")
+
+# Add language column to each dataset
+kreviews$language <- "Korean"
+treviews$language <- "Thai"
+jreviews$language <- "Japanese"
+
+# Combine data into a single data frame
+all_reviews <- bind_rows(kreviews, treviews, jreviews)
+
+# Plot scatter plot using Plotly
+scatter_plot <- plot_ly(all_reviews, x = ~music, y = ~rewatch_value, color = ~language, colors = brewer.pal(3, "Set2")) %>%
+  add_markers() %>%
+  layout(title = "Correlation between Music Ratings and Rewatch Value",
+         xaxis = list(title = "Music Ratings"),
+         yaxis = list(title = "Rewatch Value"))
+
+# Show the interactive plot
+scatter_plot
+
+```
+
+
+separator
+
+```{r, eval=FALSE, echo=FALSE}
+
+library(plotly)
+library(RColorBrewer)
+
+# Read the CSV file
+kreviews <- read.csv("datasets/kor_user_reviews.csv")
+
+# Define color palette
+palette <- brewer.pal(n = 3, name = "Set2") 
+
+# Create the plotly scatter plot
+plot_ly(kreviews, 
+        x = ~acting_cast, y = ~overall,
+        type = 'scatter', mode = 'markers',
+        color = ~overall,
+        colors = palette,
+        marker = list(size = 8)) %>%
+  layout(title = "Relationship between Music Ratings and Overall Ratings",
+         xaxis = list(title = "Acting Cast"),
+         yaxis = list(title = "Overall Ratings"))
+
+```
+
+
+
+
+
+
+separator
+```{r, eval=FALSE, echo=FALSE}
+# Load necessary libraries
+library(tidyverse)
+library(reshape2)
+
+# Sample data (replace this with your actual dataset)
+set.seed(123)
+kdrama_reviews <- data.frame(
+  title = paste0("K-drama", 1:100),
+  story = runif(100, min = 1, max = 10),
+  acting_cast = runif(100, min = 1, max = 10),
+  music = runif(100, min = 1, max = 10),
+  rewatch_value = runif(100, min = 1, max = 10),
+  overall = runif(100, min = 1, max = 10)
+)
+
+# Compute correlation matrix
+correlation_matrix <- cor(select(kdrama_reviews, -title))
+
+# Plot heatmap using ggplot2
+ggplot(data = melt(correlation_matrix), aes(Var2, Var1, fill = value)) +
+  geom_tile() +
+  scale_fill_gradient2(low = "blue", high = "red", mid = "white", 
+                       midpoint = 0, limit = c(-1,1), space = "Lab",
+                       name="Correlation") +
+  theme_bw () +
+  theme(axis.text.x = element_text(angle = 45, vjust = 1, size = 10, hjust = 1)) +
+  coord_fixed()
+
+```
+
+
+# Insights and Recommendations
+
+# References
 
 *Escandon, R. (2020, March 12). The film industry made a record-breaking $100 billion last year. Forbes. https://www.forbes.com/sites/rosaescandon/2020/03/12/the-film-industry-made-a-record-breaking-100-billion-last-year/?sh=5b3657bb34cd*
 
