@@ -159,6 +159,9 @@ Given the many datasets I have, I was unsure if I should include certain dataset
 
 If I realise I require additional information for comparison in the future, I will include more information on user reviews on Thai and Japanese dramas. Similarly, if I realise the amount of data I have now is excessive and unnecessary to investigate the factors behind the popularity of K-Dramas globally, I will remove these datasets on Thai and Japanese Dramas
 
+# Week 10 
+
+# Week 12
 
 
 
