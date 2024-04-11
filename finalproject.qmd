@@ -423,22 +423,22 @@ suppressMessages({
     library(RColorBrewer)
 
     # Filter datasets
-    general_kdrama_FILTERED <- general_kdrama %>% filter(year >= 2018)
-    general_tdrama_FILTERED <- general_tdrama %>% filter(year >= 2018)
-    general_jdrama_FILTERED <- general_jdrama %>% filter(year >= 2018)
+    general_kdrama_2023FILTERED <- general_kdrama %>% filter(year == 2023)
+    general_tdrama_2023FILTERED <- general_tdrama %>% filter(year == 2023)
+    general_jdrama_2023FILTERED <- general_jdrama %>% filter(year == 2023)
 
     # Split genres into separate rows for each dataset
-    general_kdrama_genresplit <- general_kdrama_FILTERED %>% 
+    general_kdrama_genresplit <- general_kdrama_2023FILTERED %>% 
       select(year, genres, tot_user_score) %>% 
       separate_rows(genres, sep = ",\\s*") %>%
       mutate(language = "Korean")
 
-    general_tdrama_genresplit <- general_tdrama_FILTERED %>% 
+    general_tdrama_genresplit <- general_tdrama_2023FILTERED %>% 
       select(year, genres, tot_user_score) %>% 
       separate_rows(genres, sep = ",\\s*") %>%
       mutate(language = "Thai")
 
-    general_jdrama_genresplit <- general_jdrama_FILTERED %>% 
+    general_jdrama_genresplit <- general_jdrama_2023FILTERED %>% 
       select(year, genres, tot_user_score) %>% 
       separate_rows(genres, sep = ",\\s*") %>%
       mutate(language = "Japanese")
