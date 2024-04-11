@@ -750,7 +750,7 @@ This is possibly due to...
 ## 5. Actors
 
 ```{=html}
-<iframe height="t00" width="400%" frameborder="no" src="https://yeech1ng.shinyapps.io/actor_app/ "> </iframe>
+<iframe height="500" width="100%" frameborder="no" src="https://yeech1ng.shinyapps.io/actor_app/ "> </iframe>
 ```
 
 

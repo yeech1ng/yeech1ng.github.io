@@ -5,7 +5,7 @@ library(ggplot2)
 
 # UI definition
 ui <- fluidPage(
-  titlePanel("Correlation Plots"),
+  titlePanel("Korean, Thai, and Japanese Dramas Correlation Plots"),
   sidebarLayout(
     sidebarPanel(
       selectInput("plot_type", "Select Plot Type:",
@@ -32,15 +32,15 @@ server <- function(input, output) {
   
   # Function to create correlation plot
   create_plot <- function(data, language) {
-    color_palette <- c("#66c2a5", "#fc8d62", "#8da0cb")  # Set2 color palette
+    palette <- brewer.pal(3, "Set2")  # Get color palette
     
     ggplot(data, aes(x = acting_cast, y = overall, color = language)) +
       geom_jitter() +
       geom_smooth() +
-      scale_color_manual(values = color_palette) +  # Set manual color scale
       ggtitle(paste("Correlation between Acting Cast Ratings and Overall Ratings for", language, "dramas")) +
       xlab("Acting Cast Ratings") +
-      ylab("Overall Ratings")
+      ylab("Overall Ratings") +
+      scale_color_manual(values = palette)  # Set color scale
   }
   
   # Render the correlation plot based on selected plot type
@@ -55,6 +55,10 @@ server <- function(input, output) {
     ggplotly(plot)
   })
 }
+
+# Run Shiny app
+shinyApp(ui = ui, server = server)
+
 
 # Run Shiny app
 shinyApp(ui = ui, server = server)
