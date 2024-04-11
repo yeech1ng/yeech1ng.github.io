@@ -102,29 +102,29 @@ suppressMessages({
     library(RColorBrewer)
     library(tidyverse)
   
-top_5000dramas <- read.csv("datasets/top_5000_dramas.csv")
+    top_5000dramas <- read.csv("datasets/top_5000_dramas.csv")
 
-top_5000dramas_filtered <- top_5000dramas %>%
-  filter(released_year >= 2018 & grepl("Japanese|Thai|Korean", Language))
+    top_5000dramas_filtered <- top_5000dramas %>%
+      filter(released_year >= 2018 & grepl("Japanese|Thai|Korean", Language))
 
-colors <- brewer.pal(3, "Set2") 
+    colors <- brewer.pal(3, "Set2") 
 
-# Calculate average ratings for each language
-avg_ratings <- top_5000dramas_filtered %>%
-  group_by(Language) %>%
-  summarize(avg_rating = mean(Rating, na.rm = TRUE))
+    # Calculate average ratings for each language
+    avg_ratings <- top_5000dramas_filtered %>%
+      group_by(Language) %>%
+      summarize(avg_rating = mean(Rating, na.rm = TRUE))
 
-# Create a bar plot
-bp2 <- ggplot(avg_ratings, aes(x = Language, y = avg_rating, fill = Language)) +
-  geom_bar(stat = "identity") +
-  labs(title = "Average Ratings of Thai, Japanese, and Korean Dramas from 2018 to 2023",
-       x = "Language", y = "Average Rating") +
-  theme_bw() + scale_fill_manual(values = colors)
+    # Create a boxplot
+    bp2 <- ggplot(top_5000dramas_filtered, aes(x = Language, y = Rating, fill = Language)) +
+      geom_boxplot() +
+      labs(title = "Average Ratings of Thai, Japanese, and Korean Dramas from 2018 to 2023",
+           x = "Language", y = "Rating") +
+      theme_bw() + scale_fill_manual(values = colors)
 
-ggplotly(bp2)
-
+    ggplotly(bp2)
   })
 })
+
 
 ```
 
@@ -414,38 +414,116 @@ suppressMessages({
 
 ```
 
-K-Drama
+K-Drama Word Cloud
 
 ```{r, eval=TRUE, echo=FALSE}
 suppressMessages({
   suppressWarnings({
+  library(wordcloud2)
+    library(tidyverse)
+    library(tm)
+    
+    general_kdrama <- read.csv("datasets/kor_drama.csv")
 
+suppressWarnings({
+general_kdrama$year <- as.numeric(as.character(general_kdrama$year))
+})
+    
+    kdrama_tags <- general_kdrama %>% filter(year >= 2018) %>% select(tags) 
+    
+    kdocs <- Corpus(VectorSource(kdrama_tags))
+    
+    kdocs <- kdocs %>% 
+      tm_map(removePunctuation) 
+    
+    kdocs <- tm_map(kdocs, content_transformer(tolower))
+    kdocs <- tm_map(kdocs, removeWords, stopwords("english"))
+    
+    kdtm <- TermDocumentMatrix(kdocs)
+    kmatrix <- as.matrix(kdtm)
+    kwords <- sort(rowSums(kmatrix), decreasing=TRUE)
+    ktags_df <- data.frame(word=names(kwords), freq=kwords)
+    
+    wordcloud2(slice_max(ktags_df, order_by= freq, n=10000), size=1.2, color='random-dark', shape='circle')
+  })
+})
+    
+```
+Thai Drama Word Cloud
+```{r, eval=TRUE, echo=FALSE}
 library(wordcloud2)
 library(tidyverse)
 library(tm)
 
-kdrama_tags <- general_kdrama %>% filter(year >= 2018) %>% select(tags) 
+general_tdrama <- read.csv("datasets/tha_drama.csv")
 
-kdocs <- Corpus(VectorSource(kdrama_tags))
+# Convert year to numeric 
+suppressWarnings({
 
-kdocs <- kdocs %>% 
-  tm_map(removeNumbers) %>%
-  tm_map(removePunctuation) %>%
-  tm_map(stripWhitespace) 
+general_tdrama$year <- as.numeric(as.character(general_tdrama$year))
 
-kdocs <- tm_map(kdocs, content_transformer(tolower))
-kdocs <- tm_map(kdocs, removeWords, stopwords("english"))
-
-kdtm <- TermDocumentMatrix(kdocs)
-kmatrix <- as.matrix(kdtm)
-kwords <- sort(rowSums(kmatrix), decreasing=TRUE)
-ktags_df <- data.frame(word=names(kwords), freq=kwords)
-
-wordcloud2(slice_max(ktags_df, order_by= freq, n=10000), size=1.2, color='random-dark', shape='circle')
-
- })
 })
+# Filter the data and create the word cloud
+tdrama_tags <- general_tdrama %>% 
+  filter(!is.na(year) & as.numeric(year) >= 2018) %>%  # Convert to numeric and ensure >= 2018
+  select(tags)
+
+tdocs <- Corpus(VectorSource(tdrama_tags))
+
+tdocs <- tdocs %>% 
+  tm_map(removePunctuation) 
+
+tdocs <- tm_map(tdocs, content_transformer(tolower))
+tdocs <- tm_map(tdocs, removeWords, stopwords("english"))
+
+tdtm <- TermDocumentMatrix(tdocs)
+tmatrix <- as.matrix(tdtm)
+twords <- sort(rowSums(tmatrix), decreasing=TRUE)
+ttags_df <- data.frame(word=names(twords), freq=twords)
+
+wordcloud2(slice_max(ttags_df, order_by= freq, n=10000), size=1.2, color='random-dark', shape='circle')
 ```
+
+Japanese Drama Word Cloud
+```{r, eval=TRUE, echo=FALSE}
+suppressMessages({
+  suppressWarnings({
+  library(wordcloud2)
+    library(tidyverse)
+    library(tm)
+    
+general_jdrama <- read.csv("datasets/jap_drama.csv")
+
+# Convert year to numeric 
+suppressWarnings({
+general_jdrama$year <- as.numeric(as.character(general_jdrama$year))
+})
+    
+    jdrama_tags <- general_jdrama %>% filter(year >= 2018) %>% select(tags) 
+    
+    jdocs <- Corpus(VectorSource(jdrama_tags))
+    
+    jdocs <- jdocs %>% 
+      tm_map(removeNumbers) %>%
+      tm_map(removePunctuation) %>%
+      tm_map(stripWhitespace) 
+    
+    jdocs <- tm_map(jdocs, content_transformer(tolower))
+    jdocs <- tm_map(jdocs, removeWords, stopwords("english"))
+    
+    jdtm <- TermDocumentMatrix(kdocs)
+    jmatrix <- as.matrix(jdtm)
+    jwords <- sort(rowSums(jmatrix), decreasing=TRUE)
+    jtags_df <- data.frame(word=names(jwords), freq=jwords)
+    
+    wordcloud2(slice_max(jtags_df, order_by= freq, n=10000), size=1.2, color='random-dark', shape='circle')
+  })
+})
+
+```
+
+
+
 
 Storytelling is crucial.
 ```{r, eval=TRUE, echo=FALSE}
@@ -486,6 +564,8 @@ plot_ly(average_ratings, x = ~language, y = ~avg_rating_story, type = 'bar',
 })
 
 ```
+
+
 
 
 ## 4. Production Volume & Episodes
