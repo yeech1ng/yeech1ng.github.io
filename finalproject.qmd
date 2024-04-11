@@ -32,16 +32,15 @@ kable(head(top_5000dramas_filtered))
 
 ```
 
-To supplement this, I made us of other more specific [datasets](https://www.kaggle.com/datasets/chanoncharuchinda/thai-and-japanese-drama-vs-korean-drama-dominance?select=kor_user_reviews.csv) on the name, year, genres, tags, episode number, the platform it was aired on, user score, and rank for Korean, Thai, and Japanese Dramas.
+To supplement this, I made use of other more specific [datasets](https://www.kaggle.com/datasets/chanoncharuchinda/thai-and-japanese-drama-vs-korean-drama-dominance?select=kor_user_reviews.csv) on the name, year, genres, tags, episode number, the platform it was aired on, user score, and rank for Korean, Thai, and Japanese Dramas.
 
 I also used data on the user reviews for each language's dramas, which included ratings on the story, acting cast, music, rewatch value, and the overall ranking. This was so I could have a better basis for comparison!
-
 
 ![source: me](images/ipadfinal){width="600"}
 
 # Introduction
 
-In recent years, the film and television industries have seen exponential growth, with the global entertainment market topping USD\$100 billion for the first time ever in 2019 (Escandon, 2020). Moreover, given the onset of globalisation and the rise of streaming services like Netflix and Disney+, viewers have greater access to shows that are produced and distributed worldwide.
+In recent years, the film and television industries have seen exponential growth, with the global entertainment market topping USD$100 billion for the first time ever in 2019 (Escandon, 2020). Moreover, given the onset of globalisation and the rise of streaming services like Netflix and Disney+, viewers have greater access to shows that are produced and distributed worldwide.
 
 With an increasing influx of shows in the market, this has created a fast-paced and competitive climate that makes it difficult for producers and creators to stand out.
 
