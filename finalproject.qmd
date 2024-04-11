@@ -49,7 +49,7 @@ colors <- brewer.pal(4, "Set3")
 
 # Create the bar plot with specified colors and custom order
 bp1 <- ggplot(kdrama_pop_2022, aes(x = Popularity, y = share_of_respondents , fill = Popularity)) +
-  geom_bar(stat = "identity") +
+  geom_bar(stat = "identity", color="black") +
   labs(title = "K-Drama Popularity Worldwide in 2022", x = "Popularity", y = "Share of Respondents", caption = "Source: Statista") +
   theme_bw() +
   scale_fill_manual(values = colors)
@@ -398,7 +398,7 @@ suppressMessages({
 
     # Plot grouped bar chart using Plotly
     genre_bg <- ggplot(merged_data_genres, aes(x = genres, fill = language)) +
-      geom_bar(stat = "count", position = "dodge") +
+      geom_bar(stat = "count", position = "dodge", color="black") +
       labs(title = "Top 10 Genre Distribution",
            x = "Genre",
            y = "Number of Dramas",
