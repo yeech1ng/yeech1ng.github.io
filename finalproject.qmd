@@ -243,65 +243,6 @@ This suggests that dramas which are either **produced, distributed, or aired by 
 ```{r, eval=TRUE, echo=FALSE}
 suppressMessages({
   suppressWarnings({
-
-library(tidyverse)
-library(ggplot2)
-library(plotly)
-library(RColorBrewer)
-
-general_kdrama_FILTERED <- general_kdrama %>% filter(year >= 2018)
-general_tdrama_FILTERED <- general_tdrama %>% filter(year >= 2018)
-general_jdrama_FILTERED <- general_jdrama %>% filter(year >= 2018)
-
-# Split channels into separate rows for each dataset
-general_kdrama_channelsplit <- general_kdrama_FILTERED %>% 
-  select(year, org_net) %>% 
-  separate_rows(org_net, sep = " ")
-
-general_tdrama_channelsplit <- general_tdrama_FILTERED %>% 
-  select(year, org_net) %>% 
-  separate_rows(org_net, sep = " ")
-
-general_jdrama_channelsplit <- general_jdrama_FILTERED %>% 
-  select(year, org_net) %>% 
-  separate_rows(org_net, sep = " ")
-
-# Merge the datasets
-merged_data_channels <- bind_rows(
-  general_kdrama_channelsplit %>% mutate(language = "Korean"),
-  general_tdrama_channelsplit %>% mutate(language = "Thai"),
-  general_jdrama_channelsplit %>% mutate(language = "Japanese")
-)
-
-# Filter for selected channels
-selected_channels <- c("Disney+", "Amazon", "Netflix", "Hulu")
-filtered_data_channels <- merged_data_channels %>%
-  filter(org_net %in% selected_channels)
-
-# Define color palette
-palette <- brewer.pal(n = 4, name = "Set2")
-
-# Plot grouped bar chart using Plotly
-channel_bg <- ggplot(filtered_data_channels, aes(x = org_net, fill = language)) +
-  geom_bar(position = "dodge") +
-  labs(title = "Number of Dramas distributed on Global Channels",
-       x = "Channel",
-       y = "Number of Dramas",
-       fill = "Language") +
-  scale_fill_manual(values = palette) +  # Set color palette
-  theme_bw()
-
-# Convert ggplot object to Plotly
-ggplotly(channel_bg)
-
- })
-})
-
-```
-
-```{r, eval=TRUE, echo=FALSE}
-suppressMessages({
-  suppressWarnings({
     
     library(tidyverse)
     library(ggplot2)
@@ -344,6 +285,12 @@ suppressMessages({
       left_join(count(merged_data_channels, org_net, language, .drop = FALSE), by = c("org_net", "language")) %>%
       mutate(n = ifelse(is.na(n), 0, n))
     
+    # Add dummy rows for Thai dramas on Disney+ and Hulu with count 0
+    dummy_rows <- data.frame(org_net = c("Disney+", "Hulu"),
+                             language = "Thai",
+                             n = 0)
+    merged_data_all <- bind_rows(merged_data_all, dummy_rows)
+    
     # Filter for selected channels
     selected_channels <- c("Disney+", "Amazon", "Netflix", "Hulu")
     filtered_data_all <- merged_data_all %>%
@@ -354,7 +301,7 @@ suppressMessages({
     
     # Plot grouped bar chart using Plotly
     channel_bg <- ggplot(filtered_data_all, aes(x = org_net, y = n, fill = language)) +
-      geom_bar(stat = "identity", position = "dodge", width = 0.5) +
+      geom_bar(stat = "identity", position = "dodge") +
       geom_text(aes(label = ifelse(n == 0, "0", "")), 
                 position = position_dodge(width = 0.9), 
                 vjust = -0.5, size = 3) +
@@ -373,7 +320,6 @@ suppressMessages({
 
 
 ```
-
 
 separator
 ```{=html}
