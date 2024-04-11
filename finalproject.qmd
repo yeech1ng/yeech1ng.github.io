@@ -301,7 +301,7 @@ suppressMessages({
     
     # Plot grouped bar chart using Plotly
     channel_bg <- ggplot(filtered_data_all, aes(x = org_net, y = n, fill = language)) +
-      geom_bar(stat = "identity", position = "dodge") +
+      geom_bar(stat = "identity", position = "dodge", color="black") +
       geom_text(aes(label = ifelse(n == 0, "0", "")), 
                 position = position_dodge(width = 0.9), 
                 vjust = -0.5, size = 3) +
