@@ -34,9 +34,9 @@ server <- function(input, output) {
   create_plot <- function(data, language) {
     palette <- brewer.pal(3, "Set2")  # Get color palette
     
-    ggplot(data, aes(x = acting_cast, y = overall, color = language)) +
-      geom_jitter() +
-      geom_smooth() +
+    ggplot(data, aes(x = acting_cast, y = overall)) +
+      geom_jitter(aes(color = language), show.legend = FALSE) +
+      geom_smooth(aes(color = language), show.legend = FALSE) +
       ggtitle(paste("Correlation between Acting Cast Ratings and Overall Ratings for", language, "dramas")) +
       xlab("Acting Cast Ratings") +
       ylab("Overall Ratings") +
