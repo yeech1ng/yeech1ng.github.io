@@ -683,14 +683,25 @@ plotly::ggplotly(plot)
 
 ```{r, eval=TRUE, echo=FALSE}
 
+suppressMessages({
+  suppressWarnings({
 library(dplyr)
+library(kableExtra)
 
+# Calculate average number of episodes for each language drama per year
 average_episodes <- top_5000dramas_filtered %>%
   group_by(released_year, Language) %>%
   summarise(Avg_Episodes = mean(Episodes))
 
-# Print the table
-print(average_episodes)
+# Rename column titles
+colnames(average_episodes) <- c("Released Year", "Language", "Average No. of Episodes")
+
+# Print the table using kableExtra
+kable(average_episodes, "html") %>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+ })
+})
+
 
 ```
 
