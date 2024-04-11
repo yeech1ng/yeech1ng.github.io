@@ -8,9 +8,13 @@ Hello and welcome to my data story! :)
 
 ![source: me](images/finalproj_1){width="900"}
 
-As an avid K-Drama watcher, I thought it would be interesting to investigate: **"What makes K-Dramas so popular globally?"**, and showcase the driving factors for my final project.
+As an avid K-Drama watcher, I thought it would be interesting to investigate and showcase the driving factors of: 
 
-I used several data sets from Kaggle, namely data on the top 5000 dramas which includes information on the name, episodes, released year, language (selected only Korean, Thai, and Japanese), rating, and ranking.
+<span style="font-size: 25px;">**Why are K-Dramas so popular globally?**</span>
+
+# Data Sets
+
+I used several data sets from Kaggle, namely data on the [top 5000 Asian dramas](https://www.kaggle.com/datasets/lakshmiindukosuri/top-5000-dramas-1983-2023) which includes information on the name, episodes, released year, language (selected only Korean, Thai, and Japanese), rating, and ranking.
 
 Here's a quick preview of the top rows!
 
@@ -28,7 +32,7 @@ kable(head(top_5000dramas_filtered))
 
 ```
 
-To supplement this, I made us of other more specific datasets on the name, year, genres, tags, episode number, the platform it was aired on, user score, and rank for Korean, Thai, and Japanese Dramas.
+To supplement this, I made us of other more specific [datasets](https://www.kaggle.com/datasets/chanoncharuchinda/thai-and-japanese-drama-vs-korean-drama-dominance?select=kor_user_reviews.csv) on the name, year, genres, tags, episode number, the platform it was aired on, user score, and rank for Korean, Thai, and Japanese Dramas.
 
 I also used data on the user reviews for each language's dramas, which included ratings on the story, acting cast, music, rewatch value, and the overall ranking. This was so I could have a better basis for comparison!
 
