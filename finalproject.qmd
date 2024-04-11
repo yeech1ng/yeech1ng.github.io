@@ -107,7 +107,7 @@ suppressMessages({
     top_5000dramas_filtered <- top_5000dramas %>%
       filter(released_year >= 2018 & grepl("Japanese|Thai|Korean", Language))
 
-    colors <- brewer.pal(3, "Set2") 
+    colors <- brewer.pal(3, "Pastel1") 
 
     # Calculate average ratings for each language
     avg_ratings <- top_5000dramas_filtered %>%
