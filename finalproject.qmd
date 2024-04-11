@@ -299,6 +299,83 @@ ggplotly(channel_bg)
 
 ```
 
+```{r, eval=TRUE, echo=FALSE}
+suppressMessages({
+  suppressWarnings({
+    
+    library(tidyverse)
+    library(ggplot2)
+    library(plotly)
+    library(RColorBrewer)
+    
+    general_kdrama_FILTERED <- general_kdrama %>% filter(year >= 2018)
+    general_tdrama_FILTERED <- general_tdrama %>% filter(year >= 2018)
+    general_jdrama_FILTERED <- general_jdrama %>% filter(year >= 2018)
+    
+    # Split channels into separate rows for each dataset
+    general_kdrama_channelsplit <- general_kdrama_FILTERED %>%
+      select(year, org_net) %>%
+      separate_rows(org_net, sep = " ")
+    
+    general_tdrama_channelsplit <- general_tdrama_FILTERED %>%
+      select(year, org_net) %>%
+      separate_rows(org_net, sep = " ")
+    
+    general_jdrama_channelsplit <- general_jdrama_FILTERED %>%
+      select(year, org_net) %>%
+      separate_rows(org_net, sep = " ")
+    
+    # Merge the datasets
+    merged_data_channels <- bind_rows(
+      general_kdrama_channelsplit %>% mutate(language = "Korean"),
+      general_tdrama_channelsplit %>% mutate(language = "Thai"),
+      general_jdrama_channelsplit %>% mutate(language = "Japanese")
+    )
+    
+    # Create a data frame with all combinations of channels and languages
+    all_combinations <- expand.grid(org_net = c("Disney+", "Amazon", "Netflix", "Hulu"),
+                                    language = c("Korean", "Thai", "Japanese"))
+    
+    # Merge with merged_data_channels to include counts, filling missing counts with 0
+    merged_data_all <- merge(all_combinations, merged_data_channels, by = c("org_net", "language"), all.x = TRUE)
+    
+    # Fill missing counts with 0
+    merged_data_all <- merged_data_all %>%
+      left_join(count(merged_data_channels, org_net, language, .drop = FALSE), by = c("org_net", "language")) %>%
+      mutate(n = ifelse(is.na(n), 0, n))
+    
+    # Filter for selected channels
+    selected_channels <- c("Disney+", "Amazon", "Netflix", "Hulu")
+    filtered_data_all <- merged_data_all %>%
+      filter(org_net %in% selected_channels)
+    
+    # Define color palette
+    palette <- brewer.pal(n = 4, name = "Set2")
+    
+    # Plot grouped bar chart using Plotly
+    channel_bg <- ggplot(filtered_data_all, aes(x = org_net, y = n, fill = language)) +
+      geom_bar(stat = "identity", position = "dodge", width = 0.5) +
+      geom_text(aes(label = ifelse(n == 0, "0", "")), 
+                position = position_dodge(width = 0.9), 
+                vjust = -0.5, size = 3) +
+      labs(title = "Number of Dramas distributed on Global Channels",
+           x = "Channel",
+           y = "Number of Dramas",
+           fill = "Language") +
+      scale_fill_manual(values = palette) +  # Set color palette
+      theme_bw()
+    
+    # Convert ggplot object to Plotly
+    ggplotly(channel_bg)
+    
+  })
+})
+
+
+```
+
+
+separator
 ```{=html}
 <style>
 hr {
@@ -468,7 +545,8 @@ plot_ly(average_ratings, x = ~language, y = ~avg_rating_story, type = 'bar',
 ## 4. Production Volume & Episodes
 
 ```{r, eval=TRUE, echo=FALSE}
-
+suppressMessages({
+  suppressWarnings({
 
 library(tidyverse)
 library(RColorBrewer)
@@ -496,8 +574,6 @@ merged_data_produced <- bind_rows(
 # Define color palette
 palette <- brewer.pal(n = 3, name = "Set2")
 
-suppressMessages({
-  suppressWarnings({
 # Plotting with plotly
 plot_ly(merged_data_produced, x = ~year, y = ~tot_eps, color = ~language, type = 'bar') %>%
   layout(title = "Yearly Production of Korean, Thai, and Japanese Dramas",
@@ -506,12 +582,78 @@ plot_ly(merged_data_produced, x = ~year, y = ~tot_eps, color = ~language, type =
          barmode = 'stack',
          colorway = palette,
          bargap = 0.1)
+
  })
 })
 
 ```
 
 separator
+
+```{r, eval=FALSE, echo=FALSE}
+
+library(tidyverse)
+library(RColorBrewer)
+library(plotly)
+
+# Convert ep_duration and tot_eps columns to integers
+general_kdrama_FILTERED <- general_kdrama_FILTERED %>% 
+  mutate(ep_duration = as.integer(ep_duration),
+         tot_eps = as.integer(tot_eps))
+
+general_tdrama_FILTERED <- general_tdrama_FILTERED %>% 
+  mutate(ep_duration = as.integer(ep_duration),
+         tot_eps = as.integer(tot_eps))
+
+general_jdrama_FILTERED <- general_jdrama_FILTERED %>% 
+  mutate(ep_duration = as.integer(ep_duration),
+         tot_eps = as.integer(tot_eps))
+
+# Merge data
+merged_data_produced <- bind_rows(
+  general_kdrama_FILTERED %>% mutate(language = "Korean"),
+  general_tdrama_FILTERED %>% mutate(language = "Thai"),
+  general_jdrama_FILTERED %>% mutate(language = "Japanese"))
+
+# Calculate proportions
+prop_data <- merged_data_produced %>%
+  group_by(year, language) %>%
+  summarize(prop_dramas = n() / sum(n())) %>%
+  ungroup()
+
+# Spread data to create separate columns for each language
+spread_data <- prop_data %>%
+  spread(key = language, value = prop_dramas, fill = 0)
+
+# Calculate total number of dramas produced each year
+total_dramas <- merged_data_produced %>%
+  group_by(year) %>%
+  summarise(total_dramas = n()) %>%
+  ungroup()
+
+# Join total dramas data with spread data
+final_data <- spread_data %>%
+  left_join(total_dramas, by = "year")
+
+# Define color palette
+palette <- brewer.pal(n = 3, name = "Set2")
+
+# Plot with ggplot2
+plot <- ggplot(final_data, aes(x = year)) +
+  geom_bar(aes(y = total_dramas, fill = language), stat = "identity") +
+  labs(title = "Yearly Production of Korean, Thai, and Japanese Dramas",
+       x = "Year",
+       y = "Total Number of Dramas Produced",
+       fill = "Language") +
+  scale_fill_manual(values = palette) +
+  theme_bw()
+
+# Convert ggplot object to plotly
+plotly::ggplotly(plot)
+
+
+```
+
 
 ```{r, eval=TRUE, echo=FALSE}
 
@@ -579,7 +721,7 @@ However, within a shorter episode count from 0 to 25, K-Dramas still lead and **
 
 This is possibly due to...
 
-## Music
+## Actors
 
 ```{r,eval=TRUE, echo=FALSE}
 
