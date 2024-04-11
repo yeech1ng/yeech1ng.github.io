@@ -12,6 +12,15 @@ As an avid K-Drama watcher, I thought it would be interesting to investigate: **
 
 I used several data sets from Kaggle, namely data on the top 5000 dramas which includes information on the name, episodes, released year, language (selected only Korean, Thai, and Japanese), rating, and ranking.
 
+```{r dataset_preview, echo=FALSE}
+library(knitr)
+library(tidyverse)
+
+dataset <- read.csv("datasets/top_5000_dramas.csv")
+
+kable(glimpse(dataset))
+```
+
 Others included specific data on the name, year, genres, tags, episode number, the platform it was aired on, user score, and rank for Korean, Thai, and Japanese Dramas. I also used data on the user reviews for each language's dramas, which included ratings on the story, acting cast, music, rewatch value, and the overall ranking. This was so I could have a better basis for comparison.
 
 ![source: me](images/ipadfinal){width="600"}
@@ -344,7 +353,7 @@ In terms of quantity, K-Dramas have the highest number of dramas distributed on 
 In terms of quality, K-Dramas 
 
 
-## 3. Content & Genre
+## 3. Genres
 
 Before we go into the genres of the different dramas, make your guess on what the most popular genre among K-Dramas is!
 
@@ -470,6 +479,72 @@ suppressMessages({
 
 ```
 
+Vairety of genres
+```{r, eval=TRUE, echo=FALSE}
+suppressMessages({
+  suppressWarnings({
+    library(tidyverse)
+    library(kableExtra)
+
+    # Read data from CSV files
+    general_kdrama <- read.csv("datasets/kor_drama.csv")
+    general_tdrama <- read.csv("datasets/tha_drama.csv")
+    general_jdrama <- read.csv("datasets/jap_drama.csv")
+
+    # Convert year column to integer
+    general_kdrama$year <- as.integer(general_kdrama$year)
+    general_tdrama$year <- as.integer(general_tdrama$year)
+    general_jdrama$year <- as.integer(general_jdrama$year)
+
+    # Filter datasets
+    general_kdrama_FILTERED <- general_kdrama %>% filter(year >= 2018)
+    general_tdrama_FILTERED <- general_tdrama %>% filter(year >= 2018)
+    general_jdrama_FILTERED <- general_jdrama %>% filter(year >= 2018)
+
+    # Create Language variable
+    general_kdrama_FILTERED$`Drama Language` <- "Korean"
+    general_tdrama_FILTERED$`Drama Language` <- "Thai"
+    general_jdrama_FILTERED$`Drama Language` <- "Japanese"
+
+    # Count unique genres for each drama
+    kdrama_genre_count <- general_kdrama_FILTERED %>%
+      select(`Drama Language`, genres) %>%
+      separate_rows(genres, sep = ",\\s*") %>%
+      group_by(`Drama Language`) %>%
+      summarize(`Unique Genre Count` = n_distinct(genres))
+
+    tdrama_genre_count <- general_tdrama_FILTERED %>%
+      select(`Drama Language`, genres) %>%
+      separate_rows(genres, sep = ",\\s*") %>%
+      group_by(`Drama Language`) %>%
+      summarize(`Unique Genre Count` = n_distinct(genres))
+
+    jdrama_genre_count <- general_jdrama_FILTERED %>%
+      select(`Drama Language`, genres) %>%
+      separate_rows(genres, sep = ",\\s*") %>%
+      group_by(`Drama Language`) %>%
+      summarize(`Unique Genre Count` = n_distinct(genres))
+
+    # Merge the datasets
+    merged_genre_count <- bind_rows(
+      kdrama_genre_count,
+      tdrama_genre_count,
+      jdrama_genre_count
+    )
+
+    # Create table with kableExtra
+    genre_table <- merged_genre_count %>%
+      kable("html") %>%
+      kable_styling(full_width = FALSE, bootstrap_options = "striped", position = "center")
+
+    # Print the table
+    genre_table
+  })
+})
+
+```
+
+### 3.1 Tags
 
 K-Drama Word Cloud
 
