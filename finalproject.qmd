@@ -107,7 +107,7 @@ suppressMessages({
     top_5000dramas_filtered <- top_5000dramas %>%
       filter(released_year >= 2018 & grepl("Japanese|Thai|Korean", Language))
 
-    colors <- brewer.pal(3, "Pastel1") 
+    colors <- brewer.pal(3, "Set2") 
 
     # Calculate average ratings for each language
     avg_ratings <- top_5000dramas_filtered %>%
@@ -431,19 +431,16 @@ suppressMessages({
     general_kdrama_genresplit <- general_kdrama_FILTERED %>% 
       select(year, genres, tot_user_score) %>% 
       separate_rows(genres, sep = ",\\s*") %>%
-      filter(genres == "Romance") %>%
       mutate(language = "Korean")
 
     general_tdrama_genresplit <- general_tdrama_FILTERED %>% 
       select(year, genres, tot_user_score) %>% 
       separate_rows(genres, sep = ",\\s*") %>%
-      filter(genres == "Romance") %>%
       mutate(language = "Thai")
 
     general_jdrama_genresplit <- general_jdrama_FILTERED %>% 
       select(year, genres, tot_user_score) %>% 
       separate_rows(genres, sep = ",\\s*") %>%
-      filter(genres == "Romance") %>%
       mutate(language = "Japanese")
 
     # Combine the datasets
@@ -452,46 +449,24 @@ suppressMessages({
     # Define color palette
     palette <- brewer.pal(n = 3, name = "Set2")
 
-    # Plot grouped boxplot using Plotly for each language
-    plot_korean <- ggplot(general_kdrama_genresplit, aes(x = year, y = tot_user_score)) +
+    # Plot grouped boxplot using Plotly
+    plot <- ggplot(merged_data, aes(x = year, y = tot_user_score, fill = language)) +
       geom_boxplot() +
-      labs(title = "User Ratings of Korean Romance Dramas",
+      labs(title = "User Ratings of Romance Dramas by Language",
            x = "Year",
-           y = "Total User Score") +
+           y = "Total User Score",
+           fill = "Language") +
       theme_bw() +
       scale_fill_manual(values = palette) +
       facet_wrap(~language)
 
-    plot_thai <- ggplot(general_tdrama_genresplit, aes(x = year, y = tot_user_score)) +
-      geom_boxplot() +
-      labs(title = "User Ratings of Thai Romance Dramas",
-           x = "Year",
-           y = "Total User Score") +
-      theme_bw() +
-      scale_fill_manual(values = palette) +
-      facet_wrap(~language)
-
-    plot_japanese <- ggplot(general_jdrama_genresplit, aes(x = year, y = tot_user_score)) +
-      geom_boxplot() +
-      labs(title = "User Ratings of Japanese Romance Dramas",
-           x = "Year",
-           y = "Total User Score") +
-      theme_bw() +
-      scale_fill_manual(values = palette) +
-      facet_wrap(~language)
-
-    # Convert ggplot objects to Plotly
-    plotly_korean <- ggplotly(plot_korean)
-    plotly_thai <- ggplotly(plot_thai)
-    plotly_japanese <- ggplotly(plot_japanese)
+    # Convert ggplot object to Plotly
+    plotly_plot <- ggplotly(plot)
     
-    # Display the plots
-    plotly_korean
-    plotly_thai
-    plotly_japanese
+    # Display the plot
+    plotly_plot
   })
 })
-
 
 ```
 
