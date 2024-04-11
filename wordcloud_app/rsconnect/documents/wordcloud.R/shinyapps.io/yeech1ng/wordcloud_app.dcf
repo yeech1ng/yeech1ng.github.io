@@ -1,0 +1,12 @@
+name: wordcloud_app
+title: wordcloud_app
+username: yeech1ng
+account: yeech1ng
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 11729313
+bundleId: 8480486
+url: https://yeech1ng.shinyapps.io/wordcloud_app/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE

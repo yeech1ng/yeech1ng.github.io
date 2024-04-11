@@ -255,7 +255,7 @@ In particular, global channels, mainly streaming services like Netflix, Amazon P
 Find out how common the channel you use to watch K-Dramas is among global audiences here!
 
 ```{=html}
-<iframe height="t00" width="100%" frameborder="no" src="https://yeech1ng.shinyapps.io/sample_app/ "> </iframe>
+<iframe height="200" width="100%" frameborder="no" src="https://yeech1ng.shinyapps.io/sample_app/ "> </iframe>
 ```
 
 Among the global streaming services-giant, Netflix is a clear winner in terms of the market share, garnering the most users who rely on their service to access dramas.
@@ -559,119 +559,9 @@ suppressMessages({
 
 ### 3.1 Tags
 
-K-Drama Word Cloud
-
-```{r, eval=TRUE, echo=FALSE}
-suppressMessages({
-  suppressWarnings({
-  library(wordcloud2)
-    library(tidyverse)
-    library(tm)
-    
-    general_kdrama <- read.csv("datasets/kor_drama.csv")
-
-suppressWarnings({
-general_kdrama$year <- as.numeric(as.character(general_kdrama$year))
-})
-    
-    kdrama_tags <- general_kdrama %>% filter(year >= 2018) %>% select(tags) 
-    
-    kdocs <- Corpus(VectorSource(kdrama_tags))
-    
-    kdocs <- kdocs %>% 
-      tm_map(removePunctuation) 
-    
-    kdocs <- tm_map(kdocs, content_transformer(tolower))
-    kdocs <- tm_map(kdocs, removeWords, stopwords("english"))
-    
-    kdtm <- TermDocumentMatrix(kdocs)
-    kmatrix <- as.matrix(kdtm)
-    kwords <- sort(rowSums(kmatrix), decreasing=TRUE)
-    ktags_df <- data.frame(word=names(kwords), freq=kwords)
-    
-    wordcloud2(slice_max(ktags_df, order_by= freq, n=10000), size=1.2, color='random-dark', shape='circle')
-  })
-})
-    
+```{=html}
+<iframe height="500" width="100%" frameborder="no" src="https://yeech1ng.shinyapps.io/wordcloud_app/"> </iframe>
 ```
-Thai Drama Word Cloud
-```{r, eval=TRUE, echo=FALSE}
-library(wordcloud2)
-library(tidyverse)
-library(tm)
-
-general_tdrama <- read.csv("datasets/tha_drama.csv")
-
-# Convert year to numeric 
-suppressWarnings({
-
-general_tdrama$year <- as.numeric(as.character(general_tdrama$year))
-
-})
-# Filter the data and create the word cloud
-tdrama_tags <- general_tdrama %>% 
-  filter(!is.na(year) & as.numeric(year) >= 2018) %>%  # Convert to numeric and ensure >= 2018
-  select(tags)
-
-tdocs <- Corpus(VectorSource(tdrama_tags))
-
-tdocs <- tdocs %>% 
-  tm_map(removePunctuation) 
-
-tdocs <- tm_map(tdocs, content_transformer(tolower))
-tdocs <- tm_map(tdocs, removeWords, stopwords("english"))
-
-tdtm <- TermDocumentMatrix(tdocs)
-tmatrix <- as.matrix(tdtm)
-twords <- sort(rowSums(tmatrix), decreasing=TRUE)
-ttags_df <- data.frame(word=names(twords), freq=twords)
-
-wordcloud2(slice_max(ttags_df, order_by= freq, n=10000), size=1.2, color='random-dark', shape='circle')
-```
-
-Japanese Drama Word Cloud
-```{r, eval=TRUE, echo=FALSE}
-suppressMessages({
-  suppressWarnings({
-  library(wordcloud2)
-    library(tidyverse)
-    library(tm)
-    
-general_jdrama <- read.csv("datasets/jap_drama.csv")
-
-# Convert year to numeric 
-suppressWarnings({
-general_jdrama$year <- as.numeric(as.character(general_jdrama$year))
-})
-    
-    jdrama_tags <- general_jdrama %>% filter(year >= 2018) %>% select(tags) 
-    
-    jdocs <- Corpus(VectorSource(jdrama_tags))
-    
-    jdocs <- jdocs %>% 
-      tm_map(removeNumbers) %>%
-      tm_map(removePunctuation) %>%
-      tm_map(stripWhitespace) 
-    
-    jdocs <- tm_map(jdocs, content_transformer(tolower))
-    jdocs <- tm_map(jdocs, removeWords, stopwords("english"))
-    
-    jdtm <- TermDocumentMatrix(kdocs)
-    jmatrix <- as.matrix(jdtm)
-    jwords <- sort(rowSums(jmatrix), decreasing=TRUE)
-    jtags_df <- data.frame(word=names(jwords), freq=jwords)
-    
-    wordcloud2(slice_max(jtags_df, order_by= freq, n=10000), size=1.2, color='random-dark', shape='circle')
-  })
-})
-
-```
-
-
-
-
-
-
 
 ## 4. Production Volume 
 

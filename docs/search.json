@@ -305,6 +305,6 @@
     "href": "finalproject.html#genres",
     "title": "Final Project",
     "section": "3. Genres",
-    "text": "3. Genres\nBefore we go into the genres of the different dramas, make your guess on what the most popular genre among K-Dramas is!\nSimply click on the button of the option you think is right.\n \nseparator\n\n\n\n\n\n\nxxx\n\n\n\n\n\n\nVairety of genres\n\n\n\n\n\nDrama Language\nUnique Genre Count\n\n\n\n\nKorean\n33\n\n\nThai\n31\n\n\nJapanese\n34\n\n\n\n\n\n\n\n\n3.1 Tags\nK-Drama Word Cloud\n\n\n\n\n\n\nThai Drama Word Cloud\n\n\nWarning in tm_map.SimpleCorpus(., removePunctuation): transformation drops\ndocuments\n\n\nWarning in tm_map.SimpleCorpus(tdocs, content_transformer(tolower)):\ntransformation drops documents\n\n\nWarning in tm_map.SimpleCorpus(tdocs, removeWords, stopwords(\"english\")):\ntransformation drops documents\n\n\n\n\n\n\nJapanese Drama Word Cloud"
+    "text": "3. Genres\nBefore we go into the genres of the different dramas, make your guess on what the most popular genre among K-Dramas is!\nSimply click on the button of the option you think is right.\n \nseparator\n\n\n\n\n\n\nxxx\n\n\n\n\n\n\nVairety of genres\n\n\n\n\n\nDrama Language\nUnique Genre Count\n\n\n\n\nKorean\n33\n\n\nThai\n31\n\n\nJapanese\n34\n\n\n\n\n\n\n\n\n3.1 Tags"
   }
 ]
