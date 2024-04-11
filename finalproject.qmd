@@ -747,73 +747,12 @@ However, within a shorter episode count from 0 to 25, K-Dramas still lead and **
 
 This is possibly due to...
 
-## Actors
+## 5. Actors
 
-```{r,eval=TRUE, echo=FALSE}
-
-# Load required packages
-library(dplyr)
-library(plotly)
-
-# Read data from CSV files
-kreviews <- read.csv("datasets/kor_user_reviews.csv")
-treviews <- read.csv("datasets/tha_user_reviews.csv")
-jreviews <- read.csv("datasets/jap_user_reviews.csv")
-
-# Add language column to each dataset
-kreviews$language <- "Korean"
-treviews$language <- "Thai"
-jreviews$language <- "Japanese"
-
-# Combine data into a single data frame
-all_reviews <- bind_rows(kreviews, treviews, jreviews)
-
-# Plot scatter plot using Plotly
-scatter_plot <- plot_ly(all_reviews, x = ~acting_cast, y = ~overall, color = ~language, colors = brewer.pal(3, "Set2")) %>%
-  add_markers() %>%
-  layout(title = "Correlation between Acting Cast Ratings and Overall Ratings",
-         xaxis = list(title = "Acting Cast Ratings"),
-         yaxis = list(title = "Overall Ratings"))
-
-# Show the interactive plot
-scatter_plot
-cor(all_reviews$acting_cast, all_reviews$overall)
-ggplot(all_reviews, aes(x = acting_cast, y = overall)) +
-  geom_jitter() +
-  geom_smooth()
+```{=html}
+<iframe height="t00" width="400%" frameborder="no" src="https://yeech1ng.shinyapps.io/actor_app/ "> </iframe>
 ```
 
-separator
-```{r,eval=FALSE, echo=FALSE}
-
-# Load required packages
-library(dplyr)
-library(plotly)
-
-# Read data from CSV files
-kreviews <- read.csv("datasets/kor_user_reviews.csv")
-treviews <- read.csv("datasets/tha_user_reviews.csv")
-jreviews <- read.csv("datasets/jap_user_reviews.csv")
-
-# Add language column to each dataset
-kreviews$language <- "Korean"
-treviews$language <- "Thai"
-jreviews$language <- "Japanese"
-
-# Combine data into a single data frame
-all_reviews <- bind_rows(kreviews, treviews, jreviews)
-
-# Plot scatter plot using Plotly
-scatter_plot <- plot_ly(all_reviews, x = ~music, y = ~rewatch_value, color = ~language, colors = brewer.pal(3, "Set2")) %>%
-  add_markers() %>%
-  layout(title = "Correlation between Music Ratings and Rewatch Value",
-         xaxis = list(title = "Music Ratings"),
-         yaxis = list(title = "Rewatch Value"))
-
-# Show the interactive plot
-scatter_plot
-
-```
 
 
 

@@ -276,7 +276,7 @@
     "objectID": "finalproject.html#actors",
     "href": "finalproject.html#actors",
     "title": "Final Project",
-    "section": "Actors",
-    "text": "Actors\n\n\nWarning in scan(file = file, what = what, sep = sep, quote = quote, dec = dec,\n: embedded nul(s) found in input\n\n\n\n\n\n\n[1] 0.7956138\n\n\n`geom_smooth()` using method = 'gam' and formula = 'y ~ s(x, bs = \"cs\")'\n\n\n\n\n\nseparator"
+    "section": "5. Actors",
+    "text": "5. Actors"
   }
 ]
