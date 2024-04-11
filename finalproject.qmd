@@ -45,7 +45,7 @@ popularity_order <- c("Very popular", "Moderately popular", "Slightly popular", 
 kdrama_pop_2022$Popularity <- factor(kdrama_pop_2022$Popularity, levels = popularity_order)
 
 # Create a vector of colors for the bars
-colors <- brewer.pal(4, "Set3") 
+colors <- brewer.pal(4, "Pastel1") 
 
 # Create the bar plot with specified colors and custom order
 bp1 <- ggplot(kdrama_pop_2022, aes(x = Popularity, y = share_of_respondents , fill = Popularity)) +
@@ -413,6 +413,88 @@ suppressMessages({
 
 
 ```
+xxx
+```{r, eval=TRUE, echo=FALSE}
+suppressMessages({
+  suppressWarnings({
+    library(tidyverse)
+    library(ggplot2)
+    library(plotly)
+    library(RColorBrewer)
+
+    # Filter datasets
+    general_kdrama_FILTERED <- general_kdrama %>% filter(year >= 2018)
+    general_tdrama_FILTERED <- general_tdrama %>% filter(year >= 2018)
+    general_jdrama_FILTERED <- general_jdrama %>% filter(year >= 2018)
+
+    # Split genres into separate rows for each dataset
+    general_kdrama_genresplit <- general_kdrama_FILTERED %>% 
+      select(year, genres, tot_user_score) %>% 
+      separate_rows(genres, sep = ",\\s*") %>%
+      filter(genres == "Romance") %>%
+      mutate(language = "Korean")
+
+    general_tdrama_genresplit <- general_tdrama_FILTERED %>% 
+      select(year, genres, tot_user_score) %>% 
+      separate_rows(genres, sep = ",\\s*") %>%
+      filter(genres == "Romance") %>%
+      mutate(language = "Thai")
+
+    general_jdrama_genresplit <- general_jdrama_FILTERED %>% 
+      select(year, genres, tot_user_score) %>% 
+      separate_rows(genres, sep = ",\\s*") %>%
+      filter(genres == "Romance") %>%
+      mutate(language = "Japanese")
+
+    # Combine the datasets
+    merged_data <- bind_rows(general_kdrama_genresplit, general_tdrama_genresplit, general_jdrama_genresplit)
+
+    # Define color palette
+    palette <- brewer.pal(n = 3, name = "Set2")
+
+    # Plot grouped boxplot using Plotly for each language
+    plot_korean <- ggplot(general_kdrama_genresplit, aes(x = year, y = tot_user_score)) +
+      geom_boxplot() +
+      labs(title = "User Ratings of Korean Romance Dramas",
+           x = "Year",
+           y = "Total User Score") +
+      theme_bw() +
+      scale_fill_manual(values = palette) +
+      facet_wrap(~language)
+
+    plot_thai <- ggplot(general_tdrama_genresplit, aes(x = year, y = tot_user_score)) +
+      geom_boxplot() +
+      labs(title = "User Ratings of Thai Romance Dramas",
+           x = "Year",
+           y = "Total User Score") +
+      theme_bw() +
+      scale_fill_manual(values = palette) +
+      facet_wrap(~language)
+
+    plot_japanese <- ggplot(general_jdrama_genresplit, aes(x = year, y = tot_user_score)) +
+      geom_boxplot() +
+      labs(title = "User Ratings of Japanese Romance Dramas",
+           x = "Year",
+           y = "Total User Score") +
+      theme_bw() +
+      scale_fill_manual(values = palette) +
+      facet_wrap(~language)
+
+    # Convert ggplot objects to Plotly
+    plotly_korean <- ggplotly(plot_korean)
+    plotly_thai <- ggplotly(plot_thai)
+    plotly_japanese <- ggplotly(plot_japanese)
+    
+    # Display the plots
+    plotly_korean
+    plotly_thai
+    plotly_japanese
+  })
+})
+
+
+```
+
 
 K-Drama Word Cloud
 
@@ -525,162 +607,63 @@ general_jdrama$year <- as.numeric(as.character(general_jdrama$year))
 
 
 
-Storytelling is crucial.
-```{r, eval=TRUE, echo=FALSE}
-suppressMessages({
-  suppressWarnings({
-
-# Load required libraries
-library(dplyr)
-library(plotly)
-library(RColorBrewer)
-
-# Read datasets
-kreviews <- read.csv("datasets/kor_user_reviews.csv")
-treviews <- read.csv("datasets/tha_user_reviews.csv")
-jreviews <- read.csv("datasets/jap_user_reviews.csv")
-
-# Calculate average ratings for each language category
-average_ratings <- rbind(
-  kreviews %>% summarise(avg_rating_story = mean(story)),
-  treviews %>% summarise(avg_rating_story = mean(story)),
-  jreviews %>% summarise(avg_rating_story = mean(story))
-)
-
-# Add language column
-average_ratings$language <- c("Korean", "Thai", "Japanese")
-
-# Define color palette using colorbrewer
-palette <- brewer.pal(n = 3, name = "Set2")
-
-# Create interactive plot with plotly
-plot_ly(average_ratings, x = ~language, y = ~avg_rating_story, type = 'bar', 
-        marker = list(color = palette)) %>%
-  layout(title = "Average User Ratings on Drama's Story",
-         xaxis = list(title = "Language"),
-         yaxis = list(title = "Average Rating on Story"),
-         showlegend = FALSE)
- })
-})
-
-```
 
 
 
-
-## 4. Production Volume & Episodes
+## 4. Production Volume 
 
 ```{r, eval=TRUE, echo=FALSE}
 suppressMessages({
   suppressWarnings({
+    library(tidyverse)
+    library(RColorBrewer)
+    library(plotly)
 
-library(tidyverse)
-library(RColorBrewer)
-library(plotly)
+    # Read data from CSV files
+    general_kdrama <- read.csv("datasets/kor_drama.csv")
+    general_tdrama <- read.csv("datasets/tha_drama.csv")
+    general_jdrama <- read.csv("datasets/jap_drama.csv")
 
-# Convert ep_duration and tot_eps columns to integers
-general_kdrama_FILTERED <- general_kdrama_FILTERED %>% 
-  mutate(ep_duration = as.integer(ep_duration),
-         tot_eps = as.integer(tot_eps))
+    # Filter and convert columns to integers
+    general_kdrama_filtered <- general_kdrama %>% 
+      filter(year >= 2018) %>% 
+      mutate(across(c(ep_duration, tot_eps), as.integer),
+             year = as.integer(year))
 
-general_tdrama_FILTERED <- general_tdrama_FILTERED %>% 
-  mutate(ep_duration = as.integer(ep_duration),
-         tot_eps = as.integer(tot_eps))
+    general_tdrama_filtered <- general_tdrama %>% 
+      filter(year >= 2018) %>% 
+      mutate(across(c(ep_duration, tot_eps), as.integer),
+             year = as.integer(year))
 
-general_jdrama_FILTERED <- general_jdrama_FILTERED %>% 
-  mutate(ep_duration = as.integer(ep_duration),
-         tot_eps = as.integer(tot_eps))
+    general_jdrama_filtered <- general_jdrama %>% 
+      filter(year >= 2018) %>% 
+      mutate(across(c(ep_duration, tot_eps), as.integer),
+             year = as.integer(year))
 
-# Merge data
-merged_data_produced <- bind_rows(
-  general_kdrama_FILTERED %>% mutate(language = "Korean"),
-  general_tdrama_FILTERED %>% mutate(language = "Thai"),
-  general_jdrama_FILTERED %>% mutate(language = "Japanese"))
+    # Merge data
+    merged_data_produced <- bind_rows(
+      general_kdrama_filtered %>% mutate(language = "Korean"),
+      general_tdrama_filtered %>% mutate(language = "Thai"),
+      general_jdrama_filtered %>% mutate(language = "Japanese")
+    )
 
-# Define color palette
-palette <- brewer.pal(n = 3, name = "Set2")
-
-# Plotting with plotly
-plot_ly(merged_data_produced, x = ~year, y = ~tot_eps, color = ~language, type = 'bar') %>%
-  layout(title = "Yearly Production of Korean, Thai, and Japanese Dramas",
-         xaxis = list(title = "Year"),
-         yaxis = list(title = "Total Number of Dramas Produced"),
-         barmode = 'stack',
-         colorway = palette,
-         bargap = 0.1)
-
- })
+    # Plotting with ggplot
+    ggplot(merged_data_produced, aes(x = year, y = tot_eps, fill = language)) +
+      geom_bar(stat = "identity", position = "fill") +
+      scale_fill_brewer(palette = "Set2") +
+      labs(title = "Yearly Production of Korean, Thai, and Japanese Dramas",
+           x = "Year",
+           y = "Proportion of Total Number of Dramas Produced") +
+      theme_bw()
+  })
 })
 
-```
-
-separator
-
-```{r, eval=FALSE, echo=FALSE}
-
-library(tidyverse)
-library(RColorBrewer)
-library(plotly)
-
-# Convert ep_duration and tot_eps columns to integers
-general_kdrama_FILTERED <- general_kdrama_FILTERED %>% 
-  mutate(ep_duration = as.integer(ep_duration),
-         tot_eps = as.integer(tot_eps))
-
-general_tdrama_FILTERED <- general_tdrama_FILTERED %>% 
-  mutate(ep_duration = as.integer(ep_duration),
-         tot_eps = as.integer(tot_eps))
-
-general_jdrama_FILTERED <- general_jdrama_FILTERED %>% 
-  mutate(ep_duration = as.integer(ep_duration),
-         tot_eps = as.integer(tot_eps))
-
-# Merge data
-merged_data_produced <- bind_rows(
-  general_kdrama_FILTERED %>% mutate(language = "Korean"),
-  general_tdrama_FILTERED %>% mutate(language = "Thai"),
-  general_jdrama_FILTERED %>% mutate(language = "Japanese"))
-
-# Calculate proportions
-prop_data <- merged_data_produced %>%
-  group_by(year, language) %>%
-  summarize(prop_dramas = n() / sum(n())) %>%
-  ungroup()
-
-# Spread data to create separate columns for each language
-spread_data <- prop_data %>%
-  spread(key = language, value = prop_dramas, fill = 0)
-
-# Calculate total number of dramas produced each year
-total_dramas <- merged_data_produced %>%
-  group_by(year) %>%
-  summarise(total_dramas = n()) %>%
-  ungroup()
-
-# Join total dramas data with spread data
-final_data <- spread_data %>%
-  left_join(total_dramas, by = "year")
-
-# Define color palette
-palette <- brewer.pal(n = 3, name = "Set2")
-
-# Plot with ggplot2
-plot <- ggplot(final_data, aes(x = year)) +
-  geom_bar(aes(y = total_dramas, fill = language), stat = "identity") +
-  labs(title = "Yearly Production of Korean, Thai, and Japanese Dramas",
-       x = "Year",
-       y = "Total Number of Dramas Produced",
-       fill = "Language") +
-  scale_fill_manual(values = palette) +
-  theme_bw()
-
-# Convert ggplot object to plotly
-plotly::ggplotly(plot)
 
 
 ```
 
 
+## 5. Episode Count
 ```{r, eval=TRUE, echo=FALSE}
 
 suppressMessages({
@@ -758,12 +741,84 @@ However, within a shorter episode count from 0 to 25, K-Dramas still lead and **
 
 This is possibly due to...
 
-## 5. Actors
+## 6. Actors
 
 ```{=html}
 <iframe height="500" width="100%" frameborder="no" src="https://yeech1ng.shinyapps.io/actor_app/ "> </iframe>
 ```
 
+## 7. Story
+
+Storytelling is crucial.
+```{r, eval=TRUE, echo=FALSE}
+suppressMessages({
+  suppressWarnings({
+    # Load required libraries
+    library(dplyr)
+    library(plotly)
+    library(RColorBrewer)
+
+    # Read datasets
+    kreviews <- read.csv("datasets/kor_user_reviews.csv")
+    treviews <- read.csv("datasets/tha_user_reviews.csv")
+    jreviews <- read.csv("datasets/jap_user_reviews.csv")
+
+    # Combine all data into one dataframe
+    all_reviews <- bind_rows(
+      mutate(kreviews, language = "Korean"),
+      mutate(treviews, language = "Thai"),
+      mutate(jreviews, language = "Japanese")
+    )
+
+    # Define color palette using colorbrewer
+    palette <- brewer.pal(n = 3, name = "Set2")
+
+    # Create boxplot with plotly
+    plot_ly(all_reviews, x = ~language, y = ~story, type = 'box', 
+            marker = list(color = palette)) %>%
+      layout(title = "Distribution of User Ratings on Drama's Story",
+             xaxis = list(title = "Language"),
+             yaxis = list(title = "Rating on Story"),
+             showlegend = FALSE)
+  })
+})
+
+```
+
+
+```{r, eval=TRUE, echo=FALSE}
+library(dplyr)
+library(ggplot2)
+library(RColorBrewer)
+
+# Read data from CSV files
+kreviews <- read.csv("datasets/kor_user_reviews.csv")
+treviews <- read.csv("datasets/tha_user_reviews.csv")
+jreviews <- read.csv("datasets/jap_user_reviews.csv")
+
+# Function to create correlation plot
+create_plot <- function(data, language) {
+  palette <- brewer.pal(3, "Set2")  # Get color palette
+  
+  ggplot(data, aes(x = story, y = overall)) +
+    geom_jitter(aes(color = language), show.legend = FALSE) +
+    geom_smooth(aes(color = language), show.legend = FALSE) +
+    ggtitle(paste("Correlation between Story Ratings and Overall Ratings for", language, "dramas")) +
+    xlab("Story Ratings") +
+    ylab("Overall Ratings") +
+    scale_color_manual(values = palette)  # Set color scale
+}
+
+# Create plots for each language
+korean_plot <- create_plot(kreviews, "Korean")
+thai_plot <- create_plot(treviews, "Thai")
+japanese_plot <- create_plot(jreviews, "Japanese")
+
+# Print the plots
+print(korean_plot)
+print(thai_plot)
+print(japanese_plot)
+```
 
 
 
