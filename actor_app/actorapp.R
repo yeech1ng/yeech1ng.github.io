@@ -32,9 +32,12 @@ server <- function(input, output) {
   
   # Function to create correlation plot
   create_plot <- function(data, language) {
+    color_palette <- c("#66c2a5", "#fc8d62", "#8da0cb")  # Set2 color palette
+    
     ggplot(data, aes(x = acting_cast, y = overall, color = language)) +
       geom_jitter() +
       geom_smooth() +
+      scale_color_manual(values = color_palette) +  # Set manual color scale
       ggtitle(paste("Correlation between Acting Cast Ratings and Overall Ratings for", language, "dramas")) +
       xlab("Acting Cast Ratings") +
       ylab("Overall Ratings")
