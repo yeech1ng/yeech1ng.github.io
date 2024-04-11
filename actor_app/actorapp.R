@@ -37,7 +37,7 @@ server <- function(input, output) {
     ggplot(data, aes(x = acting_cast, y = overall)) +
       geom_jitter(aes(color = language), show.legend = FALSE) +
       geom_smooth(aes(color = language), show.legend = FALSE) +
-      ggtitle(paste("Correlation between Acting Cast Ratings and Overall Ratings for", language, "dramas")) +
+      ggtitle(paste("Acting Cast Ratings against Overall Ratings", language, "dramas")) +
       xlab("Acting Cast Ratings") +
       ylab("Overall Ratings") +
       scale_color_manual(values = palette)  # Set color scale
