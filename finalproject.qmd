@@ -12,16 +12,26 @@ As an avid K-Drama watcher, I thought it would be interesting to investigate: **
 
 I used several data sets from Kaggle, namely data on the top 5000 dramas which includes information on the name, episodes, released year, language (selected only Korean, Thai, and Japanese), rating, and ranking.
 
-```{r dataset_preview, echo=FALSE}
+Here's a quick preview of the top rows!
+
+```{r dataset_preview, echo=FALSE, warning=FALSE}
+suppressMessages({
+  suppressWarnings({
 library(knitr)
 library(tidyverse)
+top_5000dramas <- read.csv("datasets/top_5000_dramas.csv")
+top_5000dramas_filtered <- top_5000dramas %>%
+      filter(released_year >= 2018 & grepl("Japanese|Thai|Korean", Language))
+kable(head(top_5000dramas_filtered))
+  })
+})
 
-dataset <- read.csv("datasets/top_5000_dramas.csv")
-
-kable(glimpse(dataset))
 ```
 
-Others included specific data on the name, year, genres, tags, episode number, the platform it was aired on, user score, and rank for Korean, Thai, and Japanese Dramas. I also used data on the user reviews for each language's dramas, which included ratings on the story, acting cast, music, rewatch value, and the overall ranking. This was so I could have a better basis for comparison.
+To supplement this, I made us of other more specific datasets on the name, year, genres, tags, episode number, the platform it was aired on, user score, and rank for Korean, Thai, and Japanese Dramas.
+
+I also used data on the user reviews for each language's dramas, which included ratings on the story, acting cast, music, rewatch value, and the overall ranking. This was so I could have a better basis for comparison!
+
 
 ![source: me](images/ipadfinal){width="600"}
 
