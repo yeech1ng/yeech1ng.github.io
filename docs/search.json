@@ -312,6 +312,6 @@
     "href": "finalproject.html#production-volume-does-not-matter",
     "title": "Final Project",
     "section": "3. Production Volume Does Not Matter?",
-    "text": "3. Production Volume Does Not Matter?\n\n\nWarning: Removed 18 rows containing missing values (`position_stack()`)."
+    "text": "3. Production Volume Does Not Matter?\nBased on our previous observations, it seems that quantity may potentially be a key driving factor of global popularity?\nLet’s investigate and see if this is true, particularly in terms of the general production volume of dramas into the market!\nHere, I have a graph with the yearly production of Korean, Thai, and Japanese dramas.\n\n\nWarning: Removed 18 rows containing missing values (`position_stack()`).\n\n\n\n\n\n\n\n\nFrom 2018 to 2019, it seems like the proportion of K-Dramas produced was generally consistent as the"
   }
 ]

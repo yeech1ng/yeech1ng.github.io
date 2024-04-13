@@ -390,7 +390,11 @@ It is no wonder why K-Dramas manages to achieve high global viewership and outre
 
 ## 3. Production Volume Does Not Matter?
 
+Based on our previous observations, it seems that quantity may potentially be a key driving factor of global popularity? 
 
+Let's investigate and see if this is true, particularly in terms of the general production volume of dramas into the market!
+
+Here, I have a graph with the yearly production of Korean, Thai, and Japanese dramas. 
 
 ```{r, eval=TRUE, echo=FALSE}
 suppressMessages({
@@ -441,6 +445,25 @@ suppressMessages({
 
 
 ```
+
+```{=html}
+<style>
+hr {
+  border: none;
+  height: 2px; /* Adjust the height as needed */
+  background-color: #ccc; /* Adjust the color as needed */
+  margin: 10px 0; /* Adjust the margin as needed */
+}
+</style>
+```
+
+------------------------------------------------------------------------
+
+<!-- Content -->
+
+From 2018 to 2019, it seems like the proportion of K-Dramas produced was generally consistent as the 
+
+
 
 ## 4. Genres
 
