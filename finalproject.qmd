@@ -139,7 +139,7 @@ suppressMessages({
     # Create a boxplot
     bp2 <- ggplot(top_5000dramas_filtered, aes(x = Language, y = Rating, fill = Language)) +
       geom_boxplot() +
-      labs(title = "Average Ratings of Thai, Japanese, and Korean Dramas from 2018 to 2023",
+      labs(title = "Ratings of Thai, Japanese, and Korean Dramas from 2018 to 2023",
            x = "Language", y = "Rating") +
       theme_bw() + scale_fill_manual(values = colors)
 
@@ -165,15 +165,27 @@ hr {
 
 <!-- Content -->
 
-Comparing the average ratings of Japanese, Thai, and Korean dramas from 2018 to 2023, it seems that it is a close fight between all 3 languages. Each are doing relatively well in the market with high ratings in the 7 points region (out of 10). 
+**Interquartile Range (IQR)**
 
-However, K-Dramas ultimately emerge as the **frontrunner with an average rating of 7.86**, with Japanese dramas following closely behind with an average rating of 7.69, and lastly, Thai dramas with a nonetheless commendable average rating of 7.59. 
+When we look at the IQR of all 3 boxplots, the ratings for K-Drama seem to have the **greatest dispersion of 0.7**, compared to Japanese with 0.6, and Thai with 0.5.
+
+The larger IQR may reflect differences in the quality of K-dramas. Some K-dramas may receive very high ratings from a segment of viewers, while others receive lower ratings from a different segment, resulting in a broader range of ratings.
+
+**Median**
+
+However, despite this, K-Dramas still enjoy the **highest average ratings**.
+
+Comparing the medians, or average ratings, of Japanese, Thai, and Korean dramas from 2018 to 2023, it seems that it is a close fight among all 3 languages. Each are doing relatively well in the market with high ratings in the 7 points region (out of 10). 
+
+However, K-Dramas ultimately emerge as the **frontrunner with an average rating of 7.80**, with Japanese dramas following closely behind with an average rating of 7.70, and lastly, Thai dramas with a nonetheless commendable average rating of 7.60.
 
 This shows that while each language’s dramas have their own unique charm that garner them a significant fan base and presence, K-Dramas stand out, **appealing to and resonating with the audiences the most**. 
 
-This is further reinforced when analysing how ratings have progressed across time for each language's drama, particularly in the form of concrete scores that users give. 
+**Maximum**
 
-Looking at this, let's split the time period of 2018 to 2023 to 3 smaller periods - pre-COVID years (2018 to 2019), COVID years (2020 to 2021), and post-COVID years (2022 to 2023).
+Moreover, K-Dramas evidently have the **highest peak rating of 9.20**, compared to Japanese's 8.80, and Thai's 8.70, reinforcing K-Drama's dominance and immense appeal to audiences that led to exceptionally high ratings.
+
+If this dosen't sound impressive enough, wait till we look at how K-Drama ratings have progressed across time, particularly in the form of concrete scores that users give!
 
 ```{r, eval=TRUE, echo=FALSE}
 
@@ -236,6 +248,8 @@ hr {
 
 <!-- Content -->
 
+Let's split the time period of 2018 to 2023 to 3 smaller periods - pre-COVID years (2018 to 2019), COVID years (2020 to 2021), and post-COVID years (2022 to 2023).
+
 In the pre-COVID years, K-Dramas maintained a **competitive edge** over Thai and Japanese dramas with higher user scores around **7.6**. However, during the COVID years, K-Dramas experienced a **significant dip to the 7.5 points region** - the lowest it has ever been, as compared to Japanese dramas which rose steadily.
 
 Yet in a turn of events, in the post-COVID years, the average user scores of K-Dramas abruptly picked up in 2021 and **rose exponentially to a record high of 7.81 in 2023**, maintaining an increasing upward trend from 2021 to 2023. Meanwhile, the average user scores for both Thai and Japanese dramas **generally dipped to the 7.4 and 7.5 points region** respectively by 2023, demonstrating a falling trend.
@@ -261,6 +275,10 @@ Find out how common the channel you use to watch K-Dramas is among global audien
 Among the global streaming services-giant, Netflix is a clear winner in terms of the market share, garnering the most users who rely on their service to access dramas.
 
 This suggests that dramas which are either **produced, distributed, or aired by Netflix** is likely able to tap into a **greater audience pool**, have **greater outreach**, and enjoy **bolstered viewership**.
+
+![Netflix | source: Pixabay](images/netflix.jpg){width="550"}
+
+Let's take a look at the distribution of dramas on global channels like Amazon, Disney+, Hulu, and Netflix!
 
 ```{r, eval=TRUE, echo=FALSE}
 suppressMessages({
@@ -343,7 +361,6 @@ suppressMessages({
 
 ```
 
-separator
 ```{=html}
 <style>
 hr {
@@ -358,6 +375,8 @@ hr {
 ------------------------------------------------------------------------
 
 <!-- Content -->
+
+Let's address the part of the graph that probably caught your eye first - the 
 
 From the graph, 2 main trends are obvious.
 
