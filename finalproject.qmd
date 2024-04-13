@@ -850,7 +850,7 @@ Additionally, it also has the **highest peak user rating at 9 compared to the re
 
 Evidently, despite Thai dramas being the leading producer of romance genres, it has the lowest user rating peak, proving once again that quantity is not everything! 
 
-This also means that **we cannot conclude that romance dramas is positively correlated with higher rankings and popularity**. Although Korea loses out in the highest production of K-Dramas, it must be doing something else right, presumably the quality of the content, for it to be receiving significantly high ratings and popularity among viewers. 
+This also means that **we cannot conclude that romance dramas is positively correlated with higher rankings and popularity**. Although Korea loses out in the highest production of romance K-Dramas, it must be doing something else right, presumably the quality of the content, for it to be receiving significantly high ratings and popularity among viewers. 
 
 <span style="font-size: 20px;">**Trend 2**</span>
 
@@ -895,11 +895,24 @@ Although these are only 2 examples out of the many, this goes to show that a pla
 
 ### 5.3 A Closer Look at Drama Tags
 
-At this point, you may be interested in a more in-depth 
+At this point, you may be interested in a more in-depth examination of the specific content and descriptions of the dramas, beyond its genre. 
+
+One way to analyse this would be to look at the tags a drama is associated with!
+
+Check out the most frequently occuring description tags for Korean, Japanese, and Thai dramas! The larger a word, the more times it has appeared. Feel free to hover over the word to see the number of times it has appeared.
 
 ```{=html}
 <iframe height="500" width="100%" frameborder="no" src="https://yeech1ng.shinyapps.io/wordcloud_app/"> </iframe>
 ```
+
+After looking through all 3 word clouds, did you notice a pattern?
+
+For all 3 drama languages, it seems that 
+
+
+
+
+
 
 ## 6. Actors
 
