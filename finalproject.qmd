@@ -461,11 +461,95 @@ hr {
 
 <!-- Content -->
 
-From 2018 to 2019, it seems like the proportion of K-Dramas produced was generally consistent as the 
+In the earlier years from 2018 to 2020, the proportion of K-Dramas produced was generally consistently the highest among Thai and Japanese dramas.
+
+However, in the recent years from 2021 to 2023, it seems that the proportion of K-Dramas are falling and getting increasingly smaller, as compared to the growing proportion of Thai and Japanese dramas.
+
+Hmm...this may mean that production volume is not as crucial of a factor in driving popularity, since it is in-congruent with the growing international popularity of K-Dramas. 
+
+## 4. Episode Count
+
+Closely related to production volume is episode production volume
+
+```{r, eval=TRUE, echo=FALSE}
+
+suppressMessages({
+  suppressWarnings({
+library(dplyr)
+library(kableExtra)
+
+# Calculate average number of episodes for each language drama per year
+average_episodes <- top_5000dramas_filtered %>%
+  group_by(released_year, Language) %>%
+  summarise(Avg_Episodes = mean(Episodes))
+
+# Rename column titles
+colnames(average_episodes) <- c("Released Year", "Language", "Average No. of Episodes")
+
+# Print the table using kableExtra
+kable(average_episodes, "html") %>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+ })
+})
 
 
+```
 
-## 4. Genres
+separator
+
+```{r, eval=TRUE, echo=FALSE}
+
+suppressMessages({
+  suppressWarnings({
+
+library(ggplot2)
+library(plotly)
+library(RColorBrewer)
+
+# Select relevant columns and filter data
+rating_vs_eps <- top_5000dramas_filtered %>%
+  select(Episodes, Rating, Language)
+
+# Plotting
+rating_vs_eps_plot <- ggplot(rating_vs_eps, aes(x = Episodes, y = Rating, color = Language)) + 
+  geom_point() +
+  labs(title = "Correlation between Ratings and Episode Count",
+       x = "Episode Count",
+       y = "Rating",
+       color = "Language") +
+  scale_color_brewer(palette = "Set2") +  
+  theme_bw()
+
+# Convert to Plotly for interactivity
+ggplotly(rating_vs_eps_plot)
+
+ })
+})
+```
+
+```{=html}
+<style>
+hr {
+  border: none;
+  height: 2px; /* Adjust the height as needed */
+  background-color: #ccc; /* Adjust the color as needed */
+  margin: 10px 0; /* Adjust the margin as needed */
+}
+</style>
+```
+
+------------------------------------------------------------------------
+
+<!-- Content -->
+
+Across all 3 languages, there is a common trend of **dramas with less episodes receiving a higher rating**, though this is most evident in K-Dramas.
+
+However, within a shorter episode count from 0 to 25, K-Dramas still lead and **surpass Thai and Japanese dramas** with a consistently higher rating. In fact, the highest rating drama (9.2) in the entire graph is a K-Drama!
+
+This is possibly due to...
+
+
+## 5. Genres
 
 Before we go into the genres of the different dramas, make your guess on what the most popular genre among K-Dramas is!
 
@@ -671,89 +755,11 @@ suppressMessages({
 
 ```
 
-### 4.1 A Closer Look...
+### 5.1 A Closer Look...
 
 ```{=html}
 <iframe height="500" width="100%" frameborder="no" src="https://yeech1ng.shinyapps.io/wordcloud_app/"> </iframe>
 ```
-
-## 5. Episode Count
-```{r, eval=TRUE, echo=FALSE}
-
-suppressMessages({
-  suppressWarnings({
-library(dplyr)
-library(kableExtra)
-
-# Calculate average number of episodes for each language drama per year
-average_episodes <- top_5000dramas_filtered %>%
-  group_by(released_year, Language) %>%
-  summarise(Avg_Episodes = mean(Episodes))
-
-# Rename column titles
-colnames(average_episodes) <- c("Released Year", "Language", "Average No. of Episodes")
-
-# Print the table using kableExtra
-kable(average_episodes, "html") %>%
-  kable_styling(bootstrap_options = c("striped", "hover"))
- })
-})
-
-
-```
-
-separator
-
-```{r, eval=TRUE, echo=FALSE}
-
-suppressMessages({
-  suppressWarnings({
-
-library(ggplot2)
-library(plotly)
-library(RColorBrewer)
-
-# Select relevant columns and filter data
-rating_vs_eps <- top_5000dramas_filtered %>%
-  select(Episodes, Rating, Language)
-
-# Plotting
-rating_vs_eps_plot <- ggplot(rating_vs_eps, aes(x = Episodes, y = Rating, color = Language)) + 
-  geom_point() +
-  labs(title = "Correlation between Ratings and Episode Count",
-       x = "Episode Count",
-       y = "Rating",
-       color = "Language") +
-  scale_color_brewer(palette = "Set2") +  
-  theme_bw()
-
-# Convert to Plotly for interactivity
-ggplotly(rating_vs_eps_plot)
-
- })
-})
-```
-
-```{=html}
-<style>
-hr {
-  border: none;
-  height: 2px; /* Adjust the height as needed */
-  background-color: #ccc; /* Adjust the color as needed */
-  margin: 10px 0; /* Adjust the margin as needed */
-}
-</style>
-```
-
-------------------------------------------------------------------------
-
-<!-- Content -->
-
-Across all 3 languages, there is a common trend of **dramas with less episodes receiving a higher rating**, though this is most evident in K-Dramas.
-
-However, within a shorter episode count from 0 to 25, K-Dramas still lead and **surpass Thai and Japanese dramas** with a consistently higher rating. In fact, the highest rating drama (9.2) in the entire graph is a K-Drama!
-
-This is possibly due to...
 
 ## 6. Actors
 
