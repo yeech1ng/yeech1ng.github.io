@@ -587,7 +587,7 @@ While not conclusive, this can suggest that K-Dramas are **shifting their focus 
 
 With that, let's test this theory out!
 
-## 5. Genres
+## 5. All About Drama Content and Genres
 
 For many audiences, genres is something important they consider when choosing what shows, including dramas to watch. According to Webster's Encyclopedic Unabridged Dictionary of the English Language, genre is defined as "a category of artistic, musical, or literary composition characterised by a particular style, form, or content" (Reich, 2017). 
 
@@ -895,7 +895,7 @@ Although these are only 2 examples out of the many, this goes to show that a pla
 
 ### 5.3 A Closer Look at Drama Tags
 
-Moving away from genres and more to the 
+At this point, you may be interested in a more in-depth 
 
 ```{=html}
 <iframe height="500" width="100%" frameborder="no" src="https://yeech1ng.shinyapps.io/wordcloud_app/"> </iframe>
