@@ -467,9 +467,13 @@ However, in the recent years from 2021 to 2023, it seems that the proportion of 
 
 Hmm...this may mean that production volume is not as crucial of a factor in driving popularity, since it is in-congruent with the growing international popularity of K-Dramas. 
 
-## 4. Episode Count
+## 4. K-Dramas Are Cutting Down On Episode Count
 
-Closely related to production volume is episode production volume
+Closely related to production volume is episode count, more specifically the number of episodes that each drama produces. 
+
+For those of you who may be unfamiliar with this terminology, Cambridge Dictionary defines an episode as "one programme of a series shown on the more episodes a drama has, the longer a drama's watch-time. 
+
+Let's see if our previous conclusion that quantity may not be a key driving factor holds through in terms of episode count!
 
 ```{r, eval=TRUE, echo=FALSE}
 
@@ -495,7 +499,24 @@ kable(average_episodes, "html") %>%
 
 ```
 
-separator
+```{=html}
+<style>
+hr {
+  border: none;
+  height: 2px; /* Adjust the height as needed */
+  background-color: #ccc; /* Adjust the color as needed */
+  margin: 10px 0; /* Adjust the margin as needed */
+}
+</style>
+```
+
+------------------------------------------------------------------------
+
+<!-- Content -->
+
+Wow, that's a lot of numbers! But don't worry, let's unpack them slowly. 
+
+Looking at the 
 
 ```{r, eval=TRUE, echo=FALSE}
 
@@ -850,6 +871,8 @@ print(japanese_plot)
 # Insights and Recommendations
 
 # References
+
+*Cambridge Dictionary. (2024, April 10). Episode. CambridgeWords. https://dictionary.cambridge.org/dictionary/learner-english/episode*
 
 *Escandon, R. (2020, March 12). The film industry made a record-breaking $100 billion last year. Forbes. https://www.forbes.com/sites/rosaescandon/2020/03/12/the-film-industry-made-a-record-breaking-100-billion-last-year/?sh=5b3657bb34cd*
 
