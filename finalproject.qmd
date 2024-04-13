@@ -516,7 +516,21 @@ hr {
 
 Wow, that's a lot of numbers! But don't worry, let's unpack them slowly. 
 
-Looking at the 
+Zooming in on the year 2018, it is clear that K-Dramas have the **highest average number of episodes among the rest (24.01)**, suggesting that K-Dramas used to be very loooong.
+
+However, looking at how the average number of episodes have changed across the years for K-Dramas in relation to the other languages, it seems that there is a prominent **trend of Korea cutting down on the number of episodes produced**. 
+
+In fact, K-Dramas have ultimately **reduced their episode count the most significantly** from around 24 to 12 episodes. This is a whopping reduction of 12 episodes, half of the origianl amount!
+
+Meanwhile, Japanese and Thai dramas have only reduced their episode count by around 3 episodes, from 12 to 9, and 15 to 12 respectively, which is a much smaller number compared to Korea. 
+
+What does this suggest? Does this mean there is a correlation between shorter episode count and higher popularity?
+
+Well...not quite.
+
+In 2023, although K-Dramas have experienced the most significant reduction in episode count, Japanese dramas still ultimately have the least average number of episodes, yet they still lose out to Korea in terms of ratings and popularity as established earlier. 
+
+Looking at this scatter plot, 
 
 ```{r, eval=TRUE, echo=FALSE}
 
