@@ -593,6 +593,76 @@ For many audiences, genres is something important they consider when choosing wh
 
 In our case, a drama's genre can influence what audiences think of dramas even before watching it, as it shapes audiences' perception of whether they think the drama's content will appeal to them.
 
+There are a wide variety of genres that a drama can be categorised into, including romance, action, comedy, horror, thriller, just to name a few.
+
+Check out how many distinct genres each language's dramas have below!
+
+```{r, eval=TRUE, echo=FALSE}
+suppressMessages({
+  suppressWarnings({
+    library(tidyverse)
+    library(kableExtra)
+
+    # Read data from CSV files
+    general_kdrama <- read.csv("datasets/kor_drama.csv")
+    general_tdrama <- read.csv("datasets/tha_drama.csv")
+    general_jdrama <- read.csv("datasets/jap_drama.csv")
+
+    # Convert year column to integer
+    general_kdrama$year <- as.integer(general_kdrama$year)
+    general_tdrama$year <- as.integer(general_tdrama$year)
+    general_jdrama$year <- as.integer(general_jdrama$year)
+
+    # Filter datasets
+    general_kdrama_FILTERED <- general_kdrama %>% filter(year >= 2018)
+    general_tdrama_FILTERED <- general_tdrama %>% filter(year >= 2018)
+    general_jdrama_FILTERED <- general_jdrama %>% filter(year >= 2018)
+
+    # Create Language variable
+    general_kdrama_FILTERED$`Drama Language` <- "Korean"
+    general_tdrama_FILTERED$`Drama Language` <- "Thai"
+    general_jdrama_FILTERED$`Drama Language` <- "Japanese"
+
+    # Count unique genres for each drama
+    kdrama_genre_count <- general_kdrama_FILTERED %>%
+      select(`Drama Language`, genres) %>%
+      separate_rows(genres, sep = ",\\s*") %>%
+      group_by(`Drama Language`) %>%
+      summarize(`Unique Genre Count` = n_distinct(genres))
+
+    tdrama_genre_count <- general_tdrama_FILTERED %>%
+      select(`Drama Language`, genres) %>%
+      separate_rows(genres, sep = ",\\s*") %>%
+      group_by(`Drama Language`) %>%
+      summarize(`Unique Genre Count` = n_distinct(genres))
+
+    jdrama_genre_count <- general_jdrama_FILTERED %>%
+      select(`Drama Language`, genres) %>%
+      separate_rows(genres, sep = ",\\s*") %>%
+      group_by(`Drama Language`) %>%
+      summarize(`Unique Genre Count` = n_distinct(genres))
+
+    # Merge the datasets
+    merged_genre_count <- bind_rows(
+      kdrama_genre_count,
+      tdrama_genre_count,
+      jdrama_genre_count
+    )
+
+    # Create table with kableExtra
+    genre_table <- merged_genre_count %>%
+      kable("html") %>%
+      kable_styling(full_width = FALSE, bootstrap_options = "striped", position = "center")
+
+    # Print the table
+    genre_table
+  })
+})
+
+```
+
+x analysis x
+
 Before we dive into examining dramas' genre, make your guess on what the most popular genre in K-Dramas is! Simply click on the button of the option you think is right.
 
 ```{=html}
@@ -773,72 +843,8 @@ Evidently, despite Thai dramas being the leading producer of romance genres, it 
 
 This also means that **we cannot conclude that romance dramas is positively correlated with higher rankings and popularity**. Although Korea loses out in the highest production of K-Dramas, it must be doing something else right, presumably the quality of the content, for it to be receiving significantly high ratings and popularity among viewers. 
 
-At this point, you may be wondering: 
+At this point, you may be wondering: What about the variety of genres? 
 
-Vairety of genres
-```{r, eval=TRUE, echo=FALSE}
-suppressMessages({
-  suppressWarnings({
-    library(tidyverse)
-    library(kableExtra)
-
-    # Read data from CSV files
-    general_kdrama <- read.csv("datasets/kor_drama.csv")
-    general_tdrama <- read.csv("datasets/tha_drama.csv")
-    general_jdrama <- read.csv("datasets/jap_drama.csv")
-
-    # Convert year column to integer
-    general_kdrama$year <- as.integer(general_kdrama$year)
-    general_tdrama$year <- as.integer(general_tdrama$year)
-    general_jdrama$year <- as.integer(general_jdrama$year)
-
-    # Filter datasets
-    general_kdrama_FILTERED <- general_kdrama %>% filter(year >= 2018)
-    general_tdrama_FILTERED <- general_tdrama %>% filter(year >= 2018)
-    general_jdrama_FILTERED <- general_jdrama %>% filter(year >= 2018)
-
-    # Create Language variable
-    general_kdrama_FILTERED$`Drama Language` <- "Korean"
-    general_tdrama_FILTERED$`Drama Language` <- "Thai"
-    general_jdrama_FILTERED$`Drama Language` <- "Japanese"
-
-    # Count unique genres for each drama
-    kdrama_genre_count <- general_kdrama_FILTERED %>%
-      select(`Drama Language`, genres) %>%
-      separate_rows(genres, sep = ",\\s*") %>%
-      group_by(`Drama Language`) %>%
-      summarize(`Unique Genre Count` = n_distinct(genres))
-
-    tdrama_genre_count <- general_tdrama_FILTERED %>%
-      select(`Drama Language`, genres) %>%
-      separate_rows(genres, sep = ",\\s*") %>%
-      group_by(`Drama Language`) %>%
-      summarize(`Unique Genre Count` = n_distinct(genres))
-
-    jdrama_genre_count <- general_jdrama_FILTERED %>%
-      select(`Drama Language`, genres) %>%
-      separate_rows(genres, sep = ",\\s*") %>%
-      group_by(`Drama Language`) %>%
-      summarize(`Unique Genre Count` = n_distinct(genres))
-
-    # Merge the datasets
-    merged_genre_count <- bind_rows(
-      kdrama_genre_count,
-      tdrama_genre_count,
-      jdrama_genre_count
-    )
-
-    # Create table with kableExtra
-    genre_table <- merged_genre_count %>%
-      kable("html") %>%
-      kable_styling(full_width = FALSE, bootstrap_options = "striped", position = "center")
-
-    # Print the table
-    genre_table
-  })
-})
-
-```
 
 ### 5.1 A Closer Look...
 
