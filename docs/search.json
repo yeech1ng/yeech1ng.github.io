@@ -283,8 +283,8 @@
     "objectID": "finalproject.html#production-volume",
     "href": "finalproject.html#production-volume",
     "title": "Final Project",
-    "section": "4. Production Volume",
-    "text": "4. Production Volume\n\n\nWarning: Removed 18 rows containing missing values (`position_stack()`)."
+    "section": "3. Production Volume",
+    "text": "3. Production Volume\n\n\nWarning: Removed 18 rows containing missing values (`position_stack()`)."
   },
   {
     "objectID": "finalproject.html#episode-count",
@@ -304,7 +304,14 @@
     "objectID": "finalproject.html#genres",
     "href": "finalproject.html#genres",
     "title": "Final Project",
-    "section": "3. Genres",
-    "text": "3. Genres\nBefore we go into the genres of the different dramas, make your guess on what the most popular genre among K-Dramas is!\nSimply click on the button of the option you think is right.\n \nseparator\n\n\n\n\n\n\nxxx\n\n\n\n\n\n\nVairety of genres\n\n\n\n\n\nDrama Language\nUnique Genre Count\n\n\n\n\nKorean\n33\n\n\nThai\n31\n\n\nJapanese\n34\n\n\n\n\n\n\n\n\n3.1 A Closer Look…"
+    "section": "4. Genres",
+    "text": "4. Genres\nBefore we go into the genres of the different dramas, make your guess on what the most popular genre among K-Dramas is!\nSimply click on the button of the option you think is right.\n \nseparator\n\n\n\n\n\n\nxxx\n\n\n\n\n\n\nVairety of genres\n\n\n\n\n\nDrama Language\nUnique Genre Count\n\n\n\n\nKorean\n33\n\n\nThai\n31\n\n\nJapanese\n34\n\n\n\n\n\n\n\n\n4.1 A Closer Look…"
+  },
+  {
+    "objectID": "finalproject.html#production-volume-does-not-matter",
+    "href": "finalproject.html#production-volume-does-not-matter",
+    "title": "Final Project",
+    "section": "3. Production Volume Does Not Matter?",
+    "text": "3. Production Volume Does Not Matter?\n\n\nWarning: Removed 18 rows containing missing values (`position_stack()`)."
   }
 ]
