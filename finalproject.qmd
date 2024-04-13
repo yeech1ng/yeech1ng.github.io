@@ -376,14 +376,17 @@ hr {
 
 <!-- Content -->
 
-Let's address the part of the graph that probably caught your eye first - the 
+Let's address the part of the graph that probably caught your eye first - the extremely long orange bar under the "Netflix" category, on the x-axis. 
 
-From the graph, 2 main trends are obvious.
+At one glance, we can see that among the global channels, **K-Dramas utilise Netflix the most** to distribute its dramas, with the **highest count of 130 dramas** uploaded there, as compared to 31 for Japanese, and 13 for Thai. That's significantly more than the other dramas! 
 
-In terms of quantity, K-Dramas have the highest number of dramas distributed on global channels as compared to Thai and Japanese dramas. This can suggest that K-Dramas have 
+Moreover, K-Dramas have the **most number of dramas in total (163) that are distributed on global channels**, as compared to Japanese dramas with a close number of 112, and Thai with an almost negligible count of 15.
 
-In terms of quality, K-Dramas 
+Given Netflix's dominance in the streaming service industry, Korea is able to leverage the channel's extensive connections with audiences from all over the world, bolstering its market outreach by making its dramas more accessible to potential global audiences. 
 
+Combined with the sheer quantity of dramas that Korea is distributing on global channels that audiences frequently use to access international content, it reflects Korea's deliberate strategy of going beyond the South Korean market, and instead targeting and supplying international markets with content.
+
+It is no wonder why K-Dramas manages to achieve high global viewership and outreach to international audiences - a great strategy indeed!
 
 ## 3. Genres
 
