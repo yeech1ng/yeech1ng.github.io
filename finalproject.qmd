@@ -471,7 +471,7 @@ Hmm...this may mean that production volume is not as crucial of a factor in driv
 
 Closely related to production volume is episode count, more specifically the number of episodes that each drama produces. 
 
-For those of you who may be unfamiliar with this terminology, Cambridge Dictionary defines an episode as "one programme of a series shown on the more episodes a drama has, the longer a drama's watch-time. 
+For those of you who may be unfamiliar with this terminology, Cambridge Dictionary defines an episode as "one programme of a series shown on television" (ambridge Dictionary, 2024), or in this case, dramas in our case. 
 
 Let's see if our previous conclusion that quantity may not be a key driving factor holds through in terms of episode count!
 
@@ -530,7 +530,7 @@ Well...not quite.
 
 In 2023, although K-Dramas have experienced the most significant reduction in episode count, Japanese dramas still ultimately have the least average number of episodes, yet they still lose out to Korea in terms of ratings and popularity as established earlier. 
 
-Looking at this scatter plot, 
+In fact, this is supported by the scatter plot shown below!
 
 ```{r, eval=TRUE, echo=FALSE}
 
@@ -577,14 +577,19 @@ hr {
 
 <!-- Content -->
 
-Across all 3 languages, there is a common trend of **dramas with less episodes receiving a higher rating**, though this is most evident in K-Dramas.
+Unfortunately, there dosen't seem to be a clear relationship between episode count and user ratings, which is an indication of popularity as established earlier. This means that **we cannot decisively conclude that there is a negative correlation between episode count and popularity**, so it's not true that the shorter the episode count, the higher ratings a drama will receive, and consequently, popularity. 
 
-However, within a shorter episode count from 0 to 25, K-Dramas still lead and **surpass Thai and Japanese dramas** with a consistently higher rating. In fact, the highest rating drama (9.2) in the entire graph is a K-Drama!
+This solidifies our conclusion from the previous section on production volume on how quantity may not be as important in driving popularity!
 
-This is possibly due to...
+However, remember the discovery we made earlier on  K-Dramas experiencing the most significant reduction in episode count among the rest, as well as the previous observation that K-Dramas is cutting down on production volume (Section 3)? 
 
+While not conclusive, this can suggest that K-Dramas are **shifting their focus from sheer quantity, to quality** of the dramas produced. It seems reasonable to infer that extra resources for generating more dramas and episodes is instead diverted to ensuring dramas produced are of of top-notch quality with high quality content.
+
+With that, let's test this theory out!
 
 ## 5. Genres
+
+Genres are 
 
 Before we go into the genres of the different dramas, make your guess on what the most popular genre among K-Dramas is!
 
