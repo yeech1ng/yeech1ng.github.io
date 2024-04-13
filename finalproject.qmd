@@ -601,9 +601,7 @@ Before we dive into examining dramas' genre, make your guess on what the most po
 
 As we have learnt, most K-Dramas produced will probably be of the romance genre. 
 
-But does this mean that dramas which are of romance genre has a higher chance of being more popular globally? Let's find out!
-
-Looking at this bar plot with the distribution of the top 10 genres, 
+But does this mean that dramas which are of romance genre has a higher chance of being more popular globally? Let's find out but taking a look at this bar plot with the distribution of dramas among the top 10 genres. 
 
 ```{r, eval=TRUE, echo=FALSE}
 suppressMessages({
@@ -672,7 +670,26 @@ suppressMessages({
 })
 
 ```
-xxx
+
+```{=html}
+<style>
+hr {
+  border: none;
+  height: 2px; /* Adjust the height as needed */
+  background-color: #ccc; /* Adjust the color as needed */
+  margin: 10px 0; /* Adjust the margin as needed */
+}
+</style>
+```
+
+------------------------------------------------------------------------
+
+<!-- Content -->
+
+Zooming into the "Romance" category, although it shows how the most popular genre among K-Dramas is romance, Korea is not actually the leading producer of romance dramas, but rather, Thailand! 
+
+This is rather surprising! Let's take a closer look at romance dramas only, and examine the user ratings. 
+
 ```{r, eval=TRUE, echo=FALSE}
 suppressMessages({
   suppressWarnings({
@@ -731,9 +748,32 @@ suppressMessages({
     plotly_plot
   })
 })
-
-
 ```
+
+```{=html}
+<style>
+hr {
+  border: none;
+  height: 2px; /* Adjust the height as needed */
+  background-color: #ccc; /* Adjust the color as needed */
+  margin: 10px 0; /* Adjust the margin as needed */
+}
+</style>
+```
+
+------------------------------------------------------------------------
+
+<!-- Content -->
+
+From the boxplots, we see that **K-Dramas have the highest median, or average user ratings (7.90) for its romance dramas**, as compared to Japanese and Thai (both 7.60). 
+
+Additionally, it also has the **highest peak user rating at 9 compared to the rest**, with Japanese dramas having a peak of 8.80, and Thai dramas with a 8.60 peak. 
+
+Evidently, despite Thai dramas being the leading producer of romance genres, it has the lowest user rating peak, proving once again that quantity is not everything! 
+
+This also means that **we cannot conclude that romance dramas is positively correlated with higher rankings and popularity**. Although Korea loses out in the highest production of K-Dramas, it must be doing something else right, presumably the quality of the content, for it to be receiving significantly high ratings and popularity among viewers. 
+
+At this point, you may be wondering: 
 
 Vairety of genres
 ```{r, eval=TRUE, echo=FALSE}
