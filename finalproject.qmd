@@ -949,7 +949,9 @@ This is perhaps something that K-Dramas manages to deliver to audiences, hooking
 
 ## 6. Actors
 
-Now, let's go back to
+Earlier on, we have seen how male and female leads in the story are an essential part of dramas, and play a huge role in connecting with audiences, particularly female viewers. 
+
+How about the face behind these characters - the actors? Are they a driving factor behind K-Drama's popularity? Let's find out! 
 
 ```{=html}
 <iframe height="500" width="100%" frameborder="no" src="https://yeech1ng.shinyapps.io/actor_app/ "> </iframe>
