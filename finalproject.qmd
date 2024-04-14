@@ -909,7 +909,7 @@ After looking through all 3 word clouds, did you notice a pattern?
 
 For all 3 drama languages, it seems that commonly occurring words are "lead", "male", and "female", which suggest that the male and female leads of dramas are essential to dramas. This brings me to my point on actors, in which I will elaborate later on in Section 6. 
 
-<span style="font-size: 20px;">**Male and Female Leads**</span>
+<span style="font-size: 20px;">**K-Dramas Focuses On Its Female Leads**</span>
 
 However, for now, a point to note is that K-Dramas are the only dramas where the word "female" occurs more frequently than "male, as compared to Japanese and Thai. 
 
@@ -921,7 +921,7 @@ In fact, in Korea, the number of female screenwriters is closer to 90% (MacDonal
 
 This is likely to have made K-Dramas' plot lines more refreshing and interesting for audiences, particularly female viewers, evident in the wordcloud where "female leads" are more talked about. This has likely contributed to enhanced viewership and popularity. 
 
-<span style="font-size: 20px;">**Controversial Topics**</span>
+<span style="font-size: 20px;">**Thai Dramas Feature More Controversial Topics**</span>
 
 Looking at the wordcloud for Thai dramas, 2 words that stand out to me are "gay" (mentioned 386 times) and "lgbtq" (mentioned 242 times). Although these are not the most frequently occurring words, the fact that the wordcloud for both Korean and Japanese drama do not feature these words suggest that these topics are unique to Thai dramas. 
 
@@ -933,7 +933,23 @@ Well, the views that these groups carry may make them less accepting of when dra
 
 As such, since K-Dramas do not regularly feature characters or plot lines that revolve around controversial topics like LGBTQ+ unlike Thai dramas, it may appeal to more groups of audiences, and thus contributing to greater viewership and overall popularity. 
 
+<span style="font-size: 20px;">**Japanese Dramas Have More Adaptations**</span>
+
+You may be wondering: Why is it that Japanese dramas still ultiamtely have a lower rating and popularity than K-Dramas despite not regularly featuring controversial topics? 
+
+Well, looking at the wordcloud for Japanese dramas, I would like to point out the word "adapted", which has occurred quite frequently (581 times) along with the words "lead", "male", "female", and "character". 
+
+This seems to suggest that many Japanese dramas seem to be adaptations of  existing books, shows, and films, which is not as original as newly produced story created from scratch. 
+
+In fact, according to a survey done by SuperSummary (n.d.), an online resource that provides study guides for fiction and nonfiction books, it found that almost half (46%) of respondents argued that film adaptations "would never be as good as the book", with almost 25% declaring that movies even ruined the original book. 
+
+Hence, although Japanese dramas do not feature controversial issues like Thai dramas, the problem may lie in the lack of original content of the dramas produced, which deters audiences who are seeking fresh and new plot lines in dramas. 
+
+This is perhaps something that K-Dramas manages to deliver to audiences, hooking them in with innovative and original content! 
+
 ## 6. Actors
+
+Now, let's go back to
 
 ```{=html}
 <iframe height="500" width="100%" frameborder="no" src="https://yeech1ng.shinyapps.io/actor_app/ "> </iframe>
