@@ -105,7 +105,7 @@ In fact, this is part of the larger cultural phenomenon known as **“Hallyu”,
 
 This begs the question: How does Korea do this? In particular, how did K-Dramas **garner so much popularity and continuously stay on top of the game**? What can other region’s entertainment industry learn from South Korea?
 
-Let's find out by investigating variables like ratings, streaming services, production volume, episode count, drama content andn genres, and actors. 
+Let's find out by investigating variables like ratings, streaming services, production volume, episode count, drama content and genres, and actors. 
 
 # Comparison with Japanese and Thai Dramas
 
