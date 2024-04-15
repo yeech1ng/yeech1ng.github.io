@@ -947,36 +947,15 @@ Hence, although Japanese dramas do not feature controversial issues like Thai dr
 
 This is perhaps something that K-Dramas manages to deliver to audiences, hooking them in with innovative and original content! 
 
-## 6. Who the Actors are Influences User Ratings
+### 5.4 Examining Drama Storylines
 
-Earlier on, we have seen how male and female leads in the story are an essential part of dramas, and play a huge role in connecting with audiences, particularly female viewers. 
+An integral part of the content is the story-line of the drama, or what others may call the plot. 
 
-How about the face behind these characters - the actors? Are they a driving factor behind K-Drama's popularity? Let's find out! 
+Good storytelling can help to captivate audiences and ensure the success of any media content, from books to shows. 
 
-Check out the different correlation plots between user ratings on the drama's acting cast, and the overall drama ratings for all Korean, Thai, and Japanese dramas 
+But is this an important factor driving K-Drama's popularity? Let's investigate!
 
-```{=html}
-<iframe height="500" width="100%" frameborder="no" src="https://yeech1ng.shinyapps.io/actor_app/ "> </iframe>
-```
-
-As you can see from the graphs, there seems to be a positive correlation between acting cast ratings, and overall ratings for all countries. This can suggest that the actors a drama features may influence the popularity of the drama. If an actor is popular, ratings for the drama will most likely increase. 
-
-For Korea, this means that generally, well-received actors are starring in the dramas, thus contributing to the highest ratings and high popularity overall compared to the other 2. 
-
-Do you recognise these Korean actors?
-
-![Korean Actors | source: South China Morning Post](images/korean_actors.jpg){width="550"}
-
-With that being said, we note the difference in strengths of the correlation graphs. From the dispersion of the points on the plot, it seems that K-Dramas have the weakest positive correlation, followed by Thai, and then Japan. 
-
-This could mean that for K-Dramas, although actors undeniably play a part in driving up popularity, actors may not be the most important driving factor behind immense popularity.
-
-## 7. Story
-
-And with that, we have reached the last variable that we will be investigating! 
-
-We touched on this briefly earlier, but I thought it would
-
+Over here, we have 3 plots comparing the user ratings on the drama's story-line for Korea, Thai, and Japanese dramas. 
 
 ```{r, eval=TRUE, echo=FALSE}
 suppressMessages({
@@ -1013,6 +992,28 @@ suppressMessages({
 
 ```
 
+```{=html}
+<style>
+hr {
+  border: none;
+  height: 2px; /* Adjust the height as needed */
+  background-color: #ccc; /* Adjust the color as needed */
+  margin: 10px 0; /* Adjust the margin as needed */
+}
+</style>
+```
+
+------------------------------------------------------------------------
+
+<!-- Content -->
+
+Interestingly, it seems that the median (9), and peak (10) ratings for all 3 languages are the same! Additionally, between Japanese and Korea dramas, the IQR is the same at 3. Meanwhile, Thai drams have a greater IQR of 3.5, which suggests a higher variability and greater spread between the values
+
+Hmm...what does this tell us about story-lines as driving factor? 
+
+It seems that story-lines do not have as much influence on driving up popularity ranking, since the user ratings on storylines are generally the same across all 3 languages. 
+
+To get greater clarity, let's look at scatter plots showing the correlation between user ratings on drama's story and the overall ratings. 
 
 ```{r, eval=TRUE, echo=FALSE}
 library(dplyr)
@@ -1024,29 +1025,74 @@ kreviews <- read.csv("datasets/kor_user_reviews.csv")
 treviews <- read.csv("datasets/tha_user_reviews.csv")
 jreviews <- read.csv("datasets/jap_user_reviews.csv")
 
-# Function to create correlation plot
-create_plot <- function(data, language) {
-  palette <- brewer.pal(3, "Set2")  # Get color palette
-  
-  ggplot(data, aes(x = story, y = overall)) +
-    geom_jitter(aes(color = language), show.legend = FALSE) +
-    geom_smooth(aes(color = language), show.legend = FALSE) +
-    ggtitle(paste("Correlation between Story Ratings and Overall Ratings for", language, "dramas")) +
-    xlab("Story Ratings") +
-    ylab("Overall Ratings") +
-    scale_color_manual(values = palette)  # Set color scale
-}
+# Combine data and add language column
+kreviews$language <- "Korean"
+treviews$language <- "Thai"
+jreviews$language <- "Japanese"
+all_reviews <- bind_rows(kreviews, treviews, jreviews)
 
-# Create plots for each language
-korean_plot <- create_plot(kreviews, "Korean")
-thai_plot <- create_plot(treviews, "Thai")
-japanese_plot <- create_plot(jreviews, "Japanese")
+# Create correlation plot with facet_wrap
+palette <- brewer.pal(3, "Set2")  # Get color palette
+suppressMessages({
+  suppressWarnings({
+    ggplot(all_reviews, aes(x = story, y = overall, color = language)) +
+      geom_jitter(show.legend = FALSE) +
+      geom_smooth(show.legend = FALSE, method = "lm", formula = y ~ x, se = FALSE, color = "black", size = 1) +
+      ggtitle("Correlation between Story Ratings and Overall Ratings") +
+      xlab("Story Ratings") +
+      ylab("Overall Ratings") +
+      scale_color_manual(values = palette) + 
+      facet_wrap(~language)
+  })
+})
 
-# Print the plots
-print(korean_plot)
-print(thai_plot)
-print(japanese_plot)
 ```
+
+
+```{=html}
+<style>
+hr {
+  border: none;
+  height: 2px; /* Adjust the height as needed */
+  background-color: #ccc; /* Adjust the color as needed */
+  margin: 10px 0; /* Adjust the margin as needed */
+}
+</style>
+```
+
+------------------------------------------------------------------------
+
+<!-- Content -->
+
+Once again, for all 3 drama languages, there is a positive correlation between story ratings and overall drama ratings. 
+
+
+
+## 6. Who the Actors are Influences User Ratings
+
+Earlier on, we have seen how male and female leads in the story are an essential part of dramas, and play a huge role in connecting with audiences, particularly female viewers. 
+
+How about the face behind these characters - the actors? Are they a driving factor behind K-Drama's popularity? Let's find out! 
+
+Check out the different correlation plots between user ratings on the drama's acting cast, and the overall drama ratings for all Korean, Thai, and Japanese dramas 
+
+```{=html}
+<iframe height="500" width="100%" frameborder="no" src="https://yeech1ng.shinyapps.io/actor_app/ "> </iframe>
+```
+
+As you can see from the graphs, there seems to be a positive correlation between acting cast ratings, and overall ratings for all countries. This can suggest that the actors a drama features may influence the popularity of the drama. If an actor is popular, ratings for the drama will most likely increase. 
+
+For Korea, this means that generally, well-received actors are starring in the dramas, thus contributing to the highest ratings and high popularity overall compared to the other 2. 
+
+Do you recognise these Korean actors?
+
+![Korean Actors | source: South China Morning Post](images/korean_actors.jpg){width="550"}
+
+With that being said, we note the difference in strengths of the correlation graphs. From the dispersion of the points on the plot, it seems that K-Dramas have the weakest positive correlation, followed by Thai, and then Japan. 
+
+This could mean that for K-Dramas, although actors undeniably play a part in driving up popularity, actors may not be the most important driving factor behind immense popularity.
+
+## 7. Story
 
 
 
