@@ -175,17 +175,17 @@ The larger IQR may reflect differences in the quality of K-dramas. Some K-dramas
 
 However, despite this, K-Dramas still enjoy the **highest average ratings**.
 
-Comparing the medians, or average ratings, of Japanese, Thai, and Korean dramas from 2018 to 2023, it seems that it is a close fight among all 3 languages. Each are doing relatively well in the market with high ratings in the 7 points region (out of 10). 
+Comparing the medians, or average ratings, of Japanese, Thai, and Korean dramas from 2018 to 2023, it seems that it is a close fight among all 3 languages. Each is doing relatively well in the market with high ratings in the 7 points region (out of 10). 
 
 However, K-Dramas ultimately emerge as the **frontrunner with an average rating of 7.80**, with Japanese dramas following closely behind with an average rating of 7.70, and lastly, Thai dramas with a nonetheless commendable average rating of 7.60.
 
-This shows that while each language’s dramas have their own unique charm that garner them a significant fan base and presence, K-Dramas stand out, **appealing to and resonating with the audiences the most**. 
+This shows that while various language’s dramas have its own unique charm that garner them a significant fan base and presence, K-Dramas stand out, **appealing to and resonating with the audiences the most**. 
 
 **Maximum**
 
 Moreover, K-Dramas evidently have the **highest peak rating of 9.20**, compared to Japanese's 8.80, and Thai's 8.70, reinforcing K-Drama's dominance and immense appeal to audiences that led to exceptionally high ratings.
 
-If this dosen't sound impressive enough, wait till we look at how K-Drama ratings have progressed across time, particularly in the form of concrete scores that users give!
+If this doesn't sound impressive enough, wait till we look at how K-Drama ratings have progressed across time, particularly in the form of concrete scores that users give!
 
 ```{r, eval=TRUE, echo=FALSE}
 
@@ -386,7 +386,7 @@ Given Netflix's dominance in the streaming service industry, Korea is able to le
 
 Combined with the sheer quantity of dramas that Korea is distributing on global channels that audiences frequently use to access international content, it reflects Korea's deliberate strategy of going beyond the South Korean market, and instead targeting and supplying international markets with content.
 
-It is no wonder why K-Dramas manages to achieve high global viewership and outreach to international audiences - a great strategy indeed!
+It is no wonder why K-Dramas manage to achieve high global viewership and outreach to international audiences - a great strategy indeed!
 
 ## 3. Production Volume does not Matter?
 
@@ -463,7 +463,7 @@ hr {
 
 In the earlier years from 2018 to 2020, the proportion of K-Dramas produced was generally consistently the highest among Thai and Japanese dramas.
 
-However, in the recent years from 2021 to 2023, it seems that the proportion of K-Dramas are falling and getting increasingly smaller, as compared to the growing proportion of Thai and Japanese dramas.
+However, in the recent years from 2021 to 2023, it seems that the proportion of K-Dramas fell as compared to the growing proportion of Thai and Japanese dramas.
 
 Hmm...this may mean that production volume is not as crucial of a factor in driving popularity, since it is in-congruent with the growing international popularity of K-Dramas. 
 
@@ -516,11 +516,11 @@ hr {
 
 Wow, that's a lot of numbers! But don't worry, let's unpack them slowly. 
 
-Zooming in on the year 2018, it is clear that K-Dramas have the **highest average number of episodes among the rest (24.01)**, suggesting that K-Dramas used to be very loooong.
+Zooming in on the year 2018, it is clear that K-Dramas have the **highest average number of episodes among the rest (24.01)**, suggesting that K-Dramas used to be very long.
 
 However, looking at how the average number of episodes have changed across the years for K-Dramas in relation to the other languages, it seems that there is a prominent **trend of Korea cutting down on the number of episodes produced**. 
 
-In fact, K-Dramas have ultimately **reduced their episode count the most significantly** from around 24 to 12 episodes. This is a whopping reduction of 12 episodes, half of the origianl amount!
+In fact, K-Dramas have ultimately **reduced their episode count the most significantly** from around 24 to 12 episodes. This is a whopping reduction of 12 episodes, half of the original amount!
 
 Meanwhile, Japanese and Thai dramas have only reduced their episode count by around 3 episodes, from 12 to 9, and 15 to 12 respectively, which is a much smaller number compared to Korea. 
 
