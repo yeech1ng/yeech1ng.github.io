@@ -953,9 +953,17 @@ Earlier on, we have seen how male and female leads in the story are an essential
 
 How about the face behind these characters - the actors? Are they a driving factor behind K-Drama's popularity? Let's find out! 
 
+Check out the different correlation plots between user ratings on the drama's acting cast, and the overall drama ratings for all Korean, Thai, and Japanese dramas 
+
 ```{=html}
 <iframe height="500" width="100%" frameborder="no" src="https://yeech1ng.shinyapps.io/actor_app/ "> </iframe>
 ```
+
+As you can see from the graphs, there seems to be a positive correlation between acting cast ratings, and overall ratings for all countries. This can suggest that the actors a drama features may influence the popularity of the drama. If an actor is well-received and popular, ratings for the drama will most likely increase. 
+
+With that being said, we note the difference in strengths of the correlation graphs. From the dispersion of the points on the plot, it seems that K-Dramas have the weakest positive correlation, followed by Thai, and then Japan. 
+
+This could mean that 
 
 ## 7. Story
 
