@@ -298,7 +298,7 @@
     "href": "finalproject.html#story",
     "title": "Final Project",
     "section": "7. Story",
-    "text": "7. Story\nStorytelling is crucial.\n\n\n\n\n\n\n\n\nWarning in scan(file = file, what = what, sep = sep, quote = quote, dec = dec,\n: embedded nul(s) found in input\n\n\n`geom_smooth()` using method = 'gam' and formula = 'y ~ s(x, bs = \"cs\")'\n\n\n\n\n\n`geom_smooth()` using method = 'gam' and formula = 'y ~ s(x, bs = \"cs\")'\n\n\n\n\n\n`geom_smooth()` using method = 'gam' and formula = 'y ~ s(x, bs = \"cs\")'"
+    "text": "7. Story\nAnd with that, we have reached the last variable that we will be investigating!\nWe touched on this briefly earlier, but I thought it would\n\n\n\n\n\n\n\n\nWarning in scan(file = file, what = what, sep = sep, quote = quote, dec = dec,\n: embedded nul(s) found in input\n\n\n`geom_smooth()` using method = 'gam' and formula = 'y ~ s(x, bs = \"cs\")'\n\n\n\n\n\n`geom_smooth()` using method = 'gam' and formula = 'y ~ s(x, bs = \"cs\")'\n\n\n\n\n\n`geom_smooth()` using method = 'gam' and formula = 'y ~ s(x, bs = \"cs\")'"
   },
   {
     "objectID": "finalproject.html#genres",

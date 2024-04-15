@@ -973,7 +973,9 @@ This could mean that for K-Dramas, although actors undeniably play a part in dri
 
 ## 7. Story
 
-Storytelling is crucial.
+And with that, we have reached the last variable that we will be investigating! 
+
+We touched on this briefly earlier, but I thought it would
 
 
 ```{r, eval=TRUE, echo=FALSE}
