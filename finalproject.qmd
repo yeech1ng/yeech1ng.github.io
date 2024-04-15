@@ -10,7 +10,9 @@ Hello and welcome to my data story! :)
 
 As an avid K-Drama watcher, I thought it would be interesting to investigate and showcase the driving factors of: 
 
-<span style="font-size: 25px;">**Why are K-Dramas so popular globally?**</span>
+<div style="text-align: center;">
+  <span style="font-size: 25px;">**Why are K-Dramas so popular globally?**</span>
+</div>
 
 # Data Sets
 
@@ -1141,7 +1143,24 @@ However, I understand that this makes sense from a purely business perspective, 
 
 Although this is not a crucial driving factor, this still helps with gaining slightly more visibility and support from the fan-bases of the actors featured.
 
-<span style="font-size: 20px;">**And that's it! Thank you for your time!**</span>
+```{=html}
+<style>
+hr {
+  border: none;
+  height: 2px; /* Adjust the height as needed */
+  background-color: #ccc; /* Adjust the color as needed */
+  margin: 10px 0; /* Adjust the margin as needed */
+}
+</style>
+```
+
+------------------------------------------------------------------------
+
+<!-- Content -->
+
+<div style="text-align: center;">
+  <span style="font-size: 25px;">**And that's it! Thank you for your time!**</span>
+</div>
 
 ![The End | source: me](images/the_end.png){width="500"}
 
