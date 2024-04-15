@@ -410,21 +410,24 @@ suppressMessages({
     general_tdrama <- read.csv("datasets/tha_drama.csv")
     general_jdrama <- read.csv("datasets/jap_drama.csv")
 
-    # Filter and convert columns to integers
+    # Filter and convert columns to integers, remove missing values
     general_kdrama_filtered <- general_kdrama %>% 
       filter(year >= 2018) %>% 
       mutate(across(c(ep_duration, tot_eps), as.integer),
-             year = as.integer(year))
+             year = as.integer(year)) %>%
+      na.omit()
 
     general_tdrama_filtered <- general_tdrama %>% 
       filter(year >= 2018) %>% 
       mutate(across(c(ep_duration, tot_eps), as.integer),
-             year = as.integer(year))
+             year = as.integer(year)) %>%
+      na.omit()
 
     general_jdrama_filtered <- general_jdrama %>% 
       filter(year >= 2018) %>% 
       mutate(across(c(ep_duration, tot_eps), as.integer),
-             year = as.integer(year))
+             year = as.integer(year)) %>%
+      na.omit()
 
     # Merge data
     merged_data_produced <- bind_rows(
@@ -443,7 +446,6 @@ suppressMessages({
       theme_bw()
   })
 })
-
 
 
 ```
@@ -1024,9 +1026,12 @@ It seems that **story-lines do not have as much influence on driving up populari
 To get greater clarity, let's look at scatter plots showing the correlation between user ratings on drama's story and the overall ratings. 
 
 ```{r, eval=TRUE, echo=FALSE}
+
 library(dplyr)
 library(ggplot2)
 library(RColorBrewer)
+suppressMessages({
+  suppressWarnings({
 
 # Read data from CSV files
 kreviews <- read.csv("datasets/kor_user_reviews.csv")
@@ -1051,6 +1056,8 @@ suppressMessages({
       ylab("Overall Ratings") +
       scale_color_manual(values = palette) + 
       facet_wrap(~language)
+  })
+})
   })
 })
 
