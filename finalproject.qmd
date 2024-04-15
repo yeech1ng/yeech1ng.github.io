@@ -111,7 +111,7 @@ Let's find out!
 
 Let us first start with comparing some data between Korean, Japanese, and Thai dramas for some insights on their differences and similarities in terms of the dramas they produce.
 
-## 1. K-Dramas Generally Have The Highest Ratings
+## 1. K-Dramas Generally have the Highest Ratings
 
 Ratings are an essential metric in evaluating the success and popularity of dramas, providing valuable insight into audience reception and their preferences. 
 
@@ -260,7 +260,7 @@ This could  be attributed to the release of the Korean survival series drama, **
 
 It is likely that Squid Game's widespread popularity catapulted K-Dramas into the global spotlight, attracting new international audiences and interest. This recognition of Squid Game also likely prompted increased investment into Korean content from producers and streaming platforms in light of the rising viewership and interest from audiences from all over the world, solidifying its dominance in the market and entertainment industry.
 
-## 2. Streaming Services Like Netflix Are Crucial for Outreach
+## 2. Streaming Services like Netflix are Crucial for Outreach
 
 Speaking of Netflix, the channels in which dramas are aired on play a crucial role in determining the amount of viewership dramas receive, and the outreach they have to global audiences. 
 
@@ -388,7 +388,7 @@ Combined with the sheer quantity of dramas that Korea is distributing on global 
 
 It is no wonder why K-Dramas manages to achieve high global viewership and outreach to international audiences - a great strategy indeed!
 
-## 3. Production Volume Does Not Matter?
+## 3. Production Volume does not Matter?
 
 Based on our previous observations, it seems that quantity may potentially be a key driving factor of global popularity? 
 
@@ -467,7 +467,7 @@ However, in the recent years from 2021 to 2023, it seems that the proportion of 
 
 Hmm...this may mean that production volume is not as crucial of a factor in driving popularity, since it is in-congruent with the growing international popularity of K-Dramas. 
 
-## 4. K-Dramas Are Cutting Down On Episode Count
+## 4. K-Dramas are Cutting Down on Episode Count
 
 Closely related to production volume is episode count, more specifically the number of episodes that each drama produces. 
 
@@ -947,7 +947,7 @@ Hence, although Japanese dramas do not feature controversial issues like Thai dr
 
 This is perhaps something that K-Dramas manages to deliver to audiences, hooking them in with innovative and original content! 
 
-## 6. Actors
+## 6. Who the Actors are Influences User Ratings
 
 Earlier on, we have seen how male and female leads in the story are an essential part of dramas, and play a huge role in connecting with audiences, particularly female viewers. 
 
@@ -959,15 +959,23 @@ Check out the different correlation plots between user ratings on the drama's ac
 <iframe height="500" width="100%" frameborder="no" src="https://yeech1ng.shinyapps.io/actor_app/ "> </iframe>
 ```
 
-As you can see from the graphs, there seems to be a positive correlation between acting cast ratings, and overall ratings for all countries. This can suggest that the actors a drama features may influence the popularity of the drama. If an actor is well-received and popular, ratings for the drama will most likely increase. 
+As you can see from the graphs, there seems to be a positive correlation between acting cast ratings, and overall ratings for all countries. This can suggest that the actors a drama features may influence the popularity of the drama. If an actor is popular, ratings for the drama will most likely increase. 
+
+For Korea, this means that generally, well-received actors are starring in the dramas, thus contributing to the highest ratings and high popularity overall compared to the other 2. 
+
+Do you recognise these Korean actors?
+
+![Korean Actors | source: South China Morning Post](images/korean_actors.jpg){width="550"}
 
 With that being said, we note the difference in strengths of the correlation graphs. From the dispersion of the points on the plot, it seems that K-Dramas have the weakest positive correlation, followed by Thai, and then Japan. 
 
-This could mean that 
+This could mean that for K-Dramas, although actors undeniably play a part in driving up popularity, actors may not be the most important driving factor behind immense popularity.
 
 ## 7. Story
 
 Storytelling is crucial.
+
+
 ```{r, eval=TRUE, echo=FALSE}
 suppressMessages({
   suppressWarnings({
