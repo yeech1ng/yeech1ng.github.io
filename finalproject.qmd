@@ -1064,9 +1064,11 @@ hr {
 
 <!-- Content -->
 
-Once again, for all 3 drama languages, there is a positive correlation between story ratings and overall drama ratings. 
+Once again, for all 3 drama languages, there is a positive correlation between story ratings and overall drama ratings. In other words, stories with higher story ratings also tend to have higher overall ratings. 
 
+However, the correlation is not perfect due to some scatter in the data, particular in the K-Drama scatter plot. This means that some stories with high story ratings may have lower overall ratings, and vice versa.
 
+Unfortunately, this means that we cannot decisively conclude that the story-line of a drama is a definite driving factor behind K-Drama's popularity!
 
 ## 6. Who the Actors are Influences User Ratings
 
