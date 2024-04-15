@@ -966,7 +966,7 @@ suppressMessages({
     library(RColorBrewer)
 
     # Read datasets
-    kreviews <- read.csv("datasets/kor_user_reviews.csv")
+    kreviews <- read.csv("datasets/kor_user_reviews.csv", fileEncoding="UTF-8")
     treviews <- read.csv("datasets/tha_user_reviews.csv")
     jreviews <- read.csv("datasets/jap_user_reviews.csv")
 
@@ -1072,7 +1072,7 @@ Unfortunately, this means that we cannot decisively conclude that the story-line
 
 ## 6. Who the Actors are Influences User Ratings
 
-Earlier on, we have seen how male and female leads in the story are an essential part of dramas, and play a huge role in connecting with audiences, particularly female viewers. 
+Earlier on in Section 5.3, we have seen how male and female leads in the story are an essential part of dramas, and play a huge role in connecting with audiences, particularly female viewers. 
 
 How about the face behind these characters - the actors? Are they a driving factor behind K-Drama's popularity? Let's find out! 
 
@@ -1094,16 +1094,22 @@ With that being said, we note the difference in strengths of the correlation gra
 
 This could mean that for K-Dramas, although actors undeniably play a part in driving up popularity, actors may not be the most important driving factor behind immense popularity.
 
-## 7. Story
-
-
-
-
-
-
-
-
 # Insights and Recommendations
+
+With that, we have finally come to an end of my investigation of why K-Dramas are so popular globally. 
+
+In case all these was too much for you to take in and remember, here is a list of the key insights derived from my analysis. OR, if you are an aspiring drama producer or director not from Korea, you can consider learning these key strategies that Korea uses!
+
+<span style="font-size: 20px;">**1. K-Dramas generally have the highest ratings given by users, as compared to Thai and Japanese dramas.**</span>
+
+This proves that K-Dramas are indeed popular, and has won the hearts of many audiences. 
+
+<span style="font-size: 20px;">**2. K-Dramas capitalise on global, popular streaming services like Netflix. **</span>
+
+This helps to expand market outreach, and bolster viewership.
+
+<span style="font-size: 20px;">**3.  **</span>
+
 
 # References
 
